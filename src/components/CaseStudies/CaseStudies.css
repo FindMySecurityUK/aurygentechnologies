@@ -1,0 +1,271 @@
+.case-studies-section {
+  min-height: 100vh;
+  padding: 100px 0;
+  background: linear-gradient(
+    180deg,
+    #0a0a0a 0%,
+    #1a1a1a 50%,
+    #0a0a0a 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.case-studies-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    ellipse at 70% 30%,
+    rgba(0, 212, 255, 0.08) 0%,
+    transparent 70%
+  );
+  z-index: 1;
+}
+
+.case-studies-container {
+  max-width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+.case-studies-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 80px;
+  background: linear-gradient(
+    45deg,
+    #ffffff 0%,
+    #00d4ff 50%,
+    #ffffff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+}
+
+.carousel-container {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  perspective: 1000px;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  width: calc(350px * 12); /* 6 cards * 2 for infinite loop */
+  animation: concaveScroll 30s linear infinite;
+  transform-style: preserve-3d;
+}
+
+.case-study-card {
+  width: 320px;
+  height: 350px;
+  margin: 0 15px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(0, 212, 255, 0.08) 100%
+  );
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  position: relative;
+  backdrop-filter: blur(10px);
+  flex-shrink: 0;
+  transform-origin: center;
+}
+
+.case-study-card:hover {
+  transform: translateY(-15px) scale(1.05) rotateY(5deg);
+  border-color: rgba(0, 212, 255, 0.6);
+  box-shadow: 
+    0 25px 50px rgba(0, 212, 255, 0.3),
+    0 0 40px rgba(0, 212, 255, 0.2);
+}
+
+.card-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.case-study-card:hover .card-image img {
+  transform: scale(1.1);
+}
+
+.card-content {
+  padding: 25px;
+  height: calc(100% - 180px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.case-study-card:hover .card-title {
+  color: #00d4ff;
+}
+
+.card-description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #b0b0b0;
+  flex-grow: 1;
+  transition: color 0.3s ease;
+}
+
+.case-study-card:hover .card-description {
+  color: #e0e0e0;
+}
+
+.card-arrow {
+  font-size: 1.5rem;
+  color: #00d4ff;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+  align-self: flex-end;
+}
+
+.case-study-card:hover .card-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Concave mirror animation */
+@keyframes concaveScroll {
+  0% {
+    transform: translateX(0) rotateY(0deg);
+  }
+  25% {
+    transform: translateX(-25%) rotateY(-5deg);
+  }
+  50% {
+    transform: translateX(-50%) rotateY(0deg);
+  }
+  75% {
+    transform: translateX(-75%) rotateY(5deg);
+  }
+  100% {
+    transform: translateX(-100%) rotateY(0deg);
+  }
+}
+
+/* Individual card concave effect */
+.carousel-track .case-study-card:nth-child(odd) {
+  animation: cardConcave1 30s linear infinite;
+}
+
+.carousel-track .case-study-card:nth-child(even) {
+  animation: cardConcave2 30s linear infinite;
+}
+
+@keyframes cardConcave1 {
+  0%, 100% {
+    transform: rotateY(0deg) translateZ(0px);
+  }
+  25% {
+    transform: rotateY(-8deg) translateZ(20px);
+  }
+  50% {
+    transform: rotateY(0deg) translateZ(40px);
+  }
+  75% {
+    transform: rotateY(8deg) translateZ(20px);
+  }
+}
+
+@keyframes cardConcave2 {
+  0%, 100% {
+    transform: rotateY(0deg) translateZ(0px);
+  }
+  25% {
+    transform: rotateY(8deg) translateZ(20px);
+  }
+  50% {
+    transform: rotateY(0deg) translateZ(40px);
+  }
+  75% {
+    transform: rotateY(-8deg) translateZ(20px);
+  }
+}
+
+/* Animation triggers */
+.case-studies-container.animate .case-studies-title {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .case-studies-title {
+    margin-bottom: 60px;
+  }
+  
+  .carousel-container {
+    height: 350px;
+  }
+  
+  .case-study-card {
+    width: 280px;
+    height: 320px;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-container {
+    height: 320px;
+  }
+  
+  .case-study-card {
+    width: 250px;
+    height: 300px;
+  }
+  
+  .card-image {
+    height: 150px;
+  }
+  
+  .card-content {
+    padding: 15px;
+    height: calc(100% - 150px);
+  }
+  
+  .card-title {
+    font-size: 1.1rem;
+  }
+  
+  .card-description {
+    font-size: 0.9rem;
+  }
+}

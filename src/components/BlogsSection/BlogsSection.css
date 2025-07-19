@@ -1,0 +1,241 @@
+.blogs-section {
+  min-height: 100vh;
+  padding: 100px 0;
+  background: linear-gradient(
+    180deg,
+    #0a0a0a 0%,
+    #1a1a2e 50%,
+    #0a0a0a 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.blogs-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    ellipse at 30% 70%,
+    rgba(0, 212, 255, 0.06) 0%,
+    transparent 70%
+  );
+  z-index: 1;
+}
+
+.blogs-container {
+  max-width: 100%;
+  z-index: 2;
+  position: relative;
+}
+
+.blogs-title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 80px;
+  background: linear-gradient(
+    45deg,
+    #ffffff 0%,
+    #00d4ff 50%,
+    #ffffff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out;
+}
+
+.blogs-carousel-container {
+  width: 100%;
+  height: 420px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blogs-carousel-track {
+  display: flex;
+  width: calc(350px * 12); /* 6 blogs * 2 for infinite loop */
+  animation: straightScrollLeftToRight 25s linear infinite;
+}
+
+.blog-card {
+  width: 320px;
+  height: 380px;
+  margin: 0 15px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(0, 212, 255, 0.06) 100%
+  );
+  border: 1px solid rgba(0, 212, 255, 0.25);
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  position: relative;
+  backdrop-filter: blur(10px);
+  flex-shrink: 0;
+}
+
+.blog-card:hover {
+  transform: translateY(-10px) scale(1.03);
+  border-color: rgba(0, 212, 255, 0.5);
+  box-shadow: 
+    0 20px 40px rgba(0, 212, 255, 0.25),
+    0 0 30px rgba(0, 212, 255, 0.15);
+}
+
+.blog-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.blog-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.blog-card:hover .blog-image img {
+  transform: scale(1.1);
+}
+
+.blog-date {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: rgba(0, 212, 255, 0.9);
+  color: white;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.blog-content {
+  padding: 25px;
+  height: calc(100% - 200px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 12px;
+  line-height: 1.4;
+  transition: color 0.3s ease;
+}
+
+.blog-card:hover .blog-title {
+  color: #00d4ff;
+}
+
+.blog-excerpt {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #b0b0b0;
+  flex-grow: 1;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.blog-card:hover .blog-excerpt {
+  color: #e0e0e0;
+}
+
+.blog-read-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #00d4ff;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.blog-arrow {
+  font-size: 1.2rem;
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+}
+
+.blog-card:hover .blog-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Straight left-to-right animation */
+@keyframes straightScrollLeftToRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Animation triggers */
+.blogs-container.animate .blogs-title {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .blogs-title {
+    margin-bottom: 60px;
+  }
+  
+  .blogs-carousel-container {
+    height: 380px;
+  }
+  
+  .blog-card {
+    width: 280px;
+    height: 350px;
+  }
+  
+  .blog-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blogs-carousel-container {
+    height: 350px;
+  }
+  
+  .blog-card {
+    width: 250px;
+    height: 320px;
+  }
+  
+  .blog-image {
+    height: 160px;
+  }
+  
+  .blog-content {
+    padding: 15px;
+    height: calc(100% - 160px);
+  }
+  
+  .blog-title {
+    font-size: 1.1rem;
+  }
+  
+  .blog-excerpt {
+    font-size: 0.85rem;
+  }
+}

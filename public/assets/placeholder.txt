@@ -1,0 +1,8 @@
+This folder will contain:
+- logo.png (company logo)
+- hero-video.mp4 (landing page 3D model video)
+- meeting-bg.jpg (schedule meeting background image)
+- case1.jpg to case6.jpg (case study images)
+- blog1.jpg to blog6.jpg (blog post images)
+
+Please add your actual assets to this folder and remove this placeholder file.

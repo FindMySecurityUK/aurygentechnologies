@@ -1,0 +1,138 @@
+.tagline-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    135deg,
+    #0a0a0a 0%,
+    #1a1a2e 50%,
+    #0a0a0a 100%
+  );
+  position: relative;
+  overflow: hidden;
+}
+
+.tagline-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(0, 212, 255, 0.1) 0%,
+    transparent 70%
+  );
+  z-index: 1;
+}
+
+.tagline-container {
+  text-align: center;
+  max-width: 1200px;
+  padding: 0 40px;
+  z-index: 2;
+  position: relative;
+}
+
+.tagline-main {
+  font-size: clamp(3rem, 8vw, 8rem);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tagline-line1,
+.tagline-line2 {
+  display: block;
+  background: linear-gradient(
+    45deg,
+    #ffffff 0%,
+    #00d4ff 50%,
+    #0099cc 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 50px rgba(0, 212, 255, 0.3);
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 1s ease-out;
+}
+
+.tagline-sub {
+  font-size: clamp(1.5rem, 4vw, 3rem);
+  font-weight: 300;
+  color: #e0e0e0;
+  letter-spacing: 3px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 1s ease-out 0.5s;
+  text-transform: uppercase;
+}
+
+/* Animation triggers */
+.tagline-container.animate .tagline-line1 {
+  opacity: 1;
+  transform: translateY(0);
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+.tagline-container.animate .tagline-line2 {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.3s;
+  animation: glow-pulse 3s ease-in-out infinite 0.5s;
+}
+
+.tagline-container.animate .tagline-sub {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+  }
+  50% {
+    text-shadow: 
+      0 0 30px rgba(0, 212, 255, 0.6),
+      0 0 40px rgba(0, 212, 255, 0.4),
+      0 0 50px rgba(0, 212, 255, 0.2);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .tagline-container {
+    padding: 0 20px;
+  }
+  
+  .tagline-main {
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .tagline-sub {
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tagline-container {
+    padding: 0 15px;
+  }
+  
+  .tagline-main {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tagline-sub {
+    letter-spacing: 1px;
+  }
+}

@@ -1,0 +1,137 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: rgba(10, 10, 10, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+  transition: all 0.3s ease;
+  padding: 15px 0;
+}
+
+.navbar.scrolled {
+  background: rgba(10, 10, 10, 0.95);
+  padding: 10px 0;
+  box-shadow: 0 2px 20px rgba(0, 212, 255, 0.1);
+}
+
+.navbar-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto 1fr auto 1fr auto;
+  align-items: center;
+  padding: 0 40px;
+  gap: 20px;
+}
+
+.navbar-logo {
+  grid-column: 1;
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo-img:hover {
+  transform: scale(1.05);
+}
+
+.navbar-left {
+  grid-column: 2;
+  display: flex;
+  gap: 30px;
+  justify-self: start;
+  margin-left: 40px;
+}
+
+.navbar-center {
+  grid-column: 3;
+  justify-self: center;
+}
+
+.company-name {
+  font-size: 18px;
+  font-weight: 600;
+  background: linear-gradient(45deg, #00d4ff, #0099cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  top: 5px;
+  letter-spacing: 1px;
+}
+
+.navbar-right {
+  grid-column: 5;
+  display: flex;
+  gap: 30px;
+  justify-self: end;
+  margin-right: 0;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  position: relative;
+  transition: all 0.3s ease;
+  padding: 8px 0;
+}
+
+.nav-link:hover {
+  color: #00d4ff;
+  transform: translateY(-2px);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(45deg, #00d4ff, #0099cc);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Mobile Responsive */
+@media (max-width: 1024px) {
+  .navbar-container {
+    grid-template-columns: auto 1fr;
+    gap: 20px;
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    display: none;
+  }
+  
+  .navbar-center {
+    grid-column: 2;
+    justify-self: end;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-container {
+    padding: 0 20px;
+  }
+  
+  .company-name {
+    font-size: 16px;
+  }
+  
+  .logo-img {
+    height: 35px;
+  }
+}

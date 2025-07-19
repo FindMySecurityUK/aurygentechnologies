@@ -1,0 +1,202 @@
+{
+  "services": [
+    {
+      "id": "ai-smart-automation",
+      "title": "AI and Smart Automation",
+      "icon": "🤖",
+      "shortDescription": "Intelligent automation solutions that transform your business processes with cutting-edge AI technology.",
+      "detailedDescription": "Our AI and Smart Automation services leverage machine learning, natural language processing, and robotic process automation to streamline your operations. We help businesses reduce manual work, increase accuracy, and scale efficiently through intelligent automation solutions.",
+      "features": [
+        "Machine Learning Model Development",
+        "Robotic Process Automation (RPA)",
+        "Natural Language Processing",
+        "Computer Vision Solutions",
+        "Predictive Analytics",
+        "Intelligent Document Processing",
+        "Chatbot Development",
+        "AI-Powered Decision Making Systems"
+      ],
+      "technologies": ["Python", "TensorFlow", "PyTorch", "OpenAI", "Azure AI", "AWS AI", "UiPath", "Automation Anywhere"],
+      "benefits": [
+        "Reduce operational costs by up to 60%",
+        "Increase processing speed by 10x",
+        "Minimize human errors",
+        "24/7 automated operations",
+        "Scalable solutions",
+        "Data-driven insights"
+      ],
+      "useCases": [
+        "Customer service automation",
+        "Financial document processing",
+        "Supply chain optimization",
+        "Quality control automation",
+        "Fraud detection systems"
+      ]
+    },
+    {
+      "id": "software-development",
+      "title": "Software Development",
+      "icon": "💻",
+      "shortDescription": "Custom software solutions tailored to your business needs with modern technologies and best practices.",
+      "detailedDescription": "We create robust, scalable, and user-friendly software applications that drive business growth. Our development team specializes in web applications, mobile apps, desktop software, and enterprise solutions using the latest technologies and agile methodologies.",
+      "features": [
+        "Custom Web Applications",
+        "Mobile App Development (iOS/Android)",
+        "Desktop Software Solutions",
+        "API Development & Integration",
+        "Database Design & Optimization",
+        "Legacy System Modernization",
+        "Microservices Architecture",
+        "Progressive Web Applications"
+      ],
+      "technologies": ["React", "Node.js", "Python", "Java", "Flutter", "React Native", "PostgreSQL", "MongoDB", "Docker", "Kubernetes"],
+      "benefits": [
+        "Faster time-to-market",
+        "Scalable architecture",
+        "Cross-platform compatibility",
+        "Maintainable codebase",
+        "Enhanced user experience",
+        "Cost-effective solutions"
+      ],
+      "useCases": [
+        "E-commerce platforms",
+        "CRM systems",
+        "Project management tools",
+        "Healthcare applications",
+        "Educational platforms"
+      ]
+    },
+    {
+      "id": "cybersecurity-solutions",
+      "title": "CyberSecurity Solutions",
+      "icon": "🔒",
+      "shortDescription": "Comprehensive security solutions to protect your digital assets and ensure business continuity.",
+      "detailedDescription": "Our cybersecurity experts provide end-to-end security solutions to protect your organization from evolving cyber threats. We offer risk assessments, security implementations, monitoring, and incident response to ensure your digital infrastructure remains secure.",
+      "features": [
+        "Security Risk Assessment",
+        "Penetration Testing",
+        "Network Security Implementation",
+        "Identity & Access Management",
+        "Security Monitoring & SIEM",
+        "Incident Response Planning",
+        "Compliance Management",
+        "Security Training & Awareness"
+      ],
+      "technologies": ["Splunk", "CrowdStrike", "Palo Alto", "Fortinet", "Azure Security", "AWS Security", "Okta", "Wireshark"],
+      "benefits": [
+        "Protect against data breaches",
+        "Ensure regulatory compliance",
+        "Minimize security risks",
+        "24/7 threat monitoring",
+        "Rapid incident response",
+        "Enhanced business reputation"
+      ],
+      "useCases": [
+        "Financial services security",
+        "Healthcare data protection",
+        "E-commerce security",
+        "Government compliance",
+        "Enterprise network security"
+      ]
+    },
+    {
+      "id": "cloud-it-infrastructure",
+      "title": "Cloud and IT Infrastructure",
+      "icon": "☁️",
+      "shortDescription": "Modern cloud solutions and IT infrastructure management for optimal performance and scalability.",
+      "detailedDescription": "We help organizations migrate to the cloud and optimize their IT infrastructure for better performance, cost-efficiency, and scalability. Our services include cloud migration, infrastructure design, DevOps implementation, and ongoing management.",
+      "features": [
+        "Cloud Migration Strategy",
+        "Infrastructure as Code",
+        "DevOps & CI/CD Implementation",
+        "Container Orchestration",
+        "Load Balancing & Auto-scaling",
+        "Backup & Disaster Recovery",
+        "Performance Monitoring",
+        "Cost Optimization"
+      ],
+      "technologies": ["AWS", "Azure", "Google Cloud", "Terraform", "Ansible", "Jenkins", "Docker", "Kubernetes", "Prometheus"],
+      "benefits": [
+        "Reduce infrastructure costs",
+        "Improve system reliability",
+        "Enable rapid scaling",
+        "Enhance disaster recovery",
+        "Increase deployment speed",
+        "Better resource utilization"
+      ],
+      "useCases": [
+        "Enterprise cloud migration",
+        "Startup infrastructure setup",
+        "Multi-cloud strategies",
+        "Hybrid cloud solutions",
+        "DevOps transformation"
+      ]
+    },
+    {
+      "id": "database-services",
+      "title": "Database Services",
+      "icon": "🗄️",
+      "shortDescription": "Expert database design, optimization, and management services for reliable data storage and retrieval.",
+      "detailedDescription": "Our database specialists provide comprehensive database services including design, implementation, optimization, and maintenance. We work with various database technologies to ensure your data is secure, accessible, and performs optimally.",
+      "features": [
+        "Database Design & Architecture",
+        "Performance Tuning & Optimization",
+        "Data Migration & Integration",
+        "Backup & Recovery Solutions",
+        "Database Security Implementation",
+        "Replication & High Availability",
+        "Data Warehousing",
+        "Database Monitoring & Maintenance"
+      ],
+      "technologies": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch", "Oracle", "SQL Server", "Cassandra"],
+      "benefits": [
+        "Improved query performance",
+        "Enhanced data security",
+        "Reliable data backup",
+        "Scalable data solutions",
+        "Reduced downtime",
+        "Cost-effective storage"
+      ],
+      "useCases": [
+        "E-commerce databases",
+        "Analytics platforms",
+        "Content management systems",
+        "Financial data systems",
+        "IoT data processing"
+      ]
+    },
+    {
+      "id": "startup-tech-partner",
+      "title": "Startup Tech Partner and Tech Support",
+      "icon": "🚀",
+      "shortDescription": "Comprehensive technology partnership and support services to accelerate your startup's growth.",
+      "detailedDescription": "We serve as your dedicated technology partner, providing end-to-end tech support and guidance for startups. From MVP development to scaling your technology infrastructure, we help startups navigate their technical journey successfully.",
+      "features": [
+        "MVP Development & Validation",
+        "Technology Strategy Consulting",
+        "Scalable Architecture Design",
+        "Technical Team Augmentation",
+        "Code Review & Quality Assurance",
+        "Technology Stack Selection",
+        "Ongoing Technical Support",
+        "Growth-Oriented Solutions"
+      ],
+      "technologies": ["React", "Node.js", "Python", "AWS", "Firebase", "Stripe", "Twilio", "SendGrid", "Analytics Tools"],
+      "benefits": [
+        "Faster product development",
+        "Reduced technical risks",
+        "Cost-effective solutions",
+        "Expert technical guidance",
+        "Scalable foundation",
+        "Focus on core business"
+      ],
+      "useCases": [
+        "SaaS platform development",
+        "Mobile app startups",
+        "E-commerce ventures",
+        "Fintech solutions",
+        "Healthcare innovations"
+      ]
+    }
+  ]
+}

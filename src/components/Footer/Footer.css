@@ -1,0 +1,249 @@
+.footer {
+  background: linear-gradient(
+    180deg,
+    #1a1a1a 0%,
+    #0a0a0a 100%
+  );
+  border-top: 1px solid rgba(0, 212, 255, 0.2);
+  padding: 60px 0 40px;
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(0, 212, 255, 0.05) 0%,
+    transparent 70%
+  );
+  z-index: 1;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+  z-index: 2;
+  position: relative;
+}
+
+/* Left Section - Logo and Company Name */
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-logo-img {
+  height: 50px;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.footer-logo-img:hover {
+  transform: scale(1.1);
+}
+
+.footer-company-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #ffffff, #00d4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  letter-spacing: 1px;
+}
+
+/* Center Section - Social Media and Legal */
+.footer-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  background: rgba(0, 212, 255, 0.1);
+  border: 1px solid rgba(0, 212, 255, 0.3);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background: rgba(0, 212, 255, 0.2);
+  border-color: #00d4ff;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+  transition: fill 0.3s ease;
+}
+
+.social-link:hover .social-icon {
+  fill: #00d4ff;
+}
+
+.legal-links {
+  display: flex;
+  gap: 30px;
+}
+
+.legal-link {
+  color: #b0b0b0;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.legal-link:hover {
+  color: #00d4ff;
+}
+
+.legal-link::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #00d4ff;
+  transition: width 0.3s ease;
+}
+
+.legal-link:hover::after {
+  width: 100%;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  color: #888;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* Right Section - Address */
+.footer-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.address {
+  text-align: right;
+}
+
+.address-line {
+  color: #e0e0e0;
+  font-size: 1rem;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+}
+
+.address-line:first-child {
+  color: #00d4ff;
+  font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+    padding: 0 30px;
+  }
+  
+  .footer-left {
+    justify-content: center;
+  }
+  
+  .footer-right {
+    justify-content: center;
+  }
+  
+  .address {
+    text-align: center;
+  }
+  
+  .legal-links {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 40px 0 30px;
+  }
+  
+  .footer-container {
+    padding: 0 20px;
+    gap: 25px;
+  }
+  
+  .footer-logo {
+    gap: 10px;
+  }
+  
+  .footer-logo-img {
+    height: 40px;
+  }
+  
+  .footer-company-name {
+    font-size: 1.3rem;
+  }
+  
+  .social-links {
+    gap: 15px;
+  }
+  
+  .social-link {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .social-icon {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .legal-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .address-line {
+    font-size: 0.95rem;
+  }
+}
