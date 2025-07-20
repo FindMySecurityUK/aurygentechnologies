@@ -5,8 +5,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0a0a0a;
-  color: #ffffff;
+  background: linear-gradient(135deg, #0f0f23 0%, #1a1a3a 25%, #2d1b69 50%, #1e3a8a 75%, #0f172a 100%);
+  background-attachment: fixed;
+  color: #e2e8f0;
+  position: relative;
+}
+
+/* Starry background effect */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(2px 2px at 20px 30px, #fff, transparent),
+    radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(2px 2px at 160px 30px, #fff, transparent),
+    radial-gradient(1px 1px at 50px 120px, rgba(255,255,255,0.7), transparent),
+    radial-gradient(2px 2px at 180px 90px, #fff, transparent),
+    radial-gradient(1px 1px at 10px 60px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(2px 2px at 120px 10px, #fff, transparent),
+    radial-gradient(1px 1px at 70px 150px, rgba(255,255,255,0.8), transparent);
+  background-repeat: repeat;
+  background-size: 200px 180px;
+  animation: twinkle 6s ease-in-out infinite alternate;
+  pointer-events: none;
+  z-index: 1;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(1px 1px at 25px 45px, rgba(139, 92, 246, 0.6), transparent),
+    radial-gradient(2px 2px at 75px 85px, rgba(99, 102, 241, 0.5), transparent),
+    radial-gradient(1px 1px at 145px 25px, rgba(139, 92, 246, 0.4), transparent),
+    radial-gradient(2px 2px at 195px 65px, rgba(99, 102, 241, 0.6), transparent),
+    radial-gradient(1px 1px at 35px 105px, rgba(139, 92, 246, 0.3), transparent);
+  background-repeat: repeat;
+  background-size: 220px 160px;
+  animation: cosmicTwinkle 8s ease-in-out infinite alternate-reverse;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0.5;
+    transform: scale(0.9);
+  }
+}
+
+@keyframes cosmicTwinkle {
+  0% {
+    opacity: 0.2;
+    transform: scale(0.8) rotate(0deg);
+  }
+  33% {
+    opacity: 0.6;
+    transform: scale(1.2) rotate(120deg);
+  }
+  66% {
+    opacity: 0.4;
+    transform: scale(1) rotate(240deg);
+  }
+  100% {
+    opacity: 0.8;
+    transform: scale(1.1) rotate(360deg);
+  }
 }
 
 code {
@@ -19,14 +101,45 @@ code {
 }
 
 ::-webkit-scrollbar-track {
-  background: #1a1a1a;
+  background: #1a1a3a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #00d4ff;
+  background: linear-gradient(45deg, #6366f1, #8b5cf6);
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0099cc;
+  background: linear-gradient(45deg, #4f46e5, #7c3aed);
+}
+
+/* Lenis smooth scroll styles */
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Enhanced performance for animations */
+* {
+  will-change: auto;
+}
+
+.spline-container,
+.emerging-content {
+  will-change: transform, opacity;
 }

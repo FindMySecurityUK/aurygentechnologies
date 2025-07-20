@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import LenisProvider from './components/LenisProvider';
 import Navbar from './components/Navbar/Navbar';
 import LandingPage from './components/LandingPage/LandingPage';
 import TaglineSection from './components/TaglineSection/TaglineSection';
@@ -13,17 +14,15 @@ import NewsInsights from './components/NewsInsights/NewsInsights';
 import ClientTestimonials from './components/ClientTestimonials/ClientTestimonials';
 import ContactUs from './components/ContactUs/ContactUs';
 import Footer from './components/Footer/Footer';
-import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
-import TermsConditions from './components/TermsConditions/TermsConditions';
 import Services from './components/Services/Services';
 import ServiceDetail from './components/ServiceDetail/ServiceDetail';
+import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
+import TermsConditions from './components/TermsConditions/TermsConditions';
 
-// Home page component
 const HomePage = () => {
   return (
     <>
       <LandingPage />
-      <TaglineSection />
       <WhoWeAre />
       <ScheduleMeeting />
       <OurServices />
@@ -38,21 +37,21 @@ const HomePage = () => {
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/services/:slug" element={<ServiceDetail />} />
-          <Route path="/schedule-meeting" element={<ScheduleMeeting />} />
-          <Route path="/contact" element={<ContactUs />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-conditions" element={<TermsConditions />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
+    <LenisProvider>
+      <Router>
+        <div className="App">
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/service/:id" element={<ServiceDetail />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-conditions" element={<TermsConditions />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+    </LenisProvider>
   );
 }
 

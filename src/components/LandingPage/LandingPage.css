@@ -1,83 +1,133 @@
 .landing-page {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   position: relative;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .landing-content {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   position: relative;
+  perspective: 1000px;
 }
 
-.landing-video {
+.spline-container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+.spline-scene {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
+  object-fit: cover;
+  min-width: 100vw;
+  min-height: 100vh;
+  transform: scale(1);
 }
 
-.video-overlay {
+.spline-scene canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  object-fit: cover;
+  transform: scale(2.2); /* 👈 try 1.2 to 1.3 */
+  transform-origin: center;
+}
+
+.portal-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
-  background: linear-gradient(
-    135deg,
-    rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 212, 255, 0.1) 50%,
-    rgba(0, 0, 0, 0.7) 100%
-  );
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, transparent 40%, rgba(0, 0, 0, 0.9) 70%);
+  border-radius: 50%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.emerging-content {
+  position: relative;
+  min-height: 100vh;
+background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 0.9) 25%, rgba(45, 27, 105, 0.85) 50%, rgba(30, 58, 138, 0.9) 75%, rgba(15, 23, 42, 0.95) 100%),
+            url('../../assets/meeting-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.emerging-content::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 30% 20%, rgba(139, 92, 246, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 70% 80%, rgba(99, 102, 241, 0.2) 0%, transparent 50%),
+    radial-gradient(1px 1px at 15% 25%, rgba(255,255,255,0.8), transparent),
+    radial-gradient(2px 2px at 85% 15%, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 45% 75%, rgba(255,255,255,0.7), transparent),
+    radial-gradient(2px 2px at 25% 85%, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 75% 45%, rgba(255,255,255,0.9), transparent);
+  background-size: 100% 100%, 100% 100%, 300px 300px, 400px 400px, 350px 350px, 450px 450px, 320px 320px;
+  animation: landingStars 10s ease-in-out infinite alternate;
+  z-index: 1;
+}
+
+.content-wrapper {
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 0 20px;
+  position: relative;
   z-index: 2;
 }
 
-.landing-text {
-  text-align: center;
-  color: white;
-  z-index: 3;
-  max-width: 800px;
-  padding: 0 20px;
-}
-
-.hero-title {
+.emerging-title {
   font-size: 4rem;
   font-weight: 700;
   margin-bottom: 20px;
-  background: linear-gradient(45deg, #ffffff, #00d4ff);
+  background: linear-gradient(45deg, #e2e8f0, #a78bfa, #6366f1, #8b5cf6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
-  animation: glow 2s ease-in-out infinite alternate;
+  text-shadow: 0 0 30px rgba(139, 92, 246, 0.5);
+  animation: cosmicGlow 3s ease-in-out infinite alternate;
 }
 
-.hero-subtitle {
+.emerging-subtitle {
   font-size: 1.5rem;
   font-weight: 300;
-  color: #e0e0e0;
+  color: #cbd5e1;
   letter-spacing: 2px;
   opacity: 0.9;
-}
-
-@keyframes glow {
-  from {
-    text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
-  }
-  to {
-    text-shadow: 0 0 30px rgba(0, 212, 255, 0.8), 0 0 40px rgba(0, 212, 255, 0.3);
-  }
+  line-height: 1.6;
+  text-shadow: 0 2px 10px rgba(139, 92, 246, 0.3);
 }
 
 .fade-in {
@@ -95,28 +145,66 @@
   }
 }
 
+@keyframes cosmicGlow {
+  from {
+    text-shadow: 0 0 20px rgba(139, 92, 246, 0.5), 0 0 30px rgba(99, 102, 241, 0.3);
+  }
+  to {
+    text-shadow: 0 0 30px rgba(139, 92, 246, 0.8), 0 0 40px rgba(99, 102, 241, 0.5), 0 0 50px rgba(167, 139, 250, 0.3);
+  }
+}
+
+@keyframes landingStars {
+  0% {
+    opacity: 0.6;
+    transform: translateY(0px) scale(1);
+  }
+  25% {
+    opacity: 0.8;
+    transform: translateY(-5px) scale(1.05);
+  }
+  50% {
+    opacity: 0.9;
+    transform: translateY(-10px) scale(1.1);
+  }
+  75% {
+    opacity: 0.7;
+    transform: translateY(-5px) scale(1.05);
+  }
+  100% {
+    opacity: 0.6;
+    transform: translateY(0px) scale(1);
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
-  .hero-title {
+  .emerging-title {
     font-size: 2.5rem;
   }
   
-  .hero-subtitle {
+  .emerging-subtitle {
     font-size: 1.2rem;
   }
   
-  .landing-text {
-    padding: 0 15px;
+  .portal-overlay {
+    width: 150px;
+    height: 150px;
   }
 }
 
 @media (max-width: 480px) {
-  .hero-title {
+  .emerging-title {
     font-size: 2rem;
   }
   
-  .hero-subtitle {
+  .emerging-subtitle {
     font-size: 1rem;
     letter-spacing: 1px;
+  }
+  
+  .portal-overlay {
+    width: 120px;
+    height: 120px;
   }
 }
