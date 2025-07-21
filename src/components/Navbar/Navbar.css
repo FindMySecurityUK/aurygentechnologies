@@ -22,58 +22,31 @@
   max-width: 1400px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: auto 1fr auto 1fr auto;
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
+  justify-items: center;
   padding: 0 40px;
   gap: 20px;
 }
 
 .navbar-logo {
   grid-column: 1;
+  justify-self: start;
+}
+
+.navbar-logo a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.navbar-logo a:hover {
+  transform: scale(1.05);
 }
 
 .logo-img {
   height: 40px;
   width: auto;
   transition: transform 0.3s ease;
-}
-
-.logo-img:hover {
-  transform: scale(1.05);
-}
-
-.navbar-left {
-  grid-column: 2;
-  display: flex;
-  gap: 30px;
-  justify-self: start;
-  margin-left: 40px;
-}
-
-.navbar-center {
-  grid-column: 3;
-  justify-self: center;
-}
-
-.company-name {
-  font-size: 18px;
-  font-weight: 600;
-  background: linear-gradient(45deg, #a78bfa, #6366f1, #8b5cf6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  position: relative;
-  top: 5px;
-  letter-spacing: 1px;
-  text-shadow: 0 2px 10px rgba(139, 92, 246, 0.3);
-}
-
-.navbar-right {
-  grid-column: 5;
-  display: flex;
-  gap: 30px;
-  justify-self: end;
-  margin-right: 0;
 }
 
 .nav-link {
@@ -205,16 +178,11 @@
   .navbar-container {
     grid-template-columns: auto 1fr auto;
     gap: 20px;
+    justify-items: stretch;
   }
   
-  .navbar-left,
-  .navbar-right {
+  .nav-link {
     display: none;
-  }
-  
-  .navbar-center {
-    grid-column: 2;
-    justify-self: center;
   }
   
   .mobile-menu-btn {
@@ -227,10 +195,6 @@
 @media (max-width: 768px) {
   .navbar-container {
     padding: 0 20px;
-  }
-  
-  .company-name {
-    font-size: 16px;
   }
   
   .logo-img {
@@ -246,10 +210,6 @@
 @media (max-width: 480px) {
   .navbar-container {
     padding: 0 15px;
-  }
-  
-  .company-name {
-    font-size: 14px;
   }
   
   .logo-img {

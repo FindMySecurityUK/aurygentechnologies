@@ -28,25 +28,16 @@ const Navbar = () => {
       <div className="navbar-container">
         {/* Logo */}
         <div className="navbar-logo">
-          <img src="/assets/logo.png" alt="AO Technologies" className="logo-img" />
+          <a href="#home">
+            <img src="/assets/logo.png" alt="AO Technologies" className="logo-img" />
+          </a>
         </div>
 
-        {/* Left Navigation */}
-        <div className="navbar-left">
-          <a href="#home" className="nav-link">Home</a>
-          <a href="#services" className="nav-link">Services</a>
-        </div>
-
-        {/* Center Company Name */}
-        <div className="navbar-center">
-          <span className="company-name">AO Technologies</span>
-        </div>
-
-        {/* Right Navigation */}
-        <div className="navbar-right">
-          <a href="#case-studies" className="nav-link">Case Studies</a>
-          <a href="#resources" className="nav-link">Resources</a>
-        </div>
+        {/* Navigation Items */}
+        <a href="#home" className="nav-link">Home</a>
+        <a href="#services" className="nav-link">Services</a>
+        <a href="#case-studies" className="nav-link">Case Studies</a>
+        <a href="#resources" className="nav-link">Resources</a>
 
         {/* Mobile Menu Button */}
         <button 

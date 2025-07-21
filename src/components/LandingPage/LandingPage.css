@@ -189,7 +189,10 @@ background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 
   font-size: 4.5rem;
   font-weight: 900;
   font-family: 'Arial Black', Arial, sans-serif;
-  color: rgba(255, 255, 255, 0.15);
+  /* Original translucent styling */
+  /* color: rgba(255, 255, 255, 0.15); */
+  /* Updated to solid white */
+  color: rgba(255, 255, 255, 1);
   text-transform: uppercase;
   letter-spacing: 0.15em;
   z-index: 3;
