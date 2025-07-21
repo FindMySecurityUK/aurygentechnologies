@@ -28,16 +28,22 @@ const Navbar = () => {
       <div className="navbar-container">
         {/* Logo */}
         <div className="navbar-logo">
-          <a href="#home">
+          <a href="/#home">
             <img src="/assets/logo.png" alt="AO Technologies" className="logo-img" />
           </a>
         </div>
 
-        {/* Navigation Items */}
-        <a href="#home" className="nav-link">Home</a>
-        <a href="#services" className="nav-link">Services</a>
-        <a href="#case-studies" className="nav-link">Case Studies</a>
-        <a href="#resources" className="nav-link">Resources</a>
+        {/* Left Navigation */}
+        <div className="navbar-left">
+          <a href="/#home" className="nav-link">Home</a>
+          <a href="/#services" className="nav-link">Services</a>
+        </div>
+
+        {/* Right Navigation */}
+        <div className="navbar-right">
+          <a href="/#case-studies" className="nav-link">Case Studies</a>
+          <a href="#contact-us" className="nav-link">Contact Us</a>
+        </div>
 
         {/* Mobile Menu Button */}
         <button 
@@ -57,7 +63,7 @@ const Navbar = () => {
           <a href="#home" className="mobile-nav-link" onClick={closeMobileMenu}>Home</a>
           <a href="#services" className="mobile-nav-link" onClick={closeMobileMenu}>Services</a>
           <a href="#case-studies" className="mobile-nav-link" onClick={closeMobileMenu}>Case Studies</a>
-          <a href="#resources" className="mobile-nav-link" onClick={closeMobileMenu}>Resources</a>
+          <a href="#contact-us" className="mobile-nav-link" onClick={closeMobileMenu}>Contact Us</a>
         </div>
       </div>
     </nav>

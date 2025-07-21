@@ -34,7 +34,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="contact-us-section" ref={ref}>
+    <section id="contact-us" className="contact-us-section" ref={ref}>
       {/* Header Section - 100vh */}
       <div className={`contact-header ${inView ? 'animate' : ''}`}>
         <div className="contact-header-content">
