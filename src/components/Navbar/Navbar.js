@@ -3,6 +3,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -13,6 +14,14 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen);
+  };
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false);
+  };
 
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
@@ -37,6 +46,27 @@ const Navbar = () => {
         <div className="navbar-right">
           <a href="#case-studies" className="nav-link">Case Studies</a>
           <a href="#resources" className="nav-link">Resources</a>
+        </div>
+
+        {/* Mobile Menu Button */}
+        <button 
+          className={`mobile-menu-btn ${mobileMenuOpen ? 'active' : ''}`}
+          onClick={toggleMobileMenu}
+          aria-label="Toggle mobile menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      {/* Mobile Menu Overlay */}
+      <div className={`mobile-menu-overlay ${mobileMenuOpen ? 'active' : ''}`}>
+        <div className="mobile-menu">
+          <a href="#home" className="mobile-nav-link" onClick={closeMobileMenu}>Home</a>
+          <a href="#services" className="mobile-nav-link" onClick={closeMobileMenu}>Services</a>
+          <a href="#case-studies" className="mobile-nav-link" onClick={closeMobileMenu}>Case Studies</a>
+          <a href="#resources" className="mobile-nav-link" onClick={closeMobileMenu}>Resources</a>
         </div>
       </div>
     </nav>
