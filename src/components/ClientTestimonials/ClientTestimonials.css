@@ -1,5 +1,6 @@
 .client-testimonials-section {
-  height: 200vh;
+  min-height: 200vh;
+  padding: 80px 0;
   background: linear-gradient(
     180deg,
     #0a0a0a 0%,
@@ -31,14 +32,16 @@
   z-index: 1;
 }
 
-/* First 100vh - Header Section */
+/* First section - Header Section */
 .testimonials-header {
-  height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   z-index: 2;
+  padding: 60px 0;
+  margin-bottom: 80px;
 }
 
 .header-content {
@@ -89,14 +92,15 @@
   }
 }
 
-/* Second 100vh - Testimonials Cards */
+/* Second section - Testimonials Cards */
 .testimonials-cards-section {
-  height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   z-index: 2;
+  padding: 60px 0;
 }
 
 .testimonials-container {
@@ -239,6 +243,21 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .client-testimonials-section {
+    padding: 60px 0;
+  }
+  
+  .testimonials-header {
+    min-height: 60vh;
+    padding: 40px 0;
+    margin-bottom: 60px;
+  }
+  
+  .testimonials-cards-section {
+    min-height: 60vh;
+    padding: 40px 0;
+  }
+  
   .header-content {
     padding: 0 30px;
   }
@@ -269,6 +288,21 @@
 }
 
 @media (max-width: 480px) {
+  .client-testimonials-section {
+    padding: 40px 0;
+  }
+  
+  .testimonials-header {
+    min-height: 50vh;
+    padding: 30px 0;
+    margin-bottom: 40px;
+  }
+  
+  .testimonials-cards-section {
+    min-height: 50vh;
+    padding: 30px 0;
+  }
+  
   .header-content {
     padding: 0 20px;
   }
