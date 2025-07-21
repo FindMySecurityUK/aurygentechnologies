@@ -41,14 +41,19 @@
   min-width: 100vw;
   min-height: 100vh;
   transform: scale(1);
+  image-rendering: high-quality;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .spline-scene canvas {
   width: 100vw !important;
   height: 100vh !important;
   object-fit: cover;
-  transform: scale(2.2); /* 👈 try 1.2 to 1.3 */
+  transform: scale(1); /* 👈 try 1.2 to 1.3 */
   transform-origin: center;
+  image-rendering: high-quality;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: auto;
 }
 
 .portal-overlay {
@@ -177,6 +182,84 @@ background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 
   }
 }
 
+/* AO Technologies 3D Text */
+.ao-tech-text {
+  position: absolute;
+  bottom: 10%;
+  font-size: 4.5rem;
+  font-weight: 900;
+  font-family: 'Arial Black', Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.15);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  z-index: 3;
+  pointer-events: none;
+  user-select: none;
+  text-align: center;
+  width: 100%;
+  
+  /* 3D Text Effects */
+  text-shadow: 
+    0 1px 0 rgba(255, 255, 255, 0.1),
+    0 2px 0 rgba(255, 255, 255, 0.08),
+    0 3px 0 rgba(255, 255, 255, 0.06),
+    0 4px 0 rgba(255, 255, 255, 0.04),
+    0 5px 0 rgba(255, 255, 255, 0.02),
+    0 6px 1px rgba(0, 0, 0, 0.1),
+    0 0 5px rgba(139, 92, 246, 0.3),
+    0 1px 3px rgba(0, 0, 0, 0.3),
+    0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  
+  /* Bright glow effect */
+  filter: brightness(1.5) contrast(1.2);
+  
+  /* 3D transform */
+  transform: translateX(-50%) perspective(1000px) rotateX(15deg) rotateY(-5deg);
+  transform-style: preserve-3d;
+  
+  /* Subtle animation */
+  animation: aoTechGlow 4s ease-in-out infinite alternate;
+}
+
+@keyframes aoTechGlow {
+  0% {
+    text-shadow: 
+      0 1px 0 rgba(255, 255, 255, 0.1),
+      0 2px 0 rgba(255, 255, 255, 0.08),
+      0 3px 0 rgba(255, 255, 255, 0.06),
+      0 4px 0 rgba(255, 255, 255, 0.04),
+      0 5px 0 rgba(255, 255, 255, 0.02),
+      0 6px 1px rgba(0, 0, 0, 0.1),
+      0 0 5px rgba(139, 92, 246, 0.3),
+      0 1px 3px rgba(0, 0, 0, 0.3),
+      0 3px 5px rgba(0, 0, 0, 0.2),
+      0 5px 10px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.2),
+      0 20px 20px rgba(0, 0, 0, 0.15);
+    filter: brightness(1.5) contrast(1.2);
+  }
+  100% {
+    text-shadow: 
+      0 1px 0 rgba(255, 255, 255, 0.15),
+      0 2px 0 rgba(255, 255, 255, 0.12),
+      0 3px 0 rgba(255, 255, 255, 0.1),
+      0 4px 0 rgba(255, 255, 255, 0.08),
+      0 5px 0 rgba(255, 255, 255, 0.06),
+      0 6px 1px rgba(0, 0, 0, 0.1),
+      0 0 10px rgba(139, 92, 246, 0.5),
+      0 0 20px rgba(167, 139, 250, 0.3),
+      0 1px 3px rgba(0, 0, 0, 0.3),
+      0 3px 5px rgba(0, 0, 0, 0.2),
+      0 5px 10px rgba(0, 0, 0, 0.25),
+      0 10px 10px rgba(0, 0, 0, 0.2),
+      0 20px 20px rgba(0, 0, 0, 0.15);
+    filter: brightness(1.8) contrast(1.4);
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .emerging-title {
@@ -190,6 +273,20 @@ background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 
   .portal-overlay {
     width: 150px;
     height: 150px;
+  }
+  
+  .ao-tech-text {
+    font-size: 2.8rem;
+    bottom: 15%;
+    letter-spacing: 0.1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .ao-tech-text {
+    font-size: 1.8rem;
+    bottom: 20%;
+    letter-spacing: 0.05em;
   }
 }
 

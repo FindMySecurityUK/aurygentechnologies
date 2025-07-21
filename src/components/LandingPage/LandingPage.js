@@ -39,8 +39,21 @@ const LandingPage = () => {
             }}
           >
             <Spline
-              scene="https://prod.spline.design/qopHYF3Zzu-WVFa4/scene.splinecode"
+            scene="https://prod.spline.design/i38VSl8eMNuM1HXs/scene.splinecode"
+              //scene="https://prod.spline.design/qopHYF3Zzu-WVFa4/scene.splinecode"
               className="spline-scene"
+              onLoad={(splineApp) => {
+                // Ensure high-quality rendering
+                if (splineApp && splineApp.canvas) {
+                  const canvas = splineApp.canvas;
+                  // Set high pixel ratio for crisp rendering
+                  const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+                  canvas.style.width = canvas.offsetWidth + 'px';
+                  canvas.style.height = canvas.offsetHeight + 'px';
+                  canvas.width = canvas.offsetWidth * pixelRatio;
+                  canvas.height = canvas.offsetHeight * pixelRatio;
+                }
+              }}
             />
           </motion.div>
           
@@ -52,6 +65,19 @@ const LandingPage = () => {
               scale: useTransform(scrollYProgress, [0.4, 1], [0.5, 2])
             }}
           />
+          
+          {/* Large 3D translucent AO Technologies text */}
+          <motion.div 
+            className="ao-tech-text"
+            initial={{ opacity: 0, y: 100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 2, delay: 1, ease: "easeOut" }}
+            style={{
+              opacity: useTransform(scrollYProgress, [0, 0.3], [1, 0])
+            }}
+          >
+            AO Technologies
+          </motion.div>
         </div>
       </section>
       
