@@ -61,7 +61,7 @@
 .blogs-carousel-track {
   display: flex;
   width: calc(350px * 12); /* 6 blogs * 2 for infinite loop */
-  animation: straightScrollLeftToRight 25s linear infinite;
+  animation: straightScrollLeftToRight 50s linear infinite;
 }
 
 .blog-card {
@@ -176,13 +176,13 @@
   transform: translateX(0);
 }
 
-/* Straight left-to-right animation */
+/* Straight left-to-right animation - continuous seamless loop */
 @keyframes straightScrollLeftToRight {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 

@@ -96,7 +96,7 @@
 .carousel-track {
   display: flex;
   width: calc(350px * 12); /* 6 cards * 2 for infinite loop */
-  animation: concaveScroll 30s linear infinite;
+  animation: concaveScroll 60s linear infinite;
   transform-style: preserve-3d;
 }
 
@@ -192,32 +192,23 @@
   transform: translateX(0);
 }
 
-/* Concave mirror animation */
+/* Concave mirror animation - continuous seamless loop */
 @keyframes concaveScroll {
   0% {
     transform: translateX(0) rotateY(0deg);
   }
-  25% {
-    transform: translateX(-25%) rotateY(-5deg);
-  }
-  50% {
-    transform: translateX(-50%) rotateY(0deg);
-  }
-  75% {
-    transform: translateX(-75%) rotateY(5deg);
-  }
   100% {
-    transform: translateX(-100%) rotateY(0deg);
+    transform: translateX(-50%) rotateY(0deg);
   }
 }
 
 /* Individual card concave effect */
 .carousel-track .case-study-card:nth-child(odd) {
-  animation: cardConcave1 30s linear infinite;
+  animation: cardConcave1 60s linear infinite;
 }
 
 .carousel-track .case-study-card:nth-child(even) {
-  animation: cardConcave2 30s linear infinite;
+  animation: cardConcave2 60s linear infinite;
 }
 
 @keyframes cardConcave1 {
