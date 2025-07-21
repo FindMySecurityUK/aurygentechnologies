@@ -5,7 +5,7 @@ import servicesData from '../../data/services.json';
 import './ServiceDetail.css';
 
 const ServiceDetail = () => {
-  const { slug: serviceId } = useParams();
+  const { id: serviceId } = useParams();
   const [service, setService] = useState(null);
   const [loading, setLoading] = useState(true);
 

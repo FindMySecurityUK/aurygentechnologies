@@ -30,19 +30,19 @@ const LandingPage = () => {
     <>
       <section id="home" className="landing-page" ref={containerRef}>
         <div className={`landing-content ${isVisible ? 'fade-in' : ''}`}>
-         <motion.div 
-          className="spline-container"
-          style={{
-            scale,
-            z,
-            opacity
-          }}
-        >
-          <Spline
-            scene="https://prod.spline.design/qopHYF3Zzu-WVFa4/scene.splinecode"
-            className="spline-scene"
-          />
-        </motion.div>
+          <motion.div 
+            className="spline-container"
+            style={{
+              scale,
+              z,
+              opacity
+            }}
+          >
+            <Spline
+              scene="https://prod.spline.design/qopHYF3Zzu-WVFa4/scene.splinecode"
+              className="spline-scene"
+            />
+          </motion.div>
           
           {/* Enhanced portal overlay for smoother transition */}
           <motion.div 
