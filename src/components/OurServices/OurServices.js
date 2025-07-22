@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
-import { Link } from 'react-router-dom';
 import servicesData from '../../data/services.json';
+import ServicePopup from '../Services/ServicePopup';
 import './OurServices.css';
 
 const OurServices = () => {
@@ -11,6 +11,8 @@ const OurServices = () => {
   });
 
   const [services, setServices] = useState([]);
+  const [selectedService, setSelectedService] = useState(null);
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -26,6 +28,16 @@ const OurServices = () => {
     }
   }, []);
 
+  const handleServiceClick = (service) => {
+    setSelectedService(service);
+    setIsPopupOpen(true);
+  };
+
+  const handleClosePopup = () => {
+    setIsPopupOpen(false);
+    setSelectedService(null);
+  };
+
   return (
     <section id="services" className="our-services-section" ref={ref}>
       <div className={`services-container ${inView ? 'animate' : ''}`}>
@@ -33,17 +45,17 @@ const OurServices = () => {
         <div className="services-grid">
           {services && services.length > 0 ? (
             services.map((service, index) => (
-              <Link 
+              <div 
                 key={service.id} 
-                to={`/services/${service.id}`}
-                className="service-card"
+                className="service-card clickable"
                 style={{ animationDelay: `${index * 0.1}s` }}
+                onClick={() => handleServiceClick(service)}
               >
                 <div className="service-icon">{service.icon}</div>
                 <h3 className="service-title">{service.title}</h3>
                 <p className="service-description">{service.shortDescription}</p>
                 <div className="service-arrow">→</div>
-              </Link>
+              </div>
             ))
           ) : (
             <div className="no-services">
@@ -52,6 +64,12 @@ const OurServices = () => {
           )}
         </div>
       </div>
+      
+      <ServicePopup 
+        service={selectedService}
+        isOpen={isPopupOpen}
+        onClose={handleClosePopup}
+      />
     </section>
   );
 };

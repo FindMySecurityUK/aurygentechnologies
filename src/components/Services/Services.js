@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
-import { Link } from 'react-router-dom';
 import servicesData from '../../data/services.json';
+import ServicePopup from './ServicePopup';
 import './Services.css';
 
 const Services = () => {
@@ -11,6 +11,8 @@ const Services = () => {
   });
 
   const [services, setServices] = useState([]);
+  const [selectedService, setSelectedService] = useState(null);
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -26,6 +28,16 @@ const Services = () => {
     }
   }, []);
 
+  const handleServiceClick = (service) => {
+    setSelectedService(service);
+    setIsPopupOpen(true);
+  };
+
+  const handleClosePopup = () => {
+    setIsPopupOpen(false);
+    setSelectedService(null);
+  };
+
   return (
     <div className="services-page">
       <div className="services-header">
@@ -40,21 +52,26 @@ const Services = () => {
           <div className="services-grid">
             {services && services.length > 0 ? (
               services.map((service, index) => (
-                <div key={service.id} className="service-card" style={{ animationDelay: `${index * 0.1}s` }}>
+                <div 
+                  key={service.id} 
+                  className="service-card clickable" 
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                  onClick={() => handleServiceClick(service)}
+                >
                   <div className="service-icon">
                     <span className="service-emoji">{service.icon}</span>
                   </div>
                   <h3 className="service-name">{service.title}</h3>
                   <p className="service-description">{service.shortDescription}</p>
                   <div className="service-features">
-                    {service.features && service.features.slice(0, 3).map((feature, idx) => (
-                      <span key={idx} className="feature-tag">{feature}</span>
+                    {service.subcategories && service.subcategories.slice(0, 3).map((subcategory, idx) => (
+                      <span key={idx} className="feature-tag">{subcategory.title}</span>
                     ))}
                   </div>
-                  <Link to={`/services/${service.id}`} className="service-link">
-                    Learn More
+                  <div className="service-link">
+                    Explore Services
                     <span className="arrow">→</span>
-                  </Link>
+                  </div>
                 </div>
               ))
             ) : (
@@ -65,6 +82,12 @@ const Services = () => {
           </div>
         </div>
       </div>
+      
+      <ServicePopup 
+        service={selectedService}
+        isOpen={isPopupOpen}
+        onClose={handleClosePopup}
+      />
     </div>
   );
 };

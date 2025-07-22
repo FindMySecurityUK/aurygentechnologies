@@ -133,3 +133,15 @@ html.lenis {
 .emerging-content {
   will-change: transform, opacity;
 }
+
+/* Prevent background scrolling when popup is open */
+body.popup-open {
+  overflow: hidden !important;
+  position: fixed !important;
+  width: 100% !important;
+}
+
+/* Ensure smooth scrolling is maintained */
+html {
+  scroll-behavior: smooth;
+}
