@@ -13,7 +13,7 @@ const WhoWeAre = () => {
       <div className={`who-we-are-container ${inView ? 'animate' : ''}`}>
         <h2 className="section-title">Who We Are</h2>
         <p className="who-we-are-text">
-          We craft agile, affordable, and AI-ready software for startups and SMEs—designed to launch fast, scale boldly, and evolve with you. Every build is engineered with intention to transform ambition into architecture, seamless, scalable, and ready to lead.
+          We craft agile, affordable, and AI-ready software for startups and SMEs, designed to launch fast, scale boldly, and evolve with you. Every build is engineered with intention to transform ambition into architecture, seamless, scalable, and ready to lead.
         </p>
       </div>
     </section>
