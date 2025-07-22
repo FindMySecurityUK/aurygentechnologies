@@ -5,6 +5,7 @@ import './LandingPage.css';
 
 const LandingPage = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const containerRef = useRef(null);
   const scrollY = useMotionValue(0);
   
@@ -24,6 +25,24 @@ const LandingPage = () => {
 
   useEffect(() => {
     setIsVisible(true);
+    
+    // Hide star animation on landing page
+    document.body.style.setProperty('--hide-stars', '1');
+    
+    // Mobile detection
+    const checkMobile = () => {
+      const isMobileDevice = window.innerWidth <= 768 || 
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      setIsMobile(isMobileDevice);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => {
+      document.body.style.removeProperty('--hide-stars');
+      window.removeEventListener('resize', checkMobile);
+    };
   }, []);
 
   return (
@@ -47,8 +66,24 @@ const LandingPage = () => {
                 // Ensure high-quality rendering
                 if (splineApp && splineApp.canvas) {
                   const canvas = splineApp.canvas;
+                  
+                  // Disable interactions on mobile devices
+                  if (isMobile) {
+                    canvas.style.pointerEvents = 'none';
+                    canvas.style.touchAction = 'pan-y';
+                    // Disable Spline's built-in touch controls
+                    if (splineApp.setVariable) {
+                      try {
+                        splineApp.setVariable('enableTouch', false);
+                        splineApp.setVariable('enableMouse', false);
+                      } catch (e) {
+                        console.log('Spline variables not available');
+                      }
+                    }
+                  }
+                  
                   // Set high pixel ratio for crisp rendering
-                  const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+                  const pixelRatio = Math.min(window.devicePixelRatio || 1, isMobile ? 1.5 : 2);
                   canvas.style.width = canvas.offsetWidth + 'px';
                   canvas.style.height = canvas.offsetHeight + 'px';
                   canvas.width = canvas.offsetWidth * pixelRatio;

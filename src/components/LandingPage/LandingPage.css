@@ -9,6 +9,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  touch-action: pan-y;
 }
 
 .landing-content {
@@ -27,6 +28,7 @@
   will-change: transform;
   z-index: 1;
   overflow: hidden;
+  touch-action: pan-y;
 }
 
 
@@ -283,6 +285,19 @@ background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 
     bottom: 15%;
     letter-spacing: 0.1em;
   }
+  
+  /* Disable Spline interactions on mobile to allow scrolling */
+  .spline-container {
+    pointer-events: none;
+  }
+  
+  .spline-scene {
+    pointer-events: none;
+  }
+  
+  .spline-scene canvas {
+    pointer-events: none !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -290,6 +305,22 @@ background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 
     font-size: 1.8rem;
     bottom: 20%;
     letter-spacing: 0.05em;
+  }
+  
+  /* Additional mobile optimizations */
+  .spline-container {
+    pointer-events: none;
+    touch-action: pan-y;
+  }
+  
+  .spline-scene {
+    pointer-events: none;
+    touch-action: pan-y;
+  }
+  
+  .spline-scene canvas {
+    pointer-events: none !important;
+    touch-action: pan-y !important;
   }
 }
 
