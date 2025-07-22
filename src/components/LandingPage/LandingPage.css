@@ -31,29 +31,57 @@
 
 
 .spline-scene {
-  width: 100%;
-  height: 100%;
+  width: 100% !important;
+  height: 100% !important;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 1;
   object-fit: cover;
-  min-width: 100vw;
-  min-height: 100vh;
-  transform: scale(1);
-  image-rendering: high-quality;
-  image-rendering: -webkit-optimize-contrast;
+  min-width: 110vw;
+  min-height: 110vh;
+  transform: scale(1) translateZ(0);
+  backface-visibility: hidden;
+  pointer-events: none;
+  touch-action: pan-y;
 }
 
 .spline-scene canvas {
-  width: 100vw !important;
-  height: 100vh !important;
+  width: 110vw !important;
+  height: 110vh !important;
   object-fit: cover;
-  transform: scale(1); /* 👈 try 1.2 to 1.3 */
+  transform: scale(1.1) translateZ(0);
   transform-origin: center;
-  image-rendering: high-quality;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: auto;
+  image-rendering: crisp-edges;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  pointer-events: auto;
+  touch-action: none;
+}
+
+/* Enable interactions on desktop, disable on mobile */
+@media (hover: hover) and (pointer: fine) {
+  .spline-scene {
+    pointer-events: auto;
+  }
+  
+  .spline-scene canvas {
+    pointer-events: auto;
+    touch-action: auto;
+  }
+}
+
+/* Mobile-specific touch handling */
+@media (hover: none) and (pointer: coarse) {
+  .spline-scene {
+    pointer-events: none;
+    touch-action: pan-y;
+  }
+  
+  .spline-scene canvas {
+    pointer-events: none;
+    touch-action: pan-y;
+  }
 }
 
 .portal-overlay {
