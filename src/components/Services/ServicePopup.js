@@ -6,27 +6,26 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
   const [isAnimating, setIsAnimating] = useState(false);
   const [shouldRender, setShouldRender] = useState(false);
   const scrollPosition = useRef(0);
+  const [initialPosition, setInitialPosition] = useState(null);
 
   // Handle popup state transitions
   useEffect(() => {
     if (isOpen) {
       setShouldRender(true);
       
-      // Store current scroll position
-      scrollPosition.current = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      // Store scroll position from service object
+      scrollPosition.current = service?.scrollPosition || 0;
       
-      // Apply styles to prevent scrolling
-      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-      
-      document.body.style.cssText = `
-        position: fixed !important;
-        top: -${scrollPosition.current}px !important;
-        left: 0 !important;
-        right: 0 !important;
-        width: 100% !important;
-        overflow: hidden !important;
-        padding-right: ${scrollbarWidth}px !important;
-      `;
+      // Set initial position based on card position
+      if (service && service.cardPosition) {
+        const cardPos = service.cardPosition;
+        setInitialPosition({
+          top: cardPos.top - scrollPosition.current,
+          left: cardPos.left,
+          width: cardPos.width,
+          height: cardPos.height
+        });
+      }
       
       // Prevent keyboard scrolling
       const preventKeyboardScroll = (e) => {
@@ -41,37 +40,34 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
       // Trigger entrance animation after DOM update
       const timer = setTimeout(() => {
         setIsAnimating(true);
-      }, 10);
+      }, 50);
+      
+      // Clear initial position after animation completes
+      const clearTimer = setTimeout(() => {
+        setInitialPosition(null);
+      }, 650); // After animation duration
       
       return () => {
         clearTimeout(timer);
+        clearTimeout(clearTimer);
         document.removeEventListener('keydown', preventKeyboardScroll);
       };
     } else if (shouldRender) {
       // Start exit animation
       setIsAnimating(false);
+      setInitialPosition(null);
       // Wait for animation to complete before unmounting
       const timer = setTimeout(() => {
         setShouldRender(false);
-        
-        // Restore body styles
-        document.body.style.cssText = '';
-        
-        // Restore scroll position
-        window.scrollTo(0, scrollPosition.current);
-        scrollPosition.current = 0;
       }, 600); // Match animation duration
       return () => clearTimeout(timer);
     }
-  }, [isOpen, shouldRender]);
+  }, [isOpen, shouldRender, service]);
 
   // Cleanup on unmount
   useEffect(() => {
     return () => {
-      document.body.style.cssText = '';
-      if (scrollPosition.current > 0) {
-        window.scrollTo(0, scrollPosition.current);
-      }
+      // Cleanup is now handled by Services.js
     };
   }, []);
 
@@ -104,13 +100,24 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
 
   return (
     <div 
-      className={`service-popup-overlay ${isAnimating ? 'active' : ''}`} 
+      className={`service-popup-overlay ${isAnimating ? 'active' : ''} ${initialPosition ? 'positioning' : ''}`} 
       onClick={handleOverlayClick}
       onWheel={handleWheelOnOverlay}
     >
       <div 
         className={`service-popup ${isAnimating ? 'active' : ''}`}
         onWheel={handleWheelOnPopup}
+        style={initialPosition ? {
+          position: 'absolute',
+          top: `${initialPosition.top}px`,
+          left: `${initialPosition.left}px`,
+          width: `${initialPosition.width}px`,
+          height: `${initialPosition.height}px`,
+          maxWidth: 'none',
+          maxHeight: 'none',
+          transform: 'scale(1)',
+          opacity: 0
+        } : {}}
       >
         <div className="service-popup-header">
           <div className="service-popup-title-section">

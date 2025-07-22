@@ -28,12 +28,49 @@ const Services = () => {
     }
   }, []);
 
-  const handleServiceClick = (service) => {
-    setSelectedService(service);
+  const handleServiceClick = (service, event) => {
+    // Prevent default behavior and stop propagation
+    event.preventDefault();
+    event.stopPropagation();
+    
+    // Store current scroll position immediately
+    const currentScrollY = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    
+    // Get the clicked card's position
+    const rect = event.currentTarget.getBoundingClientRect();
+    const cardPosition = {
+      top: rect.top + currentScrollY,
+      left: rect.left + window.pageXOffset,
+      width: rect.width,
+      height: rect.height
+    };
+    
+    // Apply scroll prevention immediately
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+    document.body.style.cssText = `
+      position: fixed !important;
+      top: -${currentScrollY}px !important;
+      left: 0 !important;
+      right: 0 !important;
+      width: 100% !important;
+      overflow: hidden !important;
+      padding-right: ${scrollbarWidth}px !important;
+    `;
+    
+    setSelectedService({ ...service, cardPosition, scrollPosition: currentScrollY });
     setIsPopupOpen(true);
   };
 
   const handleClosePopup = () => {
+    // Restore scroll position if it was stored
+    if (selectedService && selectedService.scrollPosition !== undefined) {
+      // Restore body styles
+      document.body.style.cssText = '';
+      
+      // Restore scroll position
+      window.scrollTo(0, selectedService.scrollPosition);
+    }
+    
     setIsPopupOpen(false);
     setSelectedService(null);
   };
@@ -56,7 +93,7 @@ const Services = () => {
                   key={service.id} 
                   className="service-card clickable" 
                   style={{ animationDelay: `${index * 0.1}s` }}
-                  onClick={() => handleServiceClick(service)}
+                  onClick={(e) => handleServiceClick(service, e)}
                 >
                   <div className="service-icon">
                     <span className="service-emoji">{service.icon}</span>
