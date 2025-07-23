@@ -27,15 +27,29 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
         });
       }
       
-      // Prevent keyboard scrolling only
-      const preventKeyboardScroll = (e) => {
-        const scrollKeys = [32, 33, 34, 35, 36, 37, 38, 39, 40];
-        if (scrollKeys.includes(e.keyCode)) {
-          e.preventDefault();
-        }
-      };
+      // Prevent scrolling gently
+      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+      document.body.style.overflow = 'hidden';
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
+      document.body.dataset.scrollY = scrollPosition.current.toString();
       
-      document.addEventListener('keydown', preventKeyboardScroll, { passive: false });
+      // Prevent scroll events only on body, not within modal content
+       const preventBodyScroll = (e) => {
+         if (!e.target.closest('.service-popup-content')) {
+           e.preventDefault();
+         }
+       };
+       
+       const preventKeyboardScroll = (e) => {
+         const scrollKeys = [32, 33, 34, 35, 36, 37, 38, 39, 40];
+         if (scrollKeys.includes(e.keyCode) && !e.target.closest('.service-popup-content')) {
+           e.preventDefault();
+         }
+       };
+       
+       document.addEventListener('wheel', preventBodyScroll, { passive: false });
+       document.addEventListener('touchmove', preventBodyScroll, { passive: false });
+       document.addEventListener('keydown', preventKeyboardScroll, { passive: false });
       
       // Trigger entrance animation after DOM update
       const timer = setTimeout(() => {
@@ -50,7 +64,12 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
       return () => {
         clearTimeout(timer);
         clearTimeout(clearTimer);
-        document.removeEventListener('keydown', preventKeyboardScroll);
+        document.body.style.overflow = '';
+        document.body.style.paddingRight = '';
+        delete document.body.dataset.scrollY;
+        document.removeEventListener('wheel', preventBodyScroll);
+          document.removeEventListener('touchmove', preventBodyScroll);
+          document.removeEventListener('keydown', preventKeyboardScroll);
       };
     } else if (shouldRender) {
       // Start exit animation
@@ -89,18 +108,18 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
     handleClose();
   };
 
-  // Handle touch events for mobile scrolling
-  const handleTouchStart = (e) => {
-    // Allow touch events to propagate for scrolling
-    e.stopPropagation();
-  };
-
-  const handleOverlayTouch = (e) => {
-    // Prevent touch events on overlay from closing modal accidentally
-    if (e.target === e.currentTarget) {
-      e.preventDefault();
-    }
-  };
+  // Prevent wheel scrolling on overlay but allow on popup content
+  const handleWheelOnOverlay = (e) => {
+        // Only prevent scroll if not scrolling within popup content
+        if (!e.target.closest('.service-popup-content')) {
+          e.preventDefault();
+        }
+      };
+      
+      const handleWheelOnPopup = (e) => {
+        // Allow scrolling within popup content
+        e.stopPropagation();
+      };
 
   return (
     <div 
