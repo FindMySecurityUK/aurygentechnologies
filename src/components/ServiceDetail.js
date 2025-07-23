@@ -26,6 +26,11 @@ const ServiceDetail = () => {
     setLoading(false);
   }, [serviceId, subcategoryId, navigate]);
 
+  // Scroll to top when component mounts or route parameters change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [serviceId, subcategoryId]);
+
   if (loading) {
     return (
       <div className="service-detail-loading">
@@ -64,7 +69,7 @@ const ServiceDetail = () => {
               <div className="service-badge">{service.title}</div>
               <h1 className="hero-title">{subcategory.title}</h1>
               <p className="hero-description">{subcategory.description}</p>
-              <Link to="/contact" className="contact-button">
+              <Link to="/#contact" className="contact-button">
                 Contact Us
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -162,7 +167,7 @@ const ServiceDetail = () => {
             <h2>Ready to Start Your Project?</h2>
             <p>Let's discuss how our {subcategory.title.toLowerCase()} services can help transform your business.</p>
             <div className="cta-buttons">
-              <Link to="/contact" className="cta-button primary">
+              <Link to="/#contact" className="cta-button primary">
                 Get Started Today
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M7 17L17 7M17 7H7M17 7V17" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

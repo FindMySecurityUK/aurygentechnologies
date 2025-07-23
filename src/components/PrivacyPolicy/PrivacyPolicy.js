@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './PrivacyPolicy.css';
 
@@ -7,6 +7,11 @@ const PrivacyPolicy = () => {
     threshold: 0.1,
     triggerOnce: true
   });
+
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="privacy-policy-page">

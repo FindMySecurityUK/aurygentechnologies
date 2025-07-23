@@ -91,6 +91,21 @@
   width: 100%;
 }
 
+/* Button styled as nav link */
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 8px 0;
+}
+
+.nav-button:focus {
+  outline: none;
+}
+
 /* Mobile Menu Button */
 .mobile-menu-btn {
   display: none;
