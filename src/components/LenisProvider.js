@@ -4,33 +4,45 @@ import Lenis from '@studio-freight/lenis';
 const LenisProvider = ({ children }) => {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      duration: 2.8,
+      easing: (t) => 1 - Math.pow(1 - t, 3),
       direction: 'vertical',
       gestureDirection: 'vertical',
       smooth: true,
-      mouseMultiplier: 1,
+      mouseMultiplier: 0.5,
       smoothTouch: true,
-      touchMultiplier: 2,
+      touchMultiplier: 1,
       infinite: false,
       normalizeWheel: true,
-      wheelMultiplier: 1,
+      wheelMultiplier: 0.6,
       autoResize: true,
       syncTouch: true,
-      syncTouchLerp: 0.075,
-      touchInertiaMultiplier: 35,
+      syncTouchLerp: 0.08,
+      touchInertiaMultiplier: 20,
+      lerp: 0.08,
     });
 
+    let rafId;
+    let lastTime = 0;
+    const targetFPS = 60;
+    const frameInterval = 1000 / targetFPS;
+
     function raf(time) {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
+      if (time - lastTime >= frameInterval) {
+        lenis.raf(time);
+        lastTime = time;
+      }
+      rafId = requestAnimationFrame(raf);
     }
 
-    requestAnimationFrame(raf);
+    rafId = requestAnimationFrame(raf);
 
     return () => {
-      lenis.destroy();
-    };
+       if (rafId) {
+         cancelAnimationFrame(rafId);
+       }
+       lenis.destroy();
+     };
   }, []);
 
   return children;
