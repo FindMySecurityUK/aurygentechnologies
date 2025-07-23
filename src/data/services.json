@@ -13,42 +13,144 @@
           "id": "website-development",
           "title": "Website Development",
           "description": "Modern, responsive websites built with cutting-edge technologies for optimal performance and user experience.",
-          "features": ["Responsive Design", "SEO Optimization", "Performance Optimization", "CMS Integration"],
+          "features": [
+            {
+              "title": "Responsive Design",
+              "description": "Mobile-first design approach ensuring your website looks perfect on all devices, from smartphones to desktops, with fluid layouts and optimized user experiences."
+            },
+            {
+              "title": "SEO Optimization",
+              "description": "Comprehensive search engine optimization including meta tags, structured data, site speed optimization, and content optimization to improve your search rankings."
+            },
+            {
+              "title": "Performance Optimization",
+              "description": "Advanced performance techniques including code splitting, lazy loading, image optimization, and caching strategies to ensure lightning-fast loading times."
+            },
+            {
+              "title": "CMS Integration",
+              "description": "Seamless integration with popular content management systems like WordPress, Strapi, or custom CMS solutions for easy content management and updates."
+            }
+          ],
           "detailedDescription": "We create stunning, high-performance websites that engage your audience and drive business growth. Our websites are built with modern technologies, ensuring fast loading times, mobile responsiveness, and excellent search engine optimization."
         },
         {
           "id": "mobile-app-development",
           "title": "Mobile App Development",
           "description": "Native and cross-platform mobile applications for iOS and Android with seamless user experiences.",
-          "features": ["Native iOS/Android", "Cross-platform Solutions", "App Store Deployment", "Push Notifications"],
+          "features": [
+            {
+              "title": "Native iOS/Android",
+              "description": "Platform-specific development using Swift for iOS and Kotlin/Java for Android, ensuring optimal performance and access to all native device features."
+            },
+            {
+              "title": "Cross-platform Solutions",
+              "description": "Efficient development using React Native or Flutter to create apps that work seamlessly across both iOS and Android platforms with shared codebase."
+            },
+            {
+              "title": "App Store Deployment",
+              "description": "Complete app store submission process including app store optimization, compliance with guidelines, and ongoing support for app updates and releases."
+            },
+            {
+              "title": "Push Notifications",
+              "description": "Intelligent push notification systems with personalized messaging, user segmentation, and analytics to improve user engagement and retention."
+            }
+          ],
           "detailedDescription": "Transform your business with powerful mobile applications. We develop both native and cross-platform apps that deliver exceptional user experiences, integrate seamlessly with your existing systems, and help you reach your customers wherever they are."
         },
         {
           "id": "custom-business-software",
           "title": "Custom Business Software",
           "description": "Tailored software solutions designed to meet specific business requirements and workflows.",
-          "features": ["Custom Workflows", "Business Logic Implementation", "Third-party Integrations", "Scalable Architecture"],
+          "features": [
+            {
+              "title": "Custom Workflows",
+              "description": "Tailored business process automation and workflow management systems designed to match your specific operational requirements and improve efficiency."
+            },
+            {
+              "title": "Business Logic Implementation",
+              "description": "Complex business rule engines and logic implementation that automate decision-making processes and ensure consistent business operations."
+            },
+            {
+              "title": "Third-party Integrations",
+              "description": "Seamless integration with existing business tools, APIs, and services including CRM, ERP, payment gateways, and other enterprise systems."
+            },
+            {
+              "title": "Scalable Architecture",
+              "description": "Future-proof software architecture designed to handle growing user bases, increased data volumes, and evolving business requirements."
+            }
+          ],
           "detailedDescription": "Streamline your business operations with custom software solutions designed specifically for your unique needs. We build scalable, secure applications that automate processes, improve efficiency, and give you a competitive edge in your industry."
         },
         {
           "id": "saas-product-development",
           "title": "SaaS Product Development",
           "description": "End-to-end SaaS platform development with multi-tenancy, subscription management, and scalability.",
-          "features": ["Multi-tenant Architecture", "Subscription Management", "API Development", "Cloud Deployment"],
+          "features": [
+            {
+              "title": "Multi-tenant Architecture",
+              "description": "Scalable multi-tenant architecture that allows multiple customers to share the same application instance while keeping their data completely isolated and secure."
+            },
+            {
+              "title": "Subscription Management",
+              "description": "Comprehensive subscription billing system with multiple pricing tiers, payment processing, invoicing, and automated subscription lifecycle management."
+            },
+            {
+              "title": "API Development",
+              "description": "RESTful and GraphQL APIs with comprehensive documentation, rate limiting, authentication, and versioning to enable third-party integrations and mobile apps."
+            },
+            {
+              "title": "Cloud Deployment",
+              "description": "Scalable cloud infrastructure deployment with auto-scaling, load balancing, monitoring, and disaster recovery to ensure high availability and performance."
+            }
+          ],
           "detailedDescription": "Launch your SaaS product with confidence. We provide complete SaaS development services including architecture design, subscription billing, user management, and scalable cloud infrastructure to support your growing customer base."
         },
         {
           "id": "system-integrations",
           "title": "System Integrations",
           "description": "Seamless integration of disparate systems and third-party services for unified business operations.",
-          "features": ["API Integration", "Data Synchronization", "Legacy System Integration", "Middleware Development"],
+          "features": [
+            {
+              "title": "API Integration",
+              "description": "Seamless integration with third-party APIs and services including payment gateways, social media platforms, and business tools to extend functionality."
+            },
+            {
+              "title": "Data Synchronization",
+              "description": "Real-time and batch data synchronization between multiple systems ensuring data consistency and accuracy across your entire technology stack."
+            },
+            {
+              "title": "Legacy System Integration",
+              "description": "Modernization and integration of legacy systems with new applications, preserving valuable data while enabling modern functionality and user experiences."
+            },
+            {
+              "title": "Middleware Development",
+              "description": "Custom middleware solutions that facilitate communication between different applications, databases, and services in your technology ecosystem."
+            }
+          ],
           "detailedDescription": "Connect your business systems for seamless data flow and improved efficiency. We specialize in integrating various platforms, APIs, and legacy systems to create a unified technology ecosystem that works harmoniously."
         },
         {
           "id": "testing-qa",
           "title": "Testing & QA",
           "description": "Comprehensive testing and quality assurance services to ensure reliable, bug-free software delivery.",
-          "features": ["Automated Testing", "Manual Testing", "Performance Testing", "Security Testing"],
+          "features": [
+            {
+              "title": "Automated Testing",
+              "description": "Comprehensive automated testing suites including unit tests, integration tests, and end-to-end tests to ensure code quality and prevent regressions."
+            },
+            {
+              "title": "Manual Testing",
+              "description": "Thorough manual testing by experienced QA professionals to identify usability issues, edge cases, and scenarios that automated tests might miss."
+            },
+            {
+              "title": "Performance Testing",
+              "description": "Load testing, stress testing, and performance optimization to ensure your application can handle expected traffic and performs well under pressure."
+            },
+            {
+              "title": "Security Testing",
+              "description": "Comprehensive security testing including vulnerability assessments, penetration testing, and code security reviews to protect against cyber threats."
+            }
+          ],
           "detailedDescription": "Ensure your software meets the highest quality standards with our comprehensive testing services. We employ both automated and manual testing methodologies to identify and resolve issues before they impact your users."
         }
       ]
@@ -66,35 +168,120 @@
           "id": "data-privacy-compliance",
           "title": "Data Privacy Compliance",
           "description": "Ensure your business meets data privacy regulations like GDPR, CCPA, and other compliance requirements.",
-          "features": ["GDPR Compliance", "Data Audit", "Privacy Policy Development", "Consent Management"],
+          "features": [
+            {
+              "title": "GDPR Compliance",
+              "description": "Comprehensive GDPR compliance implementation including data mapping, privacy impact assessments, and ongoing compliance monitoring to meet European data protection standards."
+            },
+            {
+              "title": "Data Audit",
+              "description": "Thorough data auditing services to identify what personal data you collect, how it's processed, stored, and shared to ensure compliance with privacy regulations."
+            },
+            {
+              "title": "Privacy Policy Development",
+              "description": "Custom privacy policy creation and updates that clearly communicate your data practices and comply with applicable privacy laws and regulations."
+            },
+            {
+              "title": "Consent Management",
+              "description": "Advanced consent management systems that capture, store, and manage user consent preferences while providing easy opt-out mechanisms."
+            }
+          ],
           "detailedDescription": "Navigate the complex landscape of data privacy regulations with our expert compliance services. We help you implement robust data protection measures, conduct thorough audits, and maintain ongoing compliance with evolving privacy laws."
         },
         {
           "id": "app-website-security",
           "title": "App & Website Security",
           "description": "Comprehensive security implementation for web applications and mobile apps to prevent vulnerabilities.",
-          "features": ["SSL/TLS Implementation", "XSS Protection", "SQL Injection Prevention", "Security Headers"],
+          "features": [
+            {
+              "title": "SSL/TLS Implementation",
+              "description": "Complete SSL/TLS certificate implementation and configuration to encrypt data transmission and establish secure connections between users and your applications."
+            },
+            {
+              "title": "XSS Protection",
+              "description": "Cross-site scripting (XSS) protection through input validation, output encoding, and Content Security Policy implementation to prevent malicious script injection."
+            },
+            {
+              "title": "SQL Injection Prevention",
+              "description": "Comprehensive SQL injection prevention using parameterized queries, input validation, and database security best practices to protect against data breaches."
+            },
+            {
+              "title": "Security Headers",
+              "description": "Implementation of security headers including HSTS, CSP, X-Frame-Options, and others to protect against common web vulnerabilities and attacks."
+            }
+          ],
           "detailedDescription": "Protect your applications from cyber threats with our comprehensive security implementation services. We secure your web and mobile applications against common vulnerabilities and implement industry best practices for data protection."
         },
         {
           "id": "secure-login-access-control",
           "title": "Secure Login & Access Control",
           "description": "Implement robust authentication and authorization systems to control user access and protect sensitive data.",
-          "features": ["Multi-factor Authentication", "OAuth 2.0", "Role-based Access Control", "Session Management"],
+          "features": [
+            {
+              "title": "Multi-factor Authentication",
+              "description": "Advanced MFA implementation using SMS, email, authenticator apps, or biometric verification to add an extra layer of security to user accounts."
+            },
+            {
+              "title": "OAuth 2.0",
+              "description": "Secure OAuth 2.0 implementation for third-party authentication and authorization, enabling users to log in with existing social media or enterprise accounts."
+            },
+            {
+              "title": "Role-based Access Control",
+              "description": "Granular permission systems that control user access to different features and data based on their roles and responsibilities within your organization."
+            },
+            {
+              "title": "Session Management",
+              "description": "Secure session management with automatic timeouts, session encryption, and protection against session hijacking and fixation attacks."
+            }
+          ],
           "detailedDescription": "Strengthen your security posture with advanced authentication and access control systems. We implement multi-layered security measures to ensure only authorized users can access your sensitive data and systems."
         },
         {
           "id": "firewall-device-protection",
           "title": "Firewall & Device Protection",
           "description": "Network security solutions including firewall configuration and device protection strategies.",
-          "features": ["Firewall Configuration", "Network Monitoring", "Intrusion Detection", "Device Security"],
+          "features": [
+            {
+              "title": "Firewall Configuration",
+              "description": "Professional firewall setup and configuration to create secure network perimeters, block unauthorized access, and monitor network traffic for threats."
+            },
+            {
+              "title": "Network Monitoring",
+              "description": "24/7 network monitoring and analysis to detect suspicious activities, performance issues, and potential security breaches in real-time."
+            },
+            {
+              "title": "Intrusion Detection",
+              "description": "Advanced intrusion detection systems that identify and alert on potential security breaches, malware, and unauthorized access attempts."
+            },
+            {
+              "title": "Device Security",
+              "description": "Comprehensive device security including endpoint protection, mobile device management, and security policies for all connected devices."
+            }
+          ],
           "detailedDescription": "Secure your network infrastructure with professional firewall configuration and device protection services. We implement comprehensive network security measures to prevent unauthorized access and monitor for potential threats."
         },
         {
           "id": "security-audits",
           "title": "Security Audits",
           "description": "Comprehensive security assessments and penetration testing to identify and address vulnerabilities.",
-          "features": ["Penetration Testing", "Vulnerability Assessment", "Security Code Review", "Compliance Auditing"],
+          "features": [
+            {
+              "title": "Penetration Testing",
+              "description": "Ethical hacking and penetration testing to identify security vulnerabilities by simulating real-world attacks on your systems and applications."
+            },
+            {
+              "title": "Vulnerability Assessment",
+              "description": "Comprehensive vulnerability scanning and assessment to identify security weaknesses in your infrastructure, applications, and network configurations."
+            },
+            {
+              "title": "Security Code Review",
+              "description": "Detailed source code analysis to identify security flaws, coding vulnerabilities, and potential attack vectors in your applications."
+            },
+            {
+              "title": "Compliance Auditing",
+              "description": "Thorough compliance audits against industry standards like ISO 27001, SOC 2, PCI DSS, and other regulatory requirements."
+            }
+          ],
           "detailedDescription": "Identify and address security vulnerabilities before they become threats. Our comprehensive security audits include penetration testing, code reviews, and compliance assessments to ensure your systems meet the highest security standards."
         }
       ]
@@ -112,42 +299,144 @@
           "id": "ai-app-development",
           "title": "AI App Development",
           "description": "Custom AI-powered applications that leverage machine learning and advanced algorithms for intelligent functionality.",
-          "features": ["Machine Learning Models", "Computer Vision", "Natural Language Processing", "Predictive Analytics"],
+          "features": [
+            {
+              "title": "Machine Learning Models",
+              "description": "Custom machine learning model development and training for classification, regression, clustering, and recommendation systems tailored to your business needs."
+            },
+            {
+              "title": "Computer Vision",
+              "description": "Advanced computer vision solutions for image recognition, object detection, facial recognition, and automated visual inspection systems."
+            },
+            {
+              "title": "Natural Language Processing",
+              "description": "NLP solutions for text analysis, sentiment analysis, language translation, document processing, and intelligent content understanding."
+            },
+            {
+              "title": "Predictive Analytics",
+              "description": "Advanced predictive modeling to forecast trends, customer behavior, market changes, and business outcomes using historical data and AI algorithms."
+            }
+          ],
           "detailedDescription": "Harness the power of artificial intelligence with custom AI applications tailored to your business needs. We develop intelligent solutions that learn, adapt, and provide valuable insights to drive your business forward."
         },
         {
           "id": "business-automation",
           "title": "Business Automation",
           "description": "Intelligent automation solutions that streamline business processes and reduce manual workload.",
-          "features": ["Process Automation", "Workflow Optimization", "RPA Implementation", "Smart Decision Making"],
+          "features": [
+            {
+              "title": "Process Automation",
+              "description": "End-to-end business process automation that eliminates manual tasks, reduces errors, and improves operational efficiency across your organization."
+            },
+            {
+              "title": "Workflow Optimization",
+              "description": "Intelligent workflow analysis and optimization to streamline business processes, reduce bottlenecks, and improve overall productivity."
+            },
+            {
+              "title": "RPA Implementation",
+              "description": "Robotic Process Automation implementation to automate repetitive tasks, data entry, and rule-based processes using software robots."
+            },
+            {
+              "title": "Smart Decision Making",
+              "description": "AI-powered decision support systems that analyze data, identify patterns, and provide intelligent recommendations for business decisions."
+            }
+          ],
           "detailedDescription": "Transform your business operations with intelligent automation solutions. We help you identify automation opportunities, implement smart workflows, and reduce manual tasks to improve efficiency and reduce costs."
         },
         {
           "id": "chatbots-virtual-assistants",
           "title": "Chatbots & Virtual Assistants",
           "description": "AI-powered conversational interfaces that provide 24/7 customer support and intelligent interactions.",
-          "features": ["Natural Language Understanding", "Multi-platform Integration", "Context Awareness", "Learning Capabilities"],
+          "features": [
+            {
+              "title": "Natural Language Understanding",
+              "description": "Advanced NLU capabilities that enable chatbots to understand user intent, context, and nuanced language for more natural conversations."
+            },
+            {
+              "title": "Multi-platform Integration",
+              "description": "Seamless integration across websites, mobile apps, social media platforms, and messaging services for consistent user experiences."
+            },
+            {
+              "title": "Context Awareness",
+              "description": "Intelligent context retention that allows chatbots to maintain conversation history and provide relevant responses based on previous interactions."
+            },
+            {
+              "title": "Learning Capabilities",
+              "description": "Machine learning-powered chatbots that continuously improve their responses and accuracy based on user interactions and feedback."
+            }
+          ],
           "detailedDescription": "Enhance customer experience with intelligent chatbots and virtual assistants. Our AI-powered solutions provide 24/7 support, understand natural language, and continuously learn to improve customer interactions."
         },
         {
           "id": "generative-ai-tools",
           "title": "Generative AI Tools",
           "description": "Custom generative AI solutions for content creation, code generation, and creative applications.",
-          "features": ["Content Generation", "Code Assistance", "Creative AI", "Custom GPT Models"],
+          "features": [
+            {
+              "title": "Content Generation",
+              "description": "AI-powered content creation for marketing materials, documentation, product descriptions, and other business content with consistent quality and tone."
+            },
+            {
+              "title": "Code Assistance",
+              "description": "Intelligent code generation and assistance tools that help developers write better code faster, with automated testing and optimization suggestions."
+            },
+            {
+              "title": "Creative AI",
+              "description": "Generative AI solutions for creative applications including image generation, design assistance, and creative content ideation."
+            },
+            {
+              "title": "Custom GPT Models",
+              "description": "Fine-tuned GPT models trained on your specific data and use cases to provide domain-specific AI assistance and content generation."
+            }
+          ],
           "detailedDescription": "Leverage the latest in generative AI technology to create content, assist with coding, and enhance creative processes. We develop custom AI tools that generate high-quality content and automate creative tasks."
         },
         {
           "id": "data-engineering",
           "title": "Data Engineering",
           "description": "Robust data pipelines and infrastructure for collecting, processing, and analyzing large datasets.",
-          "features": ["Data Pipeline Development", "ETL Processes", "Data Warehousing", "Real-time Processing"],
+          "features": [
+            {
+              "title": "Data Pipeline Development",
+              "description": "Robust data pipeline architecture that automates data collection, transformation, and loading from multiple sources into your data systems."
+            },
+            {
+              "title": "ETL Processes",
+              "description": "Efficient Extract, Transform, Load processes that clean, validate, and prepare your data for analysis and machine learning applications."
+            },
+            {
+              "title": "Data Warehousing",
+              "description": "Scalable data warehouse solutions that store and organize large volumes of structured and unstructured data for analytics and reporting."
+            },
+            {
+              "title": "Real-time Processing",
+              "description": "Stream processing capabilities that handle real-time data ingestion and analysis for immediate insights and automated decision-making."
+            }
+          ],
           "detailedDescription": "Build robust data infrastructure that supports your AI and analytics initiatives. We design and implement scalable data pipelines that collect, process, and prepare your data for advanced analytics and machine learning."
         },
         {
           "id": "big-data-analytics",
           "title": "Big Data Analytics",
           "description": "Advanced analytics and insights from large-scale data processing and machine learning algorithms.",
-          "features": ["Predictive Modeling", "Data Visualization", "Statistical Analysis", "Business Intelligence"],
+          "features": [
+            {
+              "title": "Predictive Modeling",
+              "description": "Advanced statistical and machine learning models that forecast future trends, customer behavior, and business outcomes with high accuracy."
+            },
+            {
+              "title": "Data Visualization",
+              "description": "Interactive dashboards and visualizations that transform complex data into clear, actionable insights using modern visualization tools."
+            },
+            {
+              "title": "Statistical Analysis",
+              "description": "Comprehensive statistical analysis including hypothesis testing, correlation analysis, and advanced statistical modeling for data-driven decisions."
+            },
+            {
+              "title": "Business Intelligence",
+              "description": "Complete BI solutions that aggregate data from multiple sources to provide comprehensive business insights and performance metrics."
+            }
+          ],
           "detailedDescription": "Unlock the value in your data with advanced analytics and machine learning. We help you discover patterns, predict trends, and make data-driven decisions that drive business growth and competitive advantage."
         }
       ]
@@ -165,35 +454,120 @@
           "id": "cloud-setup-management",
           "title": "Cloud Setup & Management",
           "description": "Complete cloud infrastructure setup and ongoing management for optimal performance and cost efficiency.",
-          "features": ["Cloud Migration", "Infrastructure Setup", "Cost Optimization", "Performance Monitoring"],
+          "features": [
+            {
+              "title": "Cloud Migration",
+              "description": "Seamless migration of your existing infrastructure and applications to cloud platforms with minimal downtime and optimized performance."
+            },
+            {
+              "title": "Infrastructure Setup",
+              "description": "Complete cloud infrastructure design and setup including networking, security, storage, and compute resources tailored to your needs."
+            },
+            {
+              "title": "Cost Optimization",
+              "description": "Continuous cost monitoring and optimization strategies to reduce cloud spending while maintaining performance and reliability."
+            },
+            {
+              "title": "Performance Monitoring",
+              "description": "24/7 infrastructure monitoring with automated alerts, performance metrics, and proactive issue resolution to ensure optimal uptime."
+            }
+          ],
           "detailedDescription": "Migrate to the cloud with confidence and optimize your infrastructure for performance and cost. We provide end-to-end cloud services from initial setup to ongoing management, ensuring your systems are always running at peak efficiency."
         },
         {
           "id": "it-support-maintenance",
           "title": "IT Support & Maintenance",
           "description": "Comprehensive IT support and maintenance services to ensure your systems run smoothly and securely.",
-          "features": ["24/7 Support", "System Maintenance", "Security Updates", "Performance Optimization"],
+          "features": [
+            {
+              "title": "24/7 Support",
+              "description": "Round-the-clock technical support with rapid response times to resolve issues and minimize downtime for your critical business systems."
+            },
+            {
+              "title": "System Maintenance",
+              "description": "Proactive system maintenance including regular updates, patches, and preventive measures to ensure optimal performance and security."
+            },
+            {
+              "title": "Security Updates",
+              "description": "Timely security patch management and updates to protect your systems against the latest threats and vulnerabilities."
+            },
+            {
+              "title": "Performance Optimization",
+              "description": "Continuous performance monitoring and optimization to ensure your systems run efficiently and meet growing business demands."
+            }
+          ],
           "detailedDescription": "Keep your IT systems running smoothly with our comprehensive support and maintenance services. We provide proactive monitoring, regular updates, and rapid response to ensure minimal downtime and maximum productivity."
         },
         {
           "id": "devops-deployment-automation",
           "title": "DevOps & Deployment Automation",
           "description": "Streamlined development and deployment processes with automated CI/CD pipelines and infrastructure as code.",
-          "features": ["CI/CD Pipelines", "Infrastructure as Code", "Automated Testing", "Container Orchestration"],
+          "features": [
+            {
+              "title": "CI/CD Pipelines",
+              "description": "Automated continuous integration and deployment pipelines that streamline code delivery, reduce errors, and accelerate time-to-market."
+            },
+            {
+              "title": "Infrastructure as Code",
+              "description": "Infrastructure automation using code-based configuration management for consistent, repeatable, and scalable infrastructure deployments."
+            },
+            {
+              "title": "Automated Testing",
+              "description": "Comprehensive automated testing integration in deployment pipelines to ensure code quality and prevent production issues."
+            },
+            {
+              "title": "Container Orchestration",
+              "description": "Docker and Kubernetes implementation for scalable, portable, and efficient application deployment and management."
+            }
+          ],
           "detailedDescription": "Accelerate your development and deployment processes with modern DevOps practices. We implement automated pipelines, infrastructure as code, and container orchestration to improve development velocity and system reliability."
         },
         {
           "id": "backup-recovery",
           "title": "Backup & Recovery",
           "description": "Robust backup and disaster recovery solutions to protect your data and ensure business continuity.",
-          "features": ["Automated Backups", "Disaster Recovery", "Data Restoration", "Business Continuity"],
+          "features": [
+            {
+              "title": "Automated Backups",
+              "description": "Scheduled automated backup systems that ensure your critical data is regularly backed up with multiple retention policies and storage locations."
+            },
+            {
+              "title": "Disaster Recovery",
+              "description": "Comprehensive disaster recovery planning and implementation to quickly restore operations after system failures or catastrophic events."
+            },
+            {
+              "title": "Data Restoration",
+              "description": "Rapid data restoration services with point-in-time recovery capabilities to minimize data loss and business disruption."
+            },
+            {
+              "title": "Business Continuity",
+              "description": "Complete business continuity planning to ensure critical operations can continue during outages or disaster scenarios."
+            }
+          ],
           "detailedDescription": "Protect your critical business data with comprehensive backup and disaster recovery solutions. We implement automated backup systems and disaster recovery plans to ensure your business can quickly recover from any data loss incident."
         },
         {
           "id": "blockchain-solutions",
           "title": "Blockchain Solutions",
           "description": "Innovative blockchain implementations for secure, transparent, and decentralized business solutions.",
-          "features": ["Smart Contracts", "Cryptocurrency Integration", "Decentralized Applications", "Blockchain Consulting"],
+          "features": [
+            {
+              "title": "Smart Contracts",
+              "description": "Self-executing smart contracts with automated terms and conditions that eliminate intermediaries and ensure transparent, secure transactions."
+            },
+            {
+              "title": "Cryptocurrency Integration",
+              "description": "Seamless cryptocurrency payment integration and wallet connectivity for modern digital payment solutions and DeFi applications."
+            },
+            {
+              "title": "Decentralized Applications",
+              "description": "Full-stack DApp development on various blockchain platforms including Ethereum, Polygon, and other networks for decentralized solutions."
+            },
+            {
+              "title": "Blockchain Consulting",
+              "description": "Strategic blockchain consulting to identify use cases, select appropriate technologies, and develop implementation roadmaps for your business."
+            }
+          ],
           "detailedDescription": "Explore the potential of blockchain technology for your business. We develop secure, transparent blockchain solutions including smart contracts, decentralized applications, and cryptocurrency integration to revolutionize your business processes."
         }
       ]
@@ -211,28 +585,96 @@
           "id": "database-design-optimization",
           "title": "Database Design & Optimization",
           "description": "Expert database architecture design and performance optimization for scalable and efficient data management.",
-          "features": ["Schema Design", "Query Optimization", "Index Management", "Performance Tuning"],
+          "features": [
+            {
+              "title": "Schema Design",
+              "description": "Optimal database schema design that ensures data integrity, minimizes redundancy, and supports efficient querying and scalability."
+            },
+            {
+              "title": "Query Optimization",
+              "description": "Advanced query optimization techniques to improve database performance, reduce execution time, and minimize resource consumption."
+            },
+            {
+              "title": "Index Management",
+              "description": "Strategic index design and management to accelerate data retrieval while balancing storage requirements and update performance."
+            },
+            {
+              "title": "Performance Tuning",
+              "description": "Comprehensive database performance analysis and tuning to optimize throughput, reduce latency, and improve overall system efficiency."
+            }
+          ],
           "detailedDescription": "Design and optimize your database architecture for maximum performance and scalability. We create efficient database schemas, optimize queries, and implement best practices to ensure your data systems can handle growing demands."
         },
         {
           "id": "data-migration",
           "title": "Data Migration",
           "description": "Seamless data migration services between different database systems with minimal downtime and data integrity.",
-          "features": ["Migration Planning", "Data Validation", "Zero-downtime Migration", "Legacy System Integration"],
+          "features": [
+            {
+              "title": "Migration Planning",
+              "description": "Comprehensive migration strategy development including risk assessment, timeline planning, and resource allocation for successful data transitions."
+            },
+            {
+              "title": "Data Validation",
+              "description": "Thorough data validation and integrity checking throughout the migration process to ensure accuracy and completeness of transferred data."
+            },
+            {
+              "title": "Zero-downtime Migration",
+              "description": "Advanced migration techniques that minimize or eliminate downtime, ensuring business continuity during database transitions."
+            },
+            {
+              "title": "Legacy System Integration",
+              "description": "Seamless integration of legacy systems with new database platforms while preserving data relationships and business logic."
+            }
+          ],
           "detailedDescription": "Migrate your data safely and efficiently with our expert migration services. We ensure data integrity, minimize downtime, and provide comprehensive testing to guarantee a smooth transition to your new database system."
         },
         {
           "id": "dashboards-reporting",
           "title": "Dashboards & Reporting",
           "description": "Interactive dashboards and comprehensive reporting solutions for data visualization and business insights.",
-          "features": ["Real-time Dashboards", "Custom Reports", "Data Visualization", "Business Intelligence"],
+          "features": [
+            {
+              "title": "Real-time Dashboards",
+              "description": "Interactive real-time dashboards that provide live data updates and instant insights into your business metrics and KPIs."
+            },
+            {
+              "title": "Custom Reports",
+              "description": "Tailored reporting solutions that generate automated reports with customizable formats, scheduling, and distribution options."
+            },
+            {
+              "title": "Data Visualization",
+              "description": "Advanced data visualization tools that transform complex datasets into clear, intuitive charts, graphs, and interactive visual elements."
+            },
+            {
+              "title": "Business Intelligence",
+              "description": "Comprehensive BI solutions that aggregate data from multiple sources to provide strategic insights and support data-driven decision making."
+            }
+          ],
           "detailedDescription": "Transform your data into actionable insights with interactive dashboards and comprehensive reporting solutions. We create custom visualizations that help you understand your data and make informed business decisions."
         },
         {
           "id": "data-backup-recovery",
           "title": "Data Backup & Recovery",
           "description": "Robust backup strategies and disaster recovery solutions to protect your critical business data.",
-          "features": ["Automated Backups", "Point-in-time Recovery", "Disaster Recovery Planning", "Data Archiving"],
+          "features": [
+            {
+              "title": "Automated Backups",
+              "description": "Scheduled automated database backups with configurable retention policies and multiple storage locations for maximum data protection."
+            },
+            {
+              "title": "Point-in-time Recovery",
+              "description": "Precise point-in-time recovery capabilities that allow restoration to any specific moment, minimizing data loss in case of failures."
+            },
+            {
+              "title": "Disaster Recovery Planning",
+              "description": "Comprehensive disaster recovery strategies specifically designed for database systems to ensure rapid recovery and business continuity."
+            },
+            {
+              "title": "Data Archiving",
+              "description": "Intelligent data archiving solutions that move older data to cost-effective storage while maintaining accessibility and compliance."
+            }
+          ],
           "detailedDescription": "Protect your valuable data with comprehensive backup and recovery solutions. We implement automated backup systems, disaster recovery plans, and data archiving strategies to ensure your data is always safe and recoverable."
         }
       ]
@@ -250,35 +692,120 @@
           "id": "mvp-development",
           "title": "MVP Development",
           "description": "Rapid development of Minimum Viable Products to validate your business idea and enter the market quickly.",
-          "features": ["Rapid Prototyping", "Core Feature Development", "User Testing", "Market Validation"],
+          "features": [
+            {
+              "title": "Rapid Prototyping",
+              "description": "Quick prototype development to visualize and test your product concept, allowing for early feedback and iteration before full development."
+            },
+            {
+              "title": "Core Feature Development",
+              "description": "Focus on essential features that validate your business hypothesis and provide immediate value to early adopters and potential investors."
+            },
+            {
+              "title": "User Testing",
+              "description": "Comprehensive user testing and feedback collection to validate product-market fit and identify areas for improvement."
+            },
+            {
+              "title": "Market Validation",
+              "description": "Strategic market validation processes to test your assumptions, understand customer needs, and refine your value proposition."
+            }
+          ],
           "detailedDescription": "Bring your startup idea to life with rapid MVP development. We help you build a minimum viable product that validates your concept, attracts early users, and provides the foundation for future growth and investment."
         },
         {
           "id": "agile-product-development",
           "title": "Agile Product Development",
           "description": "Iterative product development using agile methodologies for flexible and responsive product evolution.",
-          "features": ["Sprint Planning", "Iterative Development", "Continuous Feedback", "Adaptive Planning"],
+          "features": [
+            {
+              "title": "Sprint Planning",
+              "description": "Structured sprint planning sessions that break down development into manageable iterations with clear goals and deliverables."
+            },
+            {
+              "title": "Iterative Development",
+              "description": "Continuous development cycles that allow for regular feedback incorporation and rapid adaptation to changing requirements."
+            },
+            {
+              "title": "Continuous Feedback",
+              "description": "Regular feedback loops with stakeholders to ensure the product development stays aligned with business objectives and user needs."
+            },
+            {
+              "title": "Adaptive Planning",
+              "description": "Flexible planning approach that adapts to new insights, market changes, and evolving business priorities throughout development."
+            }
+          ],
           "detailedDescription": "Develop your product using proven agile methodologies that allow for rapid iteration and continuous improvement. We work closely with you to ensure your product evolves based on user feedback and market demands."
         },
         {
           "id": "cto-as-a-service",
           "title": "CTO-as-a-Service",
           "description": "Technical leadership and strategic guidance for startups without a full-time CTO.",
-          "features": ["Technical Strategy", "Team Leadership", "Architecture Planning", "Technology Decisions"],
+          "features": [
+            {
+              "title": "Technical Strategy",
+              "description": "Comprehensive technical strategy development that aligns technology choices with business goals and long-term vision."
+            },
+            {
+              "title": "Team Leadership",
+              "description": "Expert technical leadership to guide your development team, establish best practices, and ensure high-quality deliverables."
+            },
+            {
+              "title": "Architecture Planning",
+              "description": "Strategic system architecture planning that ensures scalability, maintainability, and optimal performance for your growing startup."
+            },
+            {
+              "title": "Technology Decisions",
+              "description": "Expert guidance on critical technology decisions including tech stack selection, third-party integrations, and platform choices."
+            }
+          ],
           "detailedDescription": "Get expert technical leadership without the cost of a full-time CTO. We provide strategic technical guidance, architecture planning, and team leadership to help your startup make the right technology decisions."
         },
         {
           "id": "product-roadmapping",
           "title": "Product Roadmapping",
           "description": "Strategic product planning and roadmap development to guide your product's evolution and growth.",
-          "features": ["Feature Prioritization", "Timeline Planning", "Resource Allocation", "Milestone Definition"],
+          "features": [
+            {
+              "title": "Feature Prioritization",
+              "description": "Strategic feature prioritization based on user value, business impact, and technical feasibility to maximize ROI and user satisfaction."
+            },
+            {
+              "title": "Timeline Planning",
+              "description": "Realistic timeline planning that balances speed to market with quality, considering dependencies and resource constraints."
+            },
+            {
+              "title": "Resource Allocation",
+              "description": "Optimal resource allocation strategies to ensure efficient use of budget, time, and team capabilities across all development phases."
+            },
+            {
+              "title": "Milestone Definition",
+              "description": "Clear milestone definition with measurable outcomes and success criteria to track progress and maintain project momentum."
+            }
+          ],
           "detailedDescription": "Create a clear path to success with strategic product roadmapping. We help you prioritize features, plan timelines, and allocate resources effectively to ensure your product development stays on track."
         },
         {
           "id": "idea-validation-consulting",
           "title": "Idea Validation & Consulting",
           "description": "Comprehensive idea validation and strategic consulting to assess market potential and business viability.",
-          "features": ["Market Research", "Feasibility Analysis", "Business Model Validation", "Go-to-Market Strategy"],
+          "features": [
+            {
+              "title": "Market Research",
+              "description": "Comprehensive market research to understand target audience, competition, and market opportunities for your startup idea."
+            },
+            {
+              "title": "Feasibility Analysis",
+              "description": "Technical and business feasibility analysis to assess the viability of your idea and identify potential challenges and solutions."
+            },
+            {
+              "title": "Business Model Validation",
+              "description": "Validation of your business model through market testing, customer interviews, and financial projections to ensure sustainability."
+            },
+            {
+              "title": "Go-to-Market Strategy",
+              "description": "Strategic go-to-market planning including customer acquisition strategies, pricing models, and launch tactics for maximum impact."
+            }
+          ],
           "detailedDescription": "Validate your startup idea before investing significant resources. We conduct thorough market research, feasibility analysis, and business model validation to help you make informed decisions about your venture."
         }
       ]

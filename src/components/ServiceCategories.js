@@ -88,7 +88,7 @@ const ServiceCategories = () => {
                   <p className="card-description">{subcategory.description}</p>
                   <div className="card-features">
                     {subcategory.features.slice(0, 3).map((feature, index) => (
-                      <span key={index} className="feature-tag">{feature}</span>
+                      <span key={index} className="feature-tag">{feature.title}</span>
                     ))}
                     {subcategory.features.length > 3 && (
                       <span className="feature-tag more">+{subcategory.features.length - 3} more</span>

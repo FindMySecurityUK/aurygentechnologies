@@ -103,12 +103,10 @@ const ServiceDetail = () => {
                 <div className="features-grid">
                   {subcategory.features.map((feature, index) => (
                     <div key={index} className="feature-item">
-                      <div className="feature-icon">
-                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                        </svg>
+                      <div className="feature-content">
+                        <h4 className="feature-title">{feature.title}</h4>
+                        <p className="feature-description">{feature.description}</p>
                       </div>
-                      <span>{feature}</span>
                     </div>
                   ))}
                 </div>
