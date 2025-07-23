@@ -45,8 +45,11 @@ const Services = () => {
       height: rect.height
     };
     
-    // Apply scroll prevention more gently
+    // Apply scroll prevention using position fixed for better mobile support
     const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${currentScrollY}px`;
+    document.body.style.width = '100%';
     document.body.style.overflow = 'hidden';
     document.body.style.paddingRight = `${scrollbarWidth}px`;
     document.body.dataset.scrollY = currentScrollY.toString();
@@ -58,18 +61,22 @@ const Services = () => {
   const handleClosePopup = () => {
     const scrollY = selectedService?.scrollPosition || parseInt(document.body.dataset.scrollY || '0', 10);
     
-    // Restore body styles more gently
+    // Restore body styles
     document.body.style.overflow = '';
     document.body.style.paddingRight = '';
+    document.body.style.position = '';
+    document.body.style.top = '';
     delete document.body.dataset.scrollY;
-    
-    // Restore scroll position smoothly
-    requestAnimationFrame(() => {
-      window.scrollTo({ top: scrollY, behavior: 'instant' });
-    });
     
     setIsPopupOpen(false);
     setSelectedService(null);
+    
+    // Restore scroll position after state update
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        window.scrollTo({ top: scrollY, behavior: 'instant' });
+      });
+    });
   };
 
   return (

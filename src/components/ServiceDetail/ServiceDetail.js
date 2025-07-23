@@ -157,7 +157,7 @@ const ServiceDetail = () => {
           </section>
 
           <div className="service-navigation">
-            <Link to="/services" className="back-to-services">
+            <Link to="/#services" className="back-to-services">
               ← Back to All Services
             </Link>
           </div>
