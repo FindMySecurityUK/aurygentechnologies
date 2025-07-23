@@ -466,11 +466,20 @@
 }
 
 .back-to-services {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   color: #667eea;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
   transition: all 0.3s ease;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background: rgba(102, 126, 234, 0.1);
+  border: 1px solid rgba(102, 126, 234, 0.3);
+  cursor: pointer;
+  font-family: inherit;
 }
 
 .back-to-services:hover {

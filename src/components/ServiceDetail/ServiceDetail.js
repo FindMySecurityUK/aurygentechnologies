@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 import servicesData from '../../data/services.json';
 import './ServiceDetail.css';
 
 const ServiceDetail = () => {
   const { id: serviceId, subcategoryId } = useParams();
+  const navigate = useNavigate();
   const [service, setService] = useState(null);
   const [subcategory, setSubcategory] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -14,6 +15,11 @@ const ServiceDetail = () => {
     threshold: 0.1,
     triggerOnce: true
   });
+
+  // Scroll to top when component mounts or route changes
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [serviceId, subcategoryId]);
 
   useEffect(() => {
     try {
@@ -57,6 +63,19 @@ const ServiceDetail = () => {
       </div>
     );
   }
+
+  // Handle back to services navigation
+  const handleBackToServices = (e) => {
+    e.preventDefault();
+    navigate('/');
+    // Wait for navigation to complete, then scroll to services section
+    setTimeout(() => {
+      const servicesSection = document.getElementById('services');
+      if (servicesSection) {
+        servicesSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  };
 
   // Use subcategory data if available, otherwise use service data
   const displayData = subcategory || service;
@@ -157,9 +176,9 @@ const ServiceDetail = () => {
           </section>
 
           <div className="service-navigation">
-            <Link to="/#services" className="back-to-services">
+            <button onClick={handleBackToServices} className="back-to-services">
               ← Back to All Services
-            </Link>
+            </button>
           </div>
         </div>
       </div>
