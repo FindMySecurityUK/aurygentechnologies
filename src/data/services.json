@@ -1,536 +1,273 @@
 {
   "services": [
     {
-      "id": "strategy-discovery-advisory",
-      "title": "Strategy, Discovery & Advisory",
-      "icon": "🎯",
-      "shortDescription": "Strategic consulting and advisory services to guide your business and technical decisions.",
+      "id": "software-development",
+      "title": "Software Development",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4 6h16v10H4V6zm0-2a2 2 0 00-2 2v10a2 2 0 002 2h5l-1 2v1h8v-1l-1-2h5a2 2 0 002-2V6a2 2 0 00-2-2H4z' fill='currentColor'/><path d='M6 8h4v2H6V8zm0 3h6v2H6v-2z' fill='currentColor'/></svg>",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=400&h=400&fit=crop&crop=center",
+      "shortDescription": "Comprehensive software development services from web and mobile apps to custom business solutions.",
+      "category": "Development",
+      "priority": 1,
+      "detailedDescription": "We deliver end-to-end software development solutions tailored to your business needs. From modern web applications to mobile apps and enterprise software, our team uses cutting-edge technologies to build scalable, secure, and high-performance solutions.",
+      "technologies": ["React", "Node.js", "Python", "Java", "Swift", "Kotlin", "Flutter", "React Native", "MongoDB", "PostgreSQL"],
+      "useCases": ["Enterprise web applications", "Mobile app development", "E-commerce platforms", "SaaS products", "Custom business software"],
       "subcategories": [
         {
-          "id": "business-technical-consultancy",
-          "title": "Business & Technical Consultancy",
-          "description": "Expert guidance on business strategy and technical architecture to align your technology with business goals.",
-          "features": [
-            "Business process analysis",
-            "Technical architecture review",
-            "Technology roadmap planning",
-            "Risk assessment and mitigation",
-            "Digital transformation strategy"
-          ],
-          "benefits": [
-            "Informed decision making",
-            "Reduced technical debt",
-            "Optimized business processes",
-            "Strategic technology alignment"
-          ]
+          "id": "website-development",
+          "title": "Website Development",
+          "description": "Modern, responsive websites built with cutting-edge technologies for optimal performance and user experience.",
+          "features": ["Responsive Design", "SEO Optimization", "Performance Optimization", "CMS Integration"]
         },
         {
-          "id": "mvp-scoping-planning",
-          "title": "MVP Scoping & Planning",
-          "description": "Define and plan your Minimum Viable Product to validate your business idea with minimal resources.",
-          "features": [
-            "Feature prioritization",
-            "User story mapping",
-            "Technical feasibility analysis",
-            "Resource estimation",
-            "Timeline planning"
-          ],
-          "benefits": [
-            "Faster time to market",
-            "Reduced development costs",
-            "Clear project scope",
-            "Risk mitigation"
-          ]
+          "id": "mobile-app-development",
+          "title": "Mobile App Development",
+          "description": "Native and cross-platform mobile applications for iOS and Android with seamless user experiences.",
+          "features": ["Native iOS/Android", "Cross-platform Solutions", "App Store Deployment", "Push Notifications"]
         },
         {
-          "id": "product-market-fit-analysis",
-          "title": "Product-Market Fit Analysis",
-          "description": "Analyze and validate your product's fit in the target market through comprehensive research and testing.",
-          "features": [
-            "Market research and analysis",
-            "Competitor analysis",
-            "User feedback collection",
-            "Product positioning strategy",
-            "Go-to-market planning"
-          ],
-          "benefits": [
-            "Validated business assumptions",
-            "Optimized product positioning",
-            "Reduced market risk",
-            "Improved customer acquisition"
-          ]
+          "id": "custom-business-software",
+          "title": "Custom Business Software",
+          "description": "Tailored software solutions designed to meet specific business requirements and workflows.",
+          "features": ["Custom Workflows", "Business Logic Implementation", "Third-party Integrations", "Scalable Architecture"]
+        },
+        {
+          "id": "saas-product-development",
+          "title": "SaaS Product Development",
+          "description": "End-to-end SaaS platform development with multi-tenancy, subscription management, and scalability.",
+          "features": ["Multi-tenant Architecture", "Subscription Management", "API Development", "Cloud Deployment"]
+        },
+        {
+          "id": "system-integrations",
+          "title": "System Integrations",
+          "description": "Seamless integration of disparate systems and third-party services for unified business operations.",
+          "features": ["API Integration", "Data Synchronization", "Legacy System Integration", "Middleware Development"]
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & QA",
+          "description": "Comprehensive testing and quality assurance services to ensure reliable, bug-free software delivery.",
+          "features": ["Automated Testing", "Manual Testing", "Performance Testing", "Security Testing"]
+        }
+      ]
+    },
+
+    {
+      "id": "cybersecurity-solutions",
+      "title": "Cybersecurity Solutions",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M6 10V8a6 6 0 1112 0v2h1a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2v-8a2 2 0 012-2h1zm2 0h8V8a4 4 0 00-8 0v2z' fill='currentColor'/><circle cx='12' cy='16' r='2' fill='currentColor'/></svg>",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=400&fit=crop&crop=center",
+      "shortDescription": "Comprehensive cybersecurity services to protect your digital assets and ensure compliance with data privacy regulations.",
+      "category": "Security",
+      "priority": 2,
+      "detailedDescription": "Our cybersecurity solutions provide comprehensive protection for your digital infrastructure. From data privacy compliance to advanced threat protection, we implement robust security measures to safeguard your business against cyber threats and ensure regulatory compliance.",
+      "technologies": ["SSL/TLS", "OAuth 2.0", "JWT", "Firewall Configuration", "Penetration Testing", "GDPR Compliance", "Multi-factor Authentication"],
+      "useCases": ["Data breach prevention", "Compliance auditing", "Secure application development", "Network security implementation", "Identity and access management"],
+      "subcategories": [
+        {
+          "id": "data-privacy-compliance",
+          "title": "Data Privacy Compliance",
+          "description": "Ensure your business meets data privacy regulations like GDPR, CCPA, and other compliance requirements.",
+          "features": ["GDPR Compliance", "Data Audit", "Privacy Policy Development", "Consent Management"]
+        },
+        {
+          "id": "app-website-security",
+          "title": "App & Website Security",
+          "description": "Comprehensive security implementation for web applications and mobile apps to prevent vulnerabilities.",
+          "features": ["SSL/TLS Implementation", "XSS Protection", "SQL Injection Prevention", "Security Headers"]
+        },
+        {
+          "id": "secure-login-access-control",
+          "title": "Secure Login & Access Control",
+          "description": "Implement robust authentication and authorization systems to control user access and protect sensitive data.",
+          "features": ["Multi-factor Authentication", "OAuth 2.0", "Role-based Access Control", "Session Management"]
+        },
+        {
+          "id": "firewall-device-protection",
+          "title": "Firewall & Device Protection",
+          "description": "Network security solutions including firewall configuration and device protection strategies.",
+          "features": ["Firewall Configuration", "Network Monitoring", "Intrusion Detection", "Device Security"]
+        },
+        {
+          "id": "security-audits",
+          "title": "Security Audits",
+          "description": "Comprehensive security assessments and penetration testing to identify and address vulnerabilities.",
+          "features": ["Penetration Testing", "Vulnerability Assessment", "Security Code Review", "Compliance Auditing"]
         }
       ]
     },
     {
-      "id": "design-user-experience",
-      "title": "Design & User Experience",
-      "icon": "🎨",
-      "shortDescription": "Creative design solutions that deliver exceptional user experiences and strong brand identity.",
+      "id": "ai-smart-automation",
+      "title": "AI & Smart Automation",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M12 2a2 2 0 012 2v1h3a3 3 0 013 3v10a3 3 0 01-3 3H7a3 3 0 01-3-3V8a3 3 0 013-3h3V4a2 2 0 012-2z' fill='currentColor'/><circle cx='9' cy='11' r='1' fill='white'/><circle cx='15' cy='11' r='1' fill='white'/><path d='M8 15h8v2H8v-2z' fill='white'/><path d='M12 1v2M6 6l-1.5-1.5M18 6l1.5-1.5' stroke='currentColor' stroke-width='2' stroke-linecap='round'/></svg>",
+      "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=400&h=400&fit=crop&crop=center",
+      "shortDescription": "Cutting-edge AI solutions and intelligent automation to transform your business operations and decision-making.",
+      "category": "Artificial Intelligence",
+      "priority": 3,
+      "detailedDescription": "Our AI and smart automation services leverage machine learning, natural language processing, and advanced analytics to create intelligent solutions that automate complex processes, enhance decision-making, and drive business innovation through data-driven insights.",
+      "technologies": ["Python", "TensorFlow", "PyTorch", "OpenAI GPT", "Langchain", "Apache Spark", "Pandas", "Scikit-learn", "Docker", "Kubernetes"],
+      "useCases": ["Intelligent chatbots", "Predictive analytics", "Process automation", "Data pipeline development", "Custom AI applications"],
       "subcategories": [
         {
-          "id": "ui-ux-design",
-          "title": "UI/UX Design",
-          "description": "User-centered design solutions that create intuitive and engaging digital experiences.",
-          "features": [
-            "User research and personas",
-            "Information architecture",
-            "Interactive prototyping",
-            "Usability testing",
-            "Responsive design"
-          ],
-          "benefits": [
-            "Improved user satisfaction",
-            "Higher conversion rates",
-            "Reduced development iterations",
-            "Enhanced brand perception"
-          ]
+          "id": "ai-app-development",
+          "title": "AI App Development",
+          "description": "Custom AI-powered applications that leverage machine learning and advanced algorithms for intelligent functionality.",
+          "features": ["Machine Learning Models", "Computer Vision", "Natural Language Processing", "Predictive Analytics"]
         },
         {
-          "id": "wireframing-prototyping",
-          "title": "Wireframing & Prototyping",
-          "description": "Create detailed wireframes and interactive prototypes to visualize and test your product concepts.",
-          "features": [
-            "Low-fidelity wireframes",
-            "High-fidelity mockups",
-            "Interactive prototypes",
-            "User flow mapping",
-            "Design system creation"
-          ],
-          "benefits": [
-            "Clear project visualization",
-            "Early feedback incorporation",
-            "Reduced development risks",
-            "Stakeholder alignment"
-          ]
+          "id": "business-automation",
+          "title": "Business Automation",
+          "description": "Intelligent automation solutions that streamline business processes and reduce manual workload.",
+          "features": ["Process Automation", "Workflow Optimization", "RPA Implementation", "Smart Decision Making"]
         },
         {
-          "id": "branding-visual-identity",
-          "title": "Branding & Visual Identity",
-          "description": "Develop compelling brand identities that resonate with your target audience and differentiate your business.",
-          "features": [
-            "Logo design and branding",
-            "Color palette and typography",
-            "Brand guidelines",
-            "Marketing materials",
-            "Digital asset creation"
-          ],
-          "benefits": [
-            "Strong brand recognition",
-            "Consistent brand experience",
-            "Professional market presence",
-            "Increased customer trust"
-          ]
+          "id": "chatbots-virtual-assistants",
+          "title": "Chatbots & Virtual Assistants",
+          "description": "AI-powered conversational interfaces that provide 24/7 customer support and intelligent interactions.",
+          "features": ["Natural Language Understanding", "Multi-platform Integration", "Context Awareness", "Learning Capabilities"]
+        },
+        {
+          "id": "generative-ai-tools",
+          "title": "Generative AI Tools",
+          "description": "Custom generative AI solutions for content creation, code generation, and creative applications.",
+          "features": ["Content Generation", "Code Assistance", "Creative AI", "Custom GPT Models"]
+        },
+        {
+          "id": "data-engineering",
+          "title": "Data Engineering",
+          "description": "Robust data pipelines and infrastructure for collecting, processing, and analyzing large datasets.",
+          "features": ["Data Pipeline Development", "ETL Processes", "Data Warehousing", "Real-time Processing"]
+        },
+        {
+          "id": "big-data-analytics",
+          "title": "Big Data Analytics",
+          "description": "Advanced analytics and insights from large-scale data processing and machine learning algorithms.",
+          "features": ["Predictive Modeling", "Data Visualization", "Statistical Analysis", "Business Intelligence"]
         }
       ]
     },
     {
-      "id": "custom-software-development",
-      "title": "Custom Software Development",
-      "icon": "💻",
-      "shortDescription": "Tailored software solutions built with modern technologies to meet your specific business requirements.",
+      "id": "cloud-it-infrastructure",
+      "title": "Cloud & IT Infrastructure",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9V16H7z' fill='currentColor'/><path d='M9 12l2 2 4-4' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=400&fit=crop&crop=center",
+      "shortDescription": "Comprehensive cloud solutions and IT infrastructure management for scalable, reliable, and secure operations.",
+      "category": "Infrastructure",
+      "priority": 4,
+      "detailedDescription": "Our cloud and IT infrastructure services provide scalable, secure, and cost-effective solutions for modern businesses. From cloud migration to DevOps implementation, we ensure your infrastructure supports growth while maintaining optimal performance and security.",
+      "technologies": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitLab CI/CD", "Ansible", "Prometheus"],
+      "useCases": ["Cloud migration", "Infrastructure automation", "Continuous deployment", "Disaster recovery", "Performance monitoring"],
       "subcategories": [
         {
-          "id": "full-stack-web-applications",
-          "title": "Full-Stack Web Applications",
-          "description": "End-to-end web application development using modern frameworks and best practices.",
-          "features": [
-            "Frontend development (React, Vue, Angular)",
-            "Backend development (Node.js, Python, Java)",
-            "Database design and optimization",
-            "API development and integration",
-            "Cloud deployment and hosting"
-          ],
-          "benefits": [
-            "Scalable architecture",
-            "Cross-platform compatibility",
-            "High performance",
-            "Maintainable codebase"
-          ]
+          "id": "cloud-setup-management",
+          "title": "Cloud Setup & Management",
+          "description": "Complete cloud infrastructure setup and ongoing management for optimal performance and cost efficiency.",
+          "features": ["Cloud Migration", "Infrastructure Setup", "Cost Optimization", "Performance Monitoring"]
         },
         {
-          "id": "b2b-b2c-custom-apps",
-          "title": "B2B and B2C Custom Apps",
-          "description": "Custom applications designed specifically for business-to-business or business-to-consumer needs.",
-          "features": [
-            "Mobile app development",
-            "Progressive web apps",
-            "User management systems",
-            "Payment integration",
-            "Analytics and reporting"
-          ],
-          "benefits": [
-            "Tailored user experience",
-            "Streamlined business processes",
-            "Competitive advantage",
-            "Improved customer engagement"
-          ]
+          "id": "it-support-maintenance",
+          "title": "IT Support & Maintenance",
+          "description": "Comprehensive IT support and maintenance services to ensure your systems run smoothly and securely.",
+          "features": ["24/7 Support", "System Maintenance", "Security Updates", "Performance Optimization"]
         },
         {
-          "id": "custom-cms-admin-dashboards",
-          "title": "Custom CMS & Admin Dashboards",
-          "description": "Content management systems and administrative interfaces tailored to your workflow requirements.",
-          "features": [
-            "Custom content management",
-            "Role-based access control",
-            "Data visualization",
-            "Workflow automation",
-            "Multi-user collaboration"
-          ],
-          "benefits": [
-            "Streamlined content management",
-            "Improved operational efficiency",
-            "Better data insights",
-            "Enhanced team collaboration"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "integration-automation",
-      "title": "Integration & Automation",
-      "icon": "🔗",
-      "shortDescription": "Seamless integrations and automation solutions to streamline your business operations.",
-      "subcategories": [
-        {
-          "id": "basic-api-integrations",
-          "title": "Basic API Integrations",
-          "description": "Connect your systems with essential third-party services for payments, CRM, and communication.",
-          "features": [
-            "Payment gateway integration (Stripe, PayPal)",
-            "CRM system integration (Salesforce, HubSpot)",
-            "Email service integration (SendGrid, Mailgun)",
-            "SMS and communication APIs",
-            "Social media API integration"
-          ],
-          "benefits": [
-            "Streamlined operations",
-            "Reduced manual work",
-            "Improved data flow",
-            "Enhanced customer experience"
-          ]
-        },
-        {
-          "id": "marketing-tools-integration",
-          "title": "Marketing Tools Integration",
-          "description": "Integrate popular marketing platforms to automate your marketing workflows and campaigns.",
-          "features": [
-            "Mailchimp integration",
-            "HubSpot marketing automation",
-            "Calendly scheduling integration",
-            "Google Analytics setup",
-            "Social media management tools"
-          ],
-          "benefits": [
-            "Automated marketing campaigns",
-            "Better lead management",
-            "Improved conversion tracking",
-            "Streamlined scheduling"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "qa-testing",
-      "title": "QA & Testing",
-      "icon": "🔍",
-      "shortDescription": "Comprehensive quality assurance and testing services to ensure your software meets the highest standards.",
-      "subcategories": [
-        {
-          "id": "manual-testing-qa",
-          "title": "Manual Testing, Regression & Functional QA",
-          "description": "Thorough manual testing processes to identify bugs and ensure optimal software functionality.",
-          "features": [
-            "Functional testing",
-            "Regression testing",
-            "User acceptance testing",
-            "Cross-browser testing",
-            "Mobile device testing",
-            "Performance testing",
-            "Security testing"
-          ],
-          "benefits": [
-            "Higher software quality",
-            "Reduced post-launch bugs",
-            "Improved user experience",
-            "Enhanced reliability"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "tools-internal-products",
-      "title": "Tools & Internal Products",
-      "icon": "🛠️",
-      "shortDescription": "Internal tools and systems to optimize your business operations and team productivity.",
-      "subcategories": [
-        {
-          "id": "crm-ticketing-setup",
-          "title": "CRM & Ticketing Setup",
-          "description": "Implementation and customization of customer relationship management and support ticketing systems.",
-          "features": [
-            "CRM system setup and customization",
-            "Support ticketing system implementation",
-            "Customer data migration",
-            "Workflow automation",
-            "Reporting and analytics setup"
-          ],
-          "benefits": [
-            "Improved customer management",
-            "Streamlined support processes",
-            "Better customer insights",
-            "Enhanced team productivity"
-          ]
-        },
-        {
-          "id": "timesheet-project-tracking",
-          "title": "Timesheet/Project Tracking",
-          "description": "Project management and time tracking solutions using platforms like Notion and Jira.",
-          "features": [
-            "Notion workspace setup",
-            "Jira project configuration",
-            "Time tracking implementation",
-            "Project dashboard creation",
-            "Team collaboration tools"
-          ],
-          "benefits": [
-            "Better project visibility",
-            "Improved time management",
-            "Enhanced team collaboration",
-            "Accurate project reporting"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "seo-optimization",
-      "title": "SEO Optimization",
-      "icon": "📈",
-      "shortDescription": "Comprehensive SEO services to improve your website's visibility and search engine rankings.",
-      "subcategories": [
-        {
-          "id": "on-page-seo",
-          "title": "On-Page SEO",
-          "description": "Optimize your website's content and structure for better search engine visibility.",
-          "features": [
-            "Metadata optimization",
-            "Schema markup implementation",
-            "Header structure optimization",
-            "Keyword strategy development",
-            "Content optimization"
-          ],
-          "benefits": [
-            "Improved search rankings",
-            "Higher organic traffic",
-            "Better user experience",
-            "Increased click-through rates"
-          ]
-        },
-        {
-          "id": "technical-seo",
-          "title": "Technical SEO",
-          "description": "Technical optimizations to improve your website's performance and search engine crawlability.",
-          "features": [
-            "Site speed optimization",
-            "Mobile responsiveness improvements",
-            "Indexability enhancements",
-            "URL structure optimization",
-            "XML sitemap creation"
-          ],
-          "benefits": [
-            "Faster page load times",
-            "Better mobile experience",
-            "Improved search engine crawling",
-            "Higher search rankings"
-          ]
-        },
-        {
-          "id": "analytics-setup",
-          "title": "Analytics & Monitoring Setup",
-          "description": "Set up comprehensive tracking and monitoring tools to measure your SEO performance.",
-          "features": [
-            "Google Search Console setup",
-            "Google Analytics configuration",
-            "Performance monitoring",
-            "Conversion tracking",
-            "Custom reporting dashboards"
-          ],
-          "benefits": [
-            "Data-driven insights",
-            "Performance tracking",
-            "ROI measurement",
-            "Informed optimization decisions"
-          ]
-        },
-        {
-          "id": "content-strategy",
-          "title": "Content Strategy & Planning",
-          "description": "Develop content strategies and roadmaps to support your SEO and marketing goals.",
-          "features": [
-            "SEO content recommendations",
-            "Blogging roadmap development",
-            "Content calendar creation",
-            "Keyword research and mapping",
-            "Content gap analysis"
-          ],
-          "benefits": [
-            "Strategic content planning",
-            "Improved content relevance",
-            "Better keyword targeting",
-            "Consistent content production"
-          ]
-        },
-        {
-          "id": "competitor-analysis",
-          "title": "Competitor SEO Benchmarking",
-          "description": "Analyze your competitors' SEO strategies to identify opportunities and gaps.",
-          "features": [
-            "Competitor keyword analysis",
-            "Backlink profile comparison",
-            "Content gap identification",
-            "SERP position tracking",
-            "Strategy recommendations"
-          ],
-          "benefits": [
-            "Competitive advantage",
-            "Market opportunity identification",
-            "Strategic positioning",
-            "Informed decision making"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "cybersecurity",
-      "title": "Cybersecurity",
-      "icon": "🔒",
-      "shortDescription": "Comprehensive cybersecurity solutions to protect your digital assets and ensure business continuity.",
-      "subcategories": [
-        {
-          "id": "security-audit",
-          "title": "Basic Security Audit",
-          "description": "Comprehensive security assessment for websites and applications to identify vulnerabilities.",
-          "features": [
-            "Vulnerability assessment",
-            "Security configuration review",
-            "Access control evaluation",
-            "Data protection analysis",
-            "Security recommendations"
-          ],
-          "benefits": [
-            "Identified security risks",
-            "Compliance readiness",
-            "Improved security posture",
-            "Risk mitigation strategies"
-          ]
-        },
-        {
-          "id": "ssl-https-setup",
-          "title": "SSL Certificate & HTTPS Setup",
-          "description": "Implement SSL certificates and enforce HTTPS to secure data transmission.",
-          "features": [
-            "SSL certificate installation",
-            "HTTPS enforcement",
-            "Mixed content resolution",
-            "Certificate renewal automation",
-            "Security header configuration"
-          ],
-          "benefits": [
-            "Encrypted data transmission",
-            "Improved SEO rankings",
-            "Enhanced user trust",
-            "Browser security compliance"
-          ]
-        },
-        {
-          "id": "user-authentication",
-          "title": "Secure User Authentication",
-          "description": "Implement robust authentication systems with multi-factor authentication and strong password policies.",
-          "features": [
-            "Two-factor authentication (2FA)",
-            "Strong password policies",
-            "Session management",
-            "Account lockout protection",
-            "OAuth integration"
-          ],
-          "benefits": [
-            "Enhanced account security",
-            "Reduced unauthorized access",
-            "Compliance with security standards",
-            "User-friendly security measures"
-          ]
-        },
-        {
-          "id": "data-encryption",
-          "title": "Data Encryption",
-          "description": "Implement comprehensive data encryption for data at rest and in transit.",
-          "features": [
-            "Database encryption",
-            "File system encryption",
-            "API encryption",
-            "Key management",
-            "Encryption monitoring"
-          ],
-          "benefits": [
-            "Protected sensitive data",
-            "Compliance with regulations",
-            "Reduced data breach risk",
-            "Enhanced customer trust"
-          ]
-        },
-        {
-          "id": "vulnerability-checks",
-          "title": "OWASP Top 10 Vulnerability Checks",
-          "description": "Comprehensive testing for common web application vulnerabilities including SQLi, XSS, and CSRF.",
-          "features": [
-            "SQL injection testing",
-            "Cross-site scripting (XSS) checks",
-            "CSRF protection validation",
-            "Authentication bypass testing",
-            "Security misconfiguration review"
-          ],
-          "benefits": [
-            "Identified critical vulnerabilities",
-            "OWASP compliance",
-            "Reduced attack surface",
-            "Improved application security"
-          ]
-        },
-        {
-          "id": "access-control",
-          "title": "Role-Based Access Control (RBAC)",
-          "description": "Implement sophisticated access control systems to manage user permissions and roles.",
-          "features": [
-            "Role definition and management",
-            "Permission matrix creation",
-            "User group management",
-            "Access audit trails",
-            "Privilege escalation protection"
-          ],
-          "benefits": [
-            "Controlled data access",
-            "Reduced insider threats",
-            "Compliance with regulations",
-            "Simplified user management"
-          ]
+          "id": "devops-deployment-automation",
+          "title": "DevOps & Deployment Automation",
+          "description": "Streamlined development and deployment processes with automated CI/CD pipelines and infrastructure as code.",
+          "features": ["CI/CD Pipelines", "Infrastructure as Code", "Automated Testing", "Container Orchestration"]
         },
         {
           "id": "backup-recovery",
-          "title": "Backup Strategy & Recovery Planning",
-          "description": "Develop comprehensive backup and disaster recovery strategies to ensure business continuity.",
-          "features": [
-            "Automated backup systems",
-            "Disaster recovery planning",
-            "Data restoration procedures",
-            "Backup testing and validation",
-            "Recovery time optimization"
-          ],
-          "benefits": [
-            "Business continuity assurance",
-            "Minimized data loss risk",
-            "Faster recovery times",
-            "Compliance with backup requirements"
-          ]
+          "title": "Backup & Recovery",
+          "description": "Robust backup and disaster recovery solutions to protect your data and ensure business continuity.",
+          "features": ["Automated Backups", "Disaster Recovery", "Data Restoration", "Business Continuity"]
+        },
+        {
+          "id": "blockchain-solutions",
+          "title": "Blockchain Solutions",
+          "description": "Innovative blockchain implementations for secure, transparent, and decentralized business solutions.",
+          "features": ["Smart Contracts", "Cryptocurrency Integration", "Decentralized Applications", "Blockchain Consulting"]
+        }
+      ]
+    },
+    {
+      "id": "database-services",
+      "title": "Database Services",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z' fill='currentColor'/><path d='M2 8h20M2 12h20M2 16h20' stroke='white' stroke-width='1.5'/><circle cx='6' cy='6' r='1' fill='white'/><circle cx='6' cy='10' r='1' fill='white'/><circle cx='6' cy='14' r='1' fill='white'/><circle cx='6' cy='18' r='1' fill='white'/></svg>",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop&crop=center",
+      "shortDescription": "Comprehensive database solutions including design, optimization, migration, and reporting for efficient data management.",
+      "category": "Data Management",
+      "priority": 5,
+      "detailedDescription": "Our database services provide comprehensive solutions for data storage, management, and analysis. From database design and optimization to migration and reporting, we ensure your data infrastructure supports your business needs with optimal performance and reliability.",
+      "technologies": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch", "Apache Kafka", "Tableau", "Power BI", "Apache Airflow"],
+      "useCases": ["Database architecture design", "Performance optimization", "Data warehouse implementation", "Business intelligence dashboards", "Data migration projects"],
+      "subcategories": [
+        {
+          "id": "database-design-optimization",
+          "title": "Database Design & Optimization",
+          "description": "Expert database architecture design and performance optimization for scalable and efficient data management.",
+          "features": ["Schema Design", "Query Optimization", "Index Management", "Performance Tuning"]
+        },
+        {
+          "id": "data-migration",
+          "title": "Data Migration",
+          "description": "Seamless data migration services between different database systems with minimal downtime and data integrity.",
+          "features": ["Migration Planning", "Data Validation", "Zero-downtime Migration", "Legacy System Integration"]
+        },
+        {
+          "id": "dashboards-reporting",
+          "title": "Dashboards & Reporting",
+          "description": "Interactive dashboards and comprehensive reporting solutions for data visualization and business insights.",
+          "features": ["Real-time Dashboards", "Custom Reports", "Data Visualization", "Business Intelligence"]
+        },
+        {
+          "id": "data-backup-recovery",
+          "title": "Data Backup & Recovery",
+          "description": "Robust backup strategies and disaster recovery solutions to protect your critical business data.",
+          "features": ["Automated Backups", "Point-in-time Recovery", "Disaster Recovery Planning", "Data Archiving"]
+        }
+      ]
+    },
+    {
+      "id": "startup-tech-partner",
+      "title": "Startup Tech Partner & Launch Support",
+      "icon": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.77 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z' fill='currentColor'/><path d='M8 12l2 2 6-6' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+      "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=400&fit=crop&crop=center",
+      "shortDescription": "Comprehensive tech partnership for startups from idea validation to product launch and scaling.",
+      "category": "Startup Services",
+      "priority": 6,
+      "detailedDescription": "We partner with startups to provide end-to-end technical support from concept to launch. Our services include MVP development, technical leadership, product strategy, and ongoing support to help startups build, launch, and scale their products successfully in competitive markets.",
+      "technologies": ["React", "Node.js", "Python", "AWS", "Docker", "MongoDB", "PostgreSQL", "Stripe", "Firebase", "Vercel"],
+      "useCases": ["MVP development and launch", "Technical co-founder services", "Product strategy and roadmapping", "Startup consulting", "Agile development processes"],
+      "subcategories": [
+        {
+          "id": "mvp-development",
+          "title": "MVP Development",
+          "description": "Rapid development of Minimum Viable Products to validate your business idea and enter the market quickly.",
+          "features": ["Rapid Prototyping", "Core Feature Development", "User Testing", "Market Validation"]
+        },
+        {
+          "id": "agile-product-development",
+          "title": "Agile Product Development",
+          "description": "Iterative product development using agile methodologies for flexible and responsive product evolution.",
+          "features": ["Sprint Planning", "Iterative Development", "Continuous Feedback", "Adaptive Planning"]
+        },
+        {
+          "id": "cto-as-a-service",
+          "title": "CTO-as-a-Service",
+          "description": "Technical leadership and strategic guidance for startups without a full-time CTO.",
+          "features": ["Technical Strategy", "Team Leadership", "Architecture Planning", "Technology Decisions"]
+        },
+        {
+          "id": "product-roadmapping",
+          "title": "Product Roadmapping",
+          "description": "Strategic product planning and roadmap development to guide your product's evolution and growth.",
+          "features": ["Feature Prioritization", "Timeline Planning", "Resource Allocation", "Milestone Definition"]
+        },
+        {
+          "id": "idea-validation-consulting",
+          "title": "Idea Validation & Consulting",
+          "description": "Comprehensive idea validation and strategic consulting to assess market potential and business viability.",
+          "features": ["Market Research", "Feasibility Analysis", "Business Model Validation", "Go-to-Market Strategy"]
         }
       ]
     }

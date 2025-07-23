@@ -120,13 +120,27 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
         } : {}}
       >
         <div className="service-popup-header">
-          <div className="service-popup-title-section">
-            <div className="service-popup-icon">
-              <span className="service-popup-emoji">{service.icon}</span>
-            </div>
-            <div className="service-popup-title-content">
-              <h2 className="service-popup-title">{service.title}</h2>
-              <p className="service-popup-description">{service.shortDescription}</p>
+          <div className="service-popup-hero-image" style={{
+            backgroundImage: `url(${service.image || 'https://via.placeholder.com/400x300/1a1a1a/00d4ff?text=Service'})`
+          }}>
+            <div className="service-popup-hero-overlay">
+              <div className="service-popup-title-section">
+                <div className="service-popup-category-badge">
+                  {service.category || 'Professional Service'}
+                </div>
+                <h2 className="service-popup-title">{service.title}</h2>
+                <p className="service-popup-description">{service.shortDescription}</p>
+                <div className="service-popup-stats">
+                  <div className="service-popup-stat">
+                    <span className="stat-number">{service.subcategories?.length || 0}</span>
+                    <span className="stat-label">Services</span>
+                  </div>
+                  <div className="service-popup-stat">
+                    <span className="stat-number">{service.technologies?.length || 0}</span>
+                    <span className="stat-label">Technologies</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <button className="service-popup-close" onClick={handleClose}>
