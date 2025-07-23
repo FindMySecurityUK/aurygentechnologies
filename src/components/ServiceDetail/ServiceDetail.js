@@ -79,7 +79,7 @@ const ServiceDetail = () => {
           </div>
           <div className="service-hero">
             <div className="service-icon-large">
-              <span className="service-emoji-large">{service.icon}</span>
+              <div className="service-emoji-large" dangerouslySetInnerHTML={{ __html: service.icon }}></div>
             </div>
             <h1 className="service-detail-title">{displayData.title}</h1>
             <p className="service-detail-subtitle">{isSubcategory ? displayData.description : displayData.shortDescription}</p>

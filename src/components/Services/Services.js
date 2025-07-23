@@ -96,7 +96,7 @@ const Services = () => {
                   onClick={(e) => handleServiceClick(service, e)}
                 >
                   <div className="service-icon">
-                    <span className="service-emoji">{service.icon}</span>
+                    <div className="service-emoji" dangerouslySetInnerHTML={{ __html: service.icon }}></div>
                   </div>
                   <h3 className="service-name">{service.title}</h3>
                   <p className="service-description">{service.shortDescription}</p>
