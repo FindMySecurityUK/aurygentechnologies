@@ -27,7 +27,17 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
         });
       }
       
-      // Prevent keyboard scrolling
+      // Prevent scrolling gently
+      const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+      document.body.style.overflow = 'hidden';
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
+      document.body.dataset.scrollY = scrollPosition.current.toString();
+      
+      // Prevent scroll events
+      const preventScroll = (e) => {
+        e.preventDefault();
+      };
+      
       const preventKeyboardScroll = (e) => {
         const scrollKeys = [32, 33, 34, 35, 36, 37, 38, 39, 40];
         if (scrollKeys.includes(e.keyCode)) {
@@ -35,7 +45,9 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
         }
       };
       
-      document.addEventListener('keydown', preventKeyboardScroll);
+      document.addEventListener('wheel', preventScroll, { passive: false });
+      document.addEventListener('touchmove', preventScroll, { passive: false });
+      document.addEventListener('keydown', preventKeyboardScroll, { passive: false });
       
       // Trigger entrance animation after DOM update
       const timer = setTimeout(() => {
@@ -50,6 +62,11 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
       return () => {
         clearTimeout(timer);
         clearTimeout(clearTimer);
+        document.body.style.overflow = '';
+        document.body.style.paddingRight = '';
+        delete document.body.dataset.scrollY;
+        document.removeEventListener('wheel', preventScroll);
+        document.removeEventListener('touchmove', preventScroll);
         document.removeEventListener('keydown', preventKeyboardScroll);
       };
     } else if (shouldRender) {
@@ -59,6 +76,16 @@ const ServicePopup = ({ service, isOpen, onClose }) => {
       // Wait for animation to complete before unmounting
       const timer = setTimeout(() => {
         setShouldRender(false);
+        
+        // Restore scroll position smoothly
+        const scrollY = parseInt(document.body.dataset.scrollY || '0', 10);
+        document.body.style.overflow = '';
+        document.body.style.paddingRight = '';
+        delete document.body.dataset.scrollY;
+        
+        requestAnimationFrame(() => {
+          window.scrollTo({ top: scrollY, behavior: 'instant' });
+        });
       }, 600); // Match animation duration
       return () => clearTimeout(timer);
     }

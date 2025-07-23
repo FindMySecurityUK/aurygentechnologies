@@ -15,9 +15,9 @@ body {
   text-align: center;
 }
 
-/* Smooth scrolling */
+/* Smooth scrolling handled by Lenis */
 html {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; - Removed to prevent conflicts with Lenis */
 }
 
 /* Common animations */

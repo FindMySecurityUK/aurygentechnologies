@@ -141,7 +141,20 @@ body.popup-open {
   width: 100% !important;
 }
 
-/* Ensure smooth scrolling is maintained */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Optimize scrolling performance */
 html {
-  scroll-behavior: smooth;
+  scroll-padding-top: 0;
+  overscroll-behavior: none;
+  /* scroll-behavior handled by Lenis */
+}
+
+body {
+  overscroll-behavior: none;
+  scroll-behavior: auto; /* Let Lenis handle smooth scrolling */
 }
