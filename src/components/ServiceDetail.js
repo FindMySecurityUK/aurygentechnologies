@@ -144,18 +144,24 @@ const ServiceDetail = () => {
             <p>{servicesData.developmentProcess.description}</p>
           </div>
           
-          <div className="process-steps">
-            {servicesData.developmentProcess.steps.map((step, index) => (
-              <div key={step.id} className="process-step">
-                <div className="step-number">{index + 1}</div>
-                <div className="step-content">
-                  <div className="step-icon">{step.icon}</div>
-                  <h3 className="step-title">{step.title}</h3>
-                  <p className="step-description">{step.description}</p>
-                  <span className="step-duration">{step.duration}</span>
+          <div className="roadmap-container">
+            <div className="roadmap-timeline">
+              {servicesData.developmentProcess.steps.map((step, index) => (
+                <div key={step.id} className="roadmap-step">
+                  <div className="step-connector">
+                    <div className="step-number">{index + 1}</div>
+                    {index < servicesData.developmentProcess.steps.length - 1 && (
+                      <div className="connector-line"></div>
+                    )}
+                  </div>
+                  <div className="step-card">
+                    <div className="step-icon">{step.icon}</div>
+                    <h3 className="step-title">{step.title}</h3>
+                    <p className="step-description">{step.description}</p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
