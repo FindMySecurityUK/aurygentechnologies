@@ -4,7 +4,6 @@ import './App.css';
 import LenisProvider from './components/LenisProvider';
 import Navbar from './components/Navbar/Navbar';
 import LandingPage from './components/LandingPage/LandingPage';
-import TaglineSection from './components/TaglineSection/TaglineSection';
 import WhoWeAre from './components/WhoWeAre/WhoWeAre';
 import ScheduleMeeting from './components/ScheduleMeeting/ScheduleMeeting';
 import OurServices from './components/OurServices/OurServices';
@@ -15,7 +14,8 @@ import ClientTestimonials from './components/ClientTestimonials/ClientTestimonia
 import ContactUs from './components/ContactUs/ContactUs';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
-import ServiceDetail from './components/ServiceDetail/ServiceDetail';
+import ServiceCategories from './components/ServiceCategories';
+import ServiceDetail from './components/ServiceDetail';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import TermsConditions from './components/TermsConditions/TermsConditions';
 
@@ -44,8 +44,8 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/services/:id" element={<ServiceDetail />} />
-            <Route path="/services/:id/:subcategoryId" element={<ServiceDetail />} />
+            <Route path="/services/:serviceId" element={<ServiceCategories />} />
+            <Route path="/services/:serviceId/:subcategoryId" element={<ServiceDetail />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
           </Routes>

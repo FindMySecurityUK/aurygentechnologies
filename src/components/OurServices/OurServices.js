@@ -1,20 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
+import { useNavigate } from 'react-router-dom';
 import servicesData from '../../data/services.json';
-import ServicePopup from '../Services/ServicePopup';
 import './OurServices.css';
 import Carousel3D from '../Carousel3D/Carousel3D';
 
 const OurServices = () => {
+  const navigate = useNavigate();
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true
   });
 
   const [services, setServices] = useState([]);
-  const [categorizedServices, setCategorizedServices] = useState({});
-  const [selectedService, setSelectedService] = useState(null);
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   useEffect(() => {
     try {
@@ -22,37 +20,18 @@ const OurServices = () => {
         // Sort services by priority
         const sortedServices = servicesData.services.sort((a, b) => (a.priority || 999) - (b.priority || 999));
         setServices(sortedServices);
-        
-        // Group services by category
-        const grouped = sortedServices.reduce((acc, service) => {
-          const category = service.category || 'Other';
-          if (!acc[category]) {
-            acc[category] = [];
-          }
-          acc[category].push(service);
-          return acc;
-        }, {});
-        setCategorizedServices(grouped);
       } else {
         console.error('Services data is not available or not an array:', servicesData);
         setServices([]);
-        setCategorizedServices({});
       }
     } catch (error) {
       console.error('Error loading services data:', error);
       setServices([]);
-      setCategorizedServices({});
     }
   }, []);
 
   const handleServiceClick = (service) => {
-    setSelectedService(service);
-    setIsPopupOpen(true);
-  };
-
-  const handleClosePopup = () => {
-    setIsPopupOpen(false);
-    setSelectedService(null);
+    navigate(`/services/${service.id}`);
   };
 
   return (
@@ -93,11 +72,7 @@ const OurServices = () => {
         )}
       </div>
       
-      <ServicePopup 
-        service={selectedService}
-        isOpen={isPopupOpen}
-        onClose={handleClosePopup}
-      />
+
     </section>
   );
 };

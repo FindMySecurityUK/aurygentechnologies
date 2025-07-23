@@ -8,49 +8,51 @@
       "shortDescription": "Comprehensive software development services from web and mobile apps to custom business solutions.",
       "category": "Development",
       "priority": 1,
-      "detailedDescription": "We deliver end-to-end software development solutions tailored to your business needs. From modern web applications to mobile apps and enterprise software, our team uses cutting-edge technologies to build scalable, secure, and high-performance solutions.",
-      "technologies": ["React", "Node.js", "Python", "Java", "Swift", "Kotlin", "Flutter", "React Native", "MongoDB", "PostgreSQL"],
-      "useCases": ["Enterprise web applications", "Mobile app development", "E-commerce platforms", "SaaS products", "Custom business software"],
       "subcategories": [
         {
           "id": "website-development",
           "title": "Website Development",
           "description": "Modern, responsive websites built with cutting-edge technologies for optimal performance and user experience.",
-          "features": ["Responsive Design", "SEO Optimization", "Performance Optimization", "CMS Integration"]
+          "features": ["Responsive Design", "SEO Optimization", "Performance Optimization", "CMS Integration"],
+          "detailedDescription": "We create stunning, high-performance websites that engage your audience and drive business growth. Our websites are built with modern technologies, ensuring fast loading times, mobile responsiveness, and excellent search engine optimization."
         },
         {
           "id": "mobile-app-development",
           "title": "Mobile App Development",
           "description": "Native and cross-platform mobile applications for iOS and Android with seamless user experiences.",
-          "features": ["Native iOS/Android", "Cross-platform Solutions", "App Store Deployment", "Push Notifications"]
+          "features": ["Native iOS/Android", "Cross-platform Solutions", "App Store Deployment", "Push Notifications"],
+          "detailedDescription": "Transform your business with powerful mobile applications. We develop both native and cross-platform apps that deliver exceptional user experiences, integrate seamlessly with your existing systems, and help you reach your customers wherever they are."
         },
         {
           "id": "custom-business-software",
           "title": "Custom Business Software",
           "description": "Tailored software solutions designed to meet specific business requirements and workflows.",
-          "features": ["Custom Workflows", "Business Logic Implementation", "Third-party Integrations", "Scalable Architecture"]
+          "features": ["Custom Workflows", "Business Logic Implementation", "Third-party Integrations", "Scalable Architecture"],
+          "detailedDescription": "Streamline your business operations with custom software solutions designed specifically for your unique needs. We build scalable, secure applications that automate processes, improve efficiency, and give you a competitive edge in your industry."
         },
         {
           "id": "saas-product-development",
           "title": "SaaS Product Development",
           "description": "End-to-end SaaS platform development with multi-tenancy, subscription management, and scalability.",
-          "features": ["Multi-tenant Architecture", "Subscription Management", "API Development", "Cloud Deployment"]
+          "features": ["Multi-tenant Architecture", "Subscription Management", "API Development", "Cloud Deployment"],
+          "detailedDescription": "Launch your SaaS product with confidence. We provide complete SaaS development services including architecture design, subscription billing, user management, and scalable cloud infrastructure to support your growing customer base."
         },
         {
           "id": "system-integrations",
           "title": "System Integrations",
           "description": "Seamless integration of disparate systems and third-party services for unified business operations.",
-          "features": ["API Integration", "Data Synchronization", "Legacy System Integration", "Middleware Development"]
+          "features": ["API Integration", "Data Synchronization", "Legacy System Integration", "Middleware Development"],
+          "detailedDescription": "Connect your business systems for seamless data flow and improved efficiency. We specialize in integrating various platforms, APIs, and legacy systems to create a unified technology ecosystem that works harmoniously."
         },
         {
           "id": "testing-qa",
           "title": "Testing & QA",
           "description": "Comprehensive testing and quality assurance services to ensure reliable, bug-free software delivery.",
-          "features": ["Automated Testing", "Manual Testing", "Performance Testing", "Security Testing"]
+          "features": ["Automated Testing", "Manual Testing", "Performance Testing", "Security Testing"],
+          "detailedDescription": "Ensure your software meets the highest quality standards with our comprehensive testing services. We employ both automated and manual testing methodologies to identify and resolve issues before they impact your users."
         }
       ]
     },
-
     {
       "id": "cybersecurity-solutions",
       "title": "Cybersecurity Solutions",
@@ -59,39 +61,41 @@
       "shortDescription": "Comprehensive cybersecurity services to protect your digital assets and ensure compliance with data privacy regulations.",
       "category": "Security",
       "priority": 2,
-      "detailedDescription": "Our cybersecurity solutions provide comprehensive protection for your digital infrastructure. From data privacy compliance to advanced threat protection, we implement robust security measures to safeguard your business against cyber threats and ensure regulatory compliance.",
-      "technologies": ["SSL/TLS", "OAuth 2.0", "JWT", "Firewall Configuration", "Penetration Testing", "GDPR Compliance", "Multi-factor Authentication"],
-      "useCases": ["Data breach prevention", "Compliance auditing", "Secure application development", "Network security implementation", "Identity and access management"],
       "subcategories": [
         {
           "id": "data-privacy-compliance",
           "title": "Data Privacy Compliance",
           "description": "Ensure your business meets data privacy regulations like GDPR, CCPA, and other compliance requirements.",
-          "features": ["GDPR Compliance", "Data Audit", "Privacy Policy Development", "Consent Management"]
+          "features": ["GDPR Compliance", "Data Audit", "Privacy Policy Development", "Consent Management"],
+          "detailedDescription": "Navigate the complex landscape of data privacy regulations with our expert compliance services. We help you implement robust data protection measures, conduct thorough audits, and maintain ongoing compliance with evolving privacy laws."
         },
         {
           "id": "app-website-security",
           "title": "App & Website Security",
           "description": "Comprehensive security implementation for web applications and mobile apps to prevent vulnerabilities.",
-          "features": ["SSL/TLS Implementation", "XSS Protection", "SQL Injection Prevention", "Security Headers"]
+          "features": ["SSL/TLS Implementation", "XSS Protection", "SQL Injection Prevention", "Security Headers"],
+          "detailedDescription": "Protect your applications from cyber threats with our comprehensive security implementation services. We secure your web and mobile applications against common vulnerabilities and implement industry best practices for data protection."
         },
         {
           "id": "secure-login-access-control",
           "title": "Secure Login & Access Control",
           "description": "Implement robust authentication and authorization systems to control user access and protect sensitive data.",
-          "features": ["Multi-factor Authentication", "OAuth 2.0", "Role-based Access Control", "Session Management"]
+          "features": ["Multi-factor Authentication", "OAuth 2.0", "Role-based Access Control", "Session Management"],
+          "detailedDescription": "Strengthen your security posture with advanced authentication and access control systems. We implement multi-layered security measures to ensure only authorized users can access your sensitive data and systems."
         },
         {
           "id": "firewall-device-protection",
           "title": "Firewall & Device Protection",
           "description": "Network security solutions including firewall configuration and device protection strategies.",
-          "features": ["Firewall Configuration", "Network Monitoring", "Intrusion Detection", "Device Security"]
+          "features": ["Firewall Configuration", "Network Monitoring", "Intrusion Detection", "Device Security"],
+          "detailedDescription": "Secure your network infrastructure with professional firewall configuration and device protection services. We implement comprehensive network security measures to prevent unauthorized access and monitor for potential threats."
         },
         {
           "id": "security-audits",
           "title": "Security Audits",
           "description": "Comprehensive security assessments and penetration testing to identify and address vulnerabilities.",
-          "features": ["Penetration Testing", "Vulnerability Assessment", "Security Code Review", "Compliance Auditing"]
+          "features": ["Penetration Testing", "Vulnerability Assessment", "Security Code Review", "Compliance Auditing"],
+          "detailedDescription": "Identify and address security vulnerabilities before they become threats. Our comprehensive security audits include penetration testing, code reviews, and compliance assessments to ensure your systems meet the highest security standards."
         }
       ]
     },
@@ -103,45 +107,48 @@
       "shortDescription": "Cutting-edge AI solutions and intelligent automation to transform your business operations and decision-making.",
       "category": "Artificial Intelligence",
       "priority": 3,
-      "detailedDescription": "Our AI and smart automation services leverage machine learning, natural language processing, and advanced analytics to create intelligent solutions that automate complex processes, enhance decision-making, and drive business innovation through data-driven insights.",
-      "technologies": ["Python", "TensorFlow", "PyTorch", "OpenAI GPT", "Langchain", "Apache Spark", "Pandas", "Scikit-learn", "Docker", "Kubernetes"],
-      "useCases": ["Intelligent chatbots", "Predictive analytics", "Process automation", "Data pipeline development", "Custom AI applications"],
       "subcategories": [
         {
           "id": "ai-app-development",
           "title": "AI App Development",
           "description": "Custom AI-powered applications that leverage machine learning and advanced algorithms for intelligent functionality.",
-          "features": ["Machine Learning Models", "Computer Vision", "Natural Language Processing", "Predictive Analytics"]
+          "features": ["Machine Learning Models", "Computer Vision", "Natural Language Processing", "Predictive Analytics"],
+          "detailedDescription": "Harness the power of artificial intelligence with custom AI applications tailored to your business needs. We develop intelligent solutions that learn, adapt, and provide valuable insights to drive your business forward."
         },
         {
           "id": "business-automation",
           "title": "Business Automation",
           "description": "Intelligent automation solutions that streamline business processes and reduce manual workload.",
-          "features": ["Process Automation", "Workflow Optimization", "RPA Implementation", "Smart Decision Making"]
+          "features": ["Process Automation", "Workflow Optimization", "RPA Implementation", "Smart Decision Making"],
+          "detailedDescription": "Transform your business operations with intelligent automation solutions. We help you identify automation opportunities, implement smart workflows, and reduce manual tasks to improve efficiency and reduce costs."
         },
         {
           "id": "chatbots-virtual-assistants",
           "title": "Chatbots & Virtual Assistants",
           "description": "AI-powered conversational interfaces that provide 24/7 customer support and intelligent interactions.",
-          "features": ["Natural Language Understanding", "Multi-platform Integration", "Context Awareness", "Learning Capabilities"]
+          "features": ["Natural Language Understanding", "Multi-platform Integration", "Context Awareness", "Learning Capabilities"],
+          "detailedDescription": "Enhance customer experience with intelligent chatbots and virtual assistants. Our AI-powered solutions provide 24/7 support, understand natural language, and continuously learn to improve customer interactions."
         },
         {
           "id": "generative-ai-tools",
           "title": "Generative AI Tools",
           "description": "Custom generative AI solutions for content creation, code generation, and creative applications.",
-          "features": ["Content Generation", "Code Assistance", "Creative AI", "Custom GPT Models"]
+          "features": ["Content Generation", "Code Assistance", "Creative AI", "Custom GPT Models"],
+          "detailedDescription": "Leverage the latest in generative AI technology to create content, assist with coding, and enhance creative processes. We develop custom AI tools that generate high-quality content and automate creative tasks."
         },
         {
           "id": "data-engineering",
           "title": "Data Engineering",
           "description": "Robust data pipelines and infrastructure for collecting, processing, and analyzing large datasets.",
-          "features": ["Data Pipeline Development", "ETL Processes", "Data Warehousing", "Real-time Processing"]
+          "features": ["Data Pipeline Development", "ETL Processes", "Data Warehousing", "Real-time Processing"],
+          "detailedDescription": "Build robust data infrastructure that supports your AI and analytics initiatives. We design and implement scalable data pipelines that collect, process, and prepare your data for advanced analytics and machine learning."
         },
         {
           "id": "big-data-analytics",
           "title": "Big Data Analytics",
           "description": "Advanced analytics and insights from large-scale data processing and machine learning algorithms.",
-          "features": ["Predictive Modeling", "Data Visualization", "Statistical Analysis", "Business Intelligence"]
+          "features": ["Predictive Modeling", "Data Visualization", "Statistical Analysis", "Business Intelligence"],
+          "detailedDescription": "Unlock the value in your data with advanced analytics and machine learning. We help you discover patterns, predict trends, and make data-driven decisions that drive business growth and competitive advantage."
         }
       ]
     },
@@ -153,39 +160,41 @@
       "shortDescription": "Comprehensive cloud solutions and IT infrastructure management for scalable, reliable, and secure operations.",
       "category": "Infrastructure",
       "priority": 4,
-      "detailedDescription": "Our cloud and IT infrastructure services provide scalable, secure, and cost-effective solutions for modern businesses. From cloud migration to DevOps implementation, we ensure your infrastructure supports growth while maintaining optimal performance and security.",
-      "technologies": ["AWS", "Azure", "Google Cloud", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitLab CI/CD", "Ansible", "Prometheus"],
-      "useCases": ["Cloud migration", "Infrastructure automation", "Continuous deployment", "Disaster recovery", "Performance monitoring"],
       "subcategories": [
         {
           "id": "cloud-setup-management",
           "title": "Cloud Setup & Management",
           "description": "Complete cloud infrastructure setup and ongoing management for optimal performance and cost efficiency.",
-          "features": ["Cloud Migration", "Infrastructure Setup", "Cost Optimization", "Performance Monitoring"]
+          "features": ["Cloud Migration", "Infrastructure Setup", "Cost Optimization", "Performance Monitoring"],
+          "detailedDescription": "Migrate to the cloud with confidence and optimize your infrastructure for performance and cost. We provide end-to-end cloud services from initial setup to ongoing management, ensuring your systems are always running at peak efficiency."
         },
         {
           "id": "it-support-maintenance",
           "title": "IT Support & Maintenance",
           "description": "Comprehensive IT support and maintenance services to ensure your systems run smoothly and securely.",
-          "features": ["24/7 Support", "System Maintenance", "Security Updates", "Performance Optimization"]
+          "features": ["24/7 Support", "System Maintenance", "Security Updates", "Performance Optimization"],
+          "detailedDescription": "Keep your IT systems running smoothly with our comprehensive support and maintenance services. We provide proactive monitoring, regular updates, and rapid response to ensure minimal downtime and maximum productivity."
         },
         {
           "id": "devops-deployment-automation",
           "title": "DevOps & Deployment Automation",
           "description": "Streamlined development and deployment processes with automated CI/CD pipelines and infrastructure as code.",
-          "features": ["CI/CD Pipelines", "Infrastructure as Code", "Automated Testing", "Container Orchestration"]
+          "features": ["CI/CD Pipelines", "Infrastructure as Code", "Automated Testing", "Container Orchestration"],
+          "detailedDescription": "Accelerate your development and deployment processes with modern DevOps practices. We implement automated pipelines, infrastructure as code, and container orchestration to improve development velocity and system reliability."
         },
         {
           "id": "backup-recovery",
           "title": "Backup & Recovery",
           "description": "Robust backup and disaster recovery solutions to protect your data and ensure business continuity.",
-          "features": ["Automated Backups", "Disaster Recovery", "Data Restoration", "Business Continuity"]
+          "features": ["Automated Backups", "Disaster Recovery", "Data Restoration", "Business Continuity"],
+          "detailedDescription": "Protect your critical business data with comprehensive backup and disaster recovery solutions. We implement automated backup systems and disaster recovery plans to ensure your business can quickly recover from any data loss incident."
         },
         {
           "id": "blockchain-solutions",
           "title": "Blockchain Solutions",
           "description": "Innovative blockchain implementations for secure, transparent, and decentralized business solutions.",
-          "features": ["Smart Contracts", "Cryptocurrency Integration", "Decentralized Applications", "Blockchain Consulting"]
+          "features": ["Smart Contracts", "Cryptocurrency Integration", "Decentralized Applications", "Blockchain Consulting"],
+          "detailedDescription": "Explore the potential of blockchain technology for your business. We develop secure, transparent blockchain solutions including smart contracts, decentralized applications, and cryptocurrency integration to revolutionize your business processes."
         }
       ]
     },
@@ -197,33 +206,34 @@
       "shortDescription": "Comprehensive database solutions including design, optimization, migration, and reporting for efficient data management.",
       "category": "Data Management",
       "priority": 5,
-      "detailedDescription": "Our database services provide comprehensive solutions for data storage, management, and analysis. From database design and optimization to migration and reporting, we ensure your data infrastructure supports your business needs with optimal performance and reliability.",
-      "technologies": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch", "Apache Kafka", "Tableau", "Power BI", "Apache Airflow"],
-      "useCases": ["Database architecture design", "Performance optimization", "Data warehouse implementation", "Business intelligence dashboards", "Data migration projects"],
       "subcategories": [
         {
           "id": "database-design-optimization",
           "title": "Database Design & Optimization",
           "description": "Expert database architecture design and performance optimization for scalable and efficient data management.",
-          "features": ["Schema Design", "Query Optimization", "Index Management", "Performance Tuning"]
+          "features": ["Schema Design", "Query Optimization", "Index Management", "Performance Tuning"],
+          "detailedDescription": "Design and optimize your database architecture for maximum performance and scalability. We create efficient database schemas, optimize queries, and implement best practices to ensure your data systems can handle growing demands."
         },
         {
           "id": "data-migration",
           "title": "Data Migration",
           "description": "Seamless data migration services between different database systems with minimal downtime and data integrity.",
-          "features": ["Migration Planning", "Data Validation", "Zero-downtime Migration", "Legacy System Integration"]
+          "features": ["Migration Planning", "Data Validation", "Zero-downtime Migration", "Legacy System Integration"],
+          "detailedDescription": "Migrate your data safely and efficiently with our expert migration services. We ensure data integrity, minimize downtime, and provide comprehensive testing to guarantee a smooth transition to your new database system."
         },
         {
           "id": "dashboards-reporting",
           "title": "Dashboards & Reporting",
           "description": "Interactive dashboards and comprehensive reporting solutions for data visualization and business insights.",
-          "features": ["Real-time Dashboards", "Custom Reports", "Data Visualization", "Business Intelligence"]
+          "features": ["Real-time Dashboards", "Custom Reports", "Data Visualization", "Business Intelligence"],
+          "detailedDescription": "Transform your data into actionable insights with interactive dashboards and comprehensive reporting solutions. We create custom visualizations that help you understand your data and make informed business decisions."
         },
         {
           "id": "data-backup-recovery",
           "title": "Data Backup & Recovery",
           "description": "Robust backup strategies and disaster recovery solutions to protect your critical business data.",
-          "features": ["Automated Backups", "Point-in-time Recovery", "Disaster Recovery Planning", "Data Archiving"]
+          "features": ["Automated Backups", "Point-in-time Recovery", "Disaster Recovery Planning", "Data Archiving"],
+          "detailedDescription": "Protect your valuable data with comprehensive backup and recovery solutions. We implement automated backup systems, disaster recovery plans, and data archiving strategies to ensure your data is always safe and recoverable."
         }
       ]
     },
@@ -235,41 +245,84 @@
       "shortDescription": "Comprehensive tech partnership for startups from idea validation to product launch and scaling.",
       "category": "Startup Services",
       "priority": 6,
-      "detailedDescription": "We partner with startups to provide end-to-end technical support from concept to launch. Our services include MVP development, technical leadership, product strategy, and ongoing support to help startups build, launch, and scale their products successfully in competitive markets.",
-      "technologies": ["React", "Node.js", "Python", "AWS", "Docker", "MongoDB", "PostgreSQL", "Stripe", "Firebase", "Vercel"],
-      "useCases": ["MVP development and launch", "Technical co-founder services", "Product strategy and roadmapping", "Startup consulting", "Agile development processes"],
       "subcategories": [
         {
           "id": "mvp-development",
           "title": "MVP Development",
           "description": "Rapid development of Minimum Viable Products to validate your business idea and enter the market quickly.",
-          "features": ["Rapid Prototyping", "Core Feature Development", "User Testing", "Market Validation"]
+          "features": ["Rapid Prototyping", "Core Feature Development", "User Testing", "Market Validation"],
+          "detailedDescription": "Bring your startup idea to life with rapid MVP development. We help you build a minimum viable product that validates your concept, attracts early users, and provides the foundation for future growth and investment."
         },
         {
           "id": "agile-product-development",
           "title": "Agile Product Development",
           "description": "Iterative product development using agile methodologies for flexible and responsive product evolution.",
-          "features": ["Sprint Planning", "Iterative Development", "Continuous Feedback", "Adaptive Planning"]
+          "features": ["Sprint Planning", "Iterative Development", "Continuous Feedback", "Adaptive Planning"],
+          "detailedDescription": "Develop your product using proven agile methodologies that allow for rapid iteration and continuous improvement. We work closely with you to ensure your product evolves based on user feedback and market demands."
         },
         {
           "id": "cto-as-a-service",
           "title": "CTO-as-a-Service",
           "description": "Technical leadership and strategic guidance for startups without a full-time CTO.",
-          "features": ["Technical Strategy", "Team Leadership", "Architecture Planning", "Technology Decisions"]
+          "features": ["Technical Strategy", "Team Leadership", "Architecture Planning", "Technology Decisions"],
+          "detailedDescription": "Get expert technical leadership without the cost of a full-time CTO. We provide strategic technical guidance, architecture planning, and team leadership to help your startup make the right technology decisions."
         },
         {
           "id": "product-roadmapping",
           "title": "Product Roadmapping",
           "description": "Strategic product planning and roadmap development to guide your product's evolution and growth.",
-          "features": ["Feature Prioritization", "Timeline Planning", "Resource Allocation", "Milestone Definition"]
+          "features": ["Feature Prioritization", "Timeline Planning", "Resource Allocation", "Milestone Definition"],
+          "detailedDescription": "Create a clear path to success with strategic product roadmapping. We help you prioritize features, plan timelines, and allocate resources effectively to ensure your product development stays on track."
         },
         {
           "id": "idea-validation-consulting",
           "title": "Idea Validation & Consulting",
           "description": "Comprehensive idea validation and strategic consulting to assess market potential and business viability.",
-          "features": ["Market Research", "Feasibility Analysis", "Business Model Validation", "Go-to-Market Strategy"]
+          "features": ["Market Research", "Feasibility Analysis", "Business Model Validation", "Go-to-Market Strategy"],
+          "detailedDescription": "Validate your startup idea before investing significant resources. We conduct thorough market research, feasibility analysis, and business model validation to help you make informed decisions about your venture."
         }
       ]
     }
-  ]
+  ],
+  "developmentProcess": {
+    "title": "Our Development Process",
+    "description": "We follow a proven development methodology to ensure successful project delivery",
+    "steps": [
+      {
+        "id": "requirement-analysis",
+        "title": "Requirement Analysis",
+        "description": "We begin by thoroughly understanding your business needs, goals, and technical requirements through detailed discussions and analysis.",
+        "icon": "🔍",
+        "duration": "1-2 weeks"
+      },
+      {
+        "id": "project-proposal",
+        "title": "Project Proposal",
+        "description": "Based on our analysis, we create a comprehensive project proposal including scope, timeline, technology stack, and detailed cost breakdown.",
+        "icon": "📋",
+        "duration": "3-5 days"
+      },
+      {
+        "id": "estimating",
+        "title": "Estimating",
+        "description": "We provide accurate time and cost estimates with clear milestones and deliverables, ensuring transparency throughout the project.",
+        "icon": "⏱️",
+        "duration": "2-3 days"
+      },
+      {
+        "id": "development",
+        "title": "Development",
+        "description": "Our experienced team begins development using agile methodologies, providing regular updates and incorporating your feedback throughout the process.",
+        "icon": "⚡",
+        "duration": "Varies by project"
+      },
+      {
+        "id": "support",
+        "title": "Support",
+        "description": "After launch, we provide ongoing support, maintenance, and updates to ensure your solution continues to meet your evolving business needs.",
+        "icon": "🛠️",
+        "duration": "Ongoing"
+      }
+    ]
+  }
 }
