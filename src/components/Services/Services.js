@@ -45,31 +45,28 @@ const Services = () => {
       height: rect.height
     };
     
-    // Apply scroll prevention immediately
+    // Apply scroll prevention more gently
     const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
-    document.body.style.cssText = `
-      position: fixed !important;
-      top: -${currentScrollY}px !important;
-      left: 0 !important;
-      right: 0 !important;
-      width: 100% !important;
-      overflow: hidden !important;
-      padding-right: ${scrollbarWidth}px !important;
-    `;
+    document.body.style.overflow = 'hidden';
+    document.body.style.paddingRight = `${scrollbarWidth}px`;
+    document.body.dataset.scrollY = currentScrollY.toString();
     
     setSelectedService({ ...service, cardPosition, scrollPosition: currentScrollY });
     setIsPopupOpen(true);
   };
 
   const handleClosePopup = () => {
-    // Restore scroll position if it was stored
-    if (selectedService && selectedService.scrollPosition !== undefined) {
-      // Restore body styles
-      document.body.style.cssText = '';
-      
-      // Restore scroll position
-      window.scrollTo(0, selectedService.scrollPosition);
-    }
+    const scrollY = selectedService?.scrollPosition || parseInt(document.body.dataset.scrollY || '0', 10);
+    
+    // Restore body styles more gently
+    document.body.style.overflow = '';
+    document.body.style.paddingRight = '';
+    delete document.body.dataset.scrollY;
+    
+    // Restore scroll position smoothly
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: scrollY, behavior: 'instant' });
+    });
     
     setIsPopupOpen(false);
     setSelectedService(null);
