@@ -12,6 +12,7 @@ import BlogsSection from './components/BlogsSection/BlogsSection';
 import NewsInsights from './components/NewsInsights/NewsInsights';
 import ClientTestimonials from './components/ClientTestimonials/ClientTestimonials';
 import ContactUs from './components/ContactUs/ContactUs';
+import ContactUsPage from './components/ContactUsPage/ContactUsPage';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
 import ServiceCategories from './components/ServiceCategories';
@@ -43,6 +44,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/contact-us" element={<ContactUsPage />} />
             <Route path="/services" element={<Services />} />
             <Route path="/services/:serviceId" element={<ServiceCategories />} />
             <Route path="/services/:serviceId/:subcategoryId" element={<ServiceDetail />} />

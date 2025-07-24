@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 import './ScheduleMeeting.css';
 
@@ -25,9 +26,9 @@ const ScheduleMeeting = () => {
             </h2>
           </div>
           <div className="schedule-right">
-            <button className="schedule-btn">
+            <Link to="/contact-us" className="schedule-btn">
               Schedule a Meeting
-            </button>
+            </Link>
           </div>
         </div>
       </div>
