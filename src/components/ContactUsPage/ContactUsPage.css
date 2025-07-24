@@ -111,9 +111,13 @@
 .section-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: #00d4ff;
-  margin-bottom: 25px;
+  color: #00d4ff !important;
+  margin-top: 0px;
+  margin-bottom: 45px;
   text-align: center;
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
 }
 
 .form-row {

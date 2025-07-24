@@ -70,21 +70,17 @@ const ContactUs = () => {
                 </select>
               </div>
               <div className="form-group">
-                <label htmlFor="budget">Budget Range</label>
-                <select 
-                  id="budget" 
-                  name="budget" 
-                  value={formData.budget}
-                  onChange={handleInputChange}
-                  required
-                >
-                  <option value="">Select budget range</option>
-                  <option value="10k-25k">$10,000 - $25,000</option>
-                  <option value="25k-50k">$25,000 - $50,000</option>
-                  <option value="50k-100k">$50,000 - $100,000</option>
-                  <option value="100k+">$100,000+</option>
-                </select>
-              </div>
+                  <label htmlFor="budget">Budget Range</label>
+                  <input 
+                    type="text" 
+                    id="budget" 
+                    name="budget" 
+                    value={formData.budget}
+                    onChange={handleInputChange}
+                    placeholder="e.g., $10,000 - $25,000 or $50,000+"
+                    required 
+                  />
+                </div>
               <div className="form-group">
                 <label htmlFor="projectDetails">Project Details</label>
                 <textarea 
@@ -156,6 +152,7 @@ const ContactUs = () => {
             <div className="form-section">
               <h3 className="section-title">How did you hear about us?</h3>
               <div className="form-group">
+                <label htmlFor="hearAbout">Source</label>
                 <select 
                   id="hearAbout" 
                   name="hearAbout" 
