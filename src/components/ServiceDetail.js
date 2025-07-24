@@ -97,20 +97,6 @@ const ServiceDetail = () => {
                 <h3>What We Offer</h3>
                 <p>{subcategory.detailedDescription}</p>
               </div>
-              
-              <div className="features-card">
-                <h3>Key Features</h3>
-                <div className="features-grid">
-                  {subcategory.features.map((feature, index) => (
-                    <div key={index} className="feature-item">
-                      <div className="feature-content">
-                        <h4 className="feature-title">{feature.title}</h4>
-                        <p className="feature-description">{feature.description}</p>
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
             </div>
             
             <div className="details-sidebar">
@@ -133,6 +119,57 @@ const ServiceDetail = () => {
           </div>
         </div>
       </div>
+
+      {/* Key Features Section - Full Width */}
+      <div className="features-section-fullwidth">
+        <div className="container">
+          <div className="section-header">
+            <h2>Key Features</h2>
+            <p>Comprehensive features that make our {subcategory.title.toLowerCase()} services stand out</p>
+          </div>
+          <div className="features-grid-fullwidth">
+            {subcategory.features.map((feature, index) => (
+              <div key={index} className="feature-item-fullwidth">
+                <div className="feature-content">
+                  <h4 className="feature-title">{feature.title}</h4>
+                  <p className="feature-description">{feature.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Custom Software Solutions Section - Full Width with Image */}
+      {subcategory.customSoftwareSolutions && (
+        <div className="custom-solutions-section-fullwidth">
+          <div className="container">
+            <div className="solutions-content">
+              <div className="solutions-image">
+                <img src="/assets/business_ao_tech.jpg" alt="Custom Software Solutions" />
+              </div>
+              <div className="solutions-text">
+                <h2>{subcategory.customSoftwareSolutions.title}</h2>
+                <div className="solutions-grid-fullwidth">
+                  {subcategory.customSoftwareSolutions.solutions.map((solution, index) => (
+                    <div key={index} className="solution-item-fullwidth">
+                      <div className="solution-icon">
+                        {solution.type === 'Startups' && '💡'}
+                        {solution.type === 'SMEs' && '🏢'}
+                        {solution.type === 'Enterprises' && '🏛️'}
+                      </div>
+                      <div className="solution-content">
+                        <h4 className="solution-title">{solution.type}</h4>
+                        <p className="solution-description">{solution.description}</p>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* Development Process Section */}
       <div className="development-process-section">
@@ -163,6 +200,29 @@ const ServiceDetail = () => {
           </div>
         </div>
       </div>
+
+      {/* Key Benefits Section - Full Width */}
+      {subcategory.keyBenefits && (
+        <div className="key-benefits-section-fullwidth">
+          <div className="container">
+            <div className="section-header">
+              <h2>{subcategory.keyBenefits.title}</h2>
+              <p>Discover the key advantages of choosing our {subcategory.title.toLowerCase()} services</p>
+            </div>
+            <div className="benefits-grid-fullwidth">
+              {subcategory.keyBenefits.benefits.map((benefit, index) => (
+                <div key={index} className="benefit-item-fullwidth">
+                  <div className="benefit-number">{String(index + 1).padStart(2, '0')}</div>
+                  <div className="benefit-content">
+                    <h4 className="benefit-title">{benefit.title}</h4>
+                    <p className="benefit-description">{benefit.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* CTA Section */}
       <div className="cta-section">

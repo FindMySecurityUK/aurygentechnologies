@@ -34,10 +34,10 @@
 }
 
 .services-container {
-  max-width: 1400px;
+  /* max-width: 1400px;
   margin: 0 auto;
   padding: 0 40px;
-  z-index: 2;
+  z-index: 2; */
   position: relative;
 }
 
@@ -516,7 +516,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .services-container {
-    padding: 0 30px;
+    padding: 0;
   }
   
   .services-header {
@@ -584,7 +584,7 @@
 
 @media (max-width: 480px) {
   .services-container {
-    padding: 0 20px;
+    padding: 0;
   }
   
   .services-header {

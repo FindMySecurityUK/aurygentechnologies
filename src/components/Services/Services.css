@@ -85,10 +85,10 @@
 
 .services-container {
   position: relative;
-  max-width: 1200px;
+  /* max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
-  z-index: 2;
+  z-index: 2; */
 }
 
 @keyframes serviceStars {
