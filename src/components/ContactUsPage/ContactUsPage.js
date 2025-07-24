@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
+import { submitContactForm, validateFormData } from '../../services/firebaseService';
+import { APP_CONSTANTS } from '../../constants/config';
 import './ContactUsPage.css';
 
 const ContactUsPage = () => {
@@ -19,6 +21,9 @@ const ContactUsPage = () => {
     hearAbout: ''
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error', or null
+
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -27,10 +32,44 @@ const ContactUsPage = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
-    // Handle form submission here
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    try {
+      // Validate form data
+      const validation = validateFormData(formData);
+      if (!validation.isValid) {
+        alert('Please fill in all required fields correctly.');
+        setIsSubmitting(false);
+        return;
+      }
+
+      // Submit to Firebase
+      await submitContactForm(formData);
+      
+      // Show success message
+      setSubmitStatus('success');
+      
+      // Reset form after successful submission
+      setFormData({
+        services: '',
+        budget: '',
+        projectDetails: '',
+        name: '',
+        email: '',
+        companyName: '',
+        website: '',
+        hearAbout: ''
+      });
+      
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setSubmitStatus('error');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -172,8 +211,20 @@ const ContactUsPage = () => {
                 </div>
               </div>
 
-              <button type="submit" className="submit-btn">
-                Send Message
+              {submitStatus === 'success' && (
+                <div className="success-message">
+                  {APP_CONSTANTS.SUCCESS_MESSAGE}
+                </div>
+              )}
+              
+              {submitStatus === 'error' && (
+                <div className="error-message">
+                  {APP_CONSTANTS.ERROR_MESSAGE}
+                </div>
+              )}
+              
+              <button type="submit" className="submit-btn" disabled={isSubmitting}>
+                {isSubmitting ? APP_CONSTANTS.LOADING_MESSAGE : 'Send Message'}
               </button>
             </form>
           </div>

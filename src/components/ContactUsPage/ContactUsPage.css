@@ -223,6 +223,41 @@
   box-shadow: 0 15px 40px rgba(0, 212, 255, 0.5);
 }
 
+.submit-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.submit-btn:disabled:hover {
+  transform: none;
+  box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
+}
+
+.success-message {
+  background: linear-gradient(45deg, rgba(34, 197, 94, 0.1), rgba(34, 197, 94, 0.2));
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  color: #22c55e;
+  text-align: center;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+}
+
+.error-message {
+  background: linear-gradient(45deg, rgba(239, 68, 68, 0.1), rgba(239, 68, 68, 0.2));
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  color: #ef4444;
+  text-align: center;
+  font-weight: 500;
+  backdrop-filter: blur(10px);
+}
+
 /* Animation triggers */
 .contact-header.animate .contact-title {
   opacity: 1;
