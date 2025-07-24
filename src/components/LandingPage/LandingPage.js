@@ -17,6 +17,8 @@ const LandingPage = () => {
   const scale = useTransform(scrollYProgress, [0, 0.5, 1], [1, 1.8, 4]);
   const z = useTransform(scrollYProgress, [0, 0.5, 1], [0, -200, -800]);
   const opacity = useTransform(scrollYProgress, [0, 0.6, 1], [1, 0.7, 0]);
+  const portalOpacity = useTransform(scrollYProgress, [0.4, 0.8], [0, 1]);
+  const portalScale = useTransform(scrollYProgress, [0.4, 1], [0.5, 2]);
   // Removed scroll-based opacity for mobile text to prevent glitchy behavior
   
 
@@ -49,7 +51,7 @@ const LandingPage = () => {
         <div className={`landing-content ${isVisible ? 'fade-in' : ''}`}>
           <motion.div 
             className="spline-container"
-            style={{
+            style={isMobile ? {} : {
               scale,
               z,
               opacity
@@ -94,9 +96,9 @@ const LandingPage = () => {
           {/* Enhanced portal overlay for smoother transition */}
           <motion.div 
             className="portal-overlay"
-            style={{
-              opacity: useTransform(scrollYProgress, [0.4, 0.8], [0, 1]),
-              scale: useTransform(scrollYProgress, [0.4, 1], [0.5, 2])
+            style={isMobile ? { display: 'none' } : {
+              opacity: portalOpacity,
+              scale: portalScale
             }}
           />
           
