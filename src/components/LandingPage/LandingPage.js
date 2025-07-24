@@ -19,9 +19,7 @@ const LandingPage = () => {
   const z = useTransform(scrollYProgress, [0, 0.5, 1], [0, -200, -800]);
   const opacity = useTransform(scrollYProgress, [0, 0.6, 1], [1, 0.7, 0]);
   
-  // Transform for the emerging content with Lenis easing
-  const contentY = useTransform(scrollYProgress, [0.5, 1], [200, 0]);
-  const contentOpacity = useTransform(scrollYProgress, [0.5, 0.7, 1], [0, 0.3, 1]);
+
 
   useEffect(() => {
     setIsVisible(true);
@@ -117,33 +115,7 @@ const LandingPage = () => {
         </div>
       </section>
       
-      {/* Content that emerges with Lenis smooth scrolling */}
-      <motion.div 
-        className="emerging-content"
-        style={{
-          y: contentY,
-          opacity: contentOpacity
-        }}
-      >
-        <div className="content-wrapper">
-          <motion.h2 
-            className="emerging-title"
-            initial={{ y: 50, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, ease: "easeOut" }}
-          >
-            Welcome to Our Universe
-          </motion.h2>
-          <motion.p 
-            className="emerging-subtitle"
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          >
-            Experience the future through our innovative solutions
-          </motion.p>
-        </div>
-      </motion.div>
+
     </>
   );
 };
