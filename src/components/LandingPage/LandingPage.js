@@ -17,7 +17,7 @@ const LandingPage = () => {
   const scale = useTransform(scrollYProgress, [0, 0.5, 1], [1, 1.8, 4]);
   const z = useTransform(scrollYProgress, [0, 0.5, 1], [0, -200, -800]);
   const opacity = useTransform(scrollYProgress, [0, 0.6, 1], [1, 0.7, 0]);
-  const mobileTextOpacity = useTransform(scrollYProgress, [0, 0.4], [1, 0]);
+  // Removed scroll-based opacity for mobile text to prevent glitchy behavior
   
 
 
@@ -100,20 +100,7 @@ const LandingPage = () => {
             }}
           />
           
-          {/* Mobile-only AO Technologies text overlay */}
-          {isMobile && (
-            <motion.div 
-              className="mobile-ao-tech-overlay"
-              initial={{ opacity: 0, scale: 0.8 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1.5, delay: 0.5, ease: "easeOut" }}
-              style={{
-                opacity: mobileTextOpacity
-              }}
-            >
-              AO Technologies
-            </motion.div>
-          )}
+
         </div>
       </section>
       
