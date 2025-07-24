@@ -377,7 +377,7 @@
           ],
           "detailedDescription": "Connect your business systems for seamless data flow and improved efficiency. We specialize in integrating various platforms, APIs, and legacy systems to create a unified technology ecosystem that works harmoniously.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "System Integrations for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -461,7 +461,7 @@
           ],
           "detailedDescription": "Ensure your software meets the highest quality standards with our comprehensive testing services. We employ both automated and manual testing methodologies to identify and resolve issues before they impact your users.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Testing & QA for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -548,7 +548,7 @@
           ],
           "detailedDescription": "Navigate the complex landscape of data privacy regulations with our expert compliance services. We help you implement robust data protection measures, conduct thorough audits, and maintain ongoing compliance with evolving privacy laws.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Data Privacy Compliance for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -624,7 +624,7 @@
           ],
           "detailedDescription": "Protect your applications from cyber threats with our comprehensive security implementation services. We secure your web and mobile applications against common vulnerabilities and implement industry best practices for data protection.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "App & Website Security for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -700,7 +700,7 @@
           ],
           "detailedDescription": "Strengthen your security posture with advanced authentication and access control systems. We implement multi-layered security measures to ensure only authorized users can access your sensitive data and systems.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Secure Login & Access Control for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -776,7 +776,7 @@
           ],
           "detailedDescription": "Secure your network infrastructure with professional firewall configuration and device protection services. We implement comprehensive network security measures to prevent unauthorized access and monitor for potential threats.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Firewall & Device Protection for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -852,7 +852,7 @@
           ],
           "detailedDescription": "Identify and address security vulnerabilities before they become threats. Our comprehensive security audits include penetration testing, code reviews, and compliance assessments to ensure your systems meet the highest security standards.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Security Audits for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -947,7 +947,7 @@
           ],
           "detailedDescription": "Harness the power of artificial intelligence with custom AI applications tailored to your business needs. We develop intelligent solutions that learn, adapt, and provide valuable insights to drive your business forward.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "AI App Development for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1031,7 +1031,7 @@
           ],
           "detailedDescription": "Transform your business operations with intelligent automation solutions. We help you identify automation opportunities, implement smart workflows, and reduce manual tasks to improve efficiency and reduce costs.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Business Automation for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1115,7 +1115,7 @@
           ],
           "detailedDescription": "Enhance customer experience with intelligent chatbots and virtual assistants. Our AI-powered solutions provide 24/7 support, understand natural language, and continuously learn to improve customer interactions.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Chatbots & Virtual Assistants for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1199,7 +1199,7 @@
           ],
           "detailedDescription": "Leverage the latest in generative AI technology to create content, assist with coding, and enhance creative processes. We develop custom AI tools that generate high-quality content and automate creative tasks.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Generative AI Tools for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1275,7 +1275,7 @@
           ],
           "detailedDescription": "Build robust data infrastructure that supports your AI and analytics initiatives. We design and implement scalable data pipelines that collect, process, and prepare your data for advanced analytics and machine learning.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Data Engineering for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1359,7 +1359,7 @@
           ],
           "detailedDescription": "Unlock the value in your data with advanced analytics and machine learning. We help you discover patterns, predict trends, and make data-driven decisions that drive business growth and competitive advantage.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Big Data Analytics for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1454,7 +1454,7 @@
           ],
           "detailedDescription": "Migrate to the cloud with confidence and optimize your infrastructure for performance and cost. We provide end-to-end cloud services from initial setup to ongoing management, ensuring your systems are always running at peak efficiency.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Cloud & IT Infrastructure for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1538,7 +1538,7 @@
           ],
           "detailedDescription": "Keep your IT systems running smoothly with our comprehensive support and maintenance services. We provide proactive monitoring, regular updates, and rapid response to ensure minimal downtime and maximum productivity.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "IT Support & Maintenance for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1622,7 +1622,7 @@
           ],
           "detailedDescription": "Accelerate your development and deployment processes with modern DevOps practices. We implement automated pipelines, infrastructure as code, and container orchestration to improve development velocity and system reliability.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "DevOps & Deployment Automation for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1706,7 +1706,7 @@
           ],
           "detailedDescription": "Protect your critical business data with comprehensive backup and disaster recovery solutions. We implement automated backup systems and disaster recovery plans to ensure your business can quickly recover from any data loss incident.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Backup & Recovery for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1790,7 +1790,7 @@
           ],
           "detailedDescription": "Explore the potential of blockchain technology for your business. We develop secure, transparent blockchain solutions including smart contracts, decentralized applications, and cryptocurrency integration to revolutionize your business processes.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Blockchain Solutions for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1885,7 +1885,7 @@
           ],
           "detailedDescription": "Design and optimize your database architecture for maximum performance and scalability. We create efficient database schemas, optimize queries, and implement best practices to ensure your data systems can handle growing demands.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Database Design & Optimization for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -1969,7 +1969,7 @@
           ],
           "detailedDescription": "Migrate your data safely and efficiently with our expert migration services. We ensure data integrity, minimize downtime, and provide comprehensive testing to guarantee a smooth transition to your new database system.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Data Migration Solutions for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -2053,7 +2053,7 @@
           ],
           "detailedDescription": "Transform your data into actionable insights with interactive dashboards and comprehensive reporting solutions. We create custom visualizations that help you understand your data and make informed business decisions.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Dashboards & Reporting Solutions for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -2137,7 +2137,7 @@
           ],
           "detailedDescription": "Protect your valuable data with comprehensive backup and recovery solutions. We implement automated backup systems, disaster recovery plans, and data archiving strategies to ensure your data is always safe and recoverable.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Data Backup & Recovery Solutions for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -2232,7 +2232,7 @@
           ],
           "detailedDescription": "Bring your startup idea to life with rapid MVP development. We help you build a minimum viable product that validates your concept, attracts early users, and provides the foundation for future growth and investment.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "MVP Development for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -2316,7 +2316,7 @@
           ],
           "detailedDescription": "Develop your product using proven agile methodologies that allow for rapid iteration and continuous improvement. We work closely with you to ensure your product evolves based on user feedback and market demands.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Agile Product Development for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -2392,7 +2392,7 @@
           ],
           "detailedDescription": "Get expert technical leadership without the cost of a full-time CTO. We provide strategic technical guidance, architecture planning, and team leadership to help your startup make the right technology decisions.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "CTO-as-a-Service for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -2468,7 +2468,7 @@
           ],
           "detailedDescription": "Create a clear path to success with strategic product roadmapping. We help you prioritize features, plan timelines, and allocate resources effectively to ensure your product development stays on track.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Product Roadmapping for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
@@ -2544,7 +2544,7 @@
           ],
           "detailedDescription": "Validate your startup idea before investing significant resources. We conduct thorough market research, feasibility analysis, and business model validation to help you make informed decisions about your venture.",
           "customSoftwareSolutions": {
-            "title": "Custom Software Solutions for Every Scale",
+            "title": "Idea Validation & Consulting for Every Scale",
             "solutions": [
               {
                 "type": "Startups",

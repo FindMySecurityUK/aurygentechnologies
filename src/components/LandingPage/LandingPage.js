@@ -56,7 +56,7 @@ const LandingPage = () => {
             }}
           >
             <Spline
-              scene={isMobile ? "https://prod.spline.design/Pyp4wvoxvsSQpB-U/scene.splinecode" : "https://prod.spline.design/CA9ldpfRYX1ZeKvC/scene.splinecode"}
+              scene={isMobile ? "https://prod.spline.design/oDCC72pUlaRTnSTj/scene.splinecode" : "https://prod.spline.design/CA9ldpfRYX1ZeKvC/scene.splinecode"}
               //scene="https://prod.spline.design/i38VSl8eMNuM1HXs/scene.splinecode"
               //scene="https://prod.spline.design/qopHYF3Zzu-WVFa4/scene.splinecode"
               className="spline-scene"
