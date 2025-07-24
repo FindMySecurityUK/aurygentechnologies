@@ -1,13 +1,12 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Spline from '@splinetool/react-spline';
-import { motion, useScroll, useTransform, useMotionValue } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import './LandingPage.css';
 
 const LandingPage = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const containerRef = useRef(null);
-  const scrollY = useMotionValue(0);
   
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -18,6 +17,7 @@ const LandingPage = () => {
   const scale = useTransform(scrollYProgress, [0, 0.5, 1], [1, 1.8, 4]);
   const z = useTransform(scrollYProgress, [0, 0.5, 1], [0, -200, -800]);
   const opacity = useTransform(scrollYProgress, [0, 0.6, 1], [1, 0.7, 0]);
+  const mobileTextOpacity = useTransform(scrollYProgress, [0, 0.4], [1, 0]);
   
 
 
@@ -100,18 +100,20 @@ const LandingPage = () => {
             }}
           />
           
-          {/* Large 3D translucent AO Technologies text */}
-          {/* <motion.div 
-            className="ao-tech-text"
-            initial={{ opacity: 0, y: 100 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 2, delay: 1, ease: "easeOut" }}
-            style={{
-              opacity: useTransform(scrollYProgress, [0, 0.3], [1, 0])
-            }}
-          >
-            AO Technologies
-          </motion.div> */}
+          {/* Mobile-only AO Technologies text overlay */}
+          {isMobile && (
+            <motion.div 
+              className="mobile-ao-tech-overlay"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 1.5, delay: 0.5, ease: "easeOut" }}
+              style={{
+                opacity: mobileTextOpacity
+              }}
+            >
+              AO Technologies
+            </motion.div>
+          )}
         </div>
       </section>
       
