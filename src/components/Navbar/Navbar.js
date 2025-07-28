@@ -58,7 +58,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="navbar-logo">
           <Link to="/">
-            <img src="/assets/logo.png" alt="AO Technologies" className="logo-img" />
+            <img src="/assets/logo.png" alt="Aurygen Technologies" className="logo-img" />
           </Link>
         </div>
 

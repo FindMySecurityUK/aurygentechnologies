@@ -11,7 +11,7 @@ const NewsInsights = () => {
   const newsItems = [
     {
       type: "News",
-      title: "AO Technologies Expands Global Operations",
+      title: "Aurygen Technologies Expands Global Operations",
       summary: "We're excited to announce our expansion into new markets, bringing cutting-edge technology solutions to businesses worldwide.",
       date: "March 20, 2024",
       link: "#news1"
@@ -40,7 +40,7 @@ const NewsInsights = () => {
     {
       type: "News",
       title: "Award Recognition for Innovation",
-      summary: "AO Technologies receives industry recognition for breakthrough innovations in AI-driven automation.",
+      summary: "Aurygen Technologies receives industry recognition for breakthrough innovations in AI-driven automation.",
       date: "March 8, 2024",
       link: "#news3"
     },

@@ -1,8 +1,10 @@
 import React from 'react';
 import { useInView } from 'react-intersection-observer';
+import { useNavigate } from 'react-router-dom';
 import './BlogsSection.css';
 
 const BlogsSection = () => {
+  const navigate = useNavigate();
   const [ref, inView] = useInView({
     threshold: 0.2,
     triggerOnce: true
@@ -10,46 +12,44 @@ const BlogsSection = () => {
 
   const blogs = [
     {
-      title: "The Future of AI in Software Development",
-      excerpt: "Exploring how artificial intelligence is revolutionizing the way we build and deploy software solutions.",
-      date: "March 15, 2024",
-      image: "/assets/blog1.jpg",
-      link: "#blog1"
+      title: "Understanding Legislative Networks: Building a Knowledge Graph of UK Legislation",
+      excerpt: "Exploring how AI-powered network analysis tools are revolutionising the way we understand and navigate complex legislative relationships in the UK.",
+      date: "16th March 2024",
+      image: "/assets/ai-legislation-blog.svg",
+      link: "ai-legislative-networks",
+      readTime: "8 min read"
     },
     {
-      title: "Cybersecurity Best Practices for 2024",
-      excerpt: "Essential security measures every business should implement to protect against modern cyber threats.",
-      date: "March 10, 2024",
-      image: "/assets/blog2.jpg",
-      link: "#blog2"
+      title: "Why Generative AI Coding Tools Don't Always Deliver: A Technical Perspective",
+      excerpt: "A candid examination of the realities, limitations, and professional considerations when using AI-powered coding assistants in real-world development.",
+      date: "15th March 2024",
+      image: "/assets/ai-coding-tools-blog.svg",
+      link: "ai-coding-reality",
+      readTime: "10 min read"
     },
     {
-      title: "Cloud Migration Strategies",
-      excerpt: "A comprehensive guide to successfully migrating your infrastructure to the cloud with minimal downtime.",
-      date: "March 5, 2024",
-      image: "/assets/blog3.jpg",
-      link: "#blog3"
+      title: "Generative AI and Data Protection: Eight Essential Questions for Developers",
+      excerpt: "Navigate the complex landscape of GDPR compliance and data protection requirements when developing and deploying generative AI systems.",
+      date: "14th March 2024",
+      image: "/assets/ai-data-protection-blog.svg",
+      link: "ai-data-protection",
+      readTime: "12 min read"
     },
     {
-      title: "Building Scalable Database Architecture",
-      excerpt: "Design patterns and best practices for creating databases that grow with your business needs.",
-      date: "February 28, 2024",
-      image: "/assets/blog4.jpg",
-      link: "#blog4"
+      title: "New ETSI Standards: Protecting AI Systems from Evolving Cyber Threats",
+      excerpt: "Comprehensive analysis of the latest European standards for securing artificial intelligence systems against sophisticated cyber attacks.",
+      date: "13th March 2024",
+      image: "/assets/ai-security-standards-blog.svg",
+      link: "ai-security-standards",
+      readTime: "9 min read"
     },
     {
-      title: "Startup Tech Stack Selection Guide",
-      excerpt: "How to choose the right technologies for your startup to ensure rapid development and scalability.",
-      date: "February 20, 2024",
-      image: "/assets/blog5.jpg",
-      link: "#blog5"
-    },
-    {
-      title: "DevOps Automation Trends",
-      excerpt: "Latest trends in DevOps automation that are transforming software development workflows.",
-      date: "February 15, 2024",
-      image: "/assets/blog6.jpg",
-      link: "#blog6"
+      title: "The Future of Programming: Why You Still Need Expertise in the AI Era",
+      excerpt: "Examining how artificial intelligence is transforming software development whilst highlighting why human expertise remains absolutely essential.",
+      date: "12th March 2024",
+      image: "/assets/future-programming-blog.svg",
+      link: "future-programming",
+      readTime: "11 min read"
     }
   ];
 
@@ -63,17 +63,17 @@ const BlogsSection = () => {
               <div 
                 key={index} 
                 className="blog-card"
-                onClick={() => window.open(blog.link, '_blank')}
+                onClick={() => navigate(`/blog/${blog.link}`)}
               >
                 <div className="blog-image">
                   <img src={blog.image} alt={blog.title} />
-                  <div className="blog-date">{blog.date}</div>
+                  <div className="blog-read-time">{blog.readTime}</div>
                 </div>
                 <div className="blog-content">
                   <h3 className="blog-title">{blog.title}</h3>
                   <p className="blog-excerpt">{blog.excerpt}</p>
                   <div className="blog-read-more">
-                    <span>Read More</span>
+                    <span>Read Full Article</span>
                     <div className="blog-arrow">→</div>
                   </div>
                 </div>

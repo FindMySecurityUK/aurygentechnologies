@@ -15,6 +15,7 @@ import ContactUs from './components/ContactUs/ContactUs';
 import ContactUsPage from './components/ContactUsPage/ContactUsPage';
 import Footer from './components/Footer/Footer';
 import Services from './components/Services/Services';
+import BlogDetail from './components/BlogDetail/BlogDetail';
 import ServiceCategories from './components/ServiceCategories';
 import ServiceDetail from './components/ServiceDetail';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
@@ -50,6 +51,7 @@ function App() {
             <Route path="/services/:serviceId/:subcategoryId" element={<ServiceDetail />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
+            <Route path="/blog/:id" element={<BlogDetail />} />
           </Routes>
           <Footer />
         </div>

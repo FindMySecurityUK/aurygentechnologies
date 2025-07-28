@@ -11,8 +11,8 @@ const Footer = () => {
         {/* Left Section - Logo and Company Name */}
         <div className="footer-left">
           <div className="footer-logo">
-            <img src="/assets/logo.png" alt="AO Technologies" className="footer-logo-img" />
-            <span className="footer-company-name">AO Technologies</span>
+            <img src="/assets/logo.png" alt="Aurygen Technologies" className="footer-logo-img" />
+        <span className="footer-company-name">Aurygen Technologies</span>
           </div>
         </div>
 
@@ -47,14 +47,14 @@ const Footer = () => {
           </div>
           
           <div className="copyright">
-            <p>&copy; {currentYear} AO Technologies. All Rights Reserved.</p>
+            <p>&copy; {currentYear} Aurygen Technologies. All Rights Reserved.</p>
           </div>
         </div>
 
         {/* Right Section - Address */}
         <div className="footer-right">
           <div className="address">
-            <p className="address-line">AO Technologies</p>
+            <p className="address-line">Aurygen Technologies</p>
             <p className="address-line">HO London, United Kingdom</p>
           </div>
         </div>

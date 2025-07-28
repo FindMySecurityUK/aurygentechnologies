@@ -1,11 +1,13 @@
 .blogs-section {
-  min-height: 100vh;
+  min-height: 120vh;
   padding: 100px 0;
   background: linear-gradient(
-    180deg,
+    135deg,
     #0a0a0a 0%,
-    #1a1a2e 50%,
-    #0a0a0a 100%
+    #1a1a2e 25%,
+    #16213e 50%,
+    #0f3460 75%,
+    #533483 100%
   );
   position: relative;
   overflow: hidden;
@@ -53,20 +55,20 @@
 
 .blogs-carousel-container {
   width: 100%;
-  height: 420px;
+  height: 600px;
   position: relative;
   overflow: hidden;
 }
 
 .blogs-carousel-track {
   display: flex;
-  width: calc(350px * 12); /* 6 blogs * 2 for infinite loop */
-  animation: straightScrollLeftToRight 50s linear infinite;
+  width: calc(410px * 10); /* 5 blogs * 2 for infinite loop */
+  animation: smoothScrollLeftToRight 60s linear infinite;
 }
 
 .blog-card {
-  width: 320px;
-  height: 380px;
+  width: 380px;
+  height: 520px;
   margin: 0 15px;
   background: linear-gradient(
     135deg,
@@ -93,7 +95,7 @@
 
 .blog-image {
   width: 100%;
-  height: 200px;
+  height: 280px;
   overflow: hidden;
   position: relative;
 }
@@ -121,19 +123,31 @@
   font-weight: 500;
 }
 
+.blog-read-time {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #1a1a2e;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
 .blog-content {
-  padding: 25px;
-  height: calc(100% - 200px);
+  padding: 35px;
+  height: calc(100% - 280px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .blog-title {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   line-height: 1.4;
   transition: color 0.3s ease;
 }
@@ -143,11 +157,11 @@
 }
 
 .blog-excerpt {
-  font-size: 0.9rem;
-  line-height: 1.5;
+  font-size: 0.95rem;
+  line-height: 1.6;
   color: #b0b0b0;
   flex-grow: 1;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   transition: color 0.3s ease;
 }
 
@@ -177,7 +191,7 @@
 }
 
 /* Straight left-to-right animation - continuous seamless loop */
-@keyframes straightScrollLeftToRight {
+@keyframes smoothScrollLeftToRight {
   0% {
     transform: translateX(0);
   }
