@@ -27,7 +27,7 @@ const TermsConditions = () => {
           <section className="terms-section">
             <h2>Acceptance of Terms</h2>
             <p>
-              By accessing and using AO Technologies' services, you accept and agree to be bound by 
+              By accessing and using Aurygen Technologies' services, you accept and agree to be bound by 
               the terms and provision of this agreement. If you do not agree to abide by the above, 
               please do not use this service.
             </p>
@@ -36,7 +36,7 @@ const TermsConditions = () => {
           <section className="terms-section">
             <h2>Use License</h2>
             <p>
-              Permission is granted to temporarily download one copy of the materials on AO Technologies' 
+              Permission is granted to temporarily download one copy of the materials on Aurygen Technologies' 
               website for personal, non-commercial transitory viewing only. This is the grant of a license, 
               not a transfer of title, and under this license you may not:
             </p>
@@ -74,7 +74,7 @@ const TermsConditions = () => {
             <p>
               All content, features, and functionality of our services, including but not limited to 
               text, graphics, logos, icons, images, audio clips, video clips, data compilations, 
-              and software are the exclusive property of AO Technologies and are protected by 
+              and software are the exclusive property of Aurygen Technologies and are protected by 
               copyright, trademark, and other intellectual property laws.
             </p>
           </section>
@@ -93,7 +93,7 @@ const TermsConditions = () => {
           <section className="terms-section">
             <h2>Limitation of Liability</h2>
             <p>
-              In no event shall AO Technologies or its suppliers be liable for any damages 
+              In no event shall Aurygen Technologies or its suppliers be liable for any damages 
               (including, without limitation, damages for loss of data or profit, or due to 
               business interruption) arising out of the use or inability to use the materials 
               on our website, even if we have been notified orally or in writing of the 
@@ -114,7 +114,7 @@ const TermsConditions = () => {
             <h2>Governing Law</h2>
             <p>
               These terms and conditions are governed by and construed in accordance with the laws 
-              of the jurisdiction in which AO Technologies operates, and you irrevocably submit 
+              of the jurisdiction in which Aurygen Technologies operates, and you irrevocably submit 
               to the exclusive jurisdiction of the courts in that state or location.
             </p>
           </section>

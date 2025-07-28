@@ -13,14 +13,14 @@ const ClientTestimonials = () => {
       name: "Sarah Johnson",
       position: "CEO, TechStart Inc.",
       company: "TechStart Inc.",
-      testimonial: "AO Technologies transformed our startup vision into reality. Their AI-driven solutions helped us scale from 10 to 10,000 users in just 6 months.",
+      testimonial: "Aurygen Technologies transformed our startup vision into reality. Their AI-driven solutions helped us scale from 10 to 10,000 users in just 6 months.",
       rating: 5
     },
     {
       name: "Michael Chen",
       position: "CTO, FinanceFlow",
       company: "FinanceFlow",
-      testimonial: "The cybersecurity implementation was flawless. We've had zero security incidents since partnering with AO Technologies. Truly exceptional service.",
+      testimonial: "The cybersecurity implementation was flawless. We've had zero security incidents since partnering with Aurygen Technologies. Truly exceptional service.",
       rating: 5
     },
     {
@@ -34,7 +34,7 @@ const ClientTestimonials = () => {
       name: "David Thompson",
       position: "VP Engineering, CloudCorp",
       company: "CloudCorp",
-      testimonial: "AO Technologies delivered our cloud migration ahead of schedule and under budget. Their technical expertise is world-class.",
+      testimonial: "Aurygen Technologies delivered our cloud migration ahead of schedule and under budget. Their technical expertise is world-class.",
       rating: 5
     },
     {
@@ -48,7 +48,7 @@ const ClientTestimonials = () => {
       name: "James Miller",
       position: "COO, LogisticsPro",
       company: "LogisticsPro",
-      testimonial: "Their supply chain optimization solution saved us $2M annually. AO Technologies doesn't just deliver code, they deliver results.",
+      testimonial: "Their supply chain optimization solution saved us $2M annually. Aurygen Technologies doesn't just deliver code, they deliver results.",
       rating: 5
     }
   ];
@@ -60,7 +60,7 @@ const ClientTestimonials = () => {
         <div className="header-content">
           <h2 className="testimonials-title">Clients Say About</h2>
           <div className="company-logo-large">
-            <img src="/assets/logo.png" alt="AO Technologies" className="logo-large" />
+            <img src="/assets/logo.png" alt="Aurygen Technologies" className="logo-large" />
           </div>
         </div>
       </div>

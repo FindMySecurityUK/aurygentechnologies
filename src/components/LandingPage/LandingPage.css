@@ -184,7 +184,7 @@ background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 
   }
 }
 
-/* AO Technologies 3D Text */
+/* Aurygen Technologies 3D Text */
 .ao-tech-text {
   position: absolute;
   bottom: 10%;
@@ -265,7 +265,7 @@ background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 
   }
 }
 
-/* Mobile-only AO Technologies overlay */
+/* Mobile-only Aurygen Technologies overlay */
 .mobile-ao-tech-overlay {
   position: fixed;
   top: 50%;
@@ -305,7 +305,7 @@ background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 
     letter-spacing: 0.1em;
   }
   
-  /* Mobile AO Technologies overlay responsive sizing */
+  /* Mobile Aurygen Technologies overlay responsive sizing */
   .mobile-ao-tech-overlay {
     font-size: 2.5rem;
   }
@@ -331,7 +331,7 @@ background: linear-gradient(135deg, rgba(15, 15, 35, 0.95) 0%, rgba(26, 26, 58, 
     letter-spacing: 0.05em;
   }
   
-  /* Mobile AO Technologies overlay for small screens */
+  /* Mobile Aurygen Technologies overlay for small screens */
   .mobile-ao-tech-overlay {
     font-size: 2rem;
     letter-spacing: 0.05em;
