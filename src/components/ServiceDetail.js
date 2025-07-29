@@ -219,7 +219,13 @@ const ServiceDetail = () => {
                       )}
                     </div>
                     <div className="step-card">
-                      <div className="step-icon">{step.icon}</div>
+                      <div className="step-icon">
+                        {step.icon.startsWith('/') || step.icon.startsWith('http') ? (
+                          <img src={step.icon} alt={step.title} className="step-icon-image" />
+                        ) : (
+                          step.icon
+                        )}
+                      </div>
                       <h3 className="step-title">{step.title}</h3>
                       <p className="step-description">{step.description}</p>
                       {/* <div className="step-duration">{step.duration}</div> */}
