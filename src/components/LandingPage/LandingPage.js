@@ -6,6 +6,10 @@ import './LandingPage.css';
 const LandingPage = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const [splineLoading, setSplineLoading] = useState(() => {
+    // Only show loader on first website load
+    return !sessionStorage.getItem('splineLoaded');
+  });
   const containerRef = useRef(null);
   
   const { scrollYProgress } = useScroll({
@@ -39,11 +43,21 @@ const LandingPage = () => {
     checkMobile();
     window.addEventListener('resize', checkMobile);
     
+    // Fallback timeout to hide loader if Spline doesn't load (only if loader is showing)
+    let loaderTimeout;
+    if (splineLoading) {
+      loaderTimeout = setTimeout(() => {
+        setSplineLoading(false);
+        sessionStorage.setItem('splineLoaded', 'true');
+      }, 10000); // 10 seconds timeout
+    }
+    
     return () => {
       document.body.style.removeProperty('--hide-stars');
       window.removeEventListener('resize', checkMobile);
+      if (loaderTimeout) clearTimeout(loaderTimeout);
     };
-  }, []);
+  }, [splineLoading]);
 
   return (
     <>
@@ -57,12 +71,36 @@ const LandingPage = () => {
               opacity
             }}
           >
+            {splineLoading && (
+              <div className="spline-loader">
+                <div className="loader-content">
+                  <div className="loader-ring">
+                    <div className="loader-ring-inner"></div>
+                  </div>
+                  <div className="loader-text">
+                    <span>Loading Experience</span>
+                    <div className="loader-dots">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
             <Spline
               scene={isMobile ? "https://prod.spline.design/oDCC72pUlaRTnSTj/scene.splinecode" : "https://prod.spline.design/CA9ldpfRYX1ZeKvC/scene.splinecode"}
               //scene="https://prod.spline.design/i38VSl8eMNuM1HXs/scene.splinecode"
               //scene="https://prod.spline.design/qopHYF3Zzu-WVFa4/scene.splinecode"
               className="spline-scene"
+              style={{ 
+                opacity: splineLoading ? 0 : 1, 
+                transition: 'opacity 0.8s ease-in-out',
+                visibility: splineLoading ? 'hidden' : 'visible'
+              }}
               onLoad={(splineApp) => {
+                setSplineLoading(false);
+                sessionStorage.setItem('splineLoaded', 'true');
                 // Ensure high-quality rendering
                 if (splineApp && splineApp.canvas) {
                   const canvas = splineApp.canvas;
