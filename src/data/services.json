@@ -2606,31 +2606,31 @@
           "id": "requirement-analysis",
           "title": "Requirement Analysis",
           "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions and research.",
-          "icon": "🔍"
+          "icon": "/assets/3dzoom.png"
         },
         {
           "id": "technical-design",
           "title": "Architecture & Design",
           "description": "Our team crafts a robust system architecture and intuitive design that supports scalability, maintainability, and user experience.",
-          "icon": "🏗️"
+          "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development",
           "title": "Agile Development",
           "description": "Using agile methodologies, we deliver working software in iterative cycles with regular reviews and client feedback.",
-          "icon": "⚡"
+          "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
           "title": "Testing & Quality Assurance",
           "description": "We rigorously test across all levels  unit, integration, and user acceptance to ensure a reliable and secure product.",
-          "icon": "🧪"
+          "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment",
           "title": "Launch & Support",
           "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
-          "icon": "🚀"
+          "icon": "/assets/3drocket.png"
         }
       ]
     },
@@ -2642,31 +2642,31 @@
           "id": "security-assessment",
           "title": "Security Assessment & Audit",
           "description": "We begin by assessing your existing infrastructure, identifying vulnerabilities, and evaluating compliance with security standards.",
-          "icon": "🔍"
+          "icon": "/assets/3dzoom.png"
         },
         {
           "id": "risk-analysis",
           "title": "Threat & Risk Analysis",
           "description": "Our experts perform threat modelling and risk evaluation to prioritise critical areas and potential attack vectors.",
-          "icon": "⚠️"
+          "icon": "/assets/3DAlert.png"
         },
         {
           "id": "strategy-planning",
           "title": "Security Strategy & Planning",
           "description": "We develop a tailored security roadmap that includes policies, technologies, and best practices aligned with your business goals.",
-          "icon": "📋"
+          "icon": "/assets/3dtarget.png"
         },
         {
           "id": "implementation",
           "title": "Security Implementation",
           "description": "Implementation of advanced protection measures such as firewalls, access control, encryption, and real-time monitoring.",
-          "icon": "🔒"
+          "icon": "/assets/3dlock.png"
         },
         {
           "id": "monitoring-support",
           "title": "Monitoring, Testing & Support",
           "description": "Ongoing security testing, employee awareness training, and 24/7 monitoring to ensure long-term protection and quick response to incidents.",
-          "icon": "👁️"
+          "icon": "/assets/3dchat.png"
         }
       ]
     },
@@ -2678,31 +2678,31 @@
           "id": "discovery-analysis",
           "title": "Discovery & Analysis",
           "description": "We begin by analysing your current processes and identifying automation opportunities that deliver the greatest impact.",
-          "icon": "🔍"
+          "icon": "/assets/3dzoom.png"
         },
         {
           "id": "solution-design",
           "title": "Solution Design",
           "description": "We design intelligent workflows powered by AI, machine learning, or rule-based automation—aligned with your goals.",
-          "icon": "🧠"
+          "icon": "/assets/3dbulb.png"
         },
         {
           "id": "development-integration",
           "title": "Development & Integration",
           "description": "Our team builds and integrates AI-driven systems into your existing infrastructure for a seamless transition.",
-          "icon": "⚙️"
+          "icon": "/assets/3dsetting.png"
         },
         {
           "id": "testing-optimisation",
           "title": "Testing & Optimisation",
           "description": "Rigorous testing ensures accuracy, reliability, and performance, followed by continuous optimisation for long-term value.",
-          "icon": "🧪"
+          "icon": "/assets/3dLab.png"
         },
         {
           "id": "training-support",
           "title": "Training & Support",
           "description": "We provide hands-on training, change management support, and regular updates to keep your smart systems running at their best.",
-          "icon": "🤖"
+          "icon": "/assets/3dcall.png"
         }
       ]
     },
@@ -2714,31 +2714,31 @@
       "id": "requirements-analysis",
       "title": "Requirements Analysis",
       "description": "We begin by understanding your data structure, storage needs, access patterns, and integration requirements.",
-      "icon": "🔍"
+      "icon": "/assets/3dzoom.png"
     },
     {
       "id": "design-planning",
       "title": "Database Design & Planning",
       "description": "Our team designs a secure, normalised, and scalable schema suited for performance, reliability, and future growth.",
-      "icon": "🧱"
+      "icon": "/assets/3dpuzzle.png"
     },
     {
       "id": "development-setup",
       "title": "Development & Setup",
       "description": "We build and configure the database solution, ensuring optimal indexing, query performance, and backup readiness.",
-      "icon": "⚙️"
+      "icon": "/assets/3dsetting.png"
     },
     {
       "id": "testing-migration",
       "title": "Testing & Data Migration",
       "description": "We test the database thoroughly and manage safe, accurate migration from existing systems with minimal disruption.",
-      "icon": "🔄"
+      "icon": "/assets/3dcopy.png"
     },
     {
       "id": "maintenance-support",
       "title": "Monitoring & Support",
       "description": "We offer ongoing monitoring, performance tuning, and technical support to keep your data environment healthy and secure.",
-      "icon": "🛠️"
+      "icon": "/assets/3dtools.png"
     }
   ]
     },
@@ -2750,31 +2750,31 @@
           "id": "infrastructure-assessment",
           "title": "Infrastructure Assessment",
           "description": "We assess your current systems, performance needs, and business objectives to define the right cloud strategy.",
-          "icon": "🧭"
+          "icon": "/assets/3dexplorer.png"
         },
         {
           "id": "architecture-design",
           "title": "Architecture Design",
           "description": "Our architects design a scalable, secure, and cost-effective infrastructure, selecting the best-fit platforms and tools.",
-          "icon": "🏗️"
+          "icon": "/assets/3dsetting.png"
         },
         {
           "id": "cloud-migration",
           "title": "Cloud Deployment & Migration",
           "description": "We deploy new environments or migrate existing systems with minimal disruption, ensuring a smooth transition to the cloud.",
-          "icon": "☁️"
+          "icon": "/assets/3dfolder.png"
         },
         {
           "id": "optimisation-security",
           "title": "Optimisation & Security",
           "description": "We fine-tune performance, apply best security practices, and configure monitoring to keep your infrastructure robust and efficient.",
-          "icon": "🔒"
+          "icon": "/assets/3dlocker.png"
         },
         {
           "id": "maintenance-support",
           "title": "Maintenance & Support",
           "description": "We offer proactive maintenance, scalability support, and continuous improvements to align with your evolving needs.",
-          "icon": "🔧"
+          "icon": "/assets/3dtools.png"
         }
       ]
     },
@@ -2786,31 +2786,31 @@
           "id": "idea-validation",
           "title": "Idea Validation & Discovery",
           "description": "We work closely with you to refine your concept, identify your target market, and define clear business and technical goals.",
-          "icon": "💡"
+          "icon": "/assets/3dbulb.png"
         },
         {
           "id": "mvp-strategy",
           "title": "MVP Strategy & Planning",
           "description": "We shape a focused MVP plan that includes essential features, tech stack recommendations, and go-to-market alignment.",
-          "icon": "🗺️"
+          "icon": "/assets/3dtarget.png"
         },
         {
           "id": "agile-development",
           "title": "Agile Product Development",
           "description": "Using agile methodology, we build and iterate your product in sprints, with regular feedback loops to stay on track.",
-          "icon": "⚙️"
+          "icon": "/assets/3dpuzzle.png"
         },
         {
           "id": "launch-support",
           "title": "Launch Support",
           "description": "We ensure a smooth product launch with testing, performance tuning, and support for app store or web deployment.",
-          "icon": "🚀"
+          "icon": "/assets/3drocket.png"
         },
         {
           "id": "post-launch-growth",
           "title": "Post-Launch Growth & Support",
           "description": "After launch, we provide technical support, feature enhancements, and scaling strategies as your startup evolves.",
-          "icon": "📈"
+          "icon": "/assets/3dheadphone.png"
         }
       ]
     }
