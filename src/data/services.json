@@ -569,33 +569,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Enhanced Data Protection",
+                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "24/7 Threat Monitoring",
+                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Regulatory Compliance",
+                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Business Continuity",
+                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Employee Awareness Training",
+                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Customised Security Strategies",
+                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
           }
@@ -645,33 +645,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Enhanced Data Protection",
+                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "24/7 Threat Monitoring",
+                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Regulatory Compliance",
+                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Business Continuity",
+                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Employee Awareness Training",
+                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Customised Security Strategies",
+                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
           }
@@ -721,37 +721,36 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Enhanced Data Protection",
+                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "24/7 Threat Monitoring",
+                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Regulatory Compliance",
+                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Business Continuity",
+                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Employee Awareness Training",
+                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Customised Security Strategies",
+                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
-          }
-        },
+          }        },
         {
           "id": "firewall-device-protection",
           "title": "Firewall & Device Protection",
@@ -797,37 +796,37 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Enhanced Data Protection",
+                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "24/7 Threat Monitoring",
+                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Regulatory Compliance",
+                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Business Continuity",
+                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Employee Awareness Training",
+                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Customised Security Strategies",
+                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
-          }
-        },
+          }   
+         },
         {
           "id": "security-audits",
           "title": "Security Audits",
@@ -873,37 +872,36 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Enhanced Data Protection",
+                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "24/7 Threat Monitoring",
+                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Regulatory Compliance",
+                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Business Continuity",
+                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Employee Awareness Training",
+                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Customised Security Strategies",
+                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
-          }
-        }
+          }        }
       ]
     },
     {
@@ -968,33 +966,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Increased Efficiency",
+                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Smarter Decision Making",
+                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost Reduction",
+                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Improved Customer Experience",
+                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Scalable Operations",
+                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Innovation Enablement",
+                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
           }
@@ -1052,33 +1050,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Increased Efficiency",
+                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Smarter Decision Making",
+                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost Reduction",
+                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Improved Customer Experience",
+                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Scalable Operations",
+                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Innovation Enablement",
+                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
           }
@@ -1136,33 +1134,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Increased Efficiency",
+                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Smarter Decision Making",
+                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost Reduction",
+                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Improved Customer Experience",
+                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Scalable Operations",
+                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Innovation Enablement",
+                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
           }
@@ -1220,33 +1218,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Increased Efficiency",
+                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Smarter Decision Making",
+                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost Reduction",
+                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Improved Customer Experience",
+                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Scalable Operations",
+                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Innovation Enablement",
+                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
           }
@@ -1296,33 +1294,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Increased Efficiency",
+                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Smarter Decision Making",
+                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost Reduction",
+                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Improved Customer Experience",
+                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Scalable Operations",
+                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Innovation Enablement",
+                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
           }
@@ -1380,33 +1378,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Increased Efficiency",
+                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Smarter Decision Making",
+                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost Reduction",
+                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Improved Customer Experience",
+                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Scalable Operations",
+                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Innovation Enablement",
+                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
           }
@@ -1475,33 +1473,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Greater Flexibility",
+                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Improved Scalability",
+                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Enhanced Security",
+                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Reduced Operational Costs",
+                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Reliable Business Continuity",
+                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Faster Deployment",
+                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
           }
@@ -1559,33 +1557,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Greater Flexibility",
+                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Improved Scalability",
+                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Enhanced Security",
+                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Reduced Operational Costs",
+                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Reliable Business Continuity",
+                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Faster Deployment",
+                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
           }
@@ -1643,33 +1641,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Greater Flexibility",
+                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Improved Scalability",
+                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Enhanced Security",
+                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Reduced Operational Costs",
+                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Reliable Business Continuity",
+                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Faster Deployment",
+                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
           }
@@ -1727,33 +1725,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Greater Flexibility",
+                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Improved Scalability",
+                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Enhanced Security",
+                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Reduced Operational Costs",
+                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Reliable Business Continuity",
+                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Faster Deployment",
+                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
           }
@@ -1811,33 +1809,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Greater Flexibility",
+                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Improved Scalability",
+                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Enhanced Security",
+                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Reduced Operational Costs",
+                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Reliable Business Continuity",
+                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Faster Deployment",
+                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
           }
@@ -1906,33 +1904,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "High Performance & Reliability",
+                "description": "Ensure fast and consistent access to your data with optimised database systems designed for stability and uptime."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Secure Data Management",
+                "description": "Protect sensitive information with robust access controls, encryption, and regular security audits."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Scalability & Flexibility",
+                "description": "Grow effortlessly with databases that scale alongside your business needs, whether on-premise or in the cloud."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Real-Time Insights",
+                "description": "Access live data and generate reports instantly, supporting quicker decision-making and business agility."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Reduced Maintenance Burden",
+                "description": "Let experts handle routine updates, backups, and optimisation, allowing your team to focus on core objectives."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Custom Architecture & Integration",
+                "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
               }
             ]
           }
@@ -1990,33 +1988,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "High Performance & Reliability",
+                "description": "Ensure fast and consistent access to your data with optimised database systems designed for stability and uptime."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Secure Data Management",
+                "description": "Protect sensitive information with robust access controls, encryption, and regular security audits."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Scalability & Flexibility",
+                "description": "Grow effortlessly with databases that scale alongside your business needs, whether on-premise or in the cloud."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Real-Time Insights",
+                "description": "Access live data and generate reports instantly, supporting quicker decision-making and business agility."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Reduced Maintenance Burden",
+                "description": "Let experts handle routine updates, backups, and optimisation, allowing your team to focus on core objectives."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Custom Architecture & Integration",
+                "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
               }
             ]
           }
@@ -2074,33 +2072,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "High Performance & Reliability",
+                "description": "Ensure fast and consistent access to your data with optimised database systems designed for stability and uptime."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Secure Data Management",
+                "description": "Protect sensitive information with robust access controls, encryption, and regular security audits."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Scalability & Flexibility",
+                "description": "Grow effortlessly with databases that scale alongside your business needs, whether on-premise or in the cloud."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Real-Time Insights",
+                "description": "Access live data and generate reports instantly, supporting quicker decision-making and business agility."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Reduced Maintenance Burden",
+                "description": "Let experts handle routine updates, backups, and optimisation, allowing your team to focus on core objectives."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Custom Architecture & Integration",
+                "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
               }
             ]
           }
@@ -2158,33 +2156,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "High Performance & Reliability",
+                "description": "Ensure fast and consistent access to your data with optimised database systems designed for stability and uptime."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Secure Data Management",
+                "description": "Protect sensitive information with robust access controls, encryption, and regular security audits."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Scalability & Flexibility",
+                "description": "Grow effortlessly with databases that scale alongside your business needs, whether on-premise or in the cloud."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Real-Time Insights",
+                "description": "Access live data and generate reports instantly, supporting quicker decision-making and business agility."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Reduced Maintenance Burden",
+                "description": "Let experts handle routine updates, backups, and optimisation, allowing your team to focus on core objectives."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Custom Architecture & Integration",
+                "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
               }
             ]
           }
@@ -2253,33 +2251,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "End-to-End Technical Partnership",
+                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Rapid MVP Development",
+                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost-Effective Engineering",
+                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Agile & Scalable Team",
+                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Product & UX Guidance",
+                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Launch Support & Beyond",
+                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
           }
@@ -2337,33 +2335,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "End-to-End Technical Partnership",
+                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Rapid MVP Development",
+                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost-Effective Engineering",
+                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Agile & Scalable Team",
+                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Product & UX Guidance",
+                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Launch Support & Beyond",
+                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
           }
@@ -2413,33 +2411,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "End-to-End Technical Partnership",
+                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Rapid MVP Development",
+                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost-Effective Engineering",
+                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Agile & Scalable Team",
+                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Product & UX Guidance",
+                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Launch Support & Beyond",
+                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
           }
@@ -2489,33 +2487,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "End-to-End Technical Partnership",
+                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Rapid MVP Development",
+                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost-Effective Engineering",
+                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Agile & Scalable Team",
+                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Product & UX Guidance",
+                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Launch Support & Beyond",
+                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
           }
@@ -2565,33 +2563,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "End-to-End Technical Partnership",
+                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Rapid MVP Development",
+                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Cost-Effective Engineering",
+                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Agile & Scalable Team",
+                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Product & UX Guidance",
+                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Launch Support & Beyond",
+                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
           }
@@ -2599,45 +2597,222 @@
       ]
     }
   ],
-  "developmentProcess": {
-    "title": "Our Development Process",
-    "description": "We follow a proven development methodology to ensure successful project delivery",
-    "steps": [
-      {
-        "id": "requirement-analysis",
-        "title": "Requirement Analysis",
-        "description": "We begin by thoroughly understanding your business needs, goals, and technical requirements through detailed discussions and analysis.",
-        "icon": "🔍",
-        "duration": "1-2 weeks"
-      },
-      {
-        "id": "project-proposal",
-        "title": "Project Proposal",
-        "description": "Based on our analysis, we create a comprehensive project proposal including scope, timeline, technology stack, and detailed cost breakdown.",
-        "icon": "📋",
-        "duration": "3-5 days"
-      },
-      {
-        "id": "estimating",
-        "title": "Estimating",
-        "description": "We provide accurate time and cost estimates with clear milestones and deliverables, ensuring transparency throughout the project.",
-        "icon": "⏱️",
-        "duration": "2-3 days"
-      },
-      {
-        "id": "development",
-        "title": "Development",
-        "description": "Our experienced team begins development using agile methodologies, providing regular updates and incorporating your feedback throughout the process.",
-        "icon": "⚡",
-        "duration": "Varies by project"
-      },
-      {
-        "id": "support",
-        "title": "Support",
-        "description": "After launch, we provide ongoing support, maintenance, and updates to ensure your solution continues to meet your evolving business needs.",
-        "icon": "🛠️",
-        "duration": "Ongoing"
-      }
-    ]
+  "developmentProcesses": {
+    "software-development": { 
+      "title": "Software Development Process",
+      "description": "Our proven software development methodology ensures high-quality, scalable solutions",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions and research.",
+          "icon": "🔍"
+        },
+        {
+          "id": "technical-design",
+          "title": "Architecture & Design",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability, maintainability, and user experience.",
+          "icon": "🏗️"
+        },
+        {
+          "id": "development",
+          "title": "Agile Development",
+          "description": "Using agile methodologies, we deliver working software in iterative cycles with regular reviews and client feedback.",
+          "icon": "⚡"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels  unit, integration, and user acceptance to ensure a reliable and secure product.",
+          "icon": "🧪"
+        },
+        {
+          "id": "deployment",
+          "title": "Launch & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "🚀"
+        }
+      ]
+    },
+    "cybersecurity-solutions": {
+      "title": "Cybersecurity Implementation Process",
+      "description": "Our comprehensive security methodology ensures robust protection for your digital assets",
+      "steps": [
+        {
+          "id": "security-assessment",
+          "title": "Security Assessment & Audit",
+          "description": "We begin by assessing your existing infrastructure, identifying vulnerabilities, and evaluating compliance with security standards.",
+          "icon": "🔍"
+        },
+        {
+          "id": "risk-analysis",
+          "title": "Threat & Risk Analysis",
+          "description": "Our experts perform threat modelling and risk evaluation to prioritise critical areas and potential attack vectors.",
+          "icon": "⚠️"
+        },
+        {
+          "id": "strategy-planning",
+          "title": "Security Strategy & Planning",
+          "description": "We develop a tailored security roadmap that includes policies, technologies, and best practices aligned with your business goals.",
+          "icon": "📋"
+        },
+        {
+          "id": "implementation",
+          "title": "Security Implementation",
+          "description": "Implementation of advanced protection measures such as firewalls, access control, encryption, and real-time monitoring.",
+          "icon": "🔒"
+        },
+        {
+          "id": "monitoring-support",
+          "title": "Monitoring, Testing & Support",
+          "description": "Ongoing security testing, employee awareness training, and 24/7 monitoring to ensure long-term protection and quick response to incidents.",
+          "icon": "👁️"
+        }
+      ]
+    },
+    "ai-smart-automation": {
+      "title": "AI & Smart Automation Process",
+      "description": "We bring intelligent automation to life with a strategic, user-focused approach tailored to your business needs",
+      "steps": [
+        {
+          "id": "discovery-analysis",
+          "title": "Discovery & Analysis",
+          "description": "We begin by analysing your current processes and identifying automation opportunities that deliver the greatest impact.",
+          "icon": "🔍"
+        },
+        {
+          "id": "solution-design",
+          "title": "Solution Design",
+          "description": "We design intelligent workflows powered by AI, machine learning, or rule-based automation—aligned with your goals.",
+          "icon": "🧠"
+        },
+        {
+          "id": "development-integration",
+          "title": "Development & Integration",
+          "description": "Our team builds and integrates AI-driven systems into your existing infrastructure for a seamless transition.",
+          "icon": "⚙️"
+        },
+        {
+          "id": "testing-optimisation",
+          "title": "Testing & Optimisation",
+          "description": "Rigorous testing ensures accuracy, reliability, and performance, followed by continuous optimisation for long-term value.",
+          "icon": "🧪"
+        },
+        {
+          "id": "training-support",
+          "title": "Training & Support",
+          "description": "We provide hands-on training, change management support, and regular updates to keep your smart systems running at their best.",
+          "icon": "🤖"
+        }
+      ]
+    },
+    "database-services": {
+  "title": "Database Services Process",
+  "description": "We deliver high-performance, secure, and scalable database solutions tailored to your business needs",
+  "steps": [
+    {
+      "id": "requirements-analysis",
+      "title": "Requirements Analysis",
+      "description": "We begin by understanding your data structure, storage needs, access patterns, and integration requirements.",
+      "icon": "🔍"
+    },
+    {
+      "id": "design-planning",
+      "title": "Database Design & Planning",
+      "description": "Our team designs a secure, normalised, and scalable schema suited for performance, reliability, and future growth.",
+      "icon": "🧱"
+    },
+    {
+      "id": "development-setup",
+      "title": "Development & Setup",
+      "description": "We build and configure the database solution, ensuring optimal indexing, query performance, and backup readiness.",
+      "icon": "⚙️"
+    },
+    {
+      "id": "testing-migration",
+      "title": "Testing & Data Migration",
+      "description": "We test the database thoroughly and manage safe, accurate migration from existing systems with minimal disruption.",
+      "icon": "🔄"
+    },
+    {
+      "id": "maintenance-support",
+      "title": "Monitoring & Support",
+      "description": "We offer ongoing monitoring, performance tuning, and technical support to keep your data environment healthy and secure.",
+      "icon": "🛠️"
+    }
+  ]
+    },
+    "cloud-it-infrastructure": {
+      "title": "Cloud & IT Infrastructure Process",
+      "description": "We design and deliver reliable, scalable, and secure cloud infrastructure tailored to your business goals",
+      "steps": [
+        {
+          "id": "infrastructure-assessment",
+          "title": "Infrastructure Assessment",
+          "description": "We assess your current systems, performance needs, and business objectives to define the right cloud strategy.",
+          "icon": "🧭"
+        },
+        {
+          "id": "architecture-design",
+          "title": "Architecture Design",
+          "description": "Our architects design a scalable, secure, and cost-effective infrastructure, selecting the best-fit platforms and tools.",
+          "icon": "🏗️"
+        },
+        {
+          "id": "cloud-migration",
+          "title": "Cloud Deployment & Migration",
+          "description": "We deploy new environments or migrate existing systems with minimal disruption, ensuring a smooth transition to the cloud.",
+          "icon": "☁️"
+        },
+        {
+          "id": "optimisation-security",
+          "title": "Optimisation & Security",
+          "description": "We fine-tune performance, apply best security practices, and configure monitoring to keep your infrastructure robust and efficient.",
+          "icon": "🔒"
+        },
+        {
+          "id": "maintenance-support",
+          "title": "Maintenance & Support",
+          "description": "We offer proactive maintenance, scalability support, and continuous improvements to align with your evolving needs.",
+          "icon": "🔧"
+        }
+      ]
+    },
+    "startup-tech-partner": {
+      "title": "Startup Tech Partner Process",
+      "description": "We help startups turn ideas into successful products with expert guidance, agile development, and ongoing support",
+      "steps": [
+        {
+          "id": "idea-validation",
+          "title": "Idea Validation & Discovery",
+          "description": "We work closely with you to refine your concept, identify your target market, and define clear business and technical goals.",
+          "icon": "💡"
+        },
+        {
+          "id": "mvp-strategy",
+          "title": "MVP Strategy & Planning",
+          "description": "We shape a focused MVP plan that includes essential features, tech stack recommendations, and go-to-market alignment.",
+          "icon": "🗺️"
+        },
+        {
+          "id": "agile-development",
+          "title": "Agile Product Development",
+          "description": "Using agile methodology, we build and iterate your product in sprints, with regular feedback loops to stay on track.",
+          "icon": "⚙️"
+        },
+        {
+          "id": "launch-support",
+          "title": "Launch Support",
+          "description": "We ensure a smooth product launch with testing, performance tuning, and support for app store or web deployment.",
+          "icon": "🚀"
+        },
+        {
+          "id": "post-launch-growth",
+          "title": "Post-Launch Growth & Support",
+          "description": "After launch, we provide technical support, feature enhancements, and scaling strategies as your startup evolves.",
+          "icon": "📈"
+        }
+      ]
+    }
   }
 }

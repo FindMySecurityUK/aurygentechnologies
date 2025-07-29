@@ -9,6 +9,7 @@ const ServiceDetail = () => {
   const [service, setService] = useState(null);
   const [subcategory, setSubcategory] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [developmentProcess, setDevelopmentProcess] = useState(null);
 
   useEffect(() => {
     const foundService = servicesData.services.find(s => s.id === serviceId);
@@ -17,6 +18,33 @@ const ServiceDetail = () => {
       if (foundSubcategory) {
         setService(foundService);
         setSubcategory(foundSubcategory);
+        
+        // Determine which development process to use based on service ID
+        let processKey = 'software-development'; // default
+        switch (serviceId) {
+          case 'software-development':
+            processKey = 'software-development';
+            break;
+          case 'cybersecurity-solutions':
+            processKey = 'cybersecurity-solutions';
+            break;
+          case 'ai-smart-automation':
+            processKey = 'ai-smart-automation';
+            break;
+          case 'database-services':
+            processKey = 'database-services';
+            break;
+          case 'cloud-it-infrastructure':
+            processKey = 'cloud-it-infrastructure';
+            break;
+          case 'startup-tech-partner':
+            processKey = 'startup-tech-partner';
+            break;
+          default:
+            processKey = 'software-development';
+        }
+        
+        setDevelopmentProcess(servicesData.developmentProcesses[processKey]);
       } else {
         navigate('/404');
       }
@@ -172,34 +200,37 @@ const ServiceDetail = () => {
       )}
 
       {/* Development Process Section */}
-      <div className="development-process-section">
-        <div className="container">
-          <div className="section-header">
-            <h2>{servicesData.developmentProcess.title}</h2>
-            <p>{servicesData.developmentProcess.description}</p>
-          </div>
-          
-          <div className="roadmap-container">
-            <div className="roadmap-timeline">
-              {servicesData.developmentProcess.steps.map((step, index) => (
-                <div key={step.id} className="roadmap-step">
-                  <div className="step-connector">
-                    <div className="step-number">{index + 1}</div>
-                    {index < servicesData.developmentProcess.steps.length - 1 && (
-                      <div className="connector-line"></div>
-                    )}
+      {developmentProcess && (
+        <div className="development-process-section">
+          <div className="container">
+            <div className="section-header">
+              <h2>{developmentProcess.title}</h2>
+              <p>{developmentProcess.description}</p>
+            </div>
+            
+            <div className="roadmap-container">
+              <div className="roadmap-timeline">
+                {developmentProcess.steps.map((step, index) => (
+                  <div key={step.id} className="roadmap-step">
+                    <div className="step-connector">
+                      <div className="step-number">{index + 1}</div>
+                      {index < developmentProcess.steps.length - 1 && (
+                        <div className="connector-line"></div>
+                      )}
+                    </div>
+                    <div className="step-card">
+                      <div className="step-icon">{step.icon}</div>
+                      <h3 className="step-title">{step.title}</h3>
+                      <p className="step-description">{step.description}</p>
+                      {/* <div className="step-duration">{step.duration}</div> */}
+                    </div>
                   </div>
-                  <div className="step-card">
-                    <div className="step-icon">{step.icon}</div>
-                    <h3 className="step-title">{step.title}</h3>
-                    <p className="step-description">{step.description}</p>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Key Benefits Section - Full Width */}
       {subcategory.keyBenefits && (
