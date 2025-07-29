@@ -1,0 +1,81 @@
+{
+  "caseStudies": [
+    {
+      "id": "find-my-security-platform",
+      "title": "Find My Security - Comprehensive Security Marketplace Platform",
+      "description": "Developed a revolutionary web platform connecting security service seekers with verified security providers, training companies, and individual professionals across the UK, featuring advanced matching algorithms and comprehensive vetting systems.",
+      "image": "/assets/findMySecurity.jpeg",
+      "link": "#software-development",
+      "category": "Software Development",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe", "Google Maps API"],
+      "duration": "7 months",
+      "client": "Find My Security Ltd"
+    },
+    {
+      "id": "retail-chain-cybersecurity",
+      "title": "Multi-Store Retail Chain Cybersecurity Overhaul",
+      "description": "Implemented comprehensive cybersecurity solutions for a major UK retail chain, protecting 150+ stores with advanced threat detection, employee training programmes, and GDPR compliance frameworks, reducing security incidents by 85%.",
+      "image": "<svg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='grad1' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:#667eea;stop-opacity:1' /><stop offset='100%' style='stop-color:#764ba2;stop-opacity:1' /></linearGradient></defs><rect width='400' height='400' fill='url(#grad1)'/><circle cx='200' cy='150' r='50' fill='white' opacity='0.95'/><path d='M175 140 L190 155 L225 120' stroke='#667eea' stroke-width='4' fill='none' stroke-linecap='round'/><rect x='160' y='220' width='80' height='60' rx='8' fill='white' opacity='0.9'/><circle cx='180' cy='240' r='8' fill='#764ba2'/><circle cx='220' cy='240' r='8' fill='#667eea'/><rect x='170' y='255' width='50' height='4' rx='2' fill='#764ba2'/><rect x='170' y='265' width='40' height='4' rx='2' fill='#667eea'/><circle cx='100' cy='320' r='30' fill='white' opacity='0.8'/><rect x='85' y='305' width='30' height='30' rx='4' fill='none' stroke='#667eea' stroke-width='3'/><circle cx='100' cy='320' r='8' fill='#764ba2'/><circle cx='300' cy='320' r='30' fill='white' opacity='0.8'/><path d='M285 310 L295 320 L315 300' stroke='#667eea' stroke-width='3' fill='none' stroke-linecap='round'/></svg>",
+      "link": "#cybersecurity-solutions",
+      "category": "Cybersecurity Solutions",
+      "technologies": ["SIEM", "Endpoint Protection", "GDPR Tools", "Security Training"],
+      "duration": "9 months",
+      "client": "British Retail Group PLC"
+    },
+    {
+      "id": "smart-warehouse-automation",
+      "title": "AI-Driven Smart Warehouse Automation System",
+      "description": "Transformed a logistics company's warehouse operations with intelligent automation, implementing AI-powered inventory management, robotic picking systems, and predictive maintenance, achieving 45% efficiency improvement and £2.3M annual savings.",
+      "image": "<svg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='grad2' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:#ff6b6b;stop-opacity:1' /><stop offset='100%' style='stop-color:#ffa726;stop-opacity:1' /></linearGradient></defs><rect width='400' height='400' fill='url(#grad2)'/><rect x='120' y='120' width='160' height='120' rx='12' fill='white' opacity='0.95'/><circle cx='160' cy='160' r='15' fill='#ff6b6b'/><circle cx='200' cy='160' r='15' fill='#ffa726'/><circle cx='240' cy='160' r='15' fill='#ff6b6b'/><circle cx='280' cy='160' r='15' fill='#ffa726'/><rect x='140' y='190' width='120' height='8' rx='4' fill='#ff6b6b'/><rect x='140' y='210' width='100' height='6' rx='3' fill='#ffa726' opacity='0.8'/><circle cx='80' cy='300' r='25' fill='white' opacity='0.9'/><rect x='65' y='285' width='30' height='30' rx='4' fill='none' stroke='#ff6b6b' stroke-width='3'/><circle cx='80' cy='300' r='6' fill='#ffa726'/><circle cx='320' cy='300' r='25' fill='white' opacity='0.9'/><path d='M305 290 L315 300 L335 280' stroke='#ff6b6b' stroke-width='3' fill='none' stroke-linecap='round'/></svg>",
+      "link": "#business-automation",
+      "category": "Business Automation",
+      "technologies": ["Machine Learning", "IoT Sensors", "RPA", "Computer Vision"],
+      "duration": "11 months",
+      "client": "Northern Logistics Solutions"
+    },
+    {
+      "id": "enterprise-cloud-migration",
+      "title": "Multi-National Enterprise Cloud Infrastructure Migration",
+      "description": "Orchestrated a complex cloud migration for a multinational corporation, moving 500+ applications to AWS with zero downtime, implementing DevOps practices, and achieving 60% cost reduction whilst improving system performance and scalability.",
+      "image": "<svg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='grad3' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:#4facfe;stop-opacity:1' /><stop offset='100%' style='stop-color:#00f2fe;stop-opacity:1' /></linearGradient></defs><rect width='400' height='400' fill='url(#grad3)'/><ellipse cx='200' cy='120' rx='70' ry='25' fill='white' opacity='0.95'/><ellipse cx='200' cy='115' rx='60' ry='20' fill='#4facfe'/><ellipse cx='150' cy='200' rx='50' ry='20' fill='white' opacity='0.9'/><ellipse cx='150' cy='195' rx='40' ry='15' fill='#00f2fe'/><ellipse cx='280' cy='180' rx='45' ry='18' fill='white' opacity='0.9'/><ellipse cx='280' cy='175' rx='35' ry='13' fill='#4facfe'/><rect x='180' y='280' width='40' height='60' rx='8' fill='white' opacity='0.95'/><rect x='185' y='290' width='30' height='8' rx='4' fill='#4facfe'/><rect x='185' y='305' width='25' height='6' rx='3' fill='#00f2fe'/><rect x='185' y='315' width='30' height='6' rx='3' fill='#4facfe'/><circle cx='200' cy='330' r='3' fill='#00f2fe'/><circle cx='100' cy='320' r='20' fill='white' opacity='0.8'/><path d='M90 315 L95 320 L110 305' stroke='#4facfe' stroke-width='2' fill='none'/><circle cx='300' cy='320' r='20' fill='white' opacity='0.8'/><rect x='290' y='310' width='20' height='20' rx='3' fill='none' stroke='#00f2fe' stroke-width='2'/></svg>",
+      "link": "#cloud-it-infrastructure",
+      "category": "Cloud & IT Infrastructure",
+      "technologies": ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins"],
+      "duration": "14 months",
+      "client": "Global Manufacturing Corp"
+    },
+    {
+      "id": "financial-database-analytics",
+      "title": "Real-Time Financial Analytics Database Platform",
+      "description": "Built a high-performance database solution for a leading investment firm, processing millions of transactions daily with real-time analytics, regulatory reporting, and advanced risk management capabilities, improving decision-making speed by 300%.",
+      "image": "<svg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='grad4' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:#a8edea;stop-opacity:1' /><stop offset='100%' style='stop-color:#fed6e3;stop-opacity:1' /></linearGradient></defs><rect width='400' height='400' fill='url(#grad4)'/><rect x='120' y='100' width='160' height='180' rx='12' fill='white' opacity='0.95'/><rect x='140' y='120' width='120' height='10' rx='5' fill='#a8edea'/><rect x='140' y='140' width='100' height='8' rx='4' fill='#fed6e3'/><rect x='140' y='155' width='110' height='8' rx='4' fill='#a8edea'/><rect x='140' y='170' width='90' height='8' rx='4' fill='#fed6e3'/><rect x='140' y='200' width='120' height='25' rx='4' fill='#a8edea' opacity='0.3'/><rect x='145' y='205' width='25' height='15' rx='2' fill='#a8edea'/><rect x='175' y='205' width='20' height='15' rx='2' fill='#fed6e3'/><rect x='200' y='205' width='30' height='15' rx='2' fill='#a8edea'/><rect x='235' y='205' width='20' height='15' rx='2' fill='#fed6e3'/><circle cx='80' cy='320' r='25' fill='white' opacity='0.9'/><path d='M65 310 L75 320 L95 300' stroke='#a8edea' stroke-width='3' fill='none'/><circle cx='320' cy='320' r='25' fill='white' opacity='0.9'/><rect x='305' y='305' width='30' height='30' rx='4' fill='none' stroke='#fed6e3' stroke-width='3'/><circle cx='320' cy='320' r='6' fill='#a8edea'/></svg>",
+      "link": "#database-services",
+      "category": "Database Services",
+      "technologies": ["PostgreSQL", "Redis", "Apache Kafka", "Elasticsearch", "Grafana"],
+      "duration": "8 months",
+      "client": "City Investment Partners"
+    },
+    {
+      "id": "healthtech-startup-mvp",
+      "title": "HealthTech Startup MVP - Telemedicine Platform",
+      "description": "Developed a comprehensive telemedicine platform for a UK healthtech startup, enabling secure video consultations, prescription management, and patient records integration, helping secure £1.5M seed funding and achieving 5,000+ registered users.",
+      "image": "<svg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='grad5' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:#ffecd2;stop-opacity:1' /><stop offset='100%' style='stop-color:#fcb69f;stop-opacity:1' /></linearGradient></defs><rect width='400' height='400' fill='url(#grad5)'/><rect x='150' y='120' width='100' height='140' rx='12' fill='white' opacity='0.95'/><circle cx='200' cy='160' r='20' fill='#fcb69f'/><path d='M190 155 L195 160 L210 145' stroke='white' stroke-width='2' fill='none' stroke-linecap='round'/><rect x='170' y='190' width='60' height='8' rx='4' fill='#fcb69f'/><rect x='170' y='205' width='45' height='6' rx='3' fill='#ffecd2'/><rect x='170' y='220' width='50' height='6' rx='3' fill='#fcb69f'/><rect x='170' y='235' width='40' height='6' rx='3' fill='#ffecd2'/><circle cx='100' cy='300' r='20' fill='white' opacity='0.9'/><path d='M90 295 L95 300 L110 285' stroke='#fcb69f' stroke-width='2' fill='none' stroke-linecap='round'/><circle cx='300' cy='300' r='20' fill='white' opacity='0.9'/><rect x='290' y='290' width='20' height='20' rx='3' fill='none' stroke='#fcb69f' stroke-width='2'/><circle cx='300' cy='300' r='5' fill='#ffecd2'/><rect x='180' y='340' width='40' height='20' rx='4' fill='white' opacity='0.8'/><rect x='185' y='345' width='30' height='4' rx='2' fill='#fcb69f'/><rect x='185' y='352' width='25' height='3' rx='1' fill='#ffecd2'/></svg>",
+      "link": "#startup-tech-partner",
+      "category": "Startup Tech Partner",
+      "technologies": ["React", "Node.js", "WebRTC", "FHIR", "AWS"],
+      "duration": "6 months",
+      "client": "MediConnect Solutions"
+    },
+    {
+      "id": "customer-service-chatbot",
+      "title": "AI-Powered Customer Service Chatbot for E-commerce",
+      "description": "Implemented an intelligent chatbot system for a major UK e-commerce platform, handling 80% of customer inquiries automatically, reducing response times by 90%, and improving customer satisfaction scores by 35% whilst cutting support costs significantly.",
+      "image": "<svg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='grad6' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:#11998e;stop-opacity:1' /><stop offset='100%' style='stop-color:#38ef7d;stop-opacity:1' /></linearGradient></defs><rect width='400' height='400' fill='url(#grad6)'/><circle cx='200' cy='150' r='50' fill='white' opacity='0.95'/><circle cx='185' cy='140' r='8' fill='#11998e'/><circle cx='215' cy='140' r='8' fill='#11998e'/><path d='M175 165 Q200 180 225 165' stroke='#11998e' stroke-width='4' fill='none' stroke-linecap='round'/><rect x='120' y='220' width='160' height='80' rx='12' fill='white' opacity='0.9'/><rect x='140' y='240' width='120' height='8' rx='4' fill='#11998e'/><rect x='140' y='255' width='100' height='6' rx='3' fill='#38ef7d'/><rect x='140' y='270' width='110' height='6' rx='3' fill='#11998e'/><rect x='140' y='285' width='90' height='6' rx='3' fill='#38ef7d'/><circle cx='80' cy='340' r='25' fill='white' opacity='0.8'/><path d='M70 335 L75 340 L90 325' stroke='#11998e' stroke-width='3' fill='none'/><circle cx='320' cy='340' r='25' fill='white' opacity='0.8'/><circle cx='320' cy='340' r='12' fill='#38ef7d'/><circle cx='320' cy='340' r='6' fill='white'/></svg>",
+      "link": "#chatbots-virtual-assistants",
+      "category": "Chatbots & Virtual Assistants",
+      "technologies": ["Natural Language Processing", "Machine Learning", "Node.js", "MongoDB"],
+      "duration": "4 months",
+      "client": "ShopBritain Online"
+    }
+  ]
+}

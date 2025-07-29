@@ -20,6 +20,7 @@ import ServiceCategories from './components/ServiceCategories';
 import ServiceDetail from './components/ServiceDetail';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import TermsConditions from './components/TermsConditions/TermsConditions';
+import CaseStudyDetail from './components/CaseStudyDetail/CaseStudyDetail';
 
 const HomePage = () => {
   return (
@@ -52,6 +53,7 @@ function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
             <Route path="/blog/:id" element={<BlogDetail />} />
+            <Route path="/case-study/:id" element={<CaseStudyDetail />} />
           </Routes>
           <Footer />
         </div>
