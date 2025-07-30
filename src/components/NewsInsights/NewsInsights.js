@@ -11,45 +11,45 @@ const NewsInsights = () => {
   const newsItems = [
     {
       type: "News",
-      title: "Aurygen Technologies Expands Global Operations",
-      summary: "We're excited to announce our expansion into new markets, bringing cutting-edge technology solutions to businesses worldwide.",
-      date: "March 20, 2024",
-      link: "#news1"
-    },
-    {
-      type: "Insight",
-      title: "The Rise of Edge Computing in 2024",
-      summary: "Analyzing the growing importance of edge computing and its impact on modern business infrastructure.",
-      date: "March 18, 2024",
-      link: "#insight1"
+      title: "Competition Shows Humans Are Still Better Than AI at Coding",
+      summary: "Recent programming competitions reveal that human developers continue to outperform AI systems in complex coding challenges, highlighting the enduring value of human expertise.",
+      date: "July 26, 2025",
+      link: "https://www.theguardian.com/technology/2025/jul/26/competition-shows-humans-are-still-better-than-ai-at-coding-just"
     },
     {
       type: "News",
-      title: "Partnership with Leading Tech Giants",
-      summary: "Strategic partnerships formed to deliver enhanced AI and cloud solutions to our enterprise clients.",
-      date: "March 15, 2024",
-      link: "#news2"
-    },
-    {
-      type: "Insight",
-      title: "Quantum Computing: The Next Frontier",
-      summary: "Exploring the potential of quantum computing and its implications for future software development.",
-      date: "March 12, 2024",
-      link: "#insight2"
+      title: "CCTV cameras with AI to tackle fly-tipping",
+      summary: "CCTV cameras that use AI technology will be installed in parts of East Yorkshire to tackle fly-tipping following a pilot scheme.",
+      date: "July 30, 2025",
+      link: "https://www.bbc.com/news/articles/c78z93d9893o"
     },
     {
       type: "News",
-      title: "Award Recognition for Innovation",
-      summary: "Aurygen Technologies receives industry recognition for breakthrough innovations in AI-driven automation.",
-      date: "March 8, 2024",
-      link: "#news3"
+      title: "Apple Earnings Under Pressure from Tariffs and Slow AI Rollout",
+      summary: "Apple faces financial challenges as trade tariffs and delayed AI feature implementations impact quarterly earnings and market expectations.",
+      date: "July 30, 2025",
+      link: "https://www.reuters.com/business/apple-earnings-under-pressure-tariffs-slow-ai-roll-out-2025-07-30/"
     },
     {
-      type: "Insight",
-      title: "Sustainable Tech: Green Computing Trends",
-      summary: "How sustainable technology practices are reshaping the future of software development and infrastructure.",
-      date: "March 5, 2024",
-      link: "#insight3"
+      type: "News",
+      title: "UK Faces Surge in Sophisticated Cyber Attacks",
+      summary: "Security experts warn of increasing cyber threats targeting UK infrastructure and businesses, with attackers employing more sophisticated techniques.",
+      date: "July 29, 2025",
+      link: "https://www.independent.co.uk/tech/security/uk-cyber-attacks-dan-jarvis-b2795118.html"
+    },
+    {
+      type: "News",
+      title: "Critical Security Flaw Discovered in Gemini CLI Coding Tool",
+      summary: "Researchers identify a serious vulnerability in Google's Gemini CLI tool that could allow attackers to execute malicious commands on developer systems.",
+      date: "July 27, 2025",
+      link: "https://arstechnica.com/security/2025/07/flaw-in-gemini-cli-coding-tool-allowed-hackers-to-run-nasty-commands-on-user-devices/"
+    },
+    {
+      type: "News",
+      title: "Gmail Issues Urgent Security Warning to 2.5 Billion Users",
+      summary: "Google warns Gmail users of a surge in sophisticated attacks and urges immediate account security updates to protect against evolving threats.",
+      date: "July 30, 2025",
+      link: "https://www.forbes.com/sites/daveywinder/2025/07/30/gmail-warns-25-billion-users---update-accounts-now-as-attacks-surge/"
     }
   ];
 

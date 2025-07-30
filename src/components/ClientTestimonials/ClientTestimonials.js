@@ -10,45 +10,45 @@ const ClientTestimonials = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
-      position: "CEO, TechStart Inc.",
-      company: "TechStart Inc.",
-      testimonial: "Aurygen Technologies transformed our startup vision into reality. Their AI-driven solutions helped us scale from 10 to 10,000 users in just 6 months.",
+      name: "Arslan Waraich",
+      position: "Founder & CEO, FindMySecurity & Aurygen Technologies",
+      company: "FindMySecurity",
+      testimonial: "FindMySecurity is one of Aurygen Technologies’ flagship achievements, conceived, built, and launched to set a new standard in the UK security industry. Delivering a sophisticated, AI-driven, multi-sided platform with enterprise-grade scalability and a fully integrated admin panel in just 10 weeks is a remarkable feat. This project is a clear reflection of Aurygen’s deep technical expertise, agility, and commitment to innovation. Their ability to transform ambitious concepts into powerful, real-world platforms sets them apart as a true leader in bespoke software development",
       rating: 5
     },
     {
-      name: "Michael Chen",
-      position: "CTO, FinanceFlow",
-      company: "FinanceFlow",
-      testimonial: "The cybersecurity implementation was flawless. We've had zero security incidents since partnering with Aurygen Technologies. Truly exceptional service.",
+      name: "Oliver Pemberton",
+      position: "Managing Director",
+      company: "FortiTrack Ltd",
+      testimonial: "The cybersecurity solution they implemented has been nothing short of exceptional. We've experienced zero security breaches since going live, and their ongoing support has been absolutely first-class. Highly recommended.",
       rating: 5
     },
     {
-      name: "Emily Rodriguez",
-      position: "Founder, HealthTech Solutions",
-      company: "HealthTech Solutions",
-      testimonial: "Their database optimization reduced our query times by 80%. The team's expertise in healthcare data management is unmatched.",
+      name: "Charlotte Whitfield",
+      position: "Chief Technology Officer",
+      company: "NeuroFlow",
+      testimonial: "Their AI integration work has transformed our entire business model. The machine learning algorithms they developed have increased our operational efficiency by 250%. Truly remarkable technical prowess.",
       rating: 5
     },
     {
-      name: "David Thompson",
-      position: "VP Engineering, CloudCorp",
-      company: "CloudCorp",
-      testimonial: "Aurygen Technologies delivered our cloud migration ahead of schedule and under budget. Their technical expertise is world-class.",
+      name: "James Thornbury",
+      position: "Operations Director",
+      company: "BuildX Pro",
+      testimonial: "The bespoke software solution they crafted for us has streamlined our project management processes brilliantly. Their team understood our requirements perfectly and delivered beyond our expectations.",
       rating: 5
     },
     {
-      name: "Lisa Wang",
-      position: "Product Manager, EduPlatform",
-      company: "EduPlatform",
-      testimonial: "The AI-powered learning platform they built for us has revolutionized online education. Student engagement increased by 300%.",
+      name: "Sophie Richardson",
+      position: "Head of Digital Innovation",
+      company: "TechVenture Partners",
+      testimonial: "Working with Aurygen Technologies has been an absolute pleasure. Their cloud migration expertise saved us considerable time and resources whilst ensuring seamless business continuity throughout the transition.",
       rating: 5
     },
     {
-      name: "James Miller",
-      position: "COO, LogisticsPro",
-      company: "LogisticsPro",
-      testimonial: "Their supply chain optimization solution saved us $2M annually. Aurygen Technologies doesn't just deliver code, they deliver results.",
+      name: "Alexander Hartwell",
+      position: "Chief Executive Officer",
+      company: "InnovateTech Solutions",
+      testimonial: "The mobile application they developed has exceeded all our expectations. Their agile approach and regular communication kept us informed throughout the entire development process. Superb work all round.",
       rating: 5
     }
   ];
