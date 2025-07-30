@@ -38,9 +38,9 @@ const CaseStudyDetail = () => {
   return (
     <div className="case-study-detail-container">
       <div className="case-study-detail-header">
-        <button onClick={() => navigate('/')} className="back-button">
+        {/* <button onClick={() => navigate('/')} className="back-button">
           ← Back to Home
-        </button>
+        </button> */}
       </div>
       
       <div className="case-study-detail-content">
