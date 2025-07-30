@@ -85,9 +85,9 @@ const CaseStudyDetail = () => {
             <div className="section-content-left">
               <div className="section-header">
                 <span className="section-icon">🎯</span>
-                <h2>Project Overview</h2>
+                <h2>Company Overview</h2>
               </div>
-              <p>A comprehensive digital solution designed to transform business operations through innovative technology and user-centric design principles.</p>
+              <p>{caseStudy.overview}</p>
             </div>
             <div className="section-image-right">
               <img src="/assets/3dcomputer.png" alt="Overview" className="section-illustration" />
@@ -97,38 +97,48 @@ const CaseStudyDetail = () => {
           
           {/* Challenge Section - Image Left, Text Right */}
           {caseStudy.problemStatement && (
-            <div className="case-study-section-layout challenge-layout">
-              <div className="section-image-left">
-                <img src="/assets/3dAlert.png" alt="Challenge" className="section-illustration" />
+          <div className="case-study-section-layout challenge-section">
+            <div className="section-image-left">
+              <img src="/assets/3dAlert.png" alt="Challenge" className="section-illustration" />
+            </div>
+            <div className="section-content-right">
+              <div className="section-header">
+                <span className="section-icon">⚡</span>
+                <h2>The Challenge</h2>
               </div>
-              <div className="section-content-right">
-                <div className="section-header">
-                  <div className="section-icon">⚡</div>
-                  <h2>The Challenge</h2>
-                </div>
-                <div className="problem-highlight">
-                  <h3>Complex Business Requirements</h3>
-                  <p>Organizations faced significant barriers in digital transformation, requiring scalable solutions that could integrate seamlessly with existing workflows while maintaining security and performance standards.</p>
-                </div>
+              <div className="problem-highlight">
+                <h3>Problem Statement</h3>
+                <p>{caseStudy.problemStatement}</p>
               </div>
             </div>
-          )}
+          </div>
+        )}
           
           {/* Solution Section - Text Left, Image Right */}
           {caseStudy.solution && (
-            <div className="case-study-section-layout solution-layout">
-              <div className="section-content-left">
-                <div className="section-header">
-                  <div className="section-icon">✨</div>
-                  <h2>Our Solution</h2>
+          <div className="case-study-section-layout solution-section">
+            <div className="section-content-left">
+              <div className="section-header">
+                <span className="section-icon">✨</span>
+                <h2>Our Solution</h2>
+              </div>
+              <p>{caseStudy.solution}</p>
+              {caseStudy.technologies && (
+                <div className="tech-stack-section">
+                  <h4>Technology Stack Used:</h4>
+                  <div className="tech-tags">
+                    {caseStudy.technologies.map((tech, index) => (
+                      <span key={index} className="tech-tag">{tech}</span>
+                    ))}
+                  </div>
                 </div>
-                <p>We delivered a robust, scalable platform leveraging cutting-edge technologies and best practices. Our solution integrated advanced features with intuitive design, ensuring optimal performance and user experience across all touchpoints.</p>
-              </div>
-              <div className="section-image-right">
-                <img src="/assets/3dtools.png" alt="Solution" className="section-illustration" />
-              </div>
+              )}
             </div>
-          )}
+            <div className="section-image-right">
+              <img src="/assets/3dtools.png" alt="Solution" className="section-illustration" />
+            </div>
+          </div>
+        )}
           
           {/* Project Details Section */}
           <div className="case-study-section results-section">
