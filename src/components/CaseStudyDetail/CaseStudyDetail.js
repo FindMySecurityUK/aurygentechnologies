@@ -78,9 +78,76 @@ const CaseStudyDetail = () => {
           </div>
         </div>
         
-        <div className="case-study-detail-description">
-          <h2>Project Overview</h2>
-          <p>{caseStudy.description}</p>
+        <div className="case-study-content-sections">
+          {/* Overview Section - Text Left, Image Right */}
+          {caseStudy.overview && (
+          <div className="case-study-section-layout overview-section">
+            <div className="section-content-left">
+              <div className="section-header">
+                <span className="section-icon">🎯</span>
+                <h2>Company Overview</h2>
+              </div>
+              <p>{caseStudy.overview}</p>
+            </div>
+            <div className="section-image-right">
+              <img src="/assets/3dcomputer.png" alt="Overview" className="section-illustration" />
+            </div>
+          </div>
+        )}
+          
+          {/* Challenge Section - Image Left, Text Right */}
+          {caseStudy.problemStatement && (
+          <div className="case-study-section-layout challenge-section">
+            <div className="section-image-left">
+              <img src="/assets/3dAlert.png" alt="Challenge" className="section-illustration" />
+            </div>
+            <div className="section-content-right">
+              <div className="section-header">
+                <span className="section-icon">⚡</span>
+                <h2>The Challenge</h2>
+              </div>
+              <div className="problem-highlight">
+                <h3>Problem Statement</h3>
+                <p>{caseStudy.problemStatement}</p>
+              </div>
+            </div>
+          </div>
+        )}
+          
+          {/* Solution Section - Text Left, Image Right */}
+          {caseStudy.solution && (
+          <div className="case-study-section-layout solution-section">
+            <div className="section-content-left">
+              <div className="section-header">
+                <span className="section-icon">✨</span>
+                <h2>Our Solution</h2>
+              </div>
+              <p>{caseStudy.solution}</p>
+              {caseStudy.technologies && (
+                <div className="tech-stack-section">
+                  <h4>Technology Stack Used:</h4>
+                  <div className="tech-tags">
+                    {caseStudy.technologies.map((tech, index) => (
+                      <span key={index} className="tech-tag">{tech}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+            <div className="section-image-right">
+              <img src="/assets/3dtools.png" alt="Solution" className="section-illustration" />
+            </div>
+          </div>
+        )}
+          
+          {/* Project Details Section */}
+          <div className="case-study-section results-section">
+            <div className="section-header">
+              <div className="section-icon">📈</div>
+              <h2>Project Details</h2>
+            </div>
+            <p>{caseStudy.description}</p>
+          </div>
         </div>
         
         <div className="case-study-detail-link">

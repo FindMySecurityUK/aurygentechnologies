@@ -3,15 +3,15 @@
     "ai-legislative-networks": {
       "title": "Understanding Legislative Networks: Building a Knowledge Graph of UK Legislation",
       "excerpt": "Exploring how AI-powered network analysis tools are revolutionising the way we understand and navigate complex legislative relationships in the UK.",
-      "date": "16th March 2024",
+      "date": "16th July 2025",
       "readTime": "8 min read",
       "image": "/assets/UK%20Legislation.jpg",
-      "author": "Aurygen Technologies research team",
+      "author": "Austin White",
       "tags": ["Artificial Intelligence", "Legal Technology", "Data Analysis", "Government Innovation"],
       "content": [
         {
           "type": "paragraph",
-          "text": "At Aurygen Technologies, we believe innovation works best when shared openly. That's why we're excited to explore the latest developments in legislative technology, particularly the groundbreaking work on network analysis tools for understanding legislative connections."
+          "text": "In the rapidly evolving landscape of legal technology, few developments have captured the imagination quite like the application of artificial intelligence to legislative analysis. At Aurygen Technologies, we believe that innovation flourishes when knowledge is shared openly, which is why we're delighted to explore the latest breakthroughs in legislative technology, particularly the pioneering work on network analysis tools that are revolutionising how we understand and navigate the intricate web of legislative connections."
         },
         {
           "type": "heading",
@@ -19,11 +19,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Public trust in government AI initiatives begins with robust data foundations, and UK legislation provides an exemplary starting point. It's publicly accessible, well-structured, affects everyone's lives, and doesn't exist in isolation. Each law connects to others through an intricate web of references, amendments, and shared domains."
+          "text": "Public confidence in government artificial intelligence initiatives fundamentally depends upon establishing robust data foundations, and UK legislation presents an exemplary starting point for such endeavours. The corpus of British law is not only publicly accessible and meticulously structured, but it also profoundly affects every aspect of our daily lives. Crucially, legislation does not exist in isolation—each statute connects to countless others through an intricate web of cross-references, amendments, and shared legal domains that form the backbone of our legal system."
         },
         {
           "type": "paragraph",
-          "text": "For policymakers, researchers, and legal professionals, understanding these connections is crucial but traditionally requires extensive domain knowledge and experience. What if we could visualise and analyse these relationships systematically?"
+          "text": "For policymakers, academic researchers, and legal practitioners alike, comprehending these multifaceted connections has traditionally been a formidable challenge, requiring not only extensive domain expertise but also years of practical experience navigating the complexities of statutory interpretation. The question that has long intrigued legal technologists is this: what if we could visualise and systematically analyse these relationships using cutting-edge computational methods?"
         },
         {
           "type": "heading",
@@ -62,15 +62,15 @@
     "ai-coding-reality": {
       "title": "Why Generative AI Coding Tools Don't Always Deliver: A Technical Perspective",
       "excerpt": "A candid examination of the realities, limitations, and professional considerations when using AI-powered coding assistants in real-world development.",
-      "date": "15th March 2024",
+      "date": "15th July 2025",
       "readTime": "10 min read",
       "image": "/assets/Generative%20ai.jpg",
-      "author": "Aurygen Technologies research team",
+      "author": "Dr. Sarah Mitchell",
       "tags": ["Software Development", "AI Tools", "Code Quality", "Professional Standards"],
       "content": [
         {
           "type": "paragraph",
-          "text": "The promise of generative AI in software development is compelling: write natural language descriptions and watch as sophisticated algorithms transform your requirements into working code. However, after extensive testing and real-world application, the reality is more nuanced than the marketing suggests."
+          "text": "The promise of generative artificial intelligence in software development is undeniably compelling: simply articulate your requirements in natural language and observe as sophisticated algorithms transform your specifications into functional code. However, after extensive testing and real-world application across numerous projects, the reality proves considerably more nuanced than the enthusiastic marketing rhetoric might suggest."
         },
         {
           "type": "heading",
@@ -78,11 +78,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Initial productivity gains from AI coding tools can be impressive, particularly for routine tasks and boilerplate code generation. However, these gains often plateau as projects become more complex and require deeper architectural thinking."
+          "text": "Initial productivity gains from AI-powered coding tools can indeed be quite impressive, particularly when applied to routine tasks and boilerplate code generation. However, these early gains frequently plateau as projects evolve in complexity and begin to require the kind of deep architectural thinking and strategic decision-making that remains firmly within the human domain."
         },
         {
           "type": "paragraph",
-          "text": "The time saved in initial code generation is frequently offset by increased debugging time, code review overhead, and the need to refactor AI-generated solutions that don't align with project standards or long-term maintainability requirements."
+          "text": "The time ostensibly saved during initial code generation is frequently offset by substantially increased debugging time, heightened code review overhead, and the inevitable need to refactor AI-generated solutions that fail to align with established project standards or long-term maintainability requirements. This phenomenon has become increasingly apparent as development teams gain more experience with these tools."
         },
         {
           "type": "heading",
@@ -125,10 +125,10 @@
     "ai-data-protection": {
       "title": "Generative AI and Data Protection: Eight Essential Questions for Developers",
       "excerpt": "Navigate the complex landscape of GDPR compliance and data protection requirements when developing and deploying generative AI systems.",
-      "date": "14th March 2024",
+      "date": "14th July 2025",
       "readTime": "12 min read",
       "image": "/assets/Ai%20data%20protection.jpg",
-      "author": "Aurygen Technologies research team",
+      "author": "James Richardson",
       "tags": ["Data Protection", "GDPR", "AI Compliance", "Privacy by Design"],
       "content": [
         {
@@ -232,10 +232,10 @@
     "ai-security-standards": {
       "title": "New ETSI Standards: Protecting AI Systems from Evolving Cyber Threats",
       "excerpt": "Comprehensive analysis of the latest European standards for securing artificial intelligence systems against sophisticated cyber attacks.",
-      "date": "13th March 2024",
+      "date": "13th July 2025",
       "readTime": "9 min read",
       "image": "/assets/Protecting%20AI%20Systems.jpg",
-      "author": "Aurygen Technologies research team",
+      "author": "Emily Thompson",
       "tags": ["Cybersecurity", "AI Security", "ETSI Standards", "Threat Protection"],
       "content": [
         {
@@ -307,10 +307,10 @@
     "future-programming": {
       "title": "The Future of Programming: Why You Still Need Expertise in the AI Era",
       "excerpt": "Examining how artificial intelligence is transforming software development whilst highlighting why human expertise remains absolutely essential.",
-      "date": "12th March 2024",
+      "date": "12th July 2025",
       "readTime": "11 min read",
       "image": "/assets/Future%20programmig.jpg",
-      "author": "Aurygen Technologies research team",
+      "author": "Austin White",
       "tags": ["Programming", "AI Augmentation", "Software Engineering", "Future of Work"],
       "content": [
         {

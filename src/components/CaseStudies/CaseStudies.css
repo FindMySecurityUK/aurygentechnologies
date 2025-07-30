@@ -104,7 +104,7 @@
   transition: all 0.4s ease;
   position: relative;
   backdrop-filter: blur(10px);
-  height: 520px;
+  height: 600px;
 }
 
 .case-study-card:hover {
