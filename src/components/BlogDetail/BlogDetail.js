@@ -57,9 +57,15 @@ const BlogDetail = () => {
           <div className="blog-detail-image">
             <img src={blog.image} alt={blog.title} />
           </div>
+          <div className="blog-detail-author-section">
+            <div className="blog-detail-author">By {blog.author}</div>
+          </div>
           <div className="blog-detail-title-section">
             <h1 className="blog-detail-title">{blog.title}</h1>
-            <div className="blog-detail-author">By {blog.author}</div>
+            <div className="blog-detail-meta">
+              <div className="blog-detail-date">{blog.date}</div>
+              <div className="blog-detail-read-time">{blog.readTime}</div>
+            </div>
             <div className="blog-detail-tags">
               {blog.tags.map((tag, index) => (
                 <span key={index} className="blog-detail-tag">{tag}</span>

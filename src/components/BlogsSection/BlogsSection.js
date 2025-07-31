@@ -22,7 +22,8 @@ const BlogsSection = () => {
         date: blogData.date,
         image: blogData.image,
         link: blogId,
-        readTime: blogData.readTime
+        readTime: blogData.readTime,
+        author: blogData.author
       };
     });
     setBlogs(blogArray);
@@ -42,10 +43,15 @@ const BlogsSection = () => {
               >
                 <div className="blog-image">
                   <img src={blog.image} alt={blog.title} />
+                  <div className="blog-read-time">{blog.readTime}</div>
+                  <div className="blog-date">{blog.date}</div>
                 </div>
                 <div className="blog-content">
                   <h3 className="blog-title">{blog.title}</h3>
                   <p className="blog-excerpt">{blog.excerpt}</p>
+                  <div className="blog-author">
+                    <span>By {blog.author}</span>
+                  </div>
                 </div>
                </Link>
             ))}

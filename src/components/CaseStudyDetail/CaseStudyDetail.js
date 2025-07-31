@@ -90,7 +90,7 @@ const CaseStudyDetail = () => {
               <p>{caseStudy.overview}</p>
             </div>
             <div className="section-image-right">
-              <img src="/assets/3dcomputer.png" alt="Overview" className="section-illustration" />
+              <img src="/assets/overview.jpg" alt="Overview" className="section-illustration" />
             </div>
           </div>
         )}
@@ -99,7 +99,7 @@ const CaseStudyDetail = () => {
           {caseStudy.problemStatement && (
           <div className="case-study-section-layout challenge-section">
             <div className="section-image-left">
-              <img src="/assets/3dAlert.png" alt="Challenge" className="section-illustration" />
+              <img src="/assets/challenge.jpg" alt="Challenge" className="section-illustration" />
             </div>
             <div className="section-content-right">
               <div className="section-header">
@@ -135,7 +135,7 @@ const CaseStudyDetail = () => {
               )}
             </div>
             <div className="section-image-right">
-              <img src="/assets/3dtools.png" alt="Solution" className="section-illustration" />
+              <img src="/assets/solution.jpg" alt="Solution" className="section-illustration" />
             </div>
           </div>
         )}
