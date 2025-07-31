@@ -78,19 +78,56 @@
   box-shadow: 0 10px 20px rgba(0, 212, 255, 0.2);
 }
 
+/* Author Section - Between Image and Title */
+.blog-detail-author-section {
+  text-align: center;
+  margin: 30px 0;
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 212, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+}
+
+.blog-detail-author-section .blog-detail-author {
+  color: #00d4ff;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* Meta Section - Date and Read Time */
 .blog-detail-meta {
   display: flex;
+  justify-content: center;
   gap: 20px;
-  color: #b0b0b0;
-  font-size: 0.9rem;
+  margin-bottom: 25px;
+  align-items: center;
 }
 
 .blog-detail-date,
 .blog-detail-read-time {
-  background: rgba(0, 212, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
   padding: 8px 16px;
-  border-radius: 15px;
-  border: 1px solid rgba(0, 212, 255, 0.2);
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.blog-detail-date:hover,
+.blog-detail-read-time:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
 }
 
 /* Hero Section */
@@ -140,12 +177,7 @@
   background-clip: text;
 }
 
-.blog-detail-author {
-  font-size: 1.1rem;
-  color: #00d4ff;
-  margin-bottom: 20px;
-  font-weight: 500;
-}
+
 
 .blog-detail-tags {
   display: flex;
@@ -203,7 +235,7 @@
   font-weight: 600;
   color: #00d4ff;
   margin: 32px 0 16px;
-  line-height: 1.4;
+  line-height: 1.6;
   letter-spacing: -0.01em;
 }
 
@@ -295,10 +327,25 @@
     align-items: flex-start;
   }
   
+  .blog-detail-author-section {
+    margin: 20px 0;
+    padding: 15px;
+  }
+  
+  .blog-detail-author-section .blog-detail-author {
+    font-size: 1.1rem;
+  }
+  
   .blog-detail-meta {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     width: 100%;
+  }
+  
+  .blog-detail-date,
+  .blog-detail-read-time {
+    padding: 6px 14px;
+    font-size: 0.85rem;
   }
   
   .blog-detail-image {
@@ -315,6 +362,7 @@
   
   .blog-subheading {
     font-size: 1.2rem;
+    line-height: 1.6;
   }
   
   .blog-paragraph {
