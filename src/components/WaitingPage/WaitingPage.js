@@ -7,7 +7,7 @@ const WaitingPage = () => {
       <div className="waiting-content">
         <div className="waiting-text">
           <h1 className="waiting-title">Something Great is Coming</h1>
-          <h2 className="waiting-company">Aurygen Technologies</h2>
+          <h2 className="waiting-company">Aurygen Technologies - Staging</h2>
           <div className="waiting-loader">
             <div className="loader-dot"></div>
             <div className="loader-dot"></div>
