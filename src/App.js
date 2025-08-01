@@ -21,6 +21,7 @@ import ServiceDetail from './components/ServiceDetail';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import TermsConditions from './components/TermsConditions/TermsConditions';
 import CaseStudyDetail from './components/CaseStudyDetail/CaseStudyDetail';
+import WaitingPage from './components/WaitingPage/WaitingPage';
 
 const HomePage = () => {
   return (
@@ -39,6 +40,14 @@ const HomePage = () => {
 };
 
 function App() {
+  // TEMPORARY WAITING PAGE - Remove this section and uncomment below to restore full website
+  return (
+    <div className="App">
+      <WaitingPage />
+    </div>
+  );
+
+  /* ORIGINAL WEBSITE CODE - Uncomment this section and remove WaitingPage above to restore
   return (
     <LenisProvider>
       <Router>
@@ -60,6 +69,7 @@ function App() {
       </Router>
     </LenisProvider>
   );
+  */
 }
 
 export default App;
