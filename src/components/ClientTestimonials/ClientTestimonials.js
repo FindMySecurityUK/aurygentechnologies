@@ -11,9 +11,11 @@ const ClientTestimonials = () => {
   const testimonials = [
     {
       name: "Arslan Waraich",
-      position: "Founder & CEO, FindMySecurity & Aurygen Technologies",
+      position: "Founder & CEO, FindMySecurity",
       company: "FindMySecurity",
-      testimonial: "FindMySecurity is one of Aurygen Technologies’ flagship achievements, conceived, built, and launched to set a new standard in the UK security industry. Delivering a sophisticated, AI-driven, multi-sided platform with enterprise-grade scalability and a fully integrated admin panel in just 10 weeks is a remarkable feat. This project is a clear reflection of Aurygen’s deep technical expertise, agility, and commitment to innovation. Their ability to transform ambitious concepts into powerful, real-world platforms sets them apart as a true leader in bespoke software development",
+      testimonial: `FindMySecurity stands as a flagship achievement of Aurygen Technologies, redefining standards in the UK security industry. Delivered in just 10 weeks, this AI-powered, multi-sided platform includes enterprise-grade scalability and a fully integrated admin panel.
+The speed and quality of execution highlight Aurygen’s exceptional technical expertise and agility. Their commitment to innovation and precision is evident throughout the project. Transforming bold ideas into robust digital products is what truly sets them apart.
+Aurygen continues to lead the way in bespoke software development.`,
       rating: 5
     },
     {

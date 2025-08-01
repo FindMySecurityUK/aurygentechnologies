@@ -135,7 +135,7 @@ const CaseStudyDetail = () => {
               )}
             </div>
             <div className="section-image-right">
-              <img src="/assets/solution.jpg" alt="Solution" className="section-illustration" />
+              <img src="/assets/our-solution-case-studies.jpeg" alt="Solution" className="section-illustration" />
             </div>
           </div>
         )}
