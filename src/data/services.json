@@ -13,6 +13,7 @@
           "id": "website-development",
           "title": "Website Development",
           "description": "Modern, responsive websites built with cutting-edge technologies for optimal performance and user experience.",
+          "overviewDescription": "Comprehensive details about our website development services",
           "features": [
             {
               "title": "Responsive Design",
@@ -97,6 +98,7 @@
           "id": "mobile-app-development",
           "title": "Mobile App Development",
           "description": "Native and cross-platform mobile applications for iOS and Android with seamless user experiences.",
+          "overviewDescription": "Comprehensive details about our mobile app development services",
           "features": [
             {
               "title": "Native iOS/Android",
@@ -181,6 +183,7 @@
           "id": "custom-business-software",
           "title": "Custom Business Software",
           "description": "Tailored software solutions designed to meet specific business requirements and workflows.",
+          "overviewDescription": "Comprehensive details about our custom business software services",
           "features": [
             {
               "title": "Custom Workflows",
@@ -265,6 +268,7 @@
           "id": "saas-product-development",
           "title": "SaaS Product Development",
           "description": "End-to-end SaaS platform development with multi-tenancy, subscription management, and scalability.",
+          "overviewDescription": "Comprehensive details about our saas product development services",
           "features": [
             {
               "title": "Multi-tenant Architecture",
@@ -349,6 +353,7 @@
           "id": "system-integrations",
           "title": "System Integrations",
           "description": "Seamless integration of disparate systems and third-party services for unified business operations.",
+          "overviewDescription": "Comprehensive details about our system integrations services",
           "features": [
             {
               "title": "API Integration",
@@ -433,6 +438,7 @@
           "id": "testing-qa",
           "title": "Testing & QA",
           "description": "Comprehensive testing and quality assurance services to ensure reliable, bug-free software delivery.",
+          "overviewDescription": "Comprehensive details about our testing & qa services",
           "features": [
             {
               "title": "Automated Testing",
@@ -528,6 +534,7 @@
           "id": "data-privacy-compliance",
           "title": "Data Privacy Compliance",
           "description": "Ensure your business meets data privacy regulations like GDPR, CCPA, and other compliance requirements.",
+          "overviewDescription": "Comprehensive details about our data privacy compliance services",
           "features": [
             {
               "title": "GDPR Compliance",
@@ -604,6 +611,7 @@
           "id": "app-website-security",
           "title": "App & Website Security",
           "description": "Comprehensive security implementation for web applications and mobile apps to prevent vulnerabilities.",
+          "overviewDescription": "Comprehensive details about our app & website security services",
           "features": [
             {
               "title": "SSL/TLS Implementation",
@@ -680,6 +688,7 @@
           "id": "secure-login-access-control",
           "title": "Secure Login & Access Control",
           "description": "Implement robust authentication and authorization systems to control user access and protect sensitive data.",
+          "overviewDescription": "Comprehensive details about our secure login & access control services",
           "features": [
             {
               "title": "Multi-factor Authentication",
@@ -755,6 +764,7 @@
           "id": "firewall-device-protection",
           "title": "Firewall & Device Protection",
           "description": "Network security solutions including firewall configuration and device protection strategies.",
+          "overviewDescription": "Comprehensive details about our Firewall & device protection services",
           "features": [
             {
               "title": "Firewall Configuration",
@@ -831,6 +841,7 @@
           "id": "security-audits",
           "title": "Security Audits",
           "description": "Comprehensive security assessments and penetration testing to identify and address vulnerabilities.",
+          "overviewDescription": "Comprehensive details about our security audits services",
           "features": [
             {
               "title": "Penetration Testing",
@@ -917,6 +928,7 @@
           "id": "ai-app-development",
           "title": "AI App Development",
           "description": "Custom AI-powered applications that leverage machine learning and advanced algorithms for intelligent functionality.",
+          "overviewDescription": "Comprehensive details about our ai app development services",
           "features": [
             {
               "title": "Machine Learning Models",
@@ -1001,6 +1013,7 @@
           "id": "business-automation",
           "title": "Business Automation",
           "description": "Intelligent automation solutions that streamline business processes and reduce manual workload.",
+          "overviewDescription": "Comprehensive details about our business automation services",
           "features": [
             {
               "title": "Process Automation",
@@ -1085,6 +1098,7 @@
           "id": "chatbots-virtual-assistants",
           "title": "Chatbots & Virtual Assistants",
           "description": "AI-powered conversational interfaces that provide 24/7 customer support and intelligent interactions.",
+          "overviewDescription": "Comprehensive details about our chatbots & virtual assistants services",
           "features": [
             {
               "title": "Natural Language Understanding",
@@ -1169,6 +1183,7 @@
           "id": "generative-ai-tools",
           "title": "Generative AI Tools",
           "description": "Custom generative AI solutions for content creation, code generation, and creative applications.",
+          "overviewDescription": "Comprehensive details about our generative ai tools services",
           "features": [
             {
               "title": "Content Generation",
@@ -1253,6 +1268,7 @@
           "id": "data-engineering",
           "title": "Data Engineering",
           "description": "Robust data pipelines and infrastructure for collecting, processing, and analyzing large datasets.",
+          "overviewDescription": "Comprehensive details about our data engineering services",
           "features": [
             {
               "title": "Data Pipeline Development",
@@ -1329,6 +1345,7 @@
           "id": "big-data-analytics",
           "title": "Big Data Analytics",
           "description": "Advanced analytics and insights from large-scale data processing and machine learning algorithms.",
+          "overviewDescription": "Comprehensive details about our big data analytics services",
           "features": [
             {
               "title": "Predictive Modeling",
@@ -1424,6 +1441,7 @@
           "id": "cloud-setup-management",
           "title": "Cloud Setup & Management",
           "description": "Complete cloud infrastructure setup and ongoing management for optimal performance and cost efficiency.",
+          "overviewDescription": "Comprehensive details about our Cloud Setup & Management",          
           "features": [
             {
               "title": "Cloud Migration",
@@ -1508,6 +1526,7 @@
           "id": "it-support-maintenance",
           "title": "IT Support & Maintenance",
           "description": "Comprehensive IT support and maintenance services to ensure your systems run smoothly and securely.",
+          "overviewDescription": "Comprehensive details about our it support & maintenance services",
           "features": [
             {
               "title": "24/7 Support",
@@ -1592,6 +1611,7 @@
           "id": "devops-deployment-automation",
           "title": "DevOps & Deployment Automation",
           "description": "Streamlined development and deployment processes with automated CI/CD pipelines and infrastructure as code.",
+          "overviewDescription": "Comprehensive details about our devops & deployment automation services",
           "features": [
             {
               "title": "CI/CD Pipelines",
@@ -1676,6 +1696,7 @@
           "id": "backup-recovery",
           "title": "Backup & Recovery",
           "description": "Robust backup and disaster recovery solutions to protect your data and ensure business continuity.",
+          "overviewDescription": "Comprehensive details about our backup & recovery services",
           "features": [
             {
               "title": "Automated Backups",
@@ -1760,6 +1781,7 @@
           "id": "blockchain-solutions",
           "title": "Blockchain Solutions",
           "description": "Innovative blockchain implementations for secure, transparent, and decentralized business solutions.",
+          "overviewDescription": "Comprehensive details about our Blockchain Solutions",          
           "features": [
             {
               "title": "Smart Contracts",
@@ -1847,55 +1869,56 @@
       "title": "Database Services",
       "icon": "<svg viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M4 4h16a2 2 0 012 2v12a2 2 0 01-2 2H4a2 2 0 01-2-2V6a2 2 0 012-2z' fill='currentColor'/><path d='M2 8h20M2 12h20M2 16h20' stroke='white' stroke-width='1.5'/><circle cx='6' cy='6' r='1' fill='white'/><circle cx='6' cy='10' r='1' fill='white'/><circle cx='6' cy='14' r='1' fill='white'/><circle cx='6' cy='18' r='1' fill='white'/></svg>",
       "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop&crop=center",
-      "shortDescription": "Comprehensive database solutions including design, optimization, migration, and reporting for efficient data management.",
+      "shortDescription": "Robust, scalable database solutions, including design, optimisation, migration, reporting, and recovery, built to streamline data management and power real-time decision-making.",
       "category": "Data Management",
       "priority": 5,
       "subcategories": [
         {
           "id": "database-design-optimization",
           "title": "Database Design & Optimization",
-          "description": "Expert database architecture design and performance optimization for scalable and efficient data management.",
+          "description": "Expert database architecture and performance engineering for scalable, secure, and high-speed data systems",
+          "overviewDescription": "Build the foundation of your digital infrastructure with our robust database design and optimisation services. We combine modern schema design, indexing strategies, and query tuning to ensure your systems are resilient, secure, and performance-optimised, whether cloud-based or on-premise",
           "features": [
             {
               "title": "Schema Design",
-              "description": "Optimal database schema design that ensures data integrity, minimizes redundancy, and supports efficient querying and scalability."
+              "description": "Normalised, future-proof database schemas that maintain integrity, reduce redundancy, and support fast queries."
             },
             {
               "title": "Query Optimization",
-              "description": "Advanced query optimization techniques to improve database performance, reduce execution time, and minimize resource consumption."
+              "description": "Reduce load times and resource usage through advanced SQL/NoSQL query analysis and refactoring."
             },
             {
               "title": "Index Management",
-              "description": "Strategic index design and management to accelerate data retrieval while balancing storage requirements and update performance."
+              "description": "Smart indexing strategies for lightning-fast data retrieval and efficient storage usage."
             },
             {
               "title": "Performance Tuning",
-              "description": "Comprehensive database performance analysis and tuning to optimize throughput, reduce latency, and improve overall system efficiency."
+              "description": "End-to-end tuning of throughput, latency, and cache mechanisms for superior responsiveness."
             },
             {
               "title": "Data Partitioning",
-              "description": "Strategic data partitioning and sharding techniques to distribute large datasets across multiple servers for improved performance and scalability."
+              "description": "Horizontal and vertical sharding to scale with large datasets and improve read/write operations."
             },
             {
-              "title": "Backup & Recovery Strategies",
-              "description": "Robust backup and recovery planning with automated procedures to ensure data protection and minimal downtime during failures."
+              "title": "Backup & Recovery",
+              "description": "Automated, secure backups and disaster recovery protocols to ensure business continuity."
             }
           ],
-          "detailedDescription": "Design and optimize your database architecture for maximum performance and scalability. We create efficient database schemas, optimize queries, and implement best practices to ensure your data systems can handle growing demands.",
+          "detailedDescription": "We architect and optimise your database for performance, scalability, and reliability. From schema design to query tuning and disaster recovery, we engineer data systems that scale with your growth.",
           "customSoftwareSolutions": {
             "title": "Database Design & Optimization for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Agile and affordable database services that evolve with your MVP and growth journey."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Businesses (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Scalable solutions that meet operational demands without the overhead of an internal DBA team."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade architecture and tuning, enabling large-scale data infrastructure and advanced analytics."
               }
             ]
           },
@@ -1904,33 +1927,33 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "High Performance & Reliability",
-                "description": "Ensure fast and consistent access to your data with optimised database systems designed for stability and uptime."
+                "title": "High-Speed Performance",
+                "description": "Fast, reliable access to critical data across web, mobile, and enterprise systems."
               },
               {
                 "number": "02",
-                "title": "Secure Data Management",
-                "description": "Protect sensitive information with robust access controls, encryption, and regular security audits."
+                "title": "Data Security & Compliance",
+                "description": "Protect sensitive records with encryption, access control, and audit trails."
               },
               {
                 "number": "03",
-                "title": "Scalability & Flexibility",
-                "description": "Grow effortlessly with databases that scale alongside your business needs, whether on-premise or in the cloud."
+                "title": "Scalability & Cloud Readiness",
+                "description": "Easily scale up or down across hybrid, public, or private cloud environments."
               },
               {
                 "number": "04",
-                "title": "Real-Time Insights",
-                "description": "Access live data and generate reports instantly, supporting quicker decision-making and business agility."
+                "title": "Real-Time Intelligence",
+                "description": "Power live dashboards and data-driven automation for strategic decision-making."
               },
               {
                 "number": "05",
-                "title": "Reduced Maintenance Burden",
-                "description": "Let experts handle routine updates, backups, and optimisation, allowing your team to focus on core objectives."
+                "title": "Maintenance Offloading",
+                "description": "Free your internal teams by outsourcing monitoring, backups, and optimisation."
               },
               {
                 "number": "06",
-                "title": "Custom Architecture & Integration",
-                "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
+                "title": "Tailored Integration",
+                "description": "Seamlessly integrate with APIs, ERP, CRMs, analytics tools, and third-party platforms."
               }
             ]
           }
@@ -1939,6 +1962,7 @@
           "id": "data-migration",
           "title": "Data Migration",
           "description": "Seamless data migration services between different database systems with minimal downtime and data integrity.",
+          "overviewDescription": "Comprehensive details about our data migration services",
           "features": [
             {
               "title": "Migration Planning",
@@ -2023,6 +2047,7 @@
           "id": "dashboards-reporting",
           "title": "Dashboards & Reporting",
           "description": "Interactive dashboards and comprehensive reporting solutions for data visualization and business insights.",
+          "overviewDescription": "Comprehensive details about our Dashboards & Reporting",
           "features": [
             {
               "title": "Real-time Dashboards",
@@ -2107,6 +2132,7 @@
           "id": "data-backup-recovery",
           "title": "Data Backup & Recovery",
           "description": "Robust backup strategies and disaster recovery solutions to protect your critical business data.",
+          "overviewDescription": "Comprehensive details about our data backup & recovery services",
           "features": [
             {
               "title": "Automated Backups",
@@ -2202,6 +2228,7 @@
           "id": "mvp-development",
           "title": "MVP Development",
           "description": "Rapid development of Minimum Viable Products to validate your business idea and enter the market quickly.",
+          "overviewDescription": "Comprehensive details about our mvp development services",
           "features": [
             {
               "title": "Rapid Prototyping",
@@ -2286,6 +2313,7 @@
           "id": "agile-product-development",
           "title": "Agile Product Development",
           "description": "Iterative product development using agile methodologies for flexible and responsive product evolution.",
+          "overviewDescription": "Comprehensive details about our Agile Product Development",          
           "features": [
             {
               "title": "Sprint Planning",
@@ -2370,6 +2398,7 @@
           "id": "cto-as-a-service",
           "title": "CTO-as-a-Service",
           "description": "Technical leadership and strategic guidance for startups without a full-time CTO.",
+          "overviewDescription": "Comprehensive details about our cto-as-a-service services",
           "features": [
             {
               "title": "Technical Strategy",
@@ -2446,6 +2475,7 @@
           "id": "product-roadmapping",
           "title": "Product Roadmapping",
           "description": "Strategic product planning and roadmap development to guide your product's evolution and growth.",
+          "overviewDescription": "Comprehensive details about our product roadmapping services",
           "features": [
             {
               "title": "Feature Prioritization",
@@ -2522,6 +2552,7 @@
           "id": "idea-validation-consulting",
           "title": "Idea Validation & Consulting",
           "description": "Comprehensive idea validation and strategic consulting to assess market potential and business viability.",
+          "overviewDescription": "Comprehensive details about our idea validation & consulting services",
           "features": [
             {
               "title": "Market Research",

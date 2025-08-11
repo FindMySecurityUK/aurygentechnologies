@@ -116,7 +116,7 @@ const ServiceDetail = () => {
         <div className="container">
           <div className="section-header">
             <h2>Service Overview</h2>
-            <p>Comprehensive details about our {subcategory.title.toLowerCase()} services</p>
+            <p>{subcategory.overviewDescription}</p>
           </div>
           
           <div className="details-content">

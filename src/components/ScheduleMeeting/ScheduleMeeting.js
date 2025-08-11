@@ -26,8 +26,11 @@ const ScheduleMeeting = () => {
             </h2>
           </div>
           <div className="schedule-right">
+            <p className="schedule-description">
+              Whether you're launching an MVP, scaling globally, or automating core business processes, we turn your vision into secure, intelligent, and scalable software
+            </p>
             <Link to="/contact-us" className="schedule-btn">
-              Schedule a Meeting
+              Schedule your free consultation
             </Link>
           </div>
         </div>

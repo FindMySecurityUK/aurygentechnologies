@@ -78,14 +78,28 @@
 
 .schedule-right {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
+}
+
+.schedule-description {
+  font-size: 1.0rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 400px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease-out 0.5s;
 }
 
 .schedule-btn {
   background: linear-gradient(45deg, #00d4ff, #0099cc);
   border: none;
-  padding: 20px 40px;
+  padding: 20px 50px;
   border-radius: 50px;
   color: white;
   font-size: 1.2rem;
@@ -96,11 +110,13 @@
   letter-spacing: 1px;
   box-shadow: 0 10px 30px rgba(0, 212, 255, 0.3);
   opacity: 0;
-  transform: translateX(50px);
-  transition: all 1s ease-out 0.3s;
+  transform: translateY(20px);
+  transition: all 1s ease-out 0.7s;
   position: relative;
   overflow: hidden;
   text-decoration: none;
+  white-space: nowrap;
+  min-width: 320px;
 }
 
 .schedule-btn::before {
@@ -136,7 +152,12 @@
 
 .schedule-content.animate .schedule-btn {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
+}
+
+.schedule-content.animate .schedule-description {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* Responsive Design */
@@ -152,9 +173,15 @@
     margin-bottom: 20px;
   }
   
+  .schedule-description {
+    font-size: 0.85rem;
+    max-width: 350px;
+  }
+  
   .schedule-btn {
-    padding: 18px 35px;
+    padding: 18px 40px;
     font-size: 1.1rem;
+    min-width: 280px;
   }
 }
 
@@ -164,8 +191,14 @@
     gap: 30px;
   }
   
+  .schedule-description {
+    font-size: 0.8rem;
+    max-width: 300px;
+  }
+  
   .schedule-btn {
-    padding: 15px 30px;
-    font-size: 1rem;
+    padding: 15px 35px;
+    font-size: 0.95rem;
+    min-width: 260px;
   }
 }
