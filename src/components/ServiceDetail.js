@@ -261,6 +261,26 @@ const ServiceDetail = () => {
         </div>
       )}
 
+      {/* Disclaimers & Legal Section */}
+      {subcategory.disclaimersLegal && (
+        <div className="disclaimers-legal-section">
+          <div className="container">
+            <div className="section-header">
+              <h2>{subcategory.disclaimersLegal.title}</h2>
+            </div>
+            <div className="disclaimers-content">
+              <ul className="disclaimers-list">
+                {subcategory.disclaimersLegal.content.map((item, index) => (
+                  <li key={index} className="disclaimer-item">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* CTA Section */}
       <div className="cta-section">
         <div className="container">

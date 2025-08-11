@@ -93,6 +93,17 @@
                 "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
               }
             ]
+          },
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
           }
         },
         {
@@ -178,6 +189,17 @@
                 "title": "Distinct Competitive Advantage",
                 "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
               }
+            ]
+          },
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
             ]
           }
         },
@@ -265,6 +287,17 @@
                 "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
               }
             ]
+          },
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
           }
         },
         {
@@ -350,6 +383,17 @@
                 "title": "Distinct Competitive Advantage",
                 "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
               }
+            ]
+          },
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
             ]
           }
         },
@@ -437,6 +481,17 @@
                 "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
               }
             ]
+          },
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
           }
         },
         {
@@ -523,6 +578,17 @@
                 "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
               }
             ]
+          },
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
           }
         }
       ]
@@ -541,7 +607,6 @@
           "title": "Data Privacy Compliance",
           "description": "Ensure your business meets data privacy regulations like GDPR, CCPA, and other compliance requirements.",
           "overviewDescription": "Comprehensive details about our data privacy compliance services",
-          
           "features": [
             {
               "title": "GDPR Compliance",
@@ -613,7 +678,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our data privacy compliance services can help transform your business."
+          "ctaDescription": "Let's discuss how our data privacy compliance services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "app-website-security",
@@ -691,7 +767,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our app & website security services can help transform your business."
+          "ctaDescription": "Let's discuss how our app & website security services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "secure-login-access-control",
@@ -769,7 +856,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our secure login & access control services can help transform your business."
+          "ctaDescription": "Let's discuss how our secure login & access control services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "firewall-device-protection",
@@ -847,7 +945,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our firewall & device protection services can help transform your business."
+          "ctaDescription": "Let's discuss how our firewall & device protection services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "security-audits",
@@ -925,7 +1034,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our security audits services can help transform your business."
+          "ctaDescription": "Let's discuss how our security audits services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         }
       ]
     },
@@ -1022,7 +1142,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our ai app development services can help transform your business."
+          "ctaDescription": "Let's discuss how our ai app development services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "business-automation",
@@ -1108,7 +1239,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our business automation services can help transform your business."
+          "ctaDescription": "Let's discuss how our business automation services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "chatbots-virtual-assistants",
@@ -1194,7 +1336,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our chatbots & virtual assistants services can help transform your business."
+          "ctaDescription": "Let's discuss how our chatbots & virtual assistants services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "generative-ai-tools",
@@ -1280,7 +1433,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our generative ai tools services can help transform your business."
+          "ctaDescription": "Let's discuss how our generative ai tools services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "data-engineering",
@@ -1358,7 +1522,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our data engineering services can help transform your business."
+          "ctaDescription": "Let's discuss how our data engineering services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "big-data-analytics",
@@ -1444,7 +1619,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our big data analytics services can help transform your business."
+          "ctaDescription": "Let's discuss how our big data analytics services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         }
       ]
     },
@@ -1541,7 +1727,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our cloud setup & management services can help transform your business."
+          "ctaDescription": "Let's discuss how our cloud setup & management services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "it-support-maintenance",
@@ -1627,7 +1824,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our it support & maintenance services can help transform your business."
+          "ctaDescription": "Let's discuss how our it support & maintenance services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "devops-deployment-automation",
@@ -1713,7 +1921,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our devops & deployment automation services can help transform your business."
+          "ctaDescription": "Let's discuss how our devops & deployment automation services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "backup-recovery",
@@ -1799,7 +2018,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our backup & recovery services can help transform your business."
+          "ctaDescription": "Let's discuss how our backup & recovery services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "blockchain-solutions",
@@ -1885,7 +2115,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our blockchain solutions services can help transform your business."
+          "ctaDescription": "Let's discuss how our blockchain solutions services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         }
       ]
     },
@@ -1982,7 +2223,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our database design & optimization services can help transform your business."
+          "ctaDescription": "Let's discuss how our database design & optimization services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "data-migration",
@@ -2068,7 +2320,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our data migration services can help transform your business."
+          "ctaDescription": "Let's discuss how our data migration services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "dashboards-reporting",
@@ -2154,7 +2417,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our dashboards & reporting services can help transform your business."
+          "ctaDescription": "Let's discuss how our dashboards & reporting services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "data-backup-recovery",
@@ -2240,7 +2514,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our data backup & recovery services can help transform your business."
+          "ctaDescription": "Let's discuss how our data backup & recovery services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         }
       ]
     },
@@ -2337,7 +2622,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our mvp development services can help transform your business."
+          "ctaDescription": "Let's discuss how our mvp development services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "agile-product-development",
@@ -2423,7 +2719,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our agile product development services can help transform your business."
+          "ctaDescription": "Let's discuss how our agile product development services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "cto-as-a-service",
@@ -2501,7 +2808,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our cto-as-a-service services can help transform your business."
+          "ctaDescription": "Let's discuss how our cto-as-a-service services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "product-roadmapping",
@@ -2579,7 +2897,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our product roadmapping services can help transform your business."
+          "ctaDescription": "Let's discuss how our product roadmapping services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         },
         {
           "id": "idea-validation-consulting",
@@ -2657,7 +2986,18 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our idea validation & consulting services can help transform your business."
+          "ctaDescription": "Let's discuss how our idea validation & consulting services can help transform your business.",
+          "disclaimersLegal": {
+            "title": "Disclaimers & Legal",
+            "content": [
+              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
+              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
+              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+            ]
+          }
         }
       ]
     }
