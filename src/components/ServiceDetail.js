@@ -182,9 +182,9 @@ const ServiceDetail = () => {
                   {subcategory.customSoftwareSolutions.solutions.map((solution, index) => (
                     <div key={index} className="solution-item-fullwidth">
                       <div className="solution-icon">
-                        {solution.type === 'Startups' && '💡'}
-                        {solution.type === 'SMEs' && '🏢'}
-                        {solution.type === 'Enterprises' && '🏛️'}
+                        {solution.type === 'Startups' && '1'}
+                        {solution.type === 'SMEs' && '2'}
+                        {solution.type === 'Enterprises' && '3'}
                       </div>
                       <div className="solution-content">
                         <h4 className="solution-title">{solution.type}</h4>
