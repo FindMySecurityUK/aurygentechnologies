@@ -13,7 +13,7 @@ const WhoWeAre = () => {
       <div className={`who-we-are-container ${inView ? 'animate' : ''}`}>
         <h2 className="section-title">Who We Are</h2>
         <p className="who-we-are-text">
-          We craft agile, affordable, and AI-ready software for startups and SMEs, designed to launch fast, scale boldly, and evolve with you. Every build is engineered with intention to transform ambition into architecture, seamless, scalable, and ready to lead.
+          At Aurygen Technologies, we design and deliver secure, scalable, and AI-powered digital solutions for startups, SMEs, and global businesses. Headquartered in the UK and trusted worldwide, we specialise in rapid product development from MVPs to enterprise-grade platforms, combining agile execution with deep technical expertise across software, AI, cloud, and cybersecurity. Every solution we build is crafted to evolve with your growth, engineered to transform bold ideas into resilient, intelligent systems ready for global scale.
         </p>
       </div>
     </section>

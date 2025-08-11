@@ -1057,3 +1057,125 @@
     font-size: 1.25rem;
   }
 }
+
+/* Disclaimers & Legal Section */
+.disclaimers-legal-section {
+  padding: 80px 0;
+  background: rgba(15, 15, 35, 0.6);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  z-index: 2;
+}
+
+.disclaimers-legal-section .section-header {
+  text-align: left !important;
+
+  margin-bottom: 50px;
+}
+
+.disclaimers-legal-section .section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  background: linear-gradient(45deg, #e2e8f0, #9bbef7, #88b7fd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0 0 30px rgba(251, 191, 36, 0.3);
+}
+
+.disclaimers-content {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(30, 58, 138, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.disclaimers-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.disclaimer-item {
+  position: relative;
+  padding: 15px 0 15px 30px;
+  color: #cbd5e1;
+  text-align: left !important;
+  font-size: 1rem;
+  line-height: 1.6;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+}
+
+.disclaimer-item:last-child {
+  border-bottom: none;
+}
+
+.disclaimer-item::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  top: 15px;
+  color: #fbbf24;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(251, 191, 36, 0.5);
+}
+
+.disclaimer-item:hover {
+  color: #e2e8f0;
+  padding-left: 35px;
+  transform: translateX(5px);
+}
+
+.disclaimer-item:hover::before {
+  color: #f59e0b;
+  text-shadow: 0 0 15px rgba(245, 158, 11, 0.7);
+}
+
+/* Responsive styles for disclaimers section */
+@media (max-width: 768px) {
+  .disclaimers-legal-section {
+    padding: 60px 0;
+  }
+
+  .disclaimers-legal-section .section-header h2 {
+    font-size: 2rem;
+  }
+
+  .disclaimers-content {
+    padding: 30px 20px;
+    margin: 0 20px;
+  }
+
+  .disclaimer-item {
+    font-size: 0.95rem;
+    padding: 12px 0 12px 25px;
+  }
+
+  .disclaimer-item::before {
+    top: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .disclaimers-legal-section .section-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .disclaimers-content {
+    padding: 25px 15px;
+    margin: 0 15px;
+  }
+
+  .disclaimer-item {
+    font-size: 0.9rem;
+    padding: 10px 0 10px 20px;
+  }
+}

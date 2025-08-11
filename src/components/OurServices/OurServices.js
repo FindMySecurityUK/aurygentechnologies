@@ -61,8 +61,8 @@ const OurServices = () => {
             rotateInterval={5000}
             cardHeight={500}
             title="Our Services"
-            subtitle="Professional Solutions"
-            tagline="Explore our comprehensive range of services designed to transform your business with cutting-edge technology and expert solutions."
+            subtitle="Tailored Digital Solutions for Startups & Growing Businesses"
+            tagline="Explore our end-to-end technology services, spanning software development, AI, cybersecurity, and cloud infrastructure, engineered to accelerate innovation, automate operations, and scale businesses globally."
             isMobileSwipe={true}
           />
         ) : (

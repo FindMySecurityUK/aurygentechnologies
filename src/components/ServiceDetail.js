@@ -116,7 +116,7 @@ const ServiceDetail = () => {
         <div className="container">
           <div className="section-header">
             <h2>Service Overview</h2>
-            <p>Comprehensive details about our {subcategory.title.toLowerCase()} services</p>
+            <p>{subcategory.overviewDescription}</p>
           </div>
           
           <div className="details-content">
@@ -261,12 +261,32 @@ const ServiceDetail = () => {
         </div>
       )}
 
+      {/* Disclaimers & Legal Section */}
+      {subcategory.disclaimersLegal && (
+        <div className="disclaimers-legal-section">
+          <div className="container">
+            <div className="section-header">
+              <h2>{subcategory.disclaimersLegal.title}</h2>
+            </div>
+            <div className="disclaimers-content">
+              <ul className="disclaimers-list">
+                {subcategory.disclaimersLegal.content.map((item, index) => (
+                  <li key={index} className="disclaimer-item">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* CTA Section */}
       <div className="cta-section">
         <div className="container">
           <div className="cta-content">
             <h2>Ready to Start Your Project?</h2>
-            <p>Let's discuss how our {subcategory.title.toLowerCase()} services can help transform your business.</p>
+            <p>{subcategory.ctaDescription}</p>
             <div className="cta-buttons">
               <Link to="/contact-us" className="cta-button primary">
                 Get Started Today
