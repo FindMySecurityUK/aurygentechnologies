@@ -2223,7 +2223,7 @@
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our database design & optimization services can help transform your business.",
+          "ctaDescription": "Agile and affordable database Let’s architect a high-performance database that grows with your business. Whether you're starting from scratch or need to scale a legacy system, our experts can help.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
@@ -2239,49 +2239,49 @@
         {
           "id": "data-migration",
           "title": "Data Migration",
-          "description": "Seamless data migration services between different database systems with minimal downtime and data integrity.",
-          "overviewDescription": "Comprehensive details about our data migration services",
+          "description": "Seamless migration between legacy and modern databases with minimal disruption and assured data integrity.",
+          "overviewDescription": "Our expert-led data migration services are designed to support businesses moving from legacy systems to modern database environments, on-premise or cloud-based. We reduce operational downtime, ensure regulatory alignment, and maintain full control over your data throughout the process",
           "features": [
             {
               "title": "Migration Planning",
-              "description": "Comprehensive migration strategy development including risk assessment, timeline planning, and resource allocation for successful data transitions."
+              "description": "Strategic planning including risk analysis, project timelines, and fallback procedures to ensure a controlled migration."
             },
             {
               "title": "Data Validation",
-              "description": "Thorough data validation and integrity checking throughout the migration process to ensure accuracy and completeness of transferred data."
+              "description": "Rigorous checks before, during, and after migration to maintain data accuracy, completeness, and consistency."
             },
             {
-              "title": "Zero-downtime Migration",
-              "description": "Advanced migration techniques that minimize or eliminate downtime, ensuring business continuity during database transitions."
+              "title": "Minimal Downtime Execution",
+              "description": "Deployment methods designed to reduce service interruption and protect business continuity."
             },
             {
               "title": "Legacy System Integration",
-              "description": "Seamless integration of legacy systems with new database platforms while preserving data relationships and business logic."
+              "description": "Careful integration of older systems into modern architectures while preserving data relationships."
             },
             {
               "title": "Cross-Platform Migration",
-              "description": "Expert migration services between different database platforms including SQL Server, Oracle, MySQL, PostgreSQL, and NoSQL databases."
+              "description": "Migration across platforms including SQL Server, Oracle, PostgreSQL, MySQL, MongoDB, and more."
             },
             {
-              "title": "Data Transformation",
-              "description": "Advanced data transformation and cleansing services to optimise data structure and quality during the migration process."
+              "title": "Data Transformation & Cleansing",
+              "description": "Enhancement of data quality and formatting during migration to meet your new system’s requirements."
             }
           ],
-          "detailedDescription": "Migrate your data safely and efficiently with our expert migration services. We ensure data integrity, minimize downtime, and provide comprehensive testing to guarantee a smooth transition to your new database system.",
+          "detailedDescription": "We manage complex data migrations from start to finish, validating, transforming, and transferring data across platforms and technologies. Our approach is engineered for business continuity, long-term scalability, and clean integration.",
           "customSoftwareSolutions": {
             "title": "Data Migration Solutions for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Flexible and affordable migration support for fast-moving environments and evolving tech stacks."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Reliable expertise to handle migrations without needing to scale internal resources."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Structured delivery for large datasets with documentation, rollback strategies, and compliance assurance."
               }
             ]
           },
@@ -2290,95 +2290,95 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "High Performance & Reliability",
-                "description": "Ensure fast and consistent access to your data with optimised database systems designed for stability and uptime."
+                "title": "Minimised Downtime",
+                "description": "Ensure business continuity with scheduled and well-managed cutovers."
               },
               {
                 "number": "02",
-                "title": "Secure Data Management",
-                "description": "Protect sensitive information with robust access controls, encryption, and regular security audits."
+                "title": "Data Integrity Assurance",
+                "description": "Maintain accuracy and consistency throughout the migration cycle."
               },
               {
                 "number": "03",
-                "title": "Scalability & Flexibility",
-                "description": "Grow effortlessly with databases that scale alongside your business needs, whether on-premise or in the cloud."
+                "title": "Security & Compliance",
+                "description": "Aligned with GDPR,  data protection standards."
               },
               {
                 "number": "04",
-                "title": "Real-Time Insights",
-                "description": "Access live data and generate reports instantly, supporting quicker decision-making and business agility."
+                "title": "Cloud-Ready Infrastructure",
+                "description": "Prepared for hybrid or full-cloud environments including AWS, Azure, and GCP."
               },
               {
                 "number": "05",
-                "title": "Reduced Maintenance Burden",
-                "description": "Let experts handle routine updates, backups, and optimisation, allowing your team to focus on core objectives."
+                "title": "Operational Scalability",
+                "description": "Migrate with a forward-compatible architecture tailored to your growth."
               },
               {
                 "number": "06",
-                "title": "Custom Architecture & Integration",
-                "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
+                "title": "Expert-Led Delivery",
+                "description": "Access seasoned professionals with deep expertise in both legacy and modern platforms."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our data migration services can help transform your business.",
+          "ctaDescription": "Let’s ensure your transition is smooth, secure, and built for the future.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
               "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Data migration outcomes depend on the condition, structure, and accessibility of the source systems, as well as client-provided documentation and third-party platform stability.",
+              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during the migration process.",
+              "Integration with or migration to third-party platforms is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All migration recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing post-migration monitoring, optimisation, or data maintenance is available under separate support packages, unless otherwise specified."
             ]
           }
         },
         {
           "id": "dashboards-reporting",
           "title": "Dashboards & Reporting",
-          "description": "Interactive dashboards and comprehensive reporting solutions for data visualization and business insights.",
-          "overviewDescription": "Comprehensive details about our Dashboards & Reporting",
+          "description": "Transform your data into visual intelligence with interactive dashboards and tailored reporting solutions.",
+          "overviewDescription": "Our dashboards and reporting services are designed to help businesses at any scale visualise performance, track KPIs, and improve strategic planning. Whether for internal teams, executive leadership, or external stakeholders, we deliver solutions that make data understandable, accessible, and impactful",
           "features": [
             {
-              "title": "Real-time Dashboards",
-              "description": "Interactive real-time dashboards that provide live data updates and instant insights into your business metrics and KPIs."
+              "title": "Interactive Dashboards",
+              "description": "Custom dashboards built around your KPIs and business objectives, allowing dynamic filtering and intuitive visual layouts."
             },
             {
               "title": "Custom Reports",
-              "description": "Tailored reporting solutions that generate automated reports with customizable formats, scheduling, and distribution options."
+              "description": "Automated and scheduled reports tailored to your format and frequency needs, ideal for weekly reviews, board meetings, and audits."
             },
             {
               "title": "Data Visualization",
-              "description": "Advanced data visualization tools that transform complex datasets into clear, intuitive charts, graphs, and interactive visual elements."
+              "description": "User-friendly charts, graphs, and visual elements that present complex information in a clear, digestible format."
             },
             {
               "title": "Business Intelligence",
-              "description": "Comprehensive BI solutions that aggregate data from multiple sources to provide strategic insights and support data-driven decision making."
+              "description": "Consolidated BI tools that integrate with your platforms and systems to support strategic, data-informed decisions."
             },
             {
-              "title": "Mobile Reporting",
-              "description": "Mobile-optimised reporting solutions that provide access to critical business data and insights on smartphones and tablets."
+              "title": "Mobile Access",
+              "description": "Optimised for tablet and mobile use, enabling your team to view reports securely from any location."
             },
             {
               "title": "Automated Alerts",
-              "description": "Intelligent alerting systems that notify stakeholders of critical metrics, anomalies, and threshold breaches in real-time."
+              "description": "Notification systems that flag key metrics, anomalies, or thresholds that require immediate attention."
             }
           ],
-          "detailedDescription": "Transform your data into actionable insights with interactive dashboards and comprehensive reporting solutions. We create custom visualizations that help you understand your data and make informed business decisions.",
+          "detailedDescription": "We design and develop intelligent dashboard and reporting systems tailored to your operational needs. By consolidating data from multiple sources into clear visual formats, our tools provide clarity and direction without the need for manual data handling.",
           "customSoftwareSolutions": {
             "title": "Dashboards & Reporting Solutions for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Cost-effective and agile dashboards that help founders and teams track growth, usage, and financial metrics."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Structured reporting and visualisation systems that simplify data across sales, operations, and finance."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Scalable BI frameworks and advanced dashboards suited for departmental reporting and C-level analytics."
               }
             ]
           },
@@ -2387,95 +2387,96 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "High Performance & Reliability",
-                "description": "Ensure fast and consistent access to your data with optimised database systems designed for stability and uptime."
+                "title": "Data-Driven Clarity",
+                "description": "Translate raw data into meaningful insights that support better decisions."
               },
               {
                 "number": "02",
-                "title": "Secure Data Management",
-                "description": "Protect sensitive information with robust access controls, encryption, and regular security audits."
+                "title": "Collaboration-Friendly",
+                "description": "Easily share dashboards and reports with teams, clients, or management, securely and on-demand."
               },
               {
                 "number": "03",
-                "title": "Scalability & Flexibility",
-                "description": "Grow effortlessly with databases that scale alongside your business needs, whether on-premise or in the cloud."
+                "title": "Reduced Reporting Workload",
+                "description": "Eliminate repetitive tasks through automation and customisable formats."
               },
               {
                 "number": "04",
-                "title": "Real-Time Insights",
-                "description": "Access live data and generate reports instantly, supporting quicker decision-making and business agility."
+                "title": "Secure & Compliant",
+                "description": "Built to meet enterprise-grade data privacy and access control standards (GDPR)."
               },
               {
                 "number": "05",
-                "title": "Reduced Maintenance Burden",
-                "description": "Let experts handle routine updates, backups, and optimisation, allowing your team to focus on core objectives."
+                "title": "Platform Integration",
+                "description": "Connects with CRMs, ERPs, finance systems, and custom databases with seamless data flow."
               },
               {
                 "number": "06",
-                "title": "Custom Architecture & Integration",
-                "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
+                "title": "Tailored to Your Business",
+                "description": "Every solution is designed around your metrics, processes, and reporting culture."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our dashboards & reporting services can help transform your business.",
+          "ctaDescription": "Speak with our team to build a dashboard and reporting solution that truly supports your operations and growth",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
               "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Dashboard accuracy and reporting reliability depend on the quality, structure, and timeliness of the client’s data sources.",
               "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Integration with third-party platforms, APIs, or data sources is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
+              "All dashboard design, reporting, and visualisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, updates, and additional integrations are available under separate support or maintenance packages, unless otherwise specified."
             ]
+
           }
         },
         {
           "id": "data-backup-recovery",
           "title": "Data Backup & Recovery",
-          "description": "Robust backup strategies and disaster recovery solutions to protect your critical business data.",
-          "overviewDescription": "Comprehensive details about our data backup & recovery services",
+          "description": "Secure backup and recovery strategies designed to reduce disruption and support business continuity.",
+          "overviewDescription": "Aurygen Technologies provides carefully planned backup and recovery services to support operational resilience. Our solutions are designed to mitigate risk, protect critical information, and ensure business operations can resume with minimal interruption following a data-related incident.",
           "features": [
             {
               "title": "Automated Backups",
-              "description": "Scheduled automated database backups with configurable retention policies and multiple storage locations for maximum data protection."
+              "description": "Regularly scheduled backups with configurable retention, secure storage, and monitoring for completion and success."
             },
             {
-              "title": "Point-in-time Recovery",
-              "description": "Precise point-in-time recovery capabilities that allow restoration to any specific moment, minimizing data loss in case of failures."
+              "title": "Recovery Point Objectives (RPO)",
+              "description": "Configured backup frequency to support precise restoration windows and minimise data exposure during system failures."
             },
             {
               "title": "Disaster Recovery Planning",
-              "description": "Comprehensive disaster recovery strategies specifically designed for database systems to ensure rapid recovery and business continuity."
+              "description": "Documentation and system design to enable structured, timely recovery in the event of system outages or data corruption."
             },
             {
               "title": "Data Archiving",
-              "description": "Intelligent data archiving solutions that move older data to cost-effective storage while maintaining accessibility and compliance."
+              "description": "Long-term storage solutions that maintain access to historical data while optimising system performance and storage costs."
             },
             {
               "title": "Backup Verification",
-              "description": "Automated backup integrity testing and verification processes to ensure backup files are valid and can be successfully restored when needed."
+              "description": "Routine testing and validation of backup integrity to ensure data can be successfully restored when needed."
             },
             {
-              "title": "Cross-Site Replication",
-              "description": "Geographic data replication across multiple sites to protect against regional disasters and ensure data availability from multiple locations."
+              "title": "Geographical Replication",
+              "description": "Optional cross-site or cloud-based replication for increased availability in case of regional disruption."
             }
           ],
-          "detailedDescription": "Protect your valuable data with comprehensive backup and recovery solutions. We implement automated backup systems, disaster recovery plans, and data archiving strategies to ensure your data is always safe and recoverable.",
+          "detailedDescription": "We deliver flexible, configurable, and monitored backup and recovery systems that align with your risk profile, data volumes, and compliance needs. From routine file backups to advanced recovery planning, our approach is tailored to meet the practical demands of your business.",
           "customSoftwareSolutions": {
             "title": "Data Backup & Recovery Solutions for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Practical and cost-effective protection for critical IP, customer data, and early-stage assets."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Businesses (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Peace of mind with professionally managed backup solutions, without the need for in-house IT overhead."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Scalable, policy-aligned backup environments that meet internal controls and regulatory standards."
               }
             ]
           },
@@ -2484,46 +2485,46 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "High Performance & Reliability",
-                "description": "Ensure fast and consistent access to your data with optimised database systems designed for stability and uptime."
+                "title": "Minimised Downtime",
+                "description": "Structured recovery processes reduce the time needed to resume operations after a disruption."
               },
               {
                 "number": "02",
-                "title": "Secure Data Management",
-                "description": "Protect sensitive information with robust access controls, encryption, and regular security audits."
+                "title": "Data Security",
+                "description": "Backup encryption, access controls, and isolated storage for sensitive or regulated datasets."
               },
               {
                 "number": "03",
-                "title": "Scalability & Flexibility",
-                "description": "Grow effortlessly with databases that scale alongside your business needs, whether on-premise or in the cloud."
+                "title": "Scalability",
+                "description": "Backup solutions that grow with your data and support hybrid, on-premise, or cloud environments."
               },
               {
                 "number": "04",
-                "title": "Real-Time Insights",
-                "description": "Access live data and generate reports instantly, supporting quicker decision-making and business agility."
+                "title": "Regulatory Compliance",
+                "description": "Support for GDPR, ISO 27001, and other applicable standards and best practices."
               },
               {
                 "number": "05",
-                "title": "Reduced Maintenance Burden",
-                "description": "Let experts handle routine updates, backups, and optimisation, allowing your team to focus on core objectives."
+                "title": "Risk Mitigation",
+                "description": "Reduce the impact of data loss from accidental deletion, system failure, or cyber incidents."
               },
               {
                 "number": "06",
-                "title": "Custom Architecture & Integration",
-                "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
+                "title": "Confidence in Recovery",
+                "description": "Backup verification and documentation provide assurance that recovery is feasible when required."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our data backup & recovery services can help transform your business.",
+          "ctaDescription": "Speak with our specialists to explore how Aurygen can support your backup and recovery needs—safely, securely, and cost-effectively.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
               "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Backup and recovery effectiveness depends on the quality, frequency, and scope of the backup plan, as well as the client’s infrastructure and operational practices.",
               "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Integration with third-party storage providers, cloud platforms, or backup tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for outages, limitations, or changes imposed by external providers.",
+              "All recovery recommendations and configurations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, backup verification, and recovery readiness testing are available under separate maintenance or support packages, unless otherwise specified."
             ]
           }
         }
@@ -2541,49 +2542,49 @@
         {
           "id": "mvp-development",
           "title": "MVP Development",
-          "description": "Rapid development of Minimum Viable Products to validate your business idea and enter the market quickly.",
-          "overviewDescription": "Comprehensive details about our mvp development services",
+          "description": "Build with purpose. Launch with confidence.",
+          "overviewDescription": "At Aurygen Technologies, we specialise in building MVPs that strike the right balance between speed, usability, and scalability. Our approach focuses on delivering the core value of your product idea, allowing you to enter the market quickly while gathering real feedback that informs your next steps.",
           "features": [
             {
               "title": "Rapid Prototyping",
-              "description": "Quick prototype development to visualize and test your product concept, allowing for early feedback and iteration before full development."
+              "description": "Quick development of clickable or coded prototypes to help visualise your idea and gather early stakeholder input."
             },
             {
               "title": "Core Feature Development",
-              "description": "Focus on essential features that validate your business hypothesis and provide immediate value to early adopters and potential investors."
+              "description": "Focused implementation of essential features only, designed to test key assumptions and deliver clear initial value."
             },
             {
-              "title": "User Testing",
-              "description": "Comprehensive user testing and feedback collection to validate product-market fit and identify areas for improvement."
+              "title": "User Testing & Feedback",
+              "description": "Structured user testing cycles to gather practical insights and refine usability before wider launch."
             },
             {
-              "title": "Market Validation",
-              "description": "Strategic market validation processes to test your assumptions, understand customer needs, and refine your value proposition."
+              "title": "Market Validation Support",
+              "description": "Advisory on customer validation techniques, including test campaigns, pilot groups, and feedback loops."
             },
             {
-              "title": "Lean Development",
-              "description": "Cost-effective lean development approach that maximises learning whilst minimising time and resource investment for startup efficiency."
+              "title": "Lean Development Methodology",
+              "description": "A budget-aware approach that prioritises learning, iteration, and launch-readiness over unnecessary complexity."
             },
             {
               "title": "Analytics Integration",
-              "description": "Built-in analytics and tracking systems to measure user behaviour, engagement metrics, and product performance from day one."
+              "description": "Foundational tracking setup to capture usage metrics, behaviours, and engagement data from the outsetFoundational tracking setup to capture usage metrics, behaviours, and engagement data from the outset."
             }
           ],
-          "detailedDescription": "Bring your startup idea to life with rapid MVP development. We help you build a minimum viable product that validates your concept, attracts early users, and provides the foundation for future growth and investment.",
+          "detailedDescription": "We provide structured MVP development tailored to your business objectives and budget. Whether you're validating your first concept or preparing for investor conversations, our agile process helps you make informed product decisions early on, without overcommitting resources.",
           "customSoftwareSolutions": {
             "title": "MVP Development for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Build early traction with a development partner who understands startup constraints and growth expectations."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Test new product ideas within your business portfolio without overcommitting internal teams."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Work with a trusted partner to validate market opportunities through structured MVP delivery."
               }
             ]
           },
@@ -2593,94 +2594,90 @@
               {
                 "number": "01",
                 "title": "End-to-End Technical Partnership",
-                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
+                "description": "From concept to early launch, we act as your delivery partner, without acting as a director or stakeholder."
               },
               {
                 "number": "02",
-                "title": "Rapid MVP Development",
-                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
+                "title": "Faster Market Entry",
+                "description": "Launch a usable product sooner to start testing demand and gathering valuable feedback."
               },
               {
                 "number": "03",
-                "title": "Cost-Effective Engineering",
-                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
+                "title": "Budget-Conscious Engineering",
+                "description": "Our lean development model supports clarity and efficiency, helping you prioritise spend where it matters most."
               },
               {
                 "number": "04",
-                "title": "Agile & Scalable Team",
-                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
+                "title": "Flexible Delivery Model",
+                "description": "Adjust the scope, pace, and resourcing based on your funding stage, roadmap, or team structure."
               },
               {
                 "number": "05",
-                "title": "Product & UX Guidance",
-                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
+                "title": "Early Analytics Readiness",
+                "description": "Understand user behaviour from day one through built-in metrics and tracking integration."
               },
               {
                 "number": "06",
-                "title": "Launch Support & Beyond",
-                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
+                "title": "Clear Next-Step Planning",
+                "description": "Our delivery includes product insights and advisory input to help you plan for what's next, whether scale or pivot."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our mvp development services can help transform your business.",
+          "ctaDescription": "Reach out today to explore how Aurygen Technologies can help you validate, build, and launch your first version—clearly and confidently.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies does not provide legal, investment, or financial advice.",
+              "We do not act as a company director, shareholder, or representative of your business.",
+              "All advice is based on industry experience and is non-binding.",
+              "MVPs are delivered for testing and feedback purposes and are not intended as final, fully scaled commercial products.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
           }
         },
         {
           "id": "agile-product-development",
           "title": "Agile Product Development",
-          "description": "Iterative product development using agile methodologies for flexible and responsive product evolution.",
-          "overviewDescription": "Comprehensive details about our Agile Product Development",
+          "description": "Flexible, iterative product development tailored for evolving businesses.",
+          "overviewDescription": "Our agile product development services are designed for startups and growing companies seeking an iterative, responsive approach to building software. Using proven agile methodologies, we provide support for ongoing development and refinement of your product based on real-world feedback and evolving priorities.",
           "features": [
             {
               "title": "Sprint Planning",
-              "description": "Structured sprint planning sessions that break down development into manageable iterations with clear goals and deliverables."
+              "description": "Clear, goal-oriented planning to define deliverables, timelines, and priorities for each development cycle."
             },
             {
               "title": "Iterative Development",
-              "description": "Continuous development cycles that allow for regular feedback incorporation and rapid adaptation to changing requirements."
-            },
-            {
-              "title": "Continuous Feedback",
-              "description": "Regular feedback loops with stakeholders to ensure the product development stays aligned with business objectives and user needs."
+              "description": "Regular development cycles focused on incremental improvements and real-time responsiveness to change."
             },
             {
               "title": "Adaptive Planning",
-              "description": "Flexible planning approach that adapts to new insights, market changes, and evolving business priorities throughout development."
+              "description": "Flexible workflows that adjust to shifting market conditions, internal objectives, or user needs."
             },
             {
-              "title": "Cross-Functional Teams",
-              "description": "Collaborative cross-functional development teams that bring together diverse skills and perspectives for comprehensive product development."
+              "title": "Cross-Functional Collaboration",
+              "description": "Access to multidisciplinary teams including engineers, designers, QA specialists, and strategists."
             },
             {
-              "title": "Retrospective Analysis",
-              "description": "Regular retrospective sessions to identify improvement opportunities, optimise processes, and enhance team performance continuously."
+              "title": "Retrospective Improvement",
+              "description": "Routine reviews to assess sprint outcomes and enhance delivery performance across future cycles."
             }
+            
           ],
-          "detailedDescription": "Develop your product using proven agile methodologies that allow for rapid iteration and continuous improvement. We work closely with you to ensure your product evolves based on user feedback and market demands.",
+          "detailedDescription": "Aurygen Technologies acts as your technology partner, delivering structured, sprint-based development that promotes transparency, user alignment, and business agility. Whether you’re expanding an MVP or iterating on an established product, we support you with collaborative planning, flexible delivery, and cross-functional expertise.",
           "customSoftwareSolutions": {
             "title": "Agile Product Development for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Launch and iterate quickly with lean delivery cycles that reduce overhead and accelerate feedback."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Add agile capacity to internal teams or validate new products with a flexible, experienced partner."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Execute focused innovation initiatives or pilot programmes without disturbing core development teams."
               }
             ]
           },
@@ -2689,46 +2686,45 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "End-to-End Technical Partnership",
-                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
+                "title": "Responsive Development",
+                "description": "Deliver in phases and facilitate project adjustments, without restarting the process from scratch."
               },
               {
                 "number": "02",
-                "title": "Rapid MVP Development",
-                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
+                "title": "Cost Control",
+                "description": "Allocate resources strategically with agile planning that aligns effort with measurable outcomes."
               },
               {
                 "number": "03",
-                "title": "Cost-Effective Engineering",
-                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
+                "title": "Product Quality",
+                "description": "Maintain a stable codebase and strong user experience through continuous testing and refinement."
               },
               {
                 "number": "04",
-                "title": "Agile & Scalable Team",
-                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
+                "title": "Team Flexibility",
+                "description": "Scale development support up or down depending on the stage and scope of your product."
               },
               {
                 "number": "05",
-                "title": "Product & UX Guidance",
-                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
+                "title": "Stakeholder Visibility",
+                "description": "Gain clear insight into progress, sprint outcomes, and roadmap priorities."
               },
               {
                 "number": "06",
-                "title": "Launch Support & Beyond",
-                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
+                "title": "Post-Launch Continuity",
+                "description": "Keep improving your product after launch with a consistent, adaptable delivery team."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our agile product development services can help transform your business.",
+          "ctaDescription": "Speak with our team today to explore how agile development can help your startup move faster, adapt better, and grow confidently.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
               "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Timelines, budgets, and product outcomes are subject to mutual agreement and may evolve during project delivery.",
+              "Agile methodology involves collaboration, iteration, and change management, which may impact initial scope.",
+              "All feedback recommendations are advisory and non-binding unless contractually defined within the scope of work.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
           }
         },
@@ -3117,13 +3113,13 @@
       "steps": [
         {
           "id": "requirements-analysis",
-          "title": "Requirements Analysis",
+          "title": "Discovery & Requirements Analysis",
           "description": "We begin by understanding your data structure, storage needs, access patterns, and integration requirements.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-planning",
-          "title": "Database Design & Planning",
+          "title": "Schema Design & Planning",
           "description": "Our team designs a secure, normalised, and scalable schema suited for performance, reliability, and future growth.",
           "icon": "/assets/3dpuzzle.png"
         },
