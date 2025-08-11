@@ -14,6 +14,7 @@
           "title": "Website Development",
           "description": "Modern, responsive websites built with cutting-edge technologies for optimal performance and user experience.",
           "overviewDescription": "Comprehensive details about our website development services",
+          "ctaDescription": "Let's discuss how our website development services can help transform your business.",
           "features": [
             {
               "title": "Responsive Design",
@@ -99,6 +100,7 @@
           "title": "Mobile App Development",
           "description": "Native and cross-platform mobile applications for iOS and Android with seamless user experiences.",
           "overviewDescription": "Comprehensive details about our mobile app development services",
+          "ctaDescription": "Let's discuss how our mobile app development services can help transform your business.",
           "features": [
             {
               "title": "Native iOS/Android",
@@ -184,6 +186,7 @@
           "title": "Custom Business Software",
           "description": "Tailored software solutions designed to meet specific business requirements and workflows.",
           "overviewDescription": "Comprehensive details about our custom business software services",
+          "ctaDescription": "Let's discuss how our custom business software services can help transform your business.",
           "features": [
             {
               "title": "Custom Workflows",
@@ -269,6 +272,7 @@
           "title": "SaaS Product Development",
           "description": "End-to-end SaaS platform development with multi-tenancy, subscription management, and scalability.",
           "overviewDescription": "Comprehensive details about our saas product development services",
+          "ctaDescription": "Let's discuss how our saas product development services can help transform your business.",
           "features": [
             {
               "title": "Multi-tenant Architecture",
@@ -354,6 +358,7 @@
           "title": "System Integrations",
           "description": "Seamless integration of disparate systems and third-party services for unified business operations.",
           "overviewDescription": "Comprehensive details about our system integrations services",
+          "ctaDescription": "Let's discuss how our system integrations services can help transform your business.",
           "features": [
             {
               "title": "API Integration",
@@ -439,6 +444,7 @@
           "title": "Testing & QA",
           "description": "Comprehensive testing and quality assurance services to ensure reliable, bug-free software delivery.",
           "overviewDescription": "Comprehensive details about our testing & qa services",
+          "ctaDescription": "Let's discuss how our testing & qa services can help transform your business.",
           "features": [
             {
               "title": "Automated Testing",
@@ -535,6 +541,7 @@
           "title": "Data Privacy Compliance",
           "description": "Ensure your business meets data privacy regulations like GDPR, CCPA, and other compliance requirements.",
           "overviewDescription": "Comprehensive details about our data privacy compliance services",
+          
           "features": [
             {
               "title": "GDPR Compliance",
@@ -605,7 +612,8 @@
                 "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our data privacy compliance services can help transform your business."
         },
         {
           "id": "app-website-security",
@@ -682,7 +690,8 @@
                 "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our app & website security services can help transform your business."
         },
         {
           "id": "secure-login-access-control",
@@ -759,7 +768,9 @@
                 "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
-          }        },
+          },
+          "ctaDescription": "Let's discuss how our secure login & access control services can help transform your business."
+        },
         {
           "id": "firewall-device-protection",
           "title": "Firewall & Device Protection",
@@ -835,8 +846,9 @@
                 "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
-          }   
-         },
+          },
+          "ctaDescription": "Let's discuss how our firewall & device protection services can help transform your business."
+        },
         {
           "id": "security-audits",
           "title": "Security Audits",
@@ -912,7 +924,9 @@
                 "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
               }
             ]
-          }        }
+          },
+          "ctaDescription": "Let's discuss how our security audits services can help transform your business."
+        }
       ]
     },
     {
@@ -1007,7 +1021,8 @@
                 "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our ai app development services can help transform your business."
         },
         {
           "id": "business-automation",
@@ -1092,7 +1107,8 @@
                 "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our business automation services can help transform your business."
         },
         {
           "id": "chatbots-virtual-assistants",
@@ -1177,7 +1193,8 @@
                 "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our chatbots & virtual assistants services can help transform your business."
         },
         {
           "id": "generative-ai-tools",
@@ -1262,7 +1279,8 @@
                 "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our generative ai tools services can help transform your business."
         },
         {
           "id": "data-engineering",
@@ -1339,7 +1357,8 @@
                 "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our data engineering services can help transform your business."
         },
         {
           "id": "big-data-analytics",
@@ -1424,7 +1443,8 @@
                 "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our big data analytics services can help transform your business."
         }
       ]
     },
@@ -1441,7 +1461,7 @@
           "id": "cloud-setup-management",
           "title": "Cloud Setup & Management",
           "description": "Complete cloud infrastructure setup and ongoing management for optimal performance and cost efficiency.",
-          "overviewDescription": "Comprehensive details about our Cloud Setup & Management",          
+          "overviewDescription": "Comprehensive details about our Cloud Setup & Management",
           "features": [
             {
               "title": "Cloud Migration",
@@ -1520,7 +1540,8 @@
                 "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our cloud setup & management services can help transform your business."
         },
         {
           "id": "it-support-maintenance",
@@ -1605,7 +1626,8 @@
                 "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our it support & maintenance services can help transform your business."
         },
         {
           "id": "devops-deployment-automation",
@@ -1690,7 +1712,8 @@
                 "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our devops & deployment automation services can help transform your business."
         },
         {
           "id": "backup-recovery",
@@ -1775,13 +1798,14 @@
                 "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our backup & recovery services can help transform your business."
         },
         {
           "id": "blockchain-solutions",
           "title": "Blockchain Solutions",
           "description": "Innovative blockchain implementations for secure, transparent, and decentralized business solutions.",
-          "overviewDescription": "Comprehensive details about our Blockchain Solutions",          
+          "overviewDescription": "Comprehensive details about our Blockchain Solutions",
           "features": [
             {
               "title": "Smart Contracts",
@@ -1860,7 +1884,8 @@
                 "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our blockchain solutions services can help transform your business."
         }
       ]
     },
@@ -1956,7 +1981,8 @@
                 "description": "Seamlessly integrate with APIs, ERP, CRMs, analytics tools, and third-party platforms."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our database design & optimization services can help transform your business."
         },
         {
           "id": "data-migration",
@@ -2041,7 +2067,8 @@
                 "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our data migration services can help transform your business."
         },
         {
           "id": "dashboards-reporting",
@@ -2126,7 +2153,8 @@
                 "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our dashboards & reporting services can help transform your business."
         },
         {
           "id": "data-backup-recovery",
@@ -2211,7 +2239,8 @@
                 "description": "Receive a database solution tailored to your workflows, with seamless integration into your existing systems."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our data backup & recovery services can help transform your business."
         }
       ]
     },
@@ -2307,13 +2336,14 @@
                 "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our mvp development services can help transform your business."
         },
         {
           "id": "agile-product-development",
           "title": "Agile Product Development",
           "description": "Iterative product development using agile methodologies for flexible and responsive product evolution.",
-          "overviewDescription": "Comprehensive details about our Agile Product Development",          
+          "overviewDescription": "Comprehensive details about our Agile Product Development",
           "features": [
             {
               "title": "Sprint Planning",
@@ -2392,7 +2422,8 @@
                 "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our agile product development services can help transform your business."
         },
         {
           "id": "cto-as-a-service",
@@ -2469,7 +2500,8 @@
                 "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our cto-as-a-service services can help transform your business."
         },
         {
           "id": "product-roadmapping",
@@ -2546,7 +2578,8 @@
                 "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our product roadmapping services can help transform your business."
         },
         {
           "id": "idea-validation-consulting",
@@ -2623,13 +2656,14 @@
                 "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
               }
             ]
-          }
+          },
+          "ctaDescription": "Let's discuss how our idea validation & consulting services can help transform your business."
         }
       ]
     }
   ],
   "developmentProcesses": {
-    "software-development": { 
+    "software-development": {
       "title": "Software Development Process",
       "description": "Our proven software development methodology ensures high-quality, scalable solutions",
       "steps": [
@@ -2738,40 +2772,40 @@
       ]
     },
     "database-services": {
-  "title": "Database Services Process",
-  "description": "We deliver high-performance, secure, and scalable database solutions tailored to your business needs",
-  "steps": [
-    {
-      "id": "requirements-analysis",
-      "title": "Requirements Analysis",
-      "description": "We begin by understanding your data structure, storage needs, access patterns, and integration requirements.",
-      "icon": "/assets/3dzoom.png"
-    },
-    {
-      "id": "design-planning",
-      "title": "Database Design & Planning",
-      "description": "Our team designs a secure, normalised, and scalable schema suited for performance, reliability, and future growth.",
-      "icon": "/assets/3dpuzzle.png"
-    },
-    {
-      "id": "development-setup",
-      "title": "Development & Setup",
-      "description": "We build and configure the database solution, ensuring optimal indexing, query performance, and backup readiness.",
-      "icon": "/assets/3dsetting.png"
-    },
-    {
-      "id": "testing-migration",
-      "title": "Testing & Data Migration",
-      "description": "We test the database thoroughly and manage safe, accurate migration from existing systems with minimal disruption.",
-      "icon": "/assets/3dcopy.png"
-    },
-    {
-      "id": "maintenance-support",
-      "title": "Monitoring & Support",
-      "description": "We offer ongoing monitoring, performance tuning, and technical support to keep your data environment healthy and secure.",
-      "icon": "/assets/3dtools.png"
-    }
-  ]
+      "title": "Database Services Process",
+      "description": "We deliver high-performance, secure, and scalable database solutions tailored to your business needs",
+      "steps": [
+        {
+          "id": "requirements-analysis",
+          "title": "Requirements Analysis",
+          "description": "We begin by understanding your data structure, storage needs, access patterns, and integration requirements.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-planning",
+          "title": "Database Design & Planning",
+          "description": "Our team designs a secure, normalised, and scalable schema suited for performance, reliability, and future growth.",
+          "icon": "/assets/3dpuzzle.png"
+        },
+        {
+          "id": "development-setup",
+          "title": "Development & Setup",
+          "description": "We build and configure the database solution, ensuring optimal indexing, query performance, and backup readiness.",
+          "icon": "/assets/3dsetting.png"
+        },
+        {
+          "id": "testing-migration",
+          "title": "Testing & Data Migration",
+          "description": "We test the database thoroughly and manage safe, accurate migration from existing systems with minimal disruption.",
+          "icon": "/assets/3dcopy.png"
+        },
+        {
+          "id": "maintenance-support",
+          "title": "Monitoring & Support",
+          "description": "We offer ongoing monitoring, performance tuning, and technical support to keep your data environment healthy and secure.",
+          "icon": "/assets/3dtools.png"
+        }
+      ]
     },
     "cloud-it-infrastructure": {
       "title": "Cloud & IT Infrastructure Process",

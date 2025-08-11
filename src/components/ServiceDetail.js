@@ -266,7 +266,7 @@ const ServiceDetail = () => {
         <div className="container">
           <div className="cta-content">
             <h2>Ready to Start Your Project?</h2>
-            <p>Let's discuss how our {subcategory.title.toLowerCase()} services can help transform your business.</p>
+            <p>{subcategory.ctaDescription}</p>
             <div className="cta-buttons">
               <Link to="/contact-us" className="cta-button primary">
                 Get Started Today
