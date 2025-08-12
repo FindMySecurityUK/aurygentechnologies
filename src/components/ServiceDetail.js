@@ -19,31 +19,8 @@ const ServiceDetail = () => {
         setService(foundService);
         setSubcategory(foundSubcategory);
         
-        // Determine which development process to use based on service ID
-        let processKey = 'software-development'; // default
-        switch (serviceId) {
-          case 'software-development':
-            processKey = 'software-development';
-            break;
-          case 'cybersecurity-solutions':
-            processKey = 'cybersecurity-solutions';
-            break;
-          case 'ai-smart-automation':
-            processKey = 'ai-smart-automation';
-            break;
-          case 'database-services':
-            processKey = 'database-services';
-            break;
-          case 'cloud-it-infrastructure':
-            processKey = 'cloud-it-infrastructure';
-            break;
-          case 'startup-tech-partner':
-            processKey = 'startup-tech-partner';
-            break;
-          default:
-            processKey = 'software-development';
-        }
-        
+        // Use subcategory-specific development process
+        const processKey = subcategoryId;
         setDevelopmentProcess(servicesData.developmentProcesses[processKey]);
       } else {
         navigate('/404');

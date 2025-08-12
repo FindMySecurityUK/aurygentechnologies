@@ -2428,7 +2428,6 @@
               "All dashboard design, reporting, and visualisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
               "Ongoing monitoring, updates, and additional integrations are available under separate support or maintenance packages, unless otherwise specified."
             ]
-
           }
         },
         {
@@ -2661,7 +2660,6 @@
               "title": "Retrospective Improvement",
               "description": "Routine reviews to assess sprint outcomes and enhance delivery performance across future cycles."
             }
-            
           ],
           "detailedDescription": "Aurygen Technologies acts as your technology partner, delivering structured, sprint-based development that promotes transparency, user alignment, and business agility. Whether you’re expanding an MVP or iterating on an established product, we support you with collaborative planning, flexible delivery, and cross-functional expertise.",
           "customSoftwareSolutions": {
@@ -2999,219 +2997,1119 @@
     }
   ],
   "developmentProcesses": {
-    "software-development": {
-      "title": "Software Development Process",
-      "description": "Our proven software development methodology ensures high-quality, scalable solutions",
+    "website-development": {
+      "title": "Website Development Process",
+      "description": "Our comprehensive website development methodology ensures modern, responsive, and user-friendly websites",
+      "steps": [
+        {
+          "id": "discovery-planning",
+          "title": "Discovery & Planning",
+          "description": "We analyze your business goals, target audience, and requirements to create a strategic website plan.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-wireframing",
+          "title": "Design & Wireframing",
+          "description": "Our designers create intuitive wireframes and stunning visual designs that reflect your brand identity.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "frontend-development",
+          "title": "Frontend Development",
+          "description": "We build responsive, interactive user interfaces using modern technologies and best practices.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "backend-integration",
+          "title": "Backend Integration",
+          "description": "We develop robust backend systems and integrate necessary APIs for full functionality.",
+          "icon": "/assets/3dsetting.png"
+        },
+        {
+          "id": "testing-launch",
+          "title": "Testing & Launch",
+          "description": "Comprehensive testing across devices and browsers, followed by deployment and ongoing support.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "mobile-app-development": {
+      "title": "Mobile App Development Process",
+      "description": "Our mobile app development process delivers native and cross-platform apps with exceptional user experience",
+      "steps": [
+        {
+          "id": "concept-research",
+          "title": "Concept & Market Research",
+          "description": "We validate your app idea through market research and define core features for maximum user engagement.",
+          "icon": "/assets/3dbulb.png"
+        },
+        {
+          "id": "ui-ux-design",
+          "title": "UI/UX Design",
+          "description": "Our designers create intuitive, platform-specific interfaces that provide seamless user experiences.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "app-development",
+          "title": "App Development",
+          "description": "We build your app using native or cross-platform technologies, ensuring optimal performance.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-optimization",
+          "title": "Testing & Optimization",
+          "description": "Rigorous testing on multiple devices and platforms to ensure reliability and performance.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "store-deployment",
+          "title": "App Store Deployment",
+          "description": "We handle app store submissions, approvals, and provide post-launch support and updates.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "custom-business-software": {
+      "title": "Custom Business Software Process",
+      "description": "Our proven custom business software methodology ensures high-quality, scalable solutions tailored to your needs",
       "steps": [
         {
           "id": "requirement-analysis",
           "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions and research.",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
           "icon": "/assets/3dzoom.png"
         },
         {
-          "id": "technical-design",
-          "title": "Architecture & Design",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability, maintainability, and user experience.",
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
           "icon": "/assets/3dcomputer.png"
         },
         {
-          "id": "development",
-          "title": "Agile Development",
-          "description": "Using agile methodologies, we deliver working software in iterative cycles with regular reviews and client feedback.",
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
           "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels  unit, integration, and user acceptance to ensure a reliable and secure product.",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
           "icon": "/assets/3dLab.png"
         },
         {
-          "id": "deployment",
-          "title": "Launch & Support",
+          "id": "deployment-support",
+          "title": "Deployment & Support",
           "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
           "icon": "/assets/3drocket.png"
         }
       ]
     },
-    "cybersecurity-solutions": {
-      "title": "Cybersecurity Implementation Process",
-      "description": "Our comprehensive security methodology ensures robust protection for your digital assets",
+    "saas-product-development": {
+      "title": "SaaS Product Development Process",
+      "description": "Our proven saas product development methodology ensures high-quality, scalable solutions tailored to your needs",
       "steps": [
         {
-          "id": "security-assessment",
-          "title": "Security Assessment & Audit",
-          "description": "We begin by assessing your existing infrastructure, identifying vulnerabilities, and evaluating compliance with security standards.",
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
           "icon": "/assets/3dzoom.png"
         },
         {
-          "id": "risk-analysis",
-          "title": "Threat & Risk Analysis",
-          "description": "Our experts perform threat modelling and risk evaluation to prioritise critical areas and potential attack vectors.",
-          "icon": "/assets/3DAlert.png"
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
         },
         {
-          "id": "strategy-planning",
-          "title": "Security Strategy & Planning",
-          "description": "We develop a tailored security roadmap that includes policies, technologies, and best practices aligned with your business goals.",
-          "icon": "/assets/3dtarget.png"
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
         },
         {
-          "id": "implementation",
-          "title": "Security Implementation",
-          "description": "Implementation of advanced protection measures such as firewalls, access control, encryption, and real-time monitoring.",
-          "icon": "/assets/3dlock.png"
-        },
-        {
-          "id": "monitoring-support",
-          "title": "Monitoring, Testing & Support",
-          "description": "Ongoing security testing, employee awareness training, and 24/7 monitoring to ensure long-term protection and quick response to incidents.",
-          "icon": "/assets/3dchat.png"
-        }
-      ]
-    },
-    "ai-smart-automation": {
-      "title": "AI & Smart Automation Process",
-      "description": "We bring intelligent automation to life with a strategic, user-focused approach tailored to your business needs",
-      "steps": [
-        {
-          "id": "discovery-analysis",
-          "title": "Discovery & Analysis",
-          "description": "We begin by analysing your current processes and identifying automation opportunities that deliver the greatest impact.",
-          "icon": "/assets/3dzoom.png"
-        },
-        {
-          "id": "solution-design",
-          "title": "Solution Design",
-          "description": "We design intelligent workflows powered by AI, machine learning, or rule-based automation—aligned with your goals.",
-          "icon": "/assets/3dbulb.png"
-        },
-        {
-          "id": "development-integration",
-          "title": "Development & Integration",
-          "description": "Our team builds and integrates AI-driven systems into your existing infrastructure for a seamless transition.",
-          "icon": "/assets/3dsetting.png"
-        },
-        {
-          "id": "testing-optimisation",
-          "title": "Testing & Optimisation",
-          "description": "Rigorous testing ensures accuracy, reliability, and performance, followed by continuous optimisation for long-term value.",
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
           "icon": "/assets/3dLab.png"
         },
         {
-          "id": "training-support",
-          "title": "Training & Support",
-          "description": "We provide hands-on training, change management support, and regular updates to keep your smart systems running at their best.",
-          "icon": "/assets/3dcall.png"
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
         }
       ]
     },
-    "database-services": {
-      "title": "Database Services Process",
-      "description": "We deliver high-performance, secure, and scalable database solutions tailored to your business needs",
+    "system-integrations": {
+      "title": "System Integrations Process",
+      "description": "Our proven system integrations methodology ensures high-quality, scalable solutions tailored to your needs",
       "steps": [
         {
-          "id": "requirements-analysis",
-          "title": "Discovery & Requirements Analysis",
-          "description": "We begin by understanding your data structure, storage needs, access patterns, and integration requirements.",
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
           "icon": "/assets/3dzoom.png"
         },
         {
-          "id": "design-planning",
-          "title": "Schema Design & Planning",
-          "description": "Our team designs a secure, normalised, and scalable schema suited for performance, reliability, and future growth.",
-          "icon": "/assets/3dpuzzle.png"
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
         },
         {
-          "id": "development-setup",
-          "title": "Development & Setup",
-          "description": "We build and configure the database solution, ensuring optimal indexing, query performance, and backup readiness.",
-          "icon": "/assets/3dsetting.png"
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
         },
         {
-          "id": "testing-migration",
-          "title": "Testing & Data Migration",
-          "description": "We test the database thoroughly and manage safe, accurate migration from existing systems with minimal disruption.",
-          "icon": "/assets/3dcopy.png"
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
         },
         {
-          "id": "maintenance-support",
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "testing-qa": {
+      "title": "Testing & QA Process",
+      "description": "Our proven testing & qa methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "data-privacy-compliance": {
+      "title": "Data Privacy Compliance Process",
+      "description": "Our proven data privacy compliance methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Security Assessment & Audit",
+          "description": "Review of current systems, processes, and compliance status.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Threat & Risk Analysis",
+          "description": "Prioritisation of potential vulnerabilities and exposure points.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Strategy & Planning",
+          "description": "Design of a privacy-focused security roadmap aligned with legal obligations.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Implementation Support",
+          "description": "Rollout of controls such as encryption, access control, consent workflows, and policy documentation.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
           "title": "Monitoring & Support",
-          "description": "We offer ongoing monitoring, performance tuning, and technical support to keep your data environment healthy and secure.",
-          "icon": "/assets/3dtools.png"
+          "description": "We provide ongoing testing, advisory input, staff awareness training, and optional support packages.",
+          "icon": "/assets/3drocket.png"
         }
       ]
     },
-    "cloud-it-infrastructure": {
-      "title": "Cloud & IT Infrastructure Process",
-      "description": "We design and deliver reliable, scalable, and secure cloud infrastructure tailored to your business goals",
+    "app-website-security": {
+      "title": "App & Website Security Process",
+      "description": "Our proven app & website security methodology ensures high-quality, scalable solutions tailored to your needs",
       "steps": [
         {
-          "id": "infrastructure-assessment",
-          "title": "Infrastructure Assessment",
-          "description": "We assess your current systems, performance needs, and business objectives to define the right cloud strategy.",
-          "icon": "/assets/3dexplorer.png"
+          "id": "requirement-analysis",
+          "title": "Security Assessment & Audit",
+          "description": "Review of current infrastructure, codebase, and practices to identify vulnerabilities and ensure alignment with recognised standards.",
+          "icon": "/assets/3dzoom.png"
         },
         {
-          "id": "architecture-design",
-          "title": "Architecture Design",
-          "description": "Our architects design a scalable, secure, and cost-effective infrastructure, selecting the best-fit platforms and tools.",
-          "icon": "/assets/3dsetting.png"
+          "id": "design-architecture",
+          "title": "Threat & Risk Analysis",
+          "description": "Prioritised risk analysis based on potential threats, business impact, and technical exposure.",
+          "icon": "/assets/3dcomputer.png"
         },
         {
-          "id": "cloud-migration",
-          "title": "Cloud Deployment & Migration",
-          "description": "We deploy new environments or migrate existing systems with minimal disruption, ensuring a smooth transition to the cloud.",
-          "icon": "/assets/3dfolder.png"
+          "id": "development-implementation",
+          "title": "Security Strategy & Planning",
+          "description": "A collaborative roadmap that identifies areas of improvement, recommended tools, and timelines for phased implementation.",
+          "icon": "/assets/3dflash.png"
         },
         {
-          "id": "optimisation-security",
-          "title": "Optimisation & Security",
-          "description": "We fine-tune performance, apply best security practices, and configure monitoring to keep your infrastructure robust and efficient.",
-          "icon": "/assets/3dlocker.png"
+          "id": "testing-qa",
+          "title": "Implementation",
+          "description": "Support with the practical rollout of security enhancements, including secure authentication, access control, and data protection layers.",
+          "icon": "/assets/3dLab.png"
         },
         {
-          "id": "maintenance-support",
-          "title": "Maintenance & Support",
-          "description": "We offer proactive maintenance, scalability support, and continuous improvements to align with your evolving needs.",
-          "icon": "/assets/3dtools.png"
+          "id": "deployment-support",
+          "title": "Monitoring & Support",
+          "description": "Continued oversight through penetration testing, awareness training, and access to support for evolving needs.",
+          "icon": "/assets/3drocket.png"
         }
       ]
     },
-    "startup-tech-partner": {
-      "title": "Startup Tech Partner Process",
-      "description": "We help startups turn ideas into successful products with expert guidance, agile development, and ongoing support",
+    "secure-login-access-control": {
+      "title": "Secure Login & Access Control Process",
+      "description": "Our proven secure login & access control methodology ensures high-quality, scalable solutions tailored to your needs",
       "steps": [
         {
-          "id": "idea-validation",
-          "title": "Idea Validation & Discovery",
-          "description": "We work closely with you to refine your concept, identify your target market, and define clear business and technical goals.",
-          "icon": "/assets/3dbulb.png"
+          "id": "requirement-analysis",
+          "title": "Security Assessment & Audit",
+          "description": "We evaluate your current login mechanisms, user flows, and access control policies to identify risk areas and improvement opportunities.",
+          "icon": "/assets/3dzoom.png"
         },
         {
-          "id": "mvp-strategy",
-          "title": "MVP Strategy & Planning",
-          "description": "We shape a focused MVP plan that includes essential features, tech stack recommendations, and go-to-market alignment.",
-          "icon": "/assets/3dtarget.png"
+          "id": "design-architecture",
+          "title": "Threat & Risk Analysis",
+          "description": "Our team maps potential attack vectors, privilege escalation threats, and identity spoofing risks.",
+          "icon": "/assets/3dcomputer.png"
         },
         {
-          "id": "agile-development",
-          "title": "Agile Product Development",
-          "description": "Using agile methodology, we build and iterate your product in sprints, with regular feedback loops to stay on track.",
-          "icon": "/assets/3dpuzzle.png"
+          "id": "development-implementation",
+          "title": "Security Strategy & Planning",
+          "description": "A custom implementation plan including phased rollout of secure authentication, role controls, and admin interfaces.",
+          "icon": "/assets/3dflash.png"
         },
         {
-          "id": "launch-support",
-          "title": "Launch Support",
-          "description": "We ensure a smooth product launch with testing, performance tuning, and support for app store or web deployment.",
+          "id": "testing-qa",
+          "title": "Implementation",
+          "description": "We assist with integration of MFA, SSO, and session tracking aligned with system architecture and scalability goals.",
           "icon": "/assets/3drocket.png"
         },
         {
-          "id": "post-launch-growth",
+          "id": "deployment-support",
+          "title": "Monitoring, Testing & Support",
+          "description": "Ongoing reviews, penetration tests, and support for maintaining secure login practices and regulatory alignment.",
+          "icon": "/assets/3dLab.png"
+        }
+      ]
+    },
+    "firewall-device-protection": {
+      "title": "Firewall & Device Protection Process",
+      "description": "Our proven firewall & device protection methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Security Assessment & Audit",
+          "description": "We begin with a full review of your network infrastructure, device usage, and existing security policies.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Threat & Risk Analysis",
+          "description": "Our team identifies critical vulnerabilities, evaluates potential risks, and outlines mitigation priorities.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Security Strategy & Planning",
+          "description": "We co-develop a bespoke firewall and device protection roadmap, including policy enforcement, segmentation, and monitoring plans.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Security Implementation",
+          "description": "Delivery of core services such as firewall deployment, endpoint configuration, and traffic rule enforcement tailored to your setup.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Monitoring, Testing & Support",
+          "description": "We provide monitoring dashboards, periodic testing, and helpdesk support to maintain ongoing network resilience.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "security-audits": {
+      "title": "Security Audits Process",
+      "description": "Our proven security audits methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "ai-app-development": {
+      "title": "AI App Development Process",
+      "description": "Our proven ai app development methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "business-automation": {
+      "title": "Business Automation Process",
+      "description": "Our proven business automation methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "chatbots-virtual-assistants": {
+      "title": "Chatbots & Virtual Assistants Process",
+      "description": "Our proven chatbots & virtual assistants methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "generative-ai-tools": {
+      "title": "Generative AI Tools Process",
+      "description": "Our proven generative ai tools methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "data-engineering": {
+      "title": "Data Engineering Process",
+      "description": "Our proven data engineering methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "big-data-analytics": {
+      "title": "Big Data Analytics Process",
+      "description": "Our proven big data analytics methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "cloud-setup-management": {
+      "title": "Cloud Setup & Management Process",
+      "description": "Our proven cloud setup & management methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "it-support-maintenance": {
+      "title": "IT Support & Maintenance Process",
+      "description": "Our proven it support & maintenance methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "devops-deployment-automation": {
+      "title": "DevOps & Deployment Automation Process",
+      "description": "Our proven devops & deployment automation methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "backup-recovery": {
+      "title": "Backup & Recovery Process",
+      "description": "Our proven backup & recovery methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "blockchain-solutions": {
+      "title": "Blockchain Solutions Process",
+      "description": "Our proven blockchain solutions methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirement Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Design & Architecture",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Quality Assurance",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Deployment & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "database-design-optimization": {
+      "title": "Database Design & Optimization Process",
+      "description": "Our proven database design & optimization methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Discovery & Requirements Analysis",
+          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Schema Design & Planning",
+          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Setup.",
+          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Data Migration",
+          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Monitoring & Support",
+          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "data-migration": {
+      "title": "Data Migration Process",
+      "description": "Our proven data migration methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirements & Discovery",
+          "description": "We assess your current system, migration goals, data dependencies, and compliance risks.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Migration Strategy & Planning",
+          "description": "We create a tailored roadmap, define milestones, and plan for fallback and validation.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Setup & Development",
+          "description": "Configuration of your new system, adjustment of schemas, and setup for migration readiness.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Testing & Migration Execution",
+          "description": "Execution of secure and structured migration using best practices to protect data integrity.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Post-Migration Support",
+          "description": "We offer ongoing monitoring, performance checks, and support to ensure long-term stability.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "dashboards-reporting": {
+      "title": "Dashboards & Reporting Process",
+      "description": "Our proven dashboards & reporting methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirements Discovery",
+          "description": "We assess your data sources, stakeholder needs, and visualisation objectives.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Solution Design & Planning",
+          "description": "We map your data flows, report types, and dashboard structure to align with operational goals.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Development & Implementation",
+          "description": "We build dashboards and reports, integrating your business logic and styling preferences.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Validation & Delivery",
+          "description": "We test all views for accuracy, access control, and usability before go-live.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Training & Ongoing Support",
+          "description": "We provide documentation, and continuous refinement to adapt your solution as your needs evolve.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "data-backup-recovery": {
+      "title": "Data Backup & Recovery Process",
+      "description": "Our proven data backup & recovery methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Requirements Discovery",
+          "description": "We assess your current infrastructure, recovery expectations, business continuity needs, and compliance obligations.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Backup & DR Strategy Design",
+          "description": "We develop a tailored backup architecture with defined recovery points, retention periods, and alerting protocols.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "System Setup & Testing",
+          "description": "We implement the agreed solution, perform controlled test restores, and document all configurations.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Monitoring & Maintenance",
+          "description": "Ongoing performance checks, backup monitoring, and periodic review of recovery readiness.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Support & Refinement",
+          "description": "Adjustments as your infrastructure evolves, including scaling options and cloud integrations.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "mvp-development": {
+      "title": "MVP Development Process",
+      "description": "Our proven mvp development methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Idea Validation & Discovery",
+          "description": "We work with you to clarify the business case, identify assumptions, and align goals with realistic delivery outcomes.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "MVP Strategy & Planning",
+          "description": "We scope the essential feature set, recommend a tech stack, and align development timelines with your budget and goals.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Agile Development",
+          "description": "Using an iterative, sprint-based approach, we build and refine the MVP with stakeholder feedback at each key milestone.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Launch Preparation",
+          "description": "We support testing, basic performance tuning, and app/web deployment, ensuring your MVP is ready for public or controlled release.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Post-Launch Support",
+          "description": "We offer continued support for minor iterations, early-stage scaling, and guidance for planning the next product phase.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "agile-product-development": {
+      "title": "Agile Product Development Process",
+      "description": "Our proven agile product development methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Discovery & Goal Alignment",
+          "description": "We assess your current product, business goals, target users, and technical environment.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Sprint Planning & Roadmap Design",
+          "description": "We define clear sprint cycles, estimate development tasks, and create a short-term roadmap aligned with business priorities.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Agile Execution",
+          "description": "We build and refine in structured iterations, delivering regular progress updates, prototypes, or working releases.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Review & Feedback Loops",
+          "description": "We incorporate feedback from stakeholders and users to inform each subsequent sprint or feature cycle.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Ongoing Improvement",
+          "description": "We provide continue support to iterate, adapt, and support product evolution based on market signals, performance data, and new goals.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "cto-as-a-service": {
+      "title": "CTO-as-a-Service Process",
+      "description": "Our proven cto-as-a-service methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Discovery & Goals Alignment",
+          "description": "Understanding your product, user base, and key technical challenges.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "Technical Roadmap & Prioritisation",
+          "description": "Collaboratively designing a clear, phased technology plan with defined milestones.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Delivery Oversight & Team Support",
+          "description": "Mentoring developers, reviewing architecture decisions, and ensuring timely, quality output.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Launch Preparation & QA",
+          "description": "Risk mitigation, system readiness checks, and release planning for digital product rollout.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Post-Launch Review & Scaling Strategy",
+          "description": "Performance monitoring, feature roadmap refinement, and next-phase planning.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "product-roadmapping": {
+      "title": "Product Roadmapping Process",
+      "description": "Our proven product roadmapping methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Idea Validation & Discovery",
+          "description": "Refining your concept, market positioning, and technical requirements.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "MVP Strategy & Planning",
+          "description": "Outlining minimum features, user goals, and launch strategy.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Agile Product Development",
+          "description": "Sprint-based builds with feedback loops to stay user- and market-aligned.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Launch Support",
+          "description": "Quality assurance, deployment, and early adoption tracking.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
           "title": "Post-Launch Growth & Support",
-          "description": "After launch, we provide technical support, feature enhancements, and scaling strategies as your startup evolves.",
-          "icon": "/assets/3dheadphone.png"
+          "description": "Iterative development, user data evaluation, and feature scaling.",
+          "icon": "/assets/3drocket.png"
+        }
+      ]
+    },
+    "idea-validation-consulting": {
+      "title": "Idea Validation & Consulting Process",
+      "description": "Our proven idea validation & consulting methodology ensures high-quality, scalable solutions tailored to your needs",
+      "steps": [
+        {
+          "id": "requirement-analysis",
+          "title": "Idea Validation & Discovery",
+          "description": "Define the problem, audience, and business goals clearly.",
+          "icon": "/assets/3dzoom.png"
+        },
+        {
+          "id": "design-architecture",
+          "title": "MVP Strategy & Planning",
+          "description": "Shape your initial product concept, roadmap, and delivery strategy.",
+          "icon": "/assets/3dcomputer.png"
+        },
+        {
+          "id": "development-implementation",
+          "title": "Agile Product Development",
+          "description": "Develop incrementally, with iterative feedback and testing cycles.",
+          "icon": "/assets/3dflash.png"
+        },
+        {
+          "id": "testing-qa",
+          "title": "Launch Support",
+          "description": "Prepare for public or private release with robust QA and deployment planning.",
+          "icon": "/assets/3dLab.png"
+        },
+        {
+          "id": "deployment-support",
+          "title": "Post-Launch Growth & Support",
+          "description": "Refine, improve, and scale your solution as you gain traction.",
+          "icon": "/assets/3drocket.png"
         }
       ]
     }
