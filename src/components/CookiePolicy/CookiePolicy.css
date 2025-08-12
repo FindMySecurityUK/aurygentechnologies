@@ -1,18 +1,18 @@
-.terms-page {
+.cookie-policy-page {
   min-height: 100vh;
   background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
   color: #ffffff;
   font-family: 'Inter', sans-serif;
 }
 
-.terms-header {
+.cookie-policy-header {
   background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
   padding: 120px 0 80px;
   position: relative;
   overflow: hidden;
 }
 
-.terms-header::before {
+.cookie-policy-header::before {
   content: '';
   position: absolute;
   top: 0;
@@ -23,7 +23,7 @@
   opacity: 0.3;
 }
 
-.terms-header-content {
+.cookie-policy-header-content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -35,12 +35,12 @@
   transition: all 0.8s ease;
 }
 
-.terms-header-content.animate {
+.cookie-policy-header-content.animate {
   opacity: 1;
   transform: translateY(0);
 }
 
-.terms-title {
+.cookie-policy-title {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 20px;
@@ -51,24 +51,24 @@
   text-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
 }
 
-.terms-subtitle {
+.cookie-policy-subtitle {
   font-size: 1.3rem;
   opacity: 0.9;
   font-weight: 300;
   letter-spacing: 1px;
 }
 
-.terms-content {
+.cookie-policy-content {
   padding: 80px 0;
 }
 
-.terms-container {
+.cookie-policy-container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-.terms-section {
+.cookie-policy-section {
   margin-bottom: 50px;
   padding: 40px;
   background: rgba(255, 255, 255, 0.05);
@@ -80,7 +80,7 @@
   overflow: hidden;
 }
 
-.terms-section::before {
+.cookie-policy-section::before {
   content: '';
   position: absolute;
   top: 0;
@@ -92,18 +92,18 @@
   transition: transform 0.3s ease;
 }
 
-.terms-section:hover::before {
+.cookie-policy-section:hover::before {
   transform: scaleX(1);
 }
 
-.terms-section:hover {
+.cookie-policy-section:hover {
   transform: translateY(-5px);
   background: rgba(255, 255, 255, 0.08);
   border-color: rgba(255, 255, 255, 0.2);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-.terms-section h2 {
+.cookie-policy-section h2 {
   font-size: 1.8rem;
   font-weight: 600;
   margin-bottom: 20px;
@@ -111,19 +111,26 @@
   position: relative;
 }
 
-.terms-section p {
+.cookie-policy-section h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 30px 0 15px 0;
+  color: #667eea;
+}
+
+.cookie-policy-section p {
   font-size: 1.1rem;
   line-height: 1.8;
   opacity: 0.9;
   margin-bottom: 15px;
 }
 
-.terms-section ul {
+.cookie-policy-section ul {
   list-style: none;
   padding: 0;
 }
 
-.terms-section li {
+.cookie-policy-section li {
   font-size: 1.1rem;
   line-height: 1.8;
   opacity: 0.9;
@@ -132,7 +139,7 @@
   position: relative;
 }
 
-.terms-section li::before {
+.cookie-policy-section li::before {
   content: '▶';
   position: absolute;
   left: 0;
@@ -141,45 +148,35 @@
   top: 2px;
 }
 
-.contact-info {
-  background: rgba(118, 75, 162, 0.1);
-  padding: 25px;
-  border-radius: 15px;
-  border: 1px solid rgba(118, 75, 162, 0.2);
-  margin-top: 20px;
+.cookie-policy-section a {
+  color: #667eea;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.contact-info p {
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-
-.last-updated {
-  text-align: center;
-  padding: 30px;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 15px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 40px;
-}
-
-.last-updated p {
-  font-size: 0.95rem;
-  opacity: 0.7;
-  margin: 0;
-  font-style: italic;
+.cookie-policy-section a:hover {
+  color: #764ba2;
+  text-decoration: underline;
 }
 
 /* Table Styles */
-.definitions-table {
+.cookie-types-table,
+.cookies-table {
   display: grid;
-  grid-template-columns: 1fr 2fr;
   gap: 0;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin: 20px 0;
+}
+
+.cookie-types-table {
+  grid-template-columns: 1fr 2fr;
+}
+
+.cookies-table {
+  grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
 }
 
 .table-header {
@@ -214,53 +211,73 @@
   border-bottom: none;
 }
 
+.contact-info {
+  background: rgba(118, 75, 162, 0.1);
+  padding: 25px;
+  border-radius: 15px;
+  border: 1px solid rgba(118, 75, 162, 0.2);
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.last-updated {
+  text-align: center;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 40px;
+}
+
+.last-updated p {
+  font-size: 0.95rem;
+  opacity: 0.7;
+  margin: 0;
+  font-style: italic;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
-  .terms-title {
+  .cookie-policy-title {
     font-size: 2.5rem;
   }
   
-  .terms-subtitle {
+  .cookie-policy-subtitle {
     font-size: 1.1rem;
   }
   
-  .terms-section {
+  .cookie-policy-section {
     padding: 25px;
     margin-bottom: 30px;
   }
   
-  .terms-section h2 {
+  .cookie-policy-section h2 {
     font-size: 1.5rem;
   }
   
-  .terms-section p,
-  .terms-section li {
+  .cookie-policy-section h3 {
+    font-size: 1.2rem;
+  }
+  
+  .cookie-policy-section p,
+  .cookie-policy-section li {
     font-size: 1rem;
   }
   
-  .terms-header {
+  .cookie-policy-header {
     padding: 100px 0 60px;
   }
   
-  .terms-content {
+  .cookie-policy-content {
     padding: 60px 0;
   }
-}
-
-@media (max-width: 480px) {
-  .terms-title {
-    font-size: 2rem;
-  }
   
-  .terms-section {
-    padding: 20px;
-  }
-  
-  .contact-info {
-    padding: 20px;
-  }
-  
-  .definitions-table {
+  .cookie-types-table,
+  .cookies-table {
     grid-template-columns: 1fr;
   }
   
@@ -276,5 +293,19 @@
     padding: 12px 15px;
     border-right: none;
     font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .cookie-policy-title {
+    font-size: 2rem;
+  }
+  
+  .cookie-policy-section {
+    padding: 20px;
+  }
+  
+  .contact-info {
+    padding: 20px;
   }
 }
