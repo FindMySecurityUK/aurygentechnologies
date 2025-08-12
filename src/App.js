@@ -20,6 +20,7 @@ import ServiceCategories from './components/ServiceCategories';
 import ServiceDetail from './components/ServiceDetail';
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy';
 import TermsConditions from './components/TermsConditions/TermsConditions';
+import CookiePolicy from './components/CookiePolicy/CookiePolicy';
 import CaseStudyDetail from './components/CaseStudyDetail/CaseStudyDetail';
 import WaitingPage from './components/WaitingPage/WaitingPage';
 
@@ -61,6 +62,7 @@ function App() {
             <Route path="/services/:serviceId/:subcategoryId" element={<ServiceDetail />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
             <Route path="/blog/:id" element={<BlogDetail />} />
             <Route path="/case-study/:id" element={<CaseStudyDetail />} />
           </Routes>
