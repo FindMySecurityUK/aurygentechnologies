@@ -108,50 +108,50 @@
         {
           "id": "mobile-app-development",
           "title": "Mobile App Development",
-          "description": "Native and cross-platform mobile applications for iOS and Android with seamless user experiences.",
-          "overviewDescription": "Comprehensive details about our mobile app development services",
-          "ctaDescription": "Let's discuss how our mobile app development services can help transform your business.",
+          "description": "Modern, scalable mobile apps tailored to your users and business needs.",
+          "overviewDescription": "We help businesses reach their customers anytime, anywhere. Our mobile app development services cover native and cross-platform builds, ensuring robust performance, responsive UI, and alignment with your operational goals. Designed for impact and scalability, our apps support your growth from day one",
+          "ctaDescription": "Let’s explore how our mobile app development service can help you innovate, engage, and scale with confidence.",
           "features": [
             {
               "title": "Native iOS/Android",
-              "description": "Platform-specific development using Swift for iOS and Kotlin/Java for Android, ensuring optimal performance and access to all native device features."
+              "description": "Purpose-built applications using Swift for iOS and Kotlin/Java for Android, leveraging full native performance and platform capabilities."
             },
             {
               "title": "Cross-platform Solutions",
-              "description": "Efficient development using React Native or Flutter to create apps that work seamlessly across both iOS and Android platforms with shared codebase."
+              "description": "Development using React Native or Flutter, enabling consistent performance across devices with faster delivery through shared codebases."
             },
             {
               "title": "App Store Deployment",
-              "description": "Complete app store submission process including app store optimization, compliance with guidelines, and ongoing support for app updates and releases."
+              "description": "Complete support available through submission, including App Store Optimisation (ASO), compliance checks, and post-release version management."
             },
             {
               "title": "Push Notifications",
-              "description": "Intelligent push notification systems with personalized messaging, user segmentation, and analytics to improve user engagement and retention."
+              "description": "Intelligent messaging systems to engage users through behaviour-based, segmented, and scheduled notifications."
             },
             {
               "title": "Offline Functionality",
-              "description": "Robust offline capabilities with local data storage, synchronisation when connectivity returns, and seamless user experience regardless of network status."
+              "description": "Applications built with offline data handling and syncing mechanisms to ensure uninterrupted user access and a smooth offline-to-online transition."
             },
             {
               "title": "In-App Purchases & Monetisation",
-              "description": "Complete monetisation solutions including in-app purchases, subscription models, advertising integration, and revenue analytics for sustainable app growth."
+              "description": "Integrated revenue models available which includes one-time purchases, subscriptions, and ad placements with analytics and user purchase tracking."
             }
           ],
-          "detailedDescription": "Transform your business with powerful mobile applications. We develop both native and cross-platform apps that deliver exceptional user experiences, integrate seamlessly with your existing systems, and help you reach your customers wherever they are.",
+          "detailedDescription": "We provide end-to-end mobile app development, from user journey planning to post-launch support. Our team delivers user-centric, business-aligned solutions that integrate smoothly with your backend, meet platform standards, and are ready for scale",
           "customSoftwareSolutions": {
             "title": "Mobile Applications for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Affordable, flexible mobile development to launch MVPs quickly, validate ideas, and enter the market with confidence."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Expert mobile delivery to digitise operations, improve customer experience, or complement existing web platforms."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "High-capacity, secure solutions with complex systems integrations and enterprise-grade performance and compliance."
               }
             ]
           },
@@ -160,95 +160,95 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Reduced Operational Overheads",
+                "description": "Access experienced mobile engineers without the fixed cost of in-house hiring and retention."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Faster Time-to-Market",
+                "description": "Launch quicker through structured delivery and proven frameworks that avoid long build cycles."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Strategic Flexibility",
+                "description": "Easily adapt to changing business needs with modular architectures and future proof technologies."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Greater Reach & Engagement",
+                "description": "Connect with customers on their preferred platforms, and improve retention with UX-first experiences."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Tailored Business Solutions",
+                "description": "Each app is purpose-built for your brand and sector."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Data Driven Growth Tools",
+                "description": "Built-in analytics tools to monitor usage trends, in-app behaviour, and monetisation performance can be added."
               }
             ]
           },
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies provides mobile app development services under clear, pre-agreed scopes and contractual terms.",
+              "All deliverables are customised based on written specifications and timelines mutually agreed upon.",
+              "We do not provide guarantees on app store approvals, user acquisition, or monetisation results.",
+              "Compliance with third-party APIs, platforms, and stores is supported where specified, but liability for their changes or restrictions lies outside our scope unless stated.",
+              "Post-launch maintenance, content updates, or platform migrations require separate support agreements unless explicitly included."
             ]
+
           }
         },
         {
           "id": "custom-business-software",
           "title": "Custom Business Software",
-          "description": "Tailored software solutions designed to meet specific business requirements and workflows.",
-          "overviewDescription": "Comprehensive details about our custom business software services",
-          "ctaDescription": "Let's discuss how our custom business software services can help transform your business.",
+          "description": "Bespoke software solutions engineered for your unique workflows and long-term success.",
+          "overviewDescription": "We specialise in creating custom business software that fits your organisation like a glove. From automating key processes to integrating with third-party platforms, our solutions are built with flexibility, performance, and growth in mind",
+          "ctaDescription": "Let’s discuss how Aurygen can help you transform operations and future-proof your business.",
           "features": [
             {
               "title": "Custom Workflows",
-              "description": "Tailored business process automation and workflow management systems designed to match your specific operational requirements and improve efficiency."
+              "description": "Fully tailored automation of business processes designed to increase efficiency and consistency across teams, departments, and service lines."
             },
             {
               "title": "Business Logic Implementation",
-              "description": "Complex business rule engines and logic implementation that automate decision-making processes and ensure consistent business operations."
+              "description": "Implementation of rules-based logic engines to support decision-making, reduce errors, and standardise operations across your systems."
             },
             {
               "title": "Third-party Integrations",
-              "description": "Seamless integration with existing business tools, APIs, and services including CRM, ERP, payment gateways, and other enterprise systems."
+              "description": "Seamless integrations with platforms like CRMs, ERPs, payment systems, or data warehouses to centralise business intelligence and streamline workflows."
             },
             {
               "title": "Scalable Architecture",
-              "description": "Future-proof software architecture designed to handle growing user bases, increased data volumes, and evolving business requirements."
+              "description": "Future-proof architecture designed to scale with your user base, data growth, and new feature demands."
             },
             {
-              "title": "Advanced Analytics & Reporting",
-              "description": "Comprehensive business intelligence dashboards with real-time analytics, custom reports, and data visualisation to support informed decision-making."
+              "title": "Advanced Analytics",
+              "description": "Built-in dashboards and reporting tools offering real-time visibility, KPI tracking, and data-driven business insights."
             },
             {
               "title": "Role-Based Access Control",
-              "description": "Sophisticated user management system with granular permissions, multi-level authentication, and audit trails to ensure data security and compliance."
+              "description": "Secure access with multi-tiered user permissions, authentication protocols, and audit logs to meet compliance and governance standards."
             }
           ],
-          "detailedDescription": "Streamline your business operations with custom software solutions designed specifically for your unique needs. We build scalable, secure applications that automate processes, improve efficiency, and give you a competitive edge in your industry.",
+          "detailedDescription": "Our custom software development service spans end-to-end, from concept and system architecture to deployment and support. We develop secure, scalable, and intelligent applications that drive efficiency and deliver measurable business value.",
           "customSoftwareSolutions": {
             "title": "Custom Business Software for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Custom software to validate new ideas, automate operations, and build competitive products without costly internal hiring."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Scalable solutions to digitise manual tasks, improve collaboration, and enhance decision-making across key business functions."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Secure, high-performance software to support complex operations, integrate legacy systems, and meet compliance requirements at scale."
               }
             ]
           },
@@ -258,94 +258,92 @@
               {
                 "number": "01",
                 "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "description": "Reduce development risk with experienced engineers, detailed planning, and proven delivery methodologies."
               },
               {
                 "number": "02",
                 "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "description": "Avoid internal recruitment delays and rapidly deliver high-quality software tailored to your market needs."
               },
               {
                 "number": "03",
                 "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "description": "Eliminate the need for full-time staff while gaining access to top-tier developers and technical support."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Scalable Growth",
+                "description": "Easily add new features or expand your systems as your business grows or your processes evolve."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Tailored Business Fit",
+                "description": "Each solution is designed around your business model, culture, workflows, and compliance requirements."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Competitive Edge",
+                "description": "Gain a long-term strategic advantage with technology that adapts to your specific sector, operations, and client expectations."
               }
             ]
           },
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers custom software solutions based on documented requirements and mutually agreed project scopes.",
+              "We do not offer legal, tax, or compliance advisory services. Where relevant, clients must engage qualified professionals for such support.",
+              "Integration with third-party services is provided where feasible and defined in scope. We are not liable for changes, outages, or limitations imposed by external systems unless otherwise agreed.",
+              "Post-deployment support, enhancements, or modifications are covered only under active maintenance or service agreements."
             ]
           }
         },
         {
           "id": "saas-product-development",
           "title": "SaaS Product Development",
-          "description": "End-to-end SaaS platform development with multi-tenancy, subscription management, and scalability.",
-          "overviewDescription": "Comprehensive details about our saas product development services",
-          "ctaDescription": "Let's discuss how our saas product development services can help transform your business.",
+          "description": "End-to-end SaaS solutions tailored for long-term growth and seamless user experiences.",
+          "overviewDescription": "Our SaaS product development services cover the full lifecycle, from concept to deployment and beyond. We design and engineer cloud-native, secure, and high-performance SaaS platforms tailored to your product vision and business model",
+          "ctaDescription": "Let’s explore how Aurygen Technologies can help you build a scalable, secure, and commercially viable SaaS platform.",
           "features": [
             {
               "title": "Multi-tenant Architecture",
-              "description": "Scalable multi-tenant architecture that allows multiple customers to share the same application instance while keeping their data completely isolated and secure."
+              "description": "Scalable software architecture supporting multiple clients (tenants) within a shared environment while keeping their data logically separated and secured."
             },
             {
               "title": "Subscription Management",
-              "description": "Comprehensive subscription billing system with multiple pricing tiers, payment processing, invoicing, and automated subscription lifecycle management."
+              "description": "Integrated billing systems with flexible pricing plans, invoicing, automated renewals, and support for third-party payment gateways."
             },
             {
               "title": "API Development",
-              "description": "RESTful and GraphQL APIs with comprehensive documentation, rate limiting, authentication, and versioning to enable third-party integrations and mobile apps."
+              "description": "RESTful and GraphQL API support with authentication, rate limiting, and full documentation to enable third-party integrations and custom extensions."
             },
             {
               "title": "Cloud Deployment",
-              "description": "Scalable cloud infrastructure deployment with auto-scaling, load balancing, monitoring, and disaster recovery to ensure high availability and performance."
+              "description": "Deployed on leading cloud platforms (e.g., AWS, Azure) with automated scaling, load balancing, and monitoring to support consistent performance."
             },
             {
-              "title": "Advanced Security & Compliance",
-              "description": "Enterprise-grade security features including data encryption, GDPR compliance, SOC 2 certification, and comprehensive audit logging for regulatory requirements."
+              "title": "Security & Compliance",
+              "description": "Security measures including encryption, audit logging, and compliance alignment with GDPR, ISO 27001, and other relevant industry standards."
             },
             {
-              "title": "Real-Time Collaboration Tools",
-              "description": "Built-in collaboration features including real-time editing, team workspaces, commenting systems, and activity feeds to enhance user productivity and engagement."
+              "title": "Collaboration Features",
+              "description": "Built-in collaboration tools such as activity feeds, team access controls, and shared workspaces to enhance productivity across user teams."
             }
           ],
-          "detailedDescription": "Launch your SaaS product with confidence. We provide complete SaaS development services including architecture design, subscription billing, user management, and scalable cloud infrastructure to support your growing customer base.",
+          "detailedDescription": "We provide complete SaaS development solutions including architectural planning, user management systems, integrated billing, third-party API support, and long-term operational scalability. Each platform is designed to support ongoing innovation and commercial success.",
           "customSoftwareSolutions": {
             "title": "SaaS Product Development for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "We offer an agile and affordable route to launching MVPs and validating SaaS models without the high cost of building a full internal team."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Businesses (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "A flexible solution to digitise services, manage subscriptions, and scale offerings using modern SaaS infrastructure."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Tailored SaaS development for enterprise-grade products with complex integrations, compliance needs, and performance requirements."
               }
             ]
           },
@@ -355,94 +353,93 @@
               {
                 "number": "01",
                 "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "description": "Access experienced teams who understand SaaS product lifecycles and industry compliance needs."
               },
               {
                 "number": "02",
                 "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "description": "Avoid hiring delays with ready-to-deploy engineering teams working on proven delivery frameworks."
               },
               {
                 "number": "03",
                 "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "description": "Build enterprise-level software at a fraction of in-house development costs, with flexible engagement models."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Future-Ready Platforms",
+                "description": "Scalable architecture that evolves with your user base, feature roadmap, and cloud infrastructure needs."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Personalised Product Fit",
+                "description": "Every feature is purpose-built to support your business model, brand positioning, and end-user requirements."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Long-Term Support",
+                "description": "Ongoing maintenance and upgrade services available to ensure your SaaS product continues to deliver reliable, secure performance."
               }
             ]
           },
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers SaaS development services based on agreed technical specifications and contractual scopes.",
+              "We do not guarantee user acquisition, commercial performance, or compliance certifications unless explicitly stated in writing.",
+              "Third-party platform integration is supported only where access and documentation are provided or publicly available.",
+              "Regulatory compliance is supported through technical implementations, but final legal compliance must be validated by the client’s legal counsel.",
+              "Ongoing support, infrastructure costs, and system upgrades require separate service agreements unless otherwise agreed."
             ]
           }
         },
         {
           "id": "system-integrations",
           "title": "System Integrations",
-          "description": "Seamless integration of disparate systems and third-party services for unified business operations.",
-          "overviewDescription": "Comprehensive details about our system integrations services",
-          "ctaDescription": "Let's discuss how our system integrations services can help transform your business.",
+          "description": "Connecting platforms, data, and workflows to enable unified, intelligent business systems",
+          "overviewDescription": "Our system integration services bring cohesion to your digital infrastructure. We bridge disconnected applications, automate cross-platform workflows, and enable smarter operations through unified architecture and data consistency",
+          "ctaDescription": "Let’s discuss how our integration services can help simplify your operations and connect your business",
           "features": [
             {
               "title": "API Integration",
-              "description": "Seamless integration with third-party APIs and services including payment gateways, social media platforms, and business tools to extend functionality."
+              "description": "Seamless connection with third-party services such as payment gateways, CRMs, social media platforms, and productivity tools for extended capabilities."
             },
             {
               "title": "Data Synchronization",
-              "description": "Real-time and batch data synchronization between multiple systems ensuring data consistency and accuracy across your entire technology stack."
+              "description": "Synchronised data flows between platforms, whether in real-time or scheduled batches, ensuring accuracy and consistency across all integrated systems."
             },
             {
               "title": "Legacy System Integration",
-              "description": "Modernization and integration of legacy systems with new applications, preserving valuable data while enabling modern functionality and user experiences."
+              "description": "Modernising legacy applications by securely connecting them to new systems, retaining core functionality while expanding digital capabilities."
             },
             {
               "title": "Middleware Development",
-              "description": "Custom middleware solutions that facilitate communication between different applications, databases, and services in your technology ecosystem."
+              "description": "Bespoke middleware that enables communication between databases, applications, and services, essential for complex, multi-system ecosystems."
             },
             {
               "title": "Enterprise Service Bus (ESB)",
-              "description": "Robust ESB implementation for seamless communication between disparate systems, with message routing, transformation, and protocol mediation capabilities."
+              "description": "ESB frameworks that manage message routing, transformation, and translation between disparate systems, ensuring scalable and maintainable integrations."
             },
             {
               "title": "Workflow Automation",
-              "description": "Intelligent workflow automation that streamlines business processes across multiple systems, reducing manual tasks and improving operational efficiency."
+              "description": "Streamlined workflows across systems with intelligent triggers, approvals, and automated actions to reduce manual effort and improve productivity."
             }
           ],
-          "detailedDescription": "Connect your business systems for seamless data flow and improved efficiency. We specialize in integrating various platforms, APIs, and legacy systems to create a unified technology ecosystem that works harmoniously.",
+          "detailedDescription": "We deliver comprehensive system integration solutions, connecting software, APIs, databases, legacy platforms, and third-party tools into a centralised framework. Our approach enhances interoperability, reduces redundancies, and supports scalable growth.",
           "customSoftwareSolutions": {
             "title": "System Integrations for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Rapid system connection without the overhead of full-time hires, enabling quicker product development and efficient backend operations."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Cost-effective integrations that connect essential systems like CRMs, ERPs, and marketing tools, without the need for complex IT departments."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade integration projects with high-performance middleware, data migration, and governance mechanisms for global-scale operations."
               }
             ]
           },
@@ -451,95 +448,95 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Minimised Integration Risks",
+                "description": "Expert planning and phased deployment to prevent downtime, data loss, or system conflicts during integration."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Operational Efficiency",
+                "description": "Reduce data silos and manual processes by enabling seamless information flow between departments and platforms."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Accelerated Delivery",
+                "description": "Fast-track integrations through our proven frameworks and pre-built connectors for common platforms."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Reduced IT Overhead",
+                "description": "Centralised system management reduces the complexity and cost of maintaining separate systems and support teams."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Secure Data Exchange",
+                "description": "Built-in encryption, access controls, and audit trails ensure secure communication between connected systems.."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Tailored Architecture",
+                "description": "Every integration is custom-built to match your business needs, industry standards, and compliance environment."
               }
             ]
           },
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies provides integration services under defined scopes and pre-agreed contracts based on client-supplied infrastructure and platform documentation.",
+              "We are not responsible for limitations or changes in third-party platforms unless specified in the project agreement.",
+              "We do not guarantee uninterrupted interoperability unless a managed services contract is in place.",
+              "Legacy system compatibility is delivered based on existing system specifications and may require additional assessments.",
+              "Ongoing maintenance or integration upgrades require a separate support agreement unless explicitly included."
             ]
+
           }
         },
         {
           "id": "testing-qa",
           "title": "Testing & QA",
-          "description": "Comprehensive testing and quality assurance services to ensure reliable, bug-free software delivery.",
-          "overviewDescription": "Comprehensive details about our testing & qa services",
-          "ctaDescription": "Let's discuss how our testing & qa services can help transform your business.",
+          "description": "Comprehensive testing and quality assurance services to ensure your software performs flawlessly, securely, and reliably.",
+          "overviewDescription": "We help businesses deliver robust, high-quality software through a structured, multi-layered testing approach. Our QA processes are tailored to your tech stack and industry, ensuring that your product is thoroughly validated before launch",
+          "ctaDescription": "Let’s explore how our Testing & QA services can help you deliver secure, stable, and user-ready software.",
           "features": [
             {
               "title": "Automated Testing",
-              "description": "Comprehensive automated testing suites including unit tests, integration tests, and end-to-end tests to ensure code quality and prevent regressions."
-            },
-            {
-              "title": "Usability Testing",
-              "description": "Evaluate the user-friendliness of your application by identifying navigation issues, accessibility barriers, and overall user experience improvements."
-            },
-            {
-              "title": "Compatibility Testing",
-              "description": "Ensure your application works seamlessly across different devices, browsers, operating systems, and network environments."
+              "description": "We develop and manage automated testing suites for unit, integration, and end-to-end testing, boosting speed and consistency while reducing human error."
             },
             {
               "title": "Manual Testing",
-              "description": "Thorough manual testing by experienced QA professionals to identify usability issues, edge cases, and scenarios that automated tests might miss."
+              "description": "Hands-on testing by skilled QA engineers to uncover bugs, edge cases, and user experience issues often missed by automation tools."
+            },
+            {
+              "title": "Usability Testing",
+              "description": "Comprehensive assessment of your application's interface, accessibility, and user flows to optimise intuitiveness and satisfaction."
+            },
+            {
+              "title": "Compatibility Testing",
+              "description": "We ensure your software works as intended across different browsers, devices, operating systems, and screen sizes."
             },
             {
               "title": "Performance Testing",
-              "description": "Load testing, stress testing, and performance optimization to ensure your application can handle expected traffic and performs well under pressure."
+              "description": "Stress, load, and endurance testing under simulated conditions to uncover scalability issues and optimise speed, latency, and resource usage."
             },
             {
               "title": "Security Testing",
-              "description": "Comprehensive security testing including vulnerability assessments, penetration testing, and code security reviews to protect against cyber threats."
+              "description": "Rigorous testing to identify vulnerabilities through ethical hacking, static code analysis, and configuration reviews."
             }
           ],
-          "detailedDescription": "Ensure your software meets the highest quality standards with our comprehensive testing services. We employ both automated and manual testing methodologies to identify and resolve issues before they impact your users.",
+          "detailedDescription": "Our Testing & QA services are designed to cover every aspect of quality, from code correctness to cross-platform compatibility. Whether you're building new software or maintaining an existing product, we provide reliable and cost-effective testing solutions.",
           "customSoftwareSolutions": {
             "title": "Testing & QA for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Fast, affordable testing options that accelerate MVP release, support investor demos, and establish early product reliability."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Customisable QA frameworks to enhance product quality and user satisfaction without building an internal QA department."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade QA strategies across large systems, integrating seamlessly with DevOps workflows and regulatory compliance needs."
               }
             ]
           },
@@ -548,45 +545,44 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Reduced Release Risks",
+                "description": "Early bug identification and risk mitigation ensures smoother, more predictable deployments."
               },
               {
                 "number": "02",
-                "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "title": "Better User Experience",
+                "description": "Thorough testing translates to higher customer satisfaction, fewer complaints, and better retention rates."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Lower Maintenance Costs",
+                "description": "Detecting and resolving issues pre-launch reduces costly post-release patches and rework."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Regulatory Confidence",
+                "description": "Our security and compliance-focused testing helps meet legal, industry, and platform standards."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Efficient QA Process",
+                "description": "Automated and manual testing combined to optimise turnaround time, coverage, and budget efficiency."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Independent QA Oversight",
+                "description": "We act as your dedicated quality gatekeeper, ensuring internal teams remain focused on development while we take care of validation."
               }
             ]
           },
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies provides Testing & QA services based on written project requirements, timelines, and access levels mutually agreed upon.",
+              "Our scope is limited to identifying and reporting issues; implementing fixes is handled by the client or through a separate agreement.",
+              "Security and performance testing do not imply certification or immunity from future vulnerabilities unless specified in a compliance contract.",
+              "Post-launch QA support is optional and may require a separate retainer or maintenance agreement.",
+              "We adhere to responsible disclosure practices when identifying vulnerabilities in third-party systems connected to the client's infrastructure."
             ]
           }
         }
@@ -1056,49 +1052,49 @@
         {
           "id": "ai-app-development",
           "title": "AI App Development",
-          "description": "Custom AI-powered applications that leverage machine learning and advanced algorithms for intelligent functionality.",
-          "overviewDescription": "Comprehensive details about our ai app development services",
+          "description": "Custom AI-powered applications designed to learn, adapt, and deliver actionable insights for your business.",
+          "overviewDescription": "We help businesses harness the full potential of artificial intelligence by delivering secure, scalable, and practical AI applications. Our solutions are tailored to your industry and operational needs, ensuring seamless integration with your existing systems and processes",
           "features": [
             {
               "title": "Machine Learning Models",
-              "description": "Custom machine learning model development and training for classification, regression, clustering, and recommendation systems tailored to your business needs."
+              "description": "Development and training of custom ML models for tasks such as classification, regression, clustering, and recommendations, aligned with your business objectives."
             },
             {
               "title": "Computer Vision",
-              "description": "Advanced computer vision solutions for image recognition, object detection, facial recognition, and automated visual inspection systems."
+              "description": "AI solutions for image recognition, object detection, facial recognition, and automated visual inspection systems."
             },
             {
               "title": "Natural Language Processing",
-              "description": "NLP solutions for text analysis, sentiment analysis, language translation, document processing, and intelligent content understanding."
+              "description": "Tools for sentiment analysis, text categorisation, automated translations, and intelligent document processing."
             },
             {
               "title": "Predictive Analytics",
-              "description": "Advanced predictive modeling to forecast trends, customer behavior, market changes, and business outcomes using historical data and AI algorithms."
+              "description": "Forecasting models that anticipate customer behaviour, market changes, and operational demands using historical and real-time data."
             },
             {
               "title": "Deep Learning Solutions",
-              "description": "Sophisticated deep learning implementations using neural networks for complex pattern recognition, autonomous decision-making, and advanced AI capabilities."
+              "description": "Neural network–based systems for advanced pattern recognition, complex decision-making, and adaptive AI capabilities."
             },
             {
               "title": "AI Model Deployment & Scaling",
-              "description": "Professional AI model deployment with cloud infrastructure, real-time inference APIs, model monitoring, and automatic scaling for production environments."
+              "description": "Secure deployment of AI models with cloud infrastructure, API integration, performance monitoring, and scalable capacity management."
             }
           ],
-          "detailedDescription": "Harness the power of artificial intelligence with custom AI applications tailored to your business needs. We develop intelligent solutions that learn, adapt, and provide valuable insights to drive your business forward.",
+          "detailedDescription": "Our AI App Development services cover the entire lifecycle, from model design to deployment, ensuring your solution delivers measurable value. We work with you to identify automation opportunities, optimise workflows, and implement AI-driven features that make a tangible difference.",
           "customSoftwareSolutions": {
             "title": "AI App Development for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Rapid, affordable AI solutions to validate concepts, attract investors, and gain a competitive edge early."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Tailored AI integrations that improve efficiency and enhance customer experiences without heavy infrastructure investment."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Scalable AI systems that integrate with complex architectures, drive innovation, and support regulatory compliance."
               }
             ]
           },
@@ -1108,94 +1104,89 @@
               {
                 "number": "01",
                 "title": "Increased Efficiency",
-                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
+                "description": "Automate repetitive processes, enabling your teams to focus on higher-value activities."
               },
               {
                 "number": "02",
                 "title": "Smarter Decision Making",
-                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
+                "description": "Access AI-generated insights for faster, more informed business decisions."
               },
               {
                 "number": "03",
-                "title": "Cost Reduction",
-                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
+                "title": "Cost Optimisation",
+                "description": "Reduce operational costs by automating labour-intensive workflows."
               },
               {
                 "number": "04",
-                "title": "Improved Customer Experience",
-                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
+                "title": "Enhanced Customer Experience",
+                "description": "Deliver personalised, responsive services through AI-powered features such as chatbots and recommendation engines."
               },
               {
                 "number": "05",
                 "title": "Scalable Operations",
-                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
+                "description": "Scale AI capabilities in line with business growth and evolving market demands."
               },
               {
                 "number": "06",
                 "title": "Innovation Enablement",
-                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
+                "description": "Gain a competitive edge by leveraging AI to explore new products, services, and markets."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our ai app development services can help transform your business.",
+          "ctaDescription": "Let’s explore how our AI App Development services can help you innovate, scale, and compete more effectively.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers AI App Development services under clearly defined project scopes and mutually agreed specifications.",
+              "Model performance, accuracy, and outcomes depend on data quality, integration environments, and agreed objectives; results may vary.",
+              "Security, compliance, and ethical AI practices are prioritised, but regulatory certification is only provided where contractually specified.",
+              "AI models may require retraining and periodic updates to maintain performance over time; such work is available under separate agreements.",
+              "We comply with applicable data protection regulations and responsible AI development standards in all projects."
             ]
           }
         },
         {
           "id": "business-automation",
           "title": "Business Automation",
-          "description": "Intelligent automation solutions that streamline business processes and reduce manual workload.",
-          "overviewDescription": "Comprehensive details about our business automation services",
+          "description": "Intelligent automation solutions to streamline processes, reduce manual workload, and enhance operational efficiency.",
+          "overviewDescription": "We help businesses of all sizes achieve greater efficiency through tailored automation strategies. Using AI-powered workflows, our solutions are designed to deliver tangible improvements in productivity, cost savings, and decision-making.",
           "features": [
             {
               "title": "Process Automation",
-              "description": "End-to-end business process automation that eliminates manual tasks, reduces errors, and improves operational efficiency across your organization."
+              "description": "End-to-end automation that reduces manual input, minimises errors, and accelerates business workflows across departments."
             },
             {
               "title": "Workflow Optimization",
-              "description": "Intelligent workflow analysis and optimization to streamline business processes, reduce bottlenecks, and improve overall productivity."
+              "description": "Data-driven analysis and re-engineering of workflows to eliminate bottlenecks and improve operational speed."
             },
             {
-              "title": "RPA Implementation",
-              "description": "Robotic Process Automation implementation to automate repetitive tasks, data entry, and rule-based processes using software robots."
-            },
-            {
-              "title": "Smart Decision Making",
-              "description": "AI-powered decision support systems that analyze data, identify patterns, and provide intelligent recommendations for business decisions."
+              "title": "Smart Decision Support",
+              "description": "AI-powered systems that analyse data, identify trends, and provide actionable recommendations for improved decision-making."
             },
             {
               "title": "Document Processing Automation",
-              "description": "Intelligent document processing with OCR, data extraction, classification, and automated routing to streamline paperwork and administrative tasks."
+              "description": "OCR-enabled systems for extracting, classifying, and routing data from documents to reduce admin workload."
             },
             {
-              "title": "Integration with Existing Systems",
-              "description": "Seamless integration of automation solutions with your current business systems, databases, and applications for unified workflow management."
+              "title": "Systems Integration",
+              "description": "Seamless connection between automation tools and your existing business applications for unified, efficient operations."
             }
           ],
-          "detailedDescription": "Transform your business operations with intelligent automation solutions. We help you identify automation opportunities, implement smart workflows, and reduce manual tasks to improve efficiency and reduce costs.",
+          "detailedDescription": "Our Business Automation services are built to enhance productivity, accuracy, and scalability without compromising security or compliance.",
           "customSoftwareSolutions": {
             "title": "Business Automation for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Cost-effective automation to accelerate MVP delivery, reduce admin load, and free resources for growth."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Affordable, scalable solutions to improve productivity without hiring large in-house teams."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade automation strategies integrated with compliance, governance, and change-management needs."
               }
             ]
           },
@@ -1205,45 +1196,44 @@
               {
                 "number": "01",
                 "title": "Increased Efficiency",
-                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
+                "description": "Automate repetitive tasks and streamline operations, enabling teams to focus on high-value work."
               },
               {
                 "number": "02",
                 "title": "Smarter Decision Making",
-                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
+                "description": "Real-time analytics and AI insights to inform faster, data-driven business choices."
               },
               {
                 "number": "03",
                 "title": "Cost Reduction",
-                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
+                "description": "Reduce operational overhead by automating resource-intensive processes."
               },
               {
                 "number": "04",
-                "title": "Improved Customer Experience",
-                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
+                "title": "Enhanced Customer Experience",
+                "description": "Improve service speed and personalisation with AI-driven tools."
               },
               {
                 "number": "05",
                 "title": "Scalable Operations",
-                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
+                "description": "Flexible automation solutions that adapt to your organisation’s growth."
               },
               {
                 "number": "06",
                 "title": "Innovation Enablement",
-                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
+                "description": "Unlock opportunities for innovation by freeing resources from routine tasks."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our business automation services can help transform your business.",
+          "ctaDescription": "Let’s explore how our AI App Development services can help you innovate, scale, and compete more effectively.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers AI App Development services under clearly defined project scopes and mutually agreed specifications.",
+              "Model performance, accuracy, and outcomes depend on data quality, integration environments, and agreed objectives; results may vary.",
+              "Security, compliance, and ethical AI practices are prioritised, but regulatory certification is only provided where contractually specified.",
+              "AI models may require retraining and periodic updates to maintain performance over time; such work is available under separate agreements.",
+              "We comply with applicable data protection regulations and responsible AI development standards in all projects."
             ]
           }
         },
