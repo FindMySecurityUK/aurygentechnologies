@@ -12,50 +12,50 @@
         {
           "id": "website-development",
           "title": "Website Development",
-          "description": "Modern, responsive websites built with cutting-edge technologies for optimal performance and user experience.",
-          "overviewDescription": "Comprehensive details about our website development services",
-          "ctaDescription": "Let's discuss how our website development services can help transform your business.",
+          "description": "Responsive, SEO optimised websites tailored to drive engagement, performance, and growth.",
+          "overviewDescription": "A strong online presence is no longer optional. Our Website Development service delivers beautifully crafted, high-performance websites designed for speed, accessibility, and business impact. Whether launching a new venture or revitalising an existing brand, we offer full-spectrum development tailored to your objectives",
+          "ctaDescription": "Let’s talk about how our website development solutions can elevate your digital strategy, improve engagement, and drive growth.",
           "features": [
             {
               "title": "Responsive Design",
-              "description": "Mobile-first design approach ensuring your website looks perfect on all devices, from smartphones to desktops, with fluid layouts and optimized user experiences."
+              "description": "Mobile-first layout and interface design that adapts across screen sizes for consistent user experience and device compatibility."
             },
             {
               "title": "SEO Optimization",
-              "description": "Comprehensive search engine optimization including meta tags, structured data, site speed optimization, and content optimization to improve your search rankings."
+              "description": "Technical and on-page SEO best practices including structured data, meta tags, content hierarchies, and performance tuning for improved visibility."
             },
             {
               "title": "Performance Optimization",
-              "description": "Advanced performance techniques including code splitting, lazy loading, image optimization, and caching strategies to ensure lightning-fast loading times."
+              "description": "Clean, efficient code paired with lazy loading, image compression, and caching to deliver fast load times and superior site performance."
             },
             {
               "title": "CMS Integration",
-              "description": "Seamless integration with popular content management systems like WordPress, Strapi, or custom CMS solutions for easy content management and updates."
+              "description": "Custom or pre-built content management systems (e.g., WordPress, Strapi) for effortless content updates and long-term scalability."
             },
             {
               "title": "Progressive Web App (PWA)",
-              "description": "Modern PWA development that provides app-like experiences with offline functionality, push notifications, and enhanced performance across all devices."
+              "description": "Implementation of PWA capabilities offering offline access, app-like interfaces, and improved engagement on mobile and desktop."
             },
             {
               "title": "E-commerce Integration",
-              "description": "Complete e-commerce solutions with secure payment gateways, inventory management, order processing, and customer account management systems."
+              "description": "Full-stack e-commerce functionality with secure checkout, product management, customer accounts, and order fulfilment workflows."
             }
           ],
-          "detailedDescription": "We create stunning, high-performance websites that engage your audience and drive business growth. Our websites are built with modern technologies, ensuring fast loading times, mobile responsiveness, and excellent search engine optimization.",
+          "detailedDescription": "From planning to post-launch support, we deliver responsive, SEO-optimised, and user-friendly websites built on modern frameworks and CMS platforms. Each project is customised to support your commercial goals, improve discoverability, and offer seamless digital experiences across all devices.",
           "customSoftwareSolutions": {
             "title": "Website Development for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Cost-effective digital presence to support brand credibility and early customer acquisition."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "A strategic, scalable platform to enhance online visibility, conversion, and brand consistency."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade architecture with integrations, automation, and multi-language/multi-region capabilities as required."
               }
             ]
           },
@@ -64,45 +64,44 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Minimised Risks",
-                "description": "Through our specialist talent pool, we help minimise risks and strengthen your business workforce."
+                "title": "Reduced Operational Overheads",
+                "description": "Avoid the costs of building and maintaining an in-house team by accessing our digital experts."
               },
               {
                 "number": "02",
                 "title": "Faster Time to Market",
-                "description": "Gain immediate access to an experienced team that helps speed up your time to market and avoids lengthy recruitment delays."
+                "description": "Launch quicker with structured delivery timelines, agile practices, and dedicated development resources."
               },
               {
                 "number": "03",
-                "title": "Lower Operational Costs",
-                "description": "Reduce long-term hiring expenses with our experts who provide support in areas such as training, recruitment, and employee benefits."
+                "title": "Strategic Flexibility",
+                "description": "Adapt your website as your business grows with scalable architecture and modular design."
               },
               {
                 "number": "04",
-                "title": "Scalable Business Growth",
-                "description": "Focus on expanding your core operations by outsourcing specialist tasks to trusted professionals, allowing for agile and scalable growth."
+                "title": "Digital Differentiation",
+                "description": "Strengthen your competitive position with a custom-built platform that reflects your unique brand and capabilities."
               },
               {
                 "number": "05",
-                "title": "Bespoke Software Solutions",
-                "description": "Benefit from our tailored software development services, delivering personalised solutions that align with your strategic goals."
+                "title": "Technical Best Practices",
+                "description": "Built using secure, modern technologies that support future integrations, regulatory compliance, and device accessibility."
               },
               {
                 "number": "06",
-                "title": "Distinct Competitive Advantage",
-                "description": "Stand out with software designed specifically to match your unique requirements and business strengths."
+                "title": "Tailored to Your Industry",
+                "description": "Websites customised for your specific sector, audience, and operational workflows."
               }
             ]
           },
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies develops bespoke software and websites under clearly defined scopes and written service agreements.",
+              "All deliverables are based on project requirements agreed prior to development. We do not guarantee business performance outcomes (e.g. traffic, conversions).",
+              "SEO implementations follow industry best practices; however, results are subject to external factors beyond our control (e.g. search engine algorithm changes).",
+              "We are not responsible for third-party software, plug-ins, or hosting platforms unless expressly included within the signed agreement.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
           }
         },
@@ -605,41 +604,41 @@
         {
           "id": "data-privacy-compliance",
           "title": "Data Privacy Compliance",
-          "description": "Ensure your business meets data privacy regulations like GDPR, CCPA, and other compliance requirements.",
-          "overviewDescription": "Comprehensive details about our data privacy compliance services",
+          "description": "Stay compliant. Build trust. Safeguard your data.",
+          "overviewDescription": "Our data privacy compliance services are designed to help businesses of all sizes build secure data environments, reduce regulatory risks, and foster customer trust. From audits to consent management, we support your compliance journey with structured, realistic guidance",
           "features": [
             {
               "title": "GDPR Compliance",
-              "description": "Comprehensive GDPR compliance implementation including data mapping, privacy impact assessments, and ongoing compliance monitoring to meet European data protection standards."
+              "description": "We support your organisation in implementing GDPR-aligned practices by conducting data mapping, privacy impact assessments, and process reviews. Our approach ensures your data handling procedures meet the requirements of the UK and EU data protection frameworks."
             },
             {
               "title": "Data Audit",
-              "description": "Thorough data auditing services to identify what personal data you collect, how it's processed, stored, and shared to ensure compliance with privacy regulations."
+              "description": "We carry out detailed audits to identify the personal data you collect, process, store, and share. This helps establish transparency, highlight risks, and ensure your data flows align with current regulatory expectations."
             },
             {
               "title": "Privacy Policy Development",
-              "description": "Custom privacy policy creation and updates that clearly communicate your data practices and comply with applicable privacy laws and regulations."
+              "description": "We assist in drafting or updating privacy policies that reflect your real-world data practices. These documents are written clearly, meet legal standards, and help build trust with users, regulators, and partners."
             },
             {
               "title": "Consent Management",
-              "description": "Advanced consent management systems that capture, store, and manage user consent preferences while providing easy opt-out mechanisms."
+              "description": "We help implement and configure consent management systems that enable lawful data collection and user preference tracking. These solutions support opt-in/opt-out mechanisms and maintain a verifiable record of user consent for compliance purposes."
             }
           ],
-          "detailedDescription": "Navigate the complex landscape of data privacy regulations with our expert compliance services. We help you implement robust data protection measures, conduct thorough audits, and maintain ongoing compliance with evolving privacy laws.",
+          "detailedDescription": "We provide practical, business-aligned support across core areas of data protection. Whether you’re preparing for a new regulation or strengthening existing practices, we help ensure your approach to data privacy is compliant, efficient, and defensible.",
           "customSoftwareSolutions": {
             "title": "Data Privacy Compliance for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Establish trust from the outset with scalable compliance practices and policies."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Meet legal obligations with guidance that fits your operational model and budget."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Strengthen governance frameworks and scale compliance efforts across complex data ecosystems."
               }
             ]
           },
@@ -648,87 +647,85 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Enhanced Data Protection",
-                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
+                "title": "Enhanced Data Resilience",
+                "description": "Better control and protection of sensitive information across platforms."
               },
               {
                 "number": "02",
-                "title": "24/7 Threat Monitoring",
-                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
+                "title": "Regulatory Peace of Mind",
+                "description": "Stay aligned with data privacy frameworks and reduce risk of non-compliance."
               },
               {
                 "number": "03",
-                "title": "Regulatory Compliance",
-                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
+                "title": "Tailored Implementation",
+                "description": "Practical guidance suited to your industry, scale, and systems."
               },
               {
                 "number": "04",
-                "title": "Business Continuity",
-                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
+                "title": "Boosted Customer Trust",
+                "description": "Demonstrate transparency and professionalism in handling user data."
               },
               {
                 "number": "05",
-                "title": "Employee Awareness Training",
-                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
+                "title": "Proactive Risk Management",
+                "description": "Spot issues early and address them with effective mitigation strategies."
               },
               {
                 "number": "06",
-                "title": "Customised Security Strategies",
-                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
+                "title": "Employee Awareness",
+                "description": "Equip your team with the knowledge to support secure and compliant operations."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our data privacy compliance services can help transform your business.",
+          "ctaDescription": "Let’s explore how our team can support your journey towards smarter data governance.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies offers data privacy compliance services for informational, advisory, and technical support purposes only.",
+              "We do not offer legal services or legal advice. Clients are encouraged to consult with qualified legal counsel for formal legal interpretations or representation.",
+              "Our support is designed to complement, not replace, internal governance or legal review processes.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
           }
         },
         {
           "id": "app-website-security",
           "title": "App & Website Security",
-          "description": "Comprehensive security implementation for web applications and mobile apps to prevent vulnerabilities.",
-          "overviewDescription": "Comprehensive details about our app & website security services",
+          "description": "Robust application security services designed to minimise risk and support regulatory compliance.",
+          "overviewDescription": "We offer practical and scalable security solutions for web and mobile applications. Our services are designed to help protect against common vulnerabilities and align with established security best practices",
           "features": [
             {
               "title": "SSL/TLS Implementation",
-              "description": "Complete SSL/TLS certificate implementation and configuration to encrypt data transmission and establish secure connections between users and your applications."
+              "description": "Deployment and configuration of SSL/TLS certificates to help encrypt data in transit and establish secure connections between end-users and your application."
             },
             {
               "title": "XSS Protection",
-              "description": "Cross-site scripting (XSS) protection through input validation, output encoding, and Content Security Policy implementation to prevent malicious script injection."
+              "description": "We apply measures such as input validation, output encoding, and Content Security Policies (CSP) to help reduce the risk of Cross-Site Scripting (XSS) attacks."
             },
             {
               "title": "SQL Injection Prevention",
-              "description": "Comprehensive SQL injection prevention using parameterized queries, input validation, and database security best practices to protect against data breaches."
+              "description": "Use of secure coding techniques, including parameterised queries and input validation, to mitigate vulnerabilities related to SQL injection."
             },
             {
               "title": "Security Headers",
-              "description": "Implementation of security headers including HSTS, CSP, X-Frame-Options, and others to protect against common web vulnerabilities and attacks."
+              "description": "Implementation of HTTP security headers (e.g. HSTS, CSP, X-Frame-Options) to reinforce browser-level defences against common threats."
             }
           ],
-          "detailedDescription": "Protect your applications from cyber threats with our comprehensive security implementation services. We secure your web and mobile applications against common vulnerabilities and implement industry best practices for data protection.",
+          "detailedDescription": "Our team helps strengthen the security posture of your digital platforms. From secure communication protocols to vulnerability mitigation, we support your efforts to minimise exposure to cyber risks.",
           "customSoftwareSolutions": {
             "title": "App & Website Security for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "We offer lean, scalable support for startups seeking expert guidance without committing to in-house security hires."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "A trusted partner for SMEs looking to strengthen app security with cost-effective implementation and oversight."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "We assist larger organisations in addressing legacy risks and adapting to modern cybersecurity challenges using distributed teams and agile response strategies."
               }
             ]
           },
@@ -737,87 +734,87 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Enhanced Data Protection",
-                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
+                "title": "Data Protection",
+                "description": "Strengthen your defences against unauthorised access, data leakage, and cyber attacks."
               },
               {
                 "number": "02",
-                "title": "24/7 Threat Monitoring",
-                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
+                "title": "Operational Resilience",
+                "description": "Limit downtime and data loss by proactively managing vulnerabilities and developing incident response readiness."
               },
               {
                 "number": "03",
-                "title": "Regulatory Compliance",
-                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
+                "title": "Regulatory Alignment",
+                "description": "Support your compliance with frameworks such as GDPR by embedding appropriate security controls."
               },
               {
                 "number": "04",
-                "title": "Business Continuity",
-                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
+                "title": "Risk Reduction",
+                "description": "Address key threats early in your development lifecycle, reducing costly fixes and reputational risk."
               },
               {
                 "number": "05",
-                "title": "Employee Awareness Training",
-                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
+                "title": "Security Awareness",
+                "description": "Promote secure behaviour across your team through structured awareness initiatives and guidance."
               },
               {
                 "number": "06",
-                "title": "Customised Security Strategies",
-                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
+                "title": "Tailored Solutions",
+                "description": "Receive solutions tailored to your sector, product type, and infrastructure maturity."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our app & website security services can help transform your business.",
+          "ctaDescription": "Let’s discuss how we can support your application and website security needs in a manner aligned with your goals and risk appetite.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
               "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
+              "Security implementation effectiveness depends on client infrastructure, codebase quality, hosting environment, and ongoing maintenance, which remain the client’s responsibility unless covered under a separate support agreement.",
               "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Integration with or reliance on third-party platforms, APIs, or security tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for outages, limitations, or changes imposed by external providers.",
+              "All security recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
+              "Ongoing monitoring, penetration testing, and security patching are available under separate maintenance or support packages, unless otherwise specified."
             ]
           }
         },
         {
           "id": "secure-login-access-control",
           "title": "Secure Login & Access Control",
-          "description": "Implement robust authentication and authorization systems to control user access and protect sensitive data.",
-          "overviewDescription": "Comprehensive details about our secure login & access control services",
+          "description": "Implement layered, resilient authentication and authorisation systems to help protect critical data and ensure user accountability.",
+          "overviewDescription": "Secure authentication is a cornerstone of digital resilience. At Aurygen Technologies, we help organisations design and implement robust identity and access management systems that support scalability, user privacy, and compliance. Whether you're building a new product or upgrading an existing one, our services are tailored to your infrastructure, business context, and evolving security needs",
           "features": [
             {
-              "title": "Multi-factor Authentication",
-              "description": "Advanced MFA implementation using SMS, email, authenticator apps, or biometric verification to add an extra layer of security to user accounts."
+              "title": "Multi-Factor Authentication (MFA)",
+              "description": "We implement advanced MFA systems using SMS, authenticator apps, or biometrics to provide an additional security layer beyond usernames and passwords."
             },
             {
-              "title": "OAuth 2.0",
-              "description": "Secure OAuth 2.0 implementation for third-party authentication and authorization, enabling users to log in with existing social media or enterprise accounts."
+              "title": "OAuth 2.0 Integration",
+              "description": "Configure OAuth 2.0 securely to allow third-party authentication (e.g., Google, Microsoft) while maintaining data control and session hygiene."
             },
             {
-              "title": "Role-based Access Control",
-              "description": "Granular permission systems that control user access to different features and data based on their roles and responsibilities within your organization."
+              "title": "Role-Based Access Control (RBAC)",
+              "description": "Define fine-grained access rules by user role to ensure individuals only access the resources necessary for their responsibilities."
             },
             {
               "title": "Session Management",
-              "description": "Secure session management with automatic timeouts, session encryption, and protection against session hijacking and fixation attacks."
+              "description": "Secure session handling with timeouts, encrypted tokens, and safeguards against session hijacking or misuse."
             }
           ],
-          "detailedDescription": "Strengthen your security posture with advanced authentication and access control systems. We implement multi-layered security measures to ensure only authorized users can access your sensitive data and systems.",
+          "detailedDescription": "Our Secure Login & Access Control solutions are designed for technology-driven teams that require reliable identity management across web platforms, mobile applications, or enterprise environments. We combine modern authentication protocols with security best practices to improve user confidence and control data access.",
           "customSoftwareSolutions": {
             "title": "Secure Login & Access Control for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Affordable access to best-practice access control systems without the need for in-house security teams."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Easily integrate secure login workflows to meet client expectations and support business growth."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Strengthen access governance and reduce internal risk across teams and complex systems."
               }
             ]
           },
@@ -826,87 +823,87 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Enhanced Data Protection",
-                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
+                "title": "Identity Protection",
+                "description": "Help prevent unauthorised access and account takeovers through strong login enforcement."
               },
               {
                 "number": "02",
-                "title": "24/7 Threat Monitoring",
-                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
+                "title": "Compliance Support",
+                "description": "Meet security expectations under frameworks like GDPR and ISO 27001."
               },
               {
                 "number": "03",
-                "title": "Regulatory Compliance",
-                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
+                "title": "Reduced Insider Risk",
+                "description": "Enforce least privilege principles with role-based restrictions and usage logs."
               },
               {
                 "number": "04",
-                "title": "Business Continuity",
-                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
+                "title": "Operational Resilience",
+                "description": "Limit downtime and impact of security incidents linked to user identity flaws."
               },
               {
                 "number": "05",
-                "title": "Employee Awareness Training",
-                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
+                "title": "Team Awareness",
+                "description": "Promote secure login practices among staff and vendors through education and policy reinforcement."
               },
               {
                 "number": "06",
-                "title": "Customised Security Strategies",
-                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
+                "title": "Scalable Architecture",
+                "description": "Implement future-proof access controls that grow with your product or organisation."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our secure login & access control services can help transform your business.",
+          "ctaDescription": "Let’s explore how our Secure Login & Access Control solutions can align with your business needs and cybersecurity goals.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies offers advisory and implementation support services. Our login and access control solutions are provided under agreed scopes and do not include legal representation or guaranteed risk elimination.",
+              "Security outcomes depend on system architecture, third-party integrations, user behaviour, and the operating environment.",
+              "Compliance assistance is advisory in nature and should be verified against your organisation’s specific legal obligations.",
+              "Any features or tools implemented require continued monitoring and updates to remain effective as threats evolve.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
+
           }
         },
         {
           "id": "firewall-device-protection",
           "title": "Firewall & Device Protection",
-          "description": "Network security solutions including firewall configuration and device protection strategies.",
-          "overviewDescription": "Comprehensive details about our Firewall & device protection services",
+          "description": "Defend your digital environment with tailored firewall and endpoint protection strategies.",
+          "overviewDescription": "With increased connectivity comes heightened vulnerability. Our Firewall & Device Protection service provides tailored security for networks and endpoints, protecting your data, systems, and devices against unauthorised access, malware, and advanced threats. Whether you operate a startup, SME, or enterprise, we help you establish strong digital defences while maintaining operational agility",
           "features": [
             {
               "title": "Firewall Configuration",
-              "description": "Professional firewall setup and configuration to create secure network perimeters, block unauthorized access, and monitor network traffic for threats."
+              "description": "Secure configuration and policy design for firewalls to create network perimeters that restrict unauthorised access and filter malicious traffic."
             },
             {
               "title": "Network Monitoring",
-              "description": "24/7 network monitoring and analysis to detect suspicious activities, performance issues, and potential security breaches in real-time."
+              "description": "Continuous traffic analysis and system-level monitoring to detect anomalies, flag suspicious activities, and report emerging threats."
             },
             {
               "title": "Intrusion Detection",
-              "description": "Advanced intrusion detection systems that identify and alert on potential security breaches, malware, and unauthorized access attempts."
+              "description": "Deployment of intrusion detection mechanisms to identify, log, and alert security events linked to unauthorised access or system compromise."
             },
             {
               "title": "Device Security",
-              "description": "Comprehensive device security including endpoint protection, mobile device management, and security policies for all connected devices."
+              "description": "Implementation of endpoint protection strategies and mobile device management to safeguard all connected devices within your ecosystem."
             }
           ],
-          "detailedDescription": "Secure your network infrastructure with professional firewall configuration and device protection services. We implement comprehensive network security measures to prevent unauthorized access and monitor for potential threats.",
+          "detailedDescription": "We implement and manage firewall configurations, network monitoring systems, and secure device policies, offering a complete network hardening solution. Our security specialists collaborate closely with your technical team to align security measures with business needs.",
           "customSoftwareSolutions": {
             "title": "Firewall & Device Protection for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Protect your early-stage tech environment with cost-effective firewalls and scalable device policies."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Gain managed network security support without the cost of maintaining an internal security team."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Strengthen your layered defence strategy across departments, devices, and remote workforces."
               }
             ]
           },
@@ -915,87 +912,86 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Enhanced Data Protection",
-                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
+                "title": "Advanced Perimeter Control",
+                "description": "Block unauthorised access at the network edge using modern firewall protocols and traffic filters."
               },
               {
                 "number": "02",
-                "title": "24/7 Threat Monitoring",
-                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
+                "title": "Visibility & Monitoring",
+                "description": "Stay informed with real-time insights into traffic flow, intrusion attempts, and system performance."
               },
               {
                 "number": "03",
-                "title": "Regulatory Compliance",
-                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
+                "title": "Security Hygiene at Scale",
+                "description": "Standardise endpoint protection and ensure security practices are enforced across all devices."
               },
               {
                 "number": "04",
-                "title": "Business Continuity",
-                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
+                "title": "Regulatory Alignment",
+                "description": "Support for data security requirements under GDPR, ISO 27001, and other global frameworks."
               },
               {
                 "number": "05",
-                "title": "Employee Awareness Training",
-                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
+                "title": "Continuity & Preparedness",
+                "description": "Reduce downtime from attacks and ensure recovery readiness through backups and breach response plans."
               },
               {
                 "number": "06",
-                "title": "Customised Security Strategies",
-                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
+                "title": "Employee Cyber Awareness",
+                "description": "Train internal users to recognise risks and respond effectively to emerging threats."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our firewall & device protection services can help transform your business.",
+          "ctaDescription": "Let’s discuss how Aurygen’s Firewall & Device Protection services can support your digital risk reduction strategy.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies provides advisory and implementation services in line with industry best practices. We do not offer legal advice, and all actions taken by clients are at their discretion.",
+              "Our services do not guarantee the prevention of all cyber threats. Effectiveness depends on system architecture, user practices, and regular maintenance.",
+              "All implementations are carried out under an agreed scope of work. Ongoing support is subject to relevant service level agreements (SLAs).",
+              "We do not accept liability for incidents arising from third-party systems, platforms, or unauthorised modifications made outside our direct engagement.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
           }
         },
         {
           "id": "security-audits",
           "title": "Security Audits",
-          "description": "Comprehensive security assessments and penetration testing to identify and address vulnerabilities.",
-          "overviewDescription": "Comprehensive details about our security audits services",
+          "description": "Proactive security assessments designed to uncover vulnerabilities and strengthen your defences.",
+          "overviewDescription": "Security threats evolve rapidly, making regular audits essential for maintaining resilience. Our Security Audits service evaluates your systems against recognised standards and real-world attack methods, helping your organisation address vulnerabilities before they can be exploited. Whether you’re preparing for a compliance audit or want peace of mind around internal security, we deliver precise, actionable insights that support long-term digital safety",
           "features": [
             {
               "title": "Penetration Testing",
-              "description": "Ethical hacking and penetration testing to identify security vulnerabilities by simulating real-world attacks on your systems and applications."
+              "description": "Simulated cyberattacks performed under controlled conditions to uncover real-world vulnerabilities in applications, networks, and infrastructure."
             },
             {
               "title": "Vulnerability Assessment",
-              "description": "Comprehensive vulnerability scanning and assessment to identify security weaknesses in your infrastructure, applications, and network configurations."
+              "description": "Automated and manual scanning to detect system misconfigurations, unpatched software, or exposed services that may be exploited."
             },
             {
               "title": "Security Code Review",
-              "description": "Detailed source code analysis to identify security flaws, coding vulnerabilities, and potential attack vectors in your applications."
+              "description": "Line-by-line analysis of your application codebase to identify flaws, insecure logic, and vulnerabilities in authentication, authorisation, and data handling."
             },
             {
               "title": "Compliance Auditing",
-              "description": "Thorough compliance audits against industry standards like ISO 27001, SOC 2, PCI DSS, and other regulatory requirements."
+              "description": "Evaluation of your environment against standards like ISO 27001, PCI DSS, SOC 2, and other sector-specific frameworks to support certification readiness."
             }
           ],
-          "detailedDescription": "Identify and address security vulnerabilities before they become threats. Our comprehensive security audits include penetration testing, code reviews, and compliance assessments to ensure your systems meet the highest security standards.",
+          "detailedDescription": "Our audit process is thorough, transparent, and tailored to your specific industry, architecture, and risk appetite. We work with internal and external teams to validate security practices, identify hidden weaknesses, and outline a risk mitigation plan aligned with your business objectives.",
           "customSoftwareSolutions": {
             "title": "Security Audits for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Strengthen product credibility, investor confidence, and user trust with an independent security review."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Identify high-priority risks with minimal overhead while ensuring compliance with industry norms."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Continuous improvement through deep security diagnostics across business units, legacy systems, and cloud infrastructure."
               }
             ]
           },
@@ -1004,46 +1000,45 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Enhanced Data Protection",
-                "description": "Safeguard your sensitive information with robust security measures that defend against breaches, leaks, and cyber threats."
+                "title": "Risk Visibility",
+                "description": "Understand your system’s exposure to real-world threats and compliance gaps through transparent, documented findings."
               },
               {
                 "number": "02",
-                "title": "24/7 Threat Monitoring",
-                "description": "Gain peace of mind with round-the-clock monitoring and rapid response to potential risks, ensuring your systems remain secure at all times."
+                "title": "Cost Avoidance",
+                "description": "Prevent potential data breaches or reputational damage by identifying vulnerabilities early in the development or operational lifecycle."
               },
               {
                 "number": "03",
-                "title": "Regulatory Compliance",
-                "description": "Stay aligned with industry standards and data protection regulations, reducing legal risks and building trust with customers."
+                "title": "Regulatory Alignment",
+                "description": "Prepare for or maintain certifications by validating your controls against relevant regulations and audit standards."
               },
               {
                 "number": "04",
-                "title": "Business Continuity",
-                "description": "Minimise downtime and disruption through proactive threat detection, disaster recovery planning, and secure backup solutions."
+                "title": "Operational Resilience",
+                "description": "Address weaknesses that could cause business disruption, system downtime, or data loss."
               },
               {
                 "number": "05",
-                "title": "Employee Awareness Training",
-                "description": "Empower your team with practical training to recognise and prevent cyber attacks, strengthening your organisation’s first line of defence."
+                "title": "Stakeholder Confidence",
+                "description": "Demonstrate a proactive security posture to clients, investors, and regulatory bodies."
               },
               {
                 "number": "06",
-                "title": "Customised Security Strategies",
-                "description": "Receive tailored cybersecurity solutions designed to meet the unique risks and needs of your business environment."
+                "title": "Tailored Support",
+                "description": "Get guidance that matches your technology stack, business goals, and security maturity level."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our security audits services can help transform your business.",
+          "ctaDescription": "Let’s explore how our Security Audits service can support your organisation’s risk management and compliance strategy.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies offers security audit and assessment services for informational and advisory purposes only.",
+              "Our audits are conducted under a predefined scope of work, mutually agreed upon in advance via written service agreements.",
+              "Results from penetration testing or compliance audits are based on the system state at the time of assessment and are not a guarantee against future security incidents.",
+              "We are not liable for any damages arising from the use or interpretation of our audit findings outside of the agreed engagement scope.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
           }
         }
@@ -2729,41 +2724,41 @@
         {
           "id": "cto-as-a-service",
           "title": "CTO-as-a-Service",
-          "description": "Technical leadership and strategic guidance for startups without a full-time CTO.",
-          "overviewDescription": "Comprehensive details about our cto-as-a-service services",
+          "description": "Access expert-level CTO guidance without the overhead of a full-time hire.",
+          "overviewDescription": "We support early-stage and growing businesses that require technical oversight but may not yet need or be ready for a full-time Chief Technology Officer. Aurygen Technologies offers flexible, project-based or retained CTO services that focus on aligning technology with business strategy, improving team delivery, and de-risking key technical decisions",
           "features": [
             {
               "title": "Technical Strategy",
-              "description": "Comprehensive technical strategy development that aligns technology choices with business goals and long-term vision."
+              "description": "Development of a cohesive technical roadmap aligned with your commercial goals and long-term product vision."
             },
             {
               "title": "Team Leadership",
-              "description": "Expert technical leadership to guide your development team, establish best practices, and ensure high-quality deliverables."
+              "description": "Technical mentoring, sprint oversight, and guidance to internal or outsourced teams to ensure quality and accountability."
             },
             {
               "title": "Architecture Planning",
-              "description": "Strategic system architecture planning that ensures scalability, maintainability, and optimal performance for your growing startup."
+              "description": "High-level systems design that supports performance, scalability, maintainability, and integration."
             },
             {
-              "title": "Technology Decisions",
-              "description": "Expert guidance on critical technology decisions including tech stack selection, third-party integrations, and platform choices."
+              "title": "Technology Evaluation",
+              "description": "Independent, unbiased advice on tech stacks, platforms, tools, and vendor selection that best suit your business model."
             }
           ],
-          "detailedDescription": "Get expert technical leadership without the cost of a full-time CTO. We provide strategic technical guidance, architecture planning, and team leadership to help your startup make the right technology decisions.",
+          "detailedDescription": "Our CTO-as-a-Service offering is designed for founders and executives seeking strategic direction, tech due diligence, and operational stability in their product development. Whether you're building an MVP or scaling a platform, we help ensure your technology choices are sustainable and future-ready.",
           "customSoftwareSolutions": {
             "title": "CTO-as-a-Service for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Cost-efficient senior tech leadership without long-term contracts, ideal for early-stage ventures validating ideas."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Project-based or fractional CTO engagement to guide transformation, scaling, or restructuring initiatives."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Short-term support for launching new digital units, vetting platforms, or leading internal innovation pilots."
               }
             ]
           },
@@ -2772,87 +2767,81 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "End-to-End Technical Partnership",
-                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
+                "title": "Fractional CTO Engagement",
+                "description": "Get senior-level technical insight without committing to a full-time CTO position."
               },
               {
                 "number": "02",
-                "title": "Rapid MVP Development",
-                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
+                "title": "Risk Reduction",
+                "description": "Avoid costly architectural missteps, technical debt, or platform bottlenecks."
               },
               {
                 "number": "03",
-                "title": "Cost-Effective Engineering",
-                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
+                "title": "Team Empowerment",
+                "description": "Establish engineering best practices, code quality standards, and team confidence."
               },
               {
                 "number": "04",
-                "title": "Agile & Scalable Team",
-                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
+                "title": "Decision Clarity",
+                "description": "Make informed, strategic technology choices that support business growth."
               },
               {
                 "number": "05",
-                "title": "Product & UX Guidance",
-                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
-              },
-              {
-                "number": "06",
-                "title": "Launch Support & Beyond",
-                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
+                "title": "Adaptable Partnership",
+                "description": "Scale support up or down as needed, from project scoping to investor due diligence."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our cto-as-a-service services can help transform your business.",
+          "ctaDescription": "Let’s explore how our CTO-as-a-Service offering can help you build smarter, scale faster, and lead confidently.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Our CTO-as-a-Service offering provides advisory support and strategic guidance, not formal fiduciary, legal, or executive representation.",
+              "All deliverables, timelines, and responsibilities are subject to a mutually agreed scope of work and service agreement.",
+              "We do not guarantee specific commercial outcomes or investment success, and any use of this service is at the client's discretion.",
+              "Aurygen Technologies does not assume liability for third-party systems, integrations, or infrastructure decisions made without our direct involvement.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
           }
         },
         {
           "id": "product-roadmapping",
           "title": "Product Roadmapping",
-          "description": "Strategic product planning and roadmap development to guide your product's evolution and growth.",
-          "overviewDescription": "Comprehensive details about our product roadmapping services",
+          "description": "Define the journey before you build the destination.",
+          "overviewDescription": "Effective product development begins with clear, structured planning. Aurygen Technologies partners with startups and growing businesses to build realistic, scalable, and agile product roadmaps, ensuring each step you take is intentional and future-ready",
           "features": [
             {
               "title": "Feature Prioritization",
-              "description": "Strategic feature prioritization based on user value, business impact, and technical feasibility to maximize ROI and user satisfaction."
+              "description": "Evaluate features based on user need, business impact, and technical viability, ensuring the right focus at the right time."
             },
             {
               "title": "Timeline Planning",
-              "description": "Realistic timeline planning that balances speed to market with quality, considering dependencies and resource constraints."
+              "description": "Create realistic, milestone-driven timelines that account for team capacity, dependencies, and market readiness."
             },
             {
               "title": "Resource Allocation",
-              "description": "Optimal resource allocation strategies to ensure efficient use of budget, time, and team capabilities across all development phases."
+              "description": "Optimise internal and external resources to match project complexity, timeline, and available budget."
             },
             {
               "title": "Milestone Definition",
-              "description": "Clear milestone definition with measurable outcomes and success criteria to track progress and maintain project momentum."
+              "description": "Set clear deliverables and review points to track progress, celebrate wins, and course-correct if needed."
             }
           ],
-          "detailedDescription": "Create a clear path to success with strategic product roadmapping. We help you prioritize features, plan timelines, and allocate resources effectively to ensure your product development stays on track.",
+          "detailedDescription": "We work closely with founders, product managers, and development teams to shape roadmaps that reduce risk, prioritise value, and maintain momentum. From early planning to post-launch growth, we guide your team with clarity and flexibility.",
           "customSoftwareSolutions": {
             "title": "Product Roadmapping for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Build investor-ready roadmaps to secure funding, validate direction, and maintain team focus."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Align product evolution with business growth and customer expectations while managing internal constraints."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Strategically introduce or iterate products with structured planning across multi-disciplinary teams."
               }
             ]
           },
@@ -2861,87 +2850,80 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "End-to-End Technical Partnership",
-                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
+                "title": "Strategic Focus",
+                "description": "Build with intent, not assumption, each step grounded in user and market insight."
               },
               {
                 "number": "02",
-                "title": "Rapid MVP Development",
-                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
+                "title": "Time & Budget Efficiency",
+                "description": "Reduce wasted effort with prioritised development and resource management."
               },
               {
                 "number": "03",
-                "title": "Cost-Effective Engineering",
-                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
+                "title": "Agility & Control",
+                "description": "Stay flexible with the ability to pivot based on feedback or business shifts."
               },
               {
                 "number": "04",
-                "title": "Agile & Scalable Team",
-                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
+                "title": "Investor & Stakeholder Readiness",
+                "description": "Share clear roadmaps that build confidence with funders and internal teams."
               },
               {
                 "number": "05",
-                "title": "Product & UX Guidance",
-                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
-              },
-              {
-                "number": "06",
-                "title": "Launch Support & Beyond",
-                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
+                "title": "Sustainable Scaling",
+                "description": "Lay the groundwork for long-term product growth through phased, measured planning."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our product roadmapping services can help transform your business.",
+          "ctaDescription": "Let’s discuss how a structured product roadmap can empower your team, clarify priorities, and drive momentum, without the guesswork.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "All roadmap engagements are scoped through a formal proposal and do not represent financial, investment, or legal advice.",
+              "Delivery timelines and feature plans are dependent on agreed scope, stakeholder inputs, and external constraints.",
+              "Roadmapping does not include development itself but may be combined with our engineering or MVP services under a separate contract.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
           }
         },
         {
           "id": "idea-validation-consulting",
           "title": "Idea Validation & Consulting",
-          "description": "Comprehensive idea validation and strategic consulting to assess market potential and business viability.",
-          "overviewDescription": "Comprehensive details about our idea validation & consulting services",
+          "description": "Test the potential. Reduce the risk. Build with confidence.",
+          "overviewDescription": "At Aurygen Technologies, we support founders and early-stage teams & businesses by helping them validate, refine, and shape ideas into credible, data-informed business propositions. Through research, feasibility analysis, and practical consulting, we ensure you're equipped to make the right decisions early on",
           "features": [
             {
               "title": "Market Research",
-              "description": "Comprehensive market research to understand target audience, competition, and market opportunities for your startup idea."
+              "description": "We conduct structured research to identify target audiences, analyse competitor positioning, and uncover unmet needs."
             },
             {
               "title": "Feasibility Analysis",
-              "description": "Technical and business feasibility analysis to assess the viability of your idea and identify potential challenges and solutions."
+              "description": "Assessment of the technical and commercial feasibility of your idea, identifying early risks, blockers, and solution paths."
             },
             {
               "title": "Business Model Validation",
-              "description": "Validation of your business model through market testing, customer interviews, and financial projections to ensure sustainability."
+              "description": "We examine revenue strategies, value propositions, and operating models to ensure long-term sustainability and relevance."
             },
             {
               "title": "Go-to-Market Strategy",
-              "description": "Strategic go-to-market planning including customer acquisition strategies, pricing models, and launch tactics for maximum impact."
+              "description": "Development of clear launch strategies, including acquisition channels, pricing models, and value delivery frameworks."
             }
           ],
-          "detailedDescription": "Validate your startup idea before investing significant resources. We conduct thorough market research, feasibility analysis, and business model validation to help you make informed decisions about your venture.",
+          "detailedDescription": "Before you develop a product or pitch for funding, we help you assess whether your idea is viable, scalable, and strategically positioned. Our process combines technical insight with business analysis to provide a realistic view of market potential and execution pathways.",
           "customSoftwareSolutions": {
             "title": "Idea Validation & Consulting for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Validate concepts before seeking funding or starting development, de-risking your early-stage decisions."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Explore new digital opportunities or product extensions backed by market insight and technical analysis."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Test innovation ideas or spin-outs through a structured validation process aligned with business objectives."
               }
             ]
           },
@@ -2950,46 +2932,39 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "End-to-End Technical Partnership",
-                "description": "From idea to launch, we act as your dedicated tech partner—helping you build, refine, and deliver your product with confidence."
+                "title": "Informed Decision-Making",
+                "description": "Proceed with clarity backed by research and realistic assessments, not guesswork."
               },
               {
                 "number": "02",
-                "title": "Rapid MVP Development",
-                "description": "Get your Minimum Viable Product (MVP) to market quickly, allowing you to test, learn, and attract early users or investors."
+                "title": "Faster Time-to-Market",
+                "description": "Avoid unnecessary pivots by aligning early with user and business needs."
               },
               {
                 "number": "03",
-                "title": "Cost-Effective Engineering",
-                "description": "Make the most of your budget with smart, scalable solutions that reduce overheads without compromising quality."
+                "title": "Investment Readiness",
+                "description": "Strengthen your case with validated insights for pitch decks, grants, or accelerator applications."
               },
               {
                 "number": "04",
-                "title": "Agile & Scalable Team",
-                "description": "Access a flexible team of experts ready to scale up or down based on your evolving business needs."
+                "title": "Reduced Risk Exposure",
+                "description": "Identify potential failure points or market challenges before costly development."
               },
               {
                 "number": "05",
-                "title": "Product & UX Guidance",
-                "description": "Build something your users love—with input on user experience, product strategy, and growth planning from day one."
-              },
-              {
-                "number": "06",
-                "title": "Launch Support & Beyond",
-                "description": "We stay with you post-launch, offering continued support, iteration, and improvements as your startup grows."
+                "title": "Tailored Advisory Support",
+                "description": "Benefit from advice grounded in practical experience across sectors and technologies."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our idea validation & consulting services can help transform your business.",
+          "ctaDescription": "Let’s explore your concept, test assumptions, and shape a viable plan—before you invest time and capital.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Our validation services are advisory in nature and designed to support informed decision-making.",
+              "All findings, recommendations, and strategic guidance are subject to your internal review and discretion.",
+              "We do not offer legal, investment, or financial guarantees as part of this service.",
+              "Ongoing maintenance and content updates post-delivery are available under separate support packages, unless otherwise specified."
             ]
           }
         }
