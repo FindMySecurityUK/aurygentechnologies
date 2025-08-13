@@ -1225,64 +1225,64 @@
               }
             ]
           },
-          "ctaDescription": "Let’s explore how our AI App Development services can help you innovate, scale, and compete more effectively.",
+          "ctaDescription": "Speak to us today to discover how our Business Automation services can deliver measurable efficiency gains while ensuring compliance and scalability.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies delivers AI App Development services under clearly defined project scopes and mutually agreed specifications.",
-              "Model performance, accuracy, and outcomes depend on data quality, integration environments, and agreed objectives; results may vary.",
-              "Security, compliance, and ethical AI practices are prioritised, but regulatory certification is only provided where contractually specified.",
-              "AI models may require retraining and periodic updates to maintain performance over time; such work is available under separate agreements.",
-              "We comply with applicable data protection regulations and responsible AI development standards in all projects."
+              "Aurygen Technologies provides Business Automation services under clearly defined scopes and mutually agreed specifications.",
+              "Performance outcomes depend on data quality, integration environments, and operational adoption; results may vary.",
+              "Security, compliance, and governance are prioritised, but regulatory certification is only provided where contractually specified.",
+              "Automation systems may require periodic updates to maintain performance; long-term maintenance is available under a separate agreement.",
+              "We adhere to applicable data protection laws, ethical AI principles, and responsible automation practices in all projects."
             ]
           }
         },
         {
           "id": "chatbots-virtual-assistants",
           "title": "Chatbots & Virtual Assistants",
-          "description": "AI-powered conversational interfaces that provide 24/7 customer support and intelligent interactions.",
-          "overviewDescription": "Comprehensive details about our chatbots & virtual assistants services",
+          "description": "AI-powered conversational interfaces for 24/7 customer engagement, intelligent interactions, and operational efficiency.",
+          "overviewDescription": "We help organisations of all sizes integrate intelligent chatbots and virtual assistants into their customer service and business workflows. Our solutions use cutting-edge AI models to interpret intent, retain context, and continuously improve, providing responsive, reliable, and scalable support around the clock",
           "features": [
             {
               "title": "Natural Language Understanding",
-              "description": "Advanced NLU capabilities that enable chatbots to understand user intent, context, and nuanced language for more natural conversations."
+              "description": "Advanced NLU models that accurately interpret user intent, context, and nuance for more natural and effective interactions."
             },
             {
               "title": "Multi-platform Integration",
-              "description": "Seamless integration across websites, mobile apps, social media platforms, and messaging services for consistent user experiences."
+              "description": "Seamless deployment across websites, mobile apps, messaging platforms, and social media channels for consistent customer experiences."
             },
             {
               "title": "Context Awareness",
-              "description": "Intelligent context retention that allows chatbots to maintain conversation history and provide relevant responses based on previous interactions."
+              "description": "Persistent conversation memory to deliver relevant responses based on prior interactions, improving continuity and personalisation."
             },
             {
               "title": "Learning Capabilities",
-              "description": "Machine learning-powered chatbots that continuously improve their responses and accuracy based on user interactions and feedback."
+              "description": "Machine learning-driven improvements based on real-world usage, feedback, and performance monitoring."
             },
             {
               "title": "Voice Integration",
-              "description": "Advanced voice recognition and speech synthesis capabilities for hands-free interactions and accessibility across multiple communication channels."
+              "description": "Speech recognition and synthesis for hands-free, accessible, and multilingual customer interactions."
             },
             {
               "title": "Analytics & Insights",
-              "description": "Comprehensive conversation analytics with user behaviour insights, performance metrics, and actionable data to optimise customer engagement strategies."
+              "description": "Detailed conversation analytics, behavioural trends, and actionable metrics to optimise engagement strategies."
             }
           ],
-          "detailedDescription": "Enhance customer experience with intelligent chatbots and virtual assistants. Our AI-powered solutions provide 24/7 support, understand natural language, and continuously learn to improve customer interactions.",
+          "detailedDescription": "Our Chatbots & Virtual Assistants service is designed to enhance customer engagement, streamline operations, and deliver actionable insights through AI-powered automation.",
           "customSoftwareSolutions": {
             "title": "Chatbots & Virtual Assistants for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Affordable, scalable chatbot solutions to handle customer queries, demo requests, and onboarding without hiring additional staff."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Intelligent assistants to streamline support, reduce ticket resolution times, and improve customer satisfaction ratings."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade conversational AI integrated into existing CRM, ERP, or service desk systems with compliance and governance in mind."
               }
             ]
           },
@@ -1291,95 +1291,94 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Increased Efficiency",
-                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
+                "title": "24/7 Availability",
+                "description": "Deliver continuous customer support without increasing staffing costs."
               },
               {
                 "number": "02",
-                "title": "Smarter Decision Making",
-                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
+                "title": "Faster Response Times",
+                "description": "Instant responses to common queries, reducing wait times and improving satisfaction."
               },
               {
                 "number": "03",
-                "title": "Cost Reduction",
-                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
+                "title": "Operational Cost Savings",
+                "description": "Lower support costs by automating repetitive service requests and information delivery."
               },
               {
                 "number": "04",
-                "title": "Improved Customer Experience",
-                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
+                "title": "Enhanced Personalisation",
+                "description": "Use AI to tailor responses and recommendations based on customer history and preferences."
               },
               {
                 "number": "05",
-                "title": "Scalable Operations",
-                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
+                "title": "Multi-Channel Consistency",
+                "description": "Provide the same high-quality experience across all communication platforms."
               },
               {
                 "number": "06",
-                "title": "Innovation Enablement",
-                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
+                "title": "Data-Driven Insights",
+                "description": "Gain valuable information about customer needs, trends, and sentiment for better decision-making."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our chatbots & virtual assistants services can help transform your business.",
+          "ctaDescription": "Contact us today to explore how our Chatbots & Virtual Assistants can transform your customer experience, streamline operations, and provide measurable ROI.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers Chatbot & Virtual Assistant solutions under clearly defined scopes and mutually agreed specifications.",
+              "Performance and accuracy may vary depending on training data quality, system integration, and evolving business requirements.",
+              "Security, compliance, and responsible AI practices are prioritised; however, regulatory certification is only provided where contractually specified.",
+              "Ongoing updates, retraining, and optimisation are available under a separate support agreement",
+              "We comply with applicable data protection regulations, including GDPR, and follow ethical AI development standards in all projects."
             ]
           }
         },
         {
           "id": "generative-ai-tools",
           "title": "Generative AI Tools",
-          "description": "Custom generative AI solutions for content creation, code generation, and creative applications.",
-          "overviewDescription": "Comprehensive details about our generative ai tools services",
+          "description": "Custom AI-powered solutions for content creation, code generation, and creative innovation.",
+          "overviewDescription": "We help businesses harness the latest in generative AI to automate creative and technical processes without compromising on quality, compliance, or brand integrity. Our solutions are customised to your industry, workflow, and operational objectives",
           "features": [
             {
               "title": "Content Generation",
-              "description": "AI-powered content creation for marketing materials, documentation, product descriptions, and other business content with consistent quality and tone."
+              "description": "AI-driven creation of marketing copy, documentation, product descriptions, and branded content with consistency and quality controls."
             },
             {
               "title": "Code Assistance",
-              "description": "Intelligent code generation and assistance tools that help developers write better code faster, with automated testing and optimization suggestions."
+              "description": "Intelligent code generation, optimisation suggestions, and automated testing support to help developers work faster and more efficiently."
             },
             {
               "title": "Creative AI",
-              "description": "Generative AI solutions for creative applications including image generation, design assistance, and creative content ideation."
+              "description": "AI-powered design assistance, image generation, and creative ideation tools to support innovation in visual, written, and conceptual projects."
             },
             {
               "title": "Custom GPT Models",
-              "description": "Fine-tuned GPT models trained on your specific data and use cases to provide domain-specific AI assistance and content generation."
+              "description": "Fine-tuned large language models trained on your specific data and domain knowledge for highly relevant outputs."
             },
             {
               "title": "Multi-Modal AI Solutions",
-              "description": "Advanced AI systems that work with text, images, audio, and video content simultaneously for comprehensive creative and analytical applications."
+              "description": "Advanced AI that can process and generate across text, images, audio, and video for comprehensive creative and analytical applications."
             },
             {
               "title": "AI Ethics & Safety Implementation",
-              "description": "Responsible AI development with built-in safety measures, bias detection, content filtering, and ethical guidelines to ensure safe AI deployment."
+              "description": "Built-in safeguards, bias detection, and content filtering to ensure responsible and compliant AI usage."
             }
           ],
-          "detailedDescription": "Leverage the latest in generative AI technology to create content, assist with coding, and enhance creative processes. We develop custom AI tools that generate high-quality content and automate creative tasks.",
+          "detailedDescription": "We provide bespoke generative AI solutions that deliver measurable value, whether you need to create engaging marketing content, accelerate software development, or integrate advanced AI into creative projects.",
           "customSoftwareSolutions": {
             "title": "Generative AI Tools for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Affordable, scalable AI tools to speed up content production, software development, and product launches without additional headcount."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Cost-effective AI implementations that increase efficiency while maintaining control over brand voice and data security."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade generative AI systems that integrate with existing platforms and comply with corporate governance and compliance frameworks."
               }
             ]
           },
@@ -1388,87 +1387,87 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Increased Efficiency",
-                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
+                "title": "Increased Productivity",
+                "description": "Automate time-consuming tasks, enabling teams to focus on higher-value activities."
               },
               {
                 "number": "02",
-                "title": "Smarter Decision Making",
-                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
+                "title": "Faster Delivery",
+                "description": "Reduce turnaround times for content creation, coding, and creative work."
               },
               {
                 "number": "03",
-                "title": "Cost Reduction",
-                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
+                "title": "Cost Savings",
+                "description": "Lower operational costs by automating repetitive and labour-intensive processes."
               },
               {
                 "number": "04",
-                "title": "Improved Customer Experience",
-                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
+                "title": "Enhanced Creativity",
+                "description": "Unlock new possibilities in design, content, and innovation with AI-powered ideation tools."
               },
               {
                 "number": "05",
-                "title": "Scalable Operations",
-                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
+                "title": "Scalable Solutions",
+                "description": "Expand capabilities without proportional increases in staffing or overhead."
               },
               {
                 "number": "06",
-                "title": "Innovation Enablement",
-                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
+                "title": "Ethically Aligned AI",
+                "description": "Benefit from AI designed with safety, fairness, and compliance at its core."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our generative ai tools services can help transform your business.",
+          "ctaDescription": "Contact us to explore how our custom generative AI tools can help you accelerate delivery, improve quality, and unlock new opportunities.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers Generative AI Tools under defined scopes and mutually agreed specifications.",
+              "Output quality and relevance may vary depending on training data, system integration, and evolving requirements.",
+              "AI-generated outputs are provided for business use but should be reviewed by the client before publication or deployment.",
+              "Security, compliance, and responsible AI practices are prioritised; however, regulatory certification is only provided where contractually specified.",
+              "Ongoing updates, retraining, and optimisation are available under a separate support agreement.",
+              "We comply with applicable data protection regulations, including GDPR, and follow ethical AI development standards in all projects."
             ]
           }
         },
         {
           "id": "data-engineering",
           "title": "Data Engineering",
-          "description": "Robust data pipelines and infrastructure for collecting, processing, and analyzing large datasets.",
-          "overviewDescription": "Comprehensive details about our data engineering services",
+          "description": "Scalable data pipelines and infrastructure to power analytics, AI, and business intelligence.",
+          "overviewDescription": "We help organisations build the data foundations necessary for high-performance analytics and AI applications. Our data engineering services enable you to collect, store, process, and analyse large volumes of structured and unstructured data, safely, efficiently, and in compliance with applicable regulations",
           "features": [
             {
               "title": "Data Pipeline Development",
-              "description": "Robust data pipeline architecture that automates data collection, transformation, and loading from multiple sources into your data systems."
+              "description": "Design and deployment of automated pipelines that collect, transform, and load data from multiple sources into your preferred systems."
             },
             {
               "title": "ETL Processes",
-              "description": "Efficient Extract, Transform, Load processes that clean, validate, and prepare your data for analysis and machine learning applications."
+              "description": "Efficient Extract, Transform, Load workflows that clean, validate, and prepare data for analytics, dashboards, and machine learning models."
             },
             {
               "title": "Data Warehousing",
-              "description": "Scalable data warehouse solutions that store and organize large volumes of structured and unstructured data for analytics and reporting."
+              "description": "Scalable and secure data warehouse solutions to store and organise large datasets, supporting fast queries and advanced reporting."
             },
             {
               "title": "Real-time Processing",
-              "description": "Stream processing capabilities that handle real-time data ingestion and analysis for immediate insights and automated decision-making."
+              "description": "Stream processing capabilities for real-time ingestion, analysis, and immediate decision-making support."
             }
           ],
-          "detailedDescription": "Build robust data infrastructure that supports your AI and analytics initiatives. We design and implement scalable data pipelines that collect, process, and prepare your data for advanced analytics and machine learning.",
+          "detailedDescription": "Our tailored data engineering solutions are designed to work seamlessly with your existing systems, scale with your business needs, and deliver accurate, actionable insights.",
           "customSoftwareSolutions": {
             "title": "Data Engineering for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Affordable, agile data solutions to accelerate analytics adoption without the overhead of an in-house engineering team."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Cost-effective infrastructure and pipelines that improve data accessibility, enabling better decision-making and operational efficiency."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade, compliant solutions that integrate with existing systems to support high-volume, mission-critical analytics."
               }
             ]
           },
@@ -1477,95 +1476,94 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Increased Efficiency",
-                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
+                "title": "Data Accuracy",
+                "description": "Reliable, clean, and well-structured datasets to support confident decision-making."
               },
               {
                 "number": "02",
-                "title": "Smarter Decision Making",
-                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
+                "title": "Faster Insights",
+                "description": "Reduce the time between data capture and actionable analysis."
               },
               {
                 "number": "03",
-                "title": "Cost Reduction",
-                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
+                "title": "Cost Efficiency",
+                "description": "Avoid the expense of manual data handling with automated and optimised workflows."
               },
               {
                 "number": "04",
-                "title": "Improved Customer Experience",
-                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
+                "title": "Scalability",
+                "description": "Infrastructure that grows with your data volumes and business demands."
               },
               {
                 "number": "05",
-                "title": "Scalable Operations",
-                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
+                "title": "Regulatory Alignment",
+                "description": "Built to align with data protection and governance requirements, including GDPR."
               },
               {
                 "number": "06",
-                "title": "Innovation Enablement",
-                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
+                "title": "Improved Analytics Performance",
+                "description": "Optimised data access and storage for faster queries and better reporting."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our data engineering services can help transform your business.",
+          "ctaDescription": "Contact us to discuss how our data engineering solutions can prepare your organisation for data-driven transformation.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers Data Engineering services under clearly defined project scopes and mutually agreed specifications.",
+              "Data quality, availability, and processing performance depend on the source data and integration environment; results may vary.",
+              "Security and compliance measures are implemented in line with industry best practices and applicable regulations; specific certifications are only provided where contractually agreed.",
+              "Ongoing support, maintenance, and enhancements are available under separate agreements.",
+              "We comply with UK data protection legislation, including GDPR, and follow responsible data management standards in all projects."
             ]
           }
         },
         {
           "id": "big-data-analytics",
           "title": "Big Data Analytics",
-          "description": "Advanced analytics and insights from large-scale data processing and machine learning algorithms.",
-          "overviewDescription": "Comprehensive details about our big data analytics services",
+          "description": "Transform complex datasets into actionable intelligence with advanced analytics and machine learning.",
+          "overviewDescription": "We provide end-to-end big data solutions that enable organisations to collect, process, analyse, and visualise vast amounts of information. Whether you need to detect patterns, predict future trends, or integrate analytics into your strategic planning, our services are tailored to support business growth and regulatory compliance",
           "features": [
             {
               "title": "Predictive Modeling",
-              "description": "Advanced statistical and machine learning models that forecast future trends, customer behavior, and business outcomes with high accuracy."
+              "description": "Machine learning and statistical models to forecast customer behaviour, market changes, and operational outcomes."
             },
             {
               "title": "Data Visualization",
-              "description": "Interactive dashboards and visualizations that transform complex data into clear, actionable insights using modern visualization tools."
+              "description": "Interactive dashboards and visual reports that present complex datasets in a clear and actionable format."
             },
             {
               "title": "Statistical Analysis",
-              "description": "Comprehensive statistical analysis including hypothesis testing, correlation analysis, and advanced statistical modeling for data-driven decisions."
+              "description": "Comprehensive data analysis including hypothesis testing, regression, and correlation studies to guide decision-making."
             },
             {
               "title": "Business Intelligence",
-              "description": "Complete BI solutions that aggregate data from multiple sources to provide comprehensive business insights and performance metrics."
+              "description": "BI solutions that unify data from multiple sources to deliver real-time, organisation-wide insights."
             },
             {
-              "title": "Real-Time Data Processing",
-              "description": "High-performance real-time data processing systems that handle streaming data for immediate insights and rapid decision-making capabilities."
+              "title": "Real-Time Processing",
+              "description": "High-speed processing for streaming data, enabling instant analysis and rapid operational response."
             },
             {
               "title": "Data Mining & Pattern Recognition",
-              "description": "Advanced data mining techniques to discover hidden patterns, anomalies, and relationships in large datasets for strategic business intelligence."
+              "description": "Advanced techniques to identify trends, anomalies, and hidden relationships within large datasets."
             }
           ],
-          "detailedDescription": "Unlock the value in your data with advanced analytics and machine learning. We help you discover patterns, predict trends, and make data-driven decisions that drive business growth and competitive advantage.",
+          "detailedDescription": "Our Big Data Analytics services are designed to help you unlock the hidden potential in your data, providing clarity, foresight, and competitive advantage.",
           "customSoftwareSolutions": {
             "title": "Big Data Analytics for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Affordable analytics solutions to inform product strategy and market positioning from the outset."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Businesses (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Cost-effective data insights that improve operational efficiency and strategic planning."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade analytics platforms to manage, process, and extract insights from high-volume, mission-critical datasets."
               }
             ]
           },
@@ -1574,46 +1572,45 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Increased Efficiency",
-                "description": "Automate repetitive tasks and streamline workflows, freeing up your team to focus on higher-value work."
+                "title": "Smarter Decisions",
+                "description": "Access timely, data-driven insights that improve business decision-making."
               },
               {
                 "number": "02",
-                "title": "Smarter Decision Making",
-                "description": "Leverage AI-powered insights and real-time data analysis to support faster, more informed business decisions."
+                "title": "Operational Efficiency",
+                "description": "Reduce manual data processing and speed up insight delivery."
               },
               {
                 "number": "03",
-                "title": "Cost Reduction",
-                "description": "Cut down operational costs by automating routine processes and optimising resource allocation."
+                "title": "Cost Savings",
+                "description": "Lower operational costs through process automation and optimised resource use."
               },
               {
                 "number": "04",
-                "title": "Improved Customer Experience",
-                "description": "Deliver personalised and responsive customer service with AI-driven tools such as chatbots and recommendation engines."
+                "title": "Competitive Advantage",
+                "description": "Identify trends and market shifts before competitors do."
               },
               {
                 "number": "05",
-                "title": "Scalable Operations",
-                "description": "Easily adapt to growing business demands with intelligent systems that scale alongside your operations."
+                "title": "Scalability",
+                "description": "Analytics systems that grow with your data volumes and business demands."
               },
               {
                 "number": "06",
-                "title": "Innovation Enablement",
-                "description": "Embrace innovation by integrating AI technologies that open new possibilities and keep you ahead of the competition."
+                "title": "Regulatory Alignment",
+                "description": "Designed to align with GDPR and other applicable data governance standards."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our big data analytics services can help transform your business.",
+          "ctaDescription": "Contact us today to explore how our Big Data Analytics services can unlock insights and opportunities for your organisation.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers Big Data Analytics services under defined project scopes and mutually agreed specifications.",
+              "Analytical outcomes depend on the quality, accuracy, and completeness of the data provided; results may vary.",
+              "We follow industry best practices for data security and governance; specific certifications are only provided if contractually agreed.",
+              "Long-term maintenance, monitoring, and performance tuning are available under separate agreements.",
+              "All services are designed to align with UK data protection laws, including GDPR, and applicable international standards."
             ]
           }
         }
@@ -1631,49 +1628,49 @@
         {
           "id": "cloud-setup-management",
           "title": "Cloud Setup & Management",
-          "description": "Complete cloud infrastructure setup and ongoing management for optimal performance and cost efficiency.",
-          "overviewDescription": "Comprehensive details about our Cloud Setup & Management",
+          "description": "Secure, scalable, and cost-efficient cloud infrastructure solutions, from initial setup to ongoing management.",
+          "overviewDescription": "We provide full-cycle cloud services, including infrastructure assessment, platform selection, deployment, optimisation, and ongoing management. Our approach focuses on performance, security, and cost efficiency without compromising operational reliability",
           "features": [
             {
               "title": "Cloud Migration",
-              "description": "Seamless migration of your existing infrastructure and applications to cloud platforms with minimal downtime and optimized performance."
+              "description": "Managed migration of infrastructure, applications, and data to cloud platforms, designed to minimise disruption and maintain operational continuity."
             },
             {
               "title": "Infrastructure Setup",
-              "description": "Complete cloud infrastructure design and setup including networking, security, storage, and compute resources tailored to your needs."
+              "description": "Bespoke cloud architecture including networking, security, compute, and storage components, tailored to your business needs."
             },
             {
               "title": "Cost Optimization",
-              "description": "Continuous cost monitoring and optimization strategies to reduce cloud spending while maintaining performance and reliability."
+              "description": "Ongoing monitoring and refinement of resource usage to manage cloud spend effectively while sustaining performance."
             },
             {
               "title": "Performance Monitoring",
-              "description": "24/7 infrastructure monitoring with automated alerts, performance metrics, and proactive issue resolution to ensure optimal uptime."
+              "description": "24/7 infrastructure monitoring with alerting, reporting, and proactive response to potential performance or availability issues."
             },
             {
               "title": "Auto-Scaling Solutions",
-              "description": "Intelligent auto-scaling systems that automatically adjust resources based on demand, ensuring optimal performance whilst minimising costs."
+              "description": "Configured scaling rules to dynamically adjust resources according to usage demands, improving efficiency and reducing unnecessary costs."
             },
             {
               "title": "Disaster Recovery Planning",
-              "description": "Comprehensive disaster recovery and business continuity planning with automated backup systems and rapid recovery procedures."
+              "description": "Business continuity frameworks with scheduled backups and recovery procedures to minimise downtime in the event of disruptions."
             }
           ],
-          "detailedDescription": "Migrate to the cloud with confidence and optimize your infrastructure for performance and cost. We provide end-to-end cloud services from initial setup to ongoing management, ensuring your systems are always running at peak efficiency.",
+          "detailedDescription": "From planning your cloud migration to keeping your systems optimised post-deployment, our services are designed to help you unlock the benefits of cloud technology without unnecessary complexity.",
           "customSoftwareSolutions": {
             "title": "Cloud & IT Infrastructure for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Flexible cloud solutions that adapt to growth and help avoid high upfront infrastructure costs."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Businesses (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Scalable, secure cloud setups that improve efficiency while keeping operational costs under control."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Enterprise-grade infrastructure management for high-volume, mission-critical workloads with robust security and compliance alignment."
               }
             ]
           },
@@ -1683,94 +1680,93 @@
               {
                 "number": "01",
                 "title": "Greater Flexibility",
-                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
+                "description": "Secure remote access to systems and data, enabling distributed teams and mobile operations."
               },
               {
                 "number": "02",
                 "title": "Improved Scalability",
-                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
+                "description": "Easily expand or reduce capacity in line with business growth and demand."
               },
               {
                 "number": "03",
                 "title": "Enhanced Security",
-                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
+                "description": "Implement cloud security measures, encryption, and access controls to safeguard systems and data."
               },
               {
                 "number": "04",
-                "title": "Reduced Operational Costs",
-                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
+                "title": "Cost Efficiency",
+                "description": "Avoid unnecessary capital expenditure through usage-based pricing and optimised resource allocation."
               },
               {
                 "number": "05",
-                "title": "Reliable Business Continuity",
-                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
+                "title": "Business Continuity",
+                "description": "Maintain operations during unexpected events through backup and recovery frameworks."
               },
               {
                 "number": "06",
                 "title": "Faster Deployment",
-                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
+                "description": "Shorten delivery timelines for new services, features, and applications."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our cloud setup & management services can help transform your business.",
+          "ctaDescription": "Contact us today to discuss a tailored cloud setup and management plan that supports your business objectives.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers Cloud Setup & Management services under clearly defined project scopes and agreed specifications.",
+              "Performance outcomes depend on the quality and compatibility of existing systems, infrastructure configuration, and usage patterns; results may vary.",
+              "We implement security best practices but do not guarantee prevention of all security incidents; specific compliance certifications are provided only if contractually agreed.",
+              "Long-term support, monitoring, and updates are available under separate agreements.",
+              "All services are designed to align with applicable UK data protection laws and relevant international standards."
             ]
           }
         },
         {
           "id": "it-support-maintenance",
           "title": "IT Support & Maintenance",
-          "description": "Comprehensive IT support and maintenance services to ensure your systems run smoothly and securely.",
-          "overviewDescription": "Comprehensive details about our it support & maintenance services",
+          "description": "Comprehensive, reliable IT support and maintenance services to keep your systems secure, efficient, and resilient",
+          "overviewDescription": "We deliver ongoing IT support, maintenance, and optimisation designed to prevent issues before they escalate, whilst ensuring your systems operate in line with business needs and compliance requirements. Our services are flexible, scalable, and always aligned with your operational priorities",
           "features": [
             {
-              "title": "24/7 Support",
-              "description": "Round-the-clock technical support with rapid response times to resolve issues and minimize downtime for your critical business systems."
+              "title": "Longterm Support",
+              "description": "Continuous access to technical assistance with defined response targets, helping minimise downtime and disruption."
             },
             {
               "title": "System Maintenance",
-              "description": "Proactive system maintenance including regular updates, patches, and preventive measures to ensure optimal performance and security."
+              "description": "Regular updates, patches, and preventative tasks to maintain system stability, security, and performance."
             },
             {
               "title": "Security Updates",
-              "description": "Timely security patch management and updates to protect your systems against the latest threats and vulnerabilities."
+              "description": "Scheduled deployment of security patches to help protect systems from newly identified threats and vulnerabilities."
             },
             {
-              "title": "Performance Optimization",
-              "description": "Continuous performance monitoring and optimization to ensure your systems run efficiently and meet growing business demands."
+              "title": "Performance Optimisation",
+              "description": "Ongoing monitoring and adjustments to keep systems running at optimal speed and efficiency."
             },
             {
               "title": "Remote Troubleshooting",
-              "description": "Advanced remote diagnostic and troubleshooting capabilities to quickly identify and resolve technical issues without on-site visits."
+              "description": "Secure remote access capabilities for diagnosing and resolving technical issues without the need for on-site visits."
             },
             {
               "title": "Asset Management",
-              "description": "Comprehensive IT asset tracking and management system to monitor hardware lifecycle, software licences, and maintenance schedules."
+              "description": "Structured tracking and reporting of IT assets, including hardware lifecycle management, software licensing, and maintenance scheduling."
             }
           ],
-          "detailedDescription": "Keep your IT systems running smoothly with our comprehensive support and maintenance services. We provide proactive monitoring, regular updates, and rapid response to ensure minimal downtime and maximum productivity.",
+          "detailedDescription": "From rapid problem resolution to long-term system care, we provide a complete suite of IT support solutions for physical, virtual, and cloud environments",
           "customSoftwareSolutions": {
             "title": "IT Support & Maintenance for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Affordable IT support that scales as you grow, avoiding the costs of maintaining an in-house IT department."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Access to specialist skills and tools without the complexity or overhead of permanent technical hires."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Strategic IT management to support complex operations, high user volumes, and compliance-driven requirements."
               }
             ]
           },
@@ -1779,95 +1775,94 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Greater Flexibility",
-                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
+                "title": "Operational Continuity",
+                "description": "Reduce downtime with fast issue resolution and preventative measures."
               },
               {
                 "number": "02",
-                "title": "Improved Scalability",
-                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
+                "title": "Scalable Support",
+                "description": "Increase or reduce coverage based on changing business requirements."
               },
               {
                 "number": "03",
-                "title": "Enhanced Security",
-                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
+                "title": "Stronger Security",
+                "description": "Keep systems safeguarded with up-to-date protection measures."
               },
               {
                 "number": "04",
-                "title": "Reduced Operational Costs",
-                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
+                "title": "Cost Efficiency",
+                "description": "Avoid unnecessary overheads by paying for the level of support you actually need."
               },
               {
                 "number": "05",
-                "title": "Reliable Business Continuity",
-                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
+                "title": "Improved Productivity",
+                "description": "Maintain system performance to support employee efficiency and service delivery."
               },
               {
                 "number": "06",
-                "title": "Faster Deployment",
-                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
+                "title": "Peace of Mind",
+                "description": "Know your IT infrastructure is being actively monitored and maintained by professionals."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our it support & maintenance services can help transform your business.",
+          "ctaDescription": "Contact us to discuss an IT support and maintenance plan that ensures your systems remain reliable, secure, and ready for the future.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies provides IT Support & Maintenance services under agreed service level terms and project scopes.",
+              "Resolution times and outcomes depend on the nature of the issue, existing infrastructure, and third-party dependencies; results may vary.",
+              "Security updates and measures are implemented according to best practices but cannot guarantee the prevention of all cyber incidents.",
+              "Long-term maintenance, monitoring, and additional support are provided under separate service agreements.",
+              "All services are delivered in alignment with applicable UK data protection and relevant international standards."
             ]
           }
         },
         {
           "id": "devops-deployment-automation",
           "title": "DevOps & Deployment Automation",
-          "description": "Streamlined development and deployment processes with automated CI/CD pipelines and infrastructure as code.",
-          "overviewDescription": "Comprehensive details about our devops & deployment automation services",
+          "description": "Streamlined development, deployment, and infrastructure management through automated pipelines and modern DevOps practices.",
+          "overviewDescription": "We design and implement robust DevOps frameworks that align with your business goals and technical requirements. By combining proven processes with advanced tooling, we help teams deliver updates faster, minimise errors, and maintain service stability",
           "features": [
             {
               "title": "CI/CD Pipelines",
-              "description": "Automated continuous integration and deployment pipelines that streamline code delivery, reduce errors, and accelerate time-to-market."
+              "description": "Automated continuous integration and delivery workflows that streamline code deployment and reduce human error."
             },
             {
               "title": "Infrastructure as Code",
-              "description": "Infrastructure automation using code-based configuration management for consistent, repeatable, and scalable infrastructure deployments."
+              "description": "Declarative, code-driven infrastructure setup for repeatable, consistent, and scalable deployments."
             },
             {
               "title": "Automated Testing",
-              "description": "Comprehensive automated testing integration in deployment pipelines to ensure code quality and prevent production issues."
+              "description": "Integration of automated testing at every stage to maintain code quality and reduce production issues."
             },
             {
               "title": "Container Orchestration",
-              "description": "Docker and Kubernetes implementation for scalable, portable, and efficient application deployment and management."
+              "description": "Docker and Kubernetes solutions for scalable, portable, and efficient application management."
             },
             {
               "title": "Monitoring & Alerting",
-              "description": "Comprehensive application and infrastructure monitoring with intelligent alerting systems for proactive issue detection and resolution."
+              "description": "Proactive monitoring and intelligent alerting to detect and address potential issues early."
             },
             {
               "title": "Blue-Green Deployments",
-              "description": "Zero-downtime deployment strategies using blue-green and canary deployment techniques to minimise risk during software releases."
+              "description": "Risk-reduced release strategies, including blue-green and canary deployments, to maintain service availability."
             }
           ],
-          "detailedDescription": "Accelerate your development and deployment processes with modern DevOps practices. We implement automated pipelines, infrastructure as code, and container orchestration to improve development velocity and system reliability.",
+          "detailedDescription": "From automated testing to near zero-downtime deployment strategies, our DevOps & deployment automation services are tailored to suit diverse business needs and technical environments.",
           "customSoftwareSolutions": {
             "title": "DevOps & Deployment Automation for Every Scale",
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Gain enterprise-grade deployment capabilities without the costs of a full-time DevOps team."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Access advanced automation and scalability tools without the complexities of internal DevOps management."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Reduce release times and operational risk through tailored automation strategies and process optimisation."
               }
             ]
           },
@@ -1876,78 +1871,77 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Greater Flexibility",
-                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
+                "title": "Faster Time-to-Market",
+                "description": "Deliver new features and updates more quickly with automated release processes."
               },
               {
                 "number": "02",
-                "title": "Improved Scalability",
-                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
+                "title": "Improved Reliability",
+                "description": "Reduce downtime and deployment failures through tested, repeatable automation."
               },
               {
                 "number": "03",
-                "title": "Enhanced Security",
-                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
+                "title": "Stronger Security",
+                "description": "Implement security checks within the deployment pipeline to minimise vulnerabilities."
               },
               {
                 "number": "04",
-                "title": "Reduced Operational Costs",
-                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
+                "title": "Cost Efficiency",
+                "description": "Lower operational overheads by reducing manual intervention and resource waste."
               },
               {
                 "number": "05",
-                "title": "Reliable Business Continuity",
-                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
+                "title": "Scalable Operations",
+                "description": "Easily adapt to increased workloads with automation-driven scaling."
               },
               {
                 "number": "06",
-                "title": "Faster Deployment",
-                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
+                "title": "Consistent Quality",
+                "description": "Maintain a high standard of delivery across all releasess."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our devops & deployment automation services can help transform your business.",
+          "ctaDescription": "Contact us to discuss a DevOps strategy that accelerates your delivery cycles and strengthens your operational resilience.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers DevOps & Deployment Automation services under mutually agreed scopes and specifications.",
+              "Performance, deployment speed, and operational improvements depend on existing infrastructure, data quality, and project scope; results may vary.",
+              "Security measures are implemented according to best practices but cannot guarantee the prevention of all potential threats.",
+              "Ongoing monitoring, maintenance, and process optimisation are available under separate agreements.",
+              "All services are delivered in compliance with applicable UK regulations and recognised industry & international standards."
             ]
           }
         },
         {
           "id": "backup-recovery",
           "title": "Backup & Recovery",
-          "description": "Robust backup and disaster recovery solutions to protect your data and ensure business continuity.",
-          "overviewDescription": "Comprehensive details about our backup & recovery services",
+          "description": "Reliable backup and disaster recovery strategies to safeguard your data and maintain business continuity.",
+          "overviewDescription": "We provide structured, end-to-end backup and recovery services tailored to your operational needs, compliance requirements, and budget. Whether you need cloud-based, hybrid, or on-premises solutions, we ensure your business is equipped to recover quickly and confidently from unexpected events",
           "features": [
             {
               "title": "Automated Backups",
-              "description": "Scheduled automated backup systems that ensure your critical data is regularly backed up with multiple retention policies and storage locations."
+              "description": "Scheduled, policy-driven backups with flexible retention settings and multiple secure storage options."
             },
             {
-              "title": "Disaster Recovery",
-              "description": "Comprehensive disaster recovery planning and implementation to quickly restore operations after system failures or catastrophic events."
+              "title": "Disaster Recovery Planning",
+              "description": "Development of practical disaster recovery strategies to enable rapid restoration of systems and operations."
             },
             {
               "title": "Data Restoration",
-              "description": "Rapid data restoration services with point-in-time recovery capabilities to minimize data loss and business disruption."
+              "description": "Point-in-time recovery options to help reduce potential data loss and restore service quickly."
             },
             {
-              "title": "Business Continuity",
-              "description": "Complete business continuity planning to ensure critical operations can continue during outages or disaster scenarios."
+              "title": "Business Continuity Support",
+              "description": "Planning and implementation of processes that help keep core operations running during outages."
             },
             {
               "title": "Cloud Backup Solutions",
-              "description": "Secure cloud-based backup systems with encryption and geo-redundancy to protect against local disasters and ensure data availability."
+              "description": "Encrypted, geo-redundant cloud storage for resilience against localised incidents."
             },
             {
               "title": "Recovery Testing",
-              "description": "Regular disaster recovery testing and validation procedures to ensure backup systems work effectively when needed most."
+              "description": "Regular validation of backup and recovery processes to confirm readiness and effectiveness."
             }
           ],
           "detailedDescription": "Protect your critical business data with comprehensive backup and disaster recovery solutions. We implement automated backup systems and disaster recovery plans to ensure your business can quickly recover from any data loss incident.",
@@ -1956,15 +1950,15 @@
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Affordable and scalable protection without the overhead of managing complex backup systems in-house."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Reliable recovery capabilities that safeguard data without the expense of building internal infrastructure."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Strategic disaster recovery frameworks to meet high-availability, compliance, and performance requirements."
               }
             ]
           },
@@ -1973,78 +1967,77 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Greater Flexibility",
-                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
+                "title": "Reduced Downtime",
+                "description": "Quickly restore critical services to minimise operational impact."
               },
               {
                 "number": "02",
-                "title": "Improved Scalability",
-                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
+                "title": "Improved Resilience",
+                "description": "Safeguard against data loss caused by cyber incidents, hardware failure, or human error."
               },
               {
                 "number": "03",
-                "title": "Enhanced Security",
-                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
+                "title": "Cost Efficiency",
+                "description": "Pay only for the storage and services you need, without unnecessary overheads."
               },
               {
                 "number": "04",
-                "title": "Reduced Operational Costs",
-                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
+                "title": "Regulatory Readiness",
+                "description": "Support for data retention and protection obligations under UK and international standards."
               },
               {
                 "number": "05",
-                "title": "Reliable Business Continuity",
-                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
+                "title": "Scalable Solutions",
+                "description": "Adapt backup capacity and recovery capabilities as your data volumes grow."
               },
               {
                 "number": "06",
-                "title": "Faster Deployment",
-                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
+                "title": "Operational Confidence",
+                "description": "Verified recovery processes help maintain business stability in high-pressure scenarios."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our backup & recovery services can help transform your business.",
+          "ctaDescription": "Speak to our team about designing a backup and recovery solution that matches your operational and compliance needs.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers backup and recovery services under mutually agreed scopes and technical specifications.",
+              "Recovery times and data retention outcomes depend on existing systems, configuration, storage infrastructure, and agreed service levels; results may vary.",
+              "While we follow recognised best practices for data security and redundancy, no system can guarantee complete immunity from data loss or service interruption.",
+              "Ongoing monitoring, updates, and disaster recovery testing are available under separate contractual agreements.",
+              "All services are provided in line with applicable UK regulations and relevant industry & international standards."
             ]
           }
         },
         {
           "id": "blockchain-solutions",
           "title": "Blockchain Solutions",
-          "description": "Innovative blockchain implementations for secure, transparent, and decentralized business solutions.",
-          "overviewDescription": "Comprehensive details about our Blockchain Solutions",
+          "description": "Secure, transparent, and decentralised solutions tailored to your business goals.",
+          "overviewDescription": "Blockchain technology offers transformative potential for sectors ranging from finance and logistics to supply chain and digital identity. We provide end-to-end blockchain services from advisory and solution design to implementation and integration, helping you harness distributed ledger technology without compromising on compliance, security, or operational stability",
           "features": [
             {
               "title": "Smart Contracts",
-              "description": "Self-executing smart contracts with automated terms and conditions that eliminate intermediaries and ensure transparent, secure transactions."
+              "description": "Development of self-executing contracts that enforce agreed terms automatically, reducing the need for intermediaries."
             },
             {
               "title": "Cryptocurrency Integration",
-              "description": "Seamless cryptocurrency payment integration and wallet connectivity for modern digital payment solutions and DeFi applications."
+              "description": "Integration of secure cryptocurrency payment gateways and wallet connectivity to support modern digital transactions."
             },
             {
               "title": "Decentralized Applications",
-              "description": "Full-stack DApp development on various blockchain platforms including Ethereum, Polygon, and other networks for decentralized solutions."
+              "description": "Full-stack development of decentralised applications across platforms such as Ethereum, Polygon, and others."
             },
             {
               "title": "Blockchain Consulting",
-              "description": "Strategic blockchain consulting to identify use cases, select appropriate technologies, and develop implementation roadmaps for your business."
+              "description": "Advisory services to identify use cases, choose the right technology stack, and plan a practical implementation roadmap."
             },
             {
               "title": "NFT Development",
-              "description": "Complete NFT marketplace and token development services including minting, trading platforms, and digital asset management systems."
+              "description": "End-to-end creation of NFT marketplaces, token minting solutions, and digital asset management platforms."
             },
             {
               "title": "Tokenisation Solutions",
-              "description": "Custom tokenisation platforms for real-world assets, loyalty programmes, and digital securities with regulatory compliance."
+              "description": "Secure platforms to tokenise real-world or digital assets, loyalty schemes, and securities in line with applicable regulations."
             }
           ],
           "detailedDescription": "Explore the potential of blockchain technology for your business. We develop secure, transparent blockchain solutions including smart contracts, decentralized applications, and cryptocurrency integration to revolutionize your business processes.",
@@ -2053,15 +2046,15 @@
             "solutions": [
               {
                 "type": "Startups",
-                "description": "We are a game-changer for startups, offering a cost-effective and agile solution. It allows startups to access top-tier talent on demand, without the financial burden of maintaining a full-time, in-house team."
+                "description": "Cost-effective blockchain expertise to prototype and launch innovative products quickly."
               },
               {
                 "type": "SMEs",
-                "description": "For Small and Medium-sized Enterprises (SMEs), we serve as a strategic resource, providing a cost-efficient means to access specialized skills without the complexities of permanent hiring."
+                "description": "Strategic implementation of blockchain solutions without the need for a permanent in-house development team."
               },
               {
                 "type": "Enterprises",
-                "description": "For enterprises, we provide a strategic lever for efficiency and scalability. Leveraging external talent pools allows quick assembly of specialized teams, reducing time-to-market and enhancing flexibility."
+                "description": "Scalable, compliance-driven blockchain systems integrated into complex business processes for long-term advantage."
               }
             ]
           },
@@ -2070,46 +2063,45 @@
             "benefits": [
               {
                 "number": "01",
-                "title": "Greater Flexibility",
-                "description": "Access your systems and data from anywhere, enabling remote work and seamless collaboration across teams."
+                "title": "Transparency",
+                "description": "Immutable transaction records that build trust with customers, partners, and regulators."
               },
               {
                 "number": "02",
-                "title": "Improved Scalability",
-                "description": "Scale your infrastructure easily as your business grows, without the need for costly hardware investments."
+                "title": "Automation",
+                "description": "Reduced administrative overhead through self-executing smart contracts."
               },
               {
                 "number": "03",
-                "title": "Enhanced Security",
-                "description": "Benefit from built-in security features, regular updates, and advanced threat protection to keep your data safe."
+                "title": "Security",
+                "description": "Cryptographic safeguards to help protect sensitive transactions and data."
               },
               {
                 "number": "04",
-                "title": "Reduced Operational Costs",
-                "description": "Lower your IT spend with pay-as-you-go models and reduced maintenance overheads compared to traditional setups."
+                "title": "Efficiency",
+                "description": "Streamlined workflows and reduced dependency on intermediaries."
               },
               {
                 "number": "05",
-                "title": "Reliable Business Continuity",
-                "description": "Ensure uptime and data recovery with secure backups and resilient infrastructure that keeps your business running."
+                "title": "Scalability",
+                "description": "Blockchain architectures that evolve with your business requirements."
               },
               {
                 "number": "06",
-                "title": "Faster Deployment",
-                "description": "Deploy new applications and services quickly, accelerating innovation and responding swiftly to market demands."
+                "title": "Innovation Readiness",
+                "description": "Ability to adopt emerging blockchain applications as your sector develops."
               }
             ]
           },
-          "ctaDescription": "Let's discuss how our blockchain solutions services can help transform your business.",
+          "ctaDescription": "Speak to our specialists to explore how blockchain technology can deliver measurable value for your organisation.",
           "disclaimersLegal": {
             "title": "Disclaimers & Legal",
             "content": [
-              "Aurygen Technologies does not act as a legal, financial, or fiduciary advisor.",
-              "Database performance, scalability, and security depend on factors including hosting environment, infrastructure, and ongoing maintenance, which remain the client's responsibility unless covered by a separate support agreement.",
-              "Timelines, budgets, and deliverables are subject to mutual agreement and may evolve during project delivery.",
-              "Integration with third-party platforms or tools is subject to their availability, documentation, and technical feasibility; Aurygen Technologies is not liable for changes, outages, or limitations imposed by external providers.",
-              "All optimisation recommendations are advisory and non-binding unless contractually defined within the agreed scope of work.",
-              "Ongoing monitoring, optimisation, and updates are available under separate maintenance or support packages, unless otherwise specified."
+              "Aurygen Technologies delivers blockchain services under defined scopes, agreed specifications, and applicable UK and international standards.",
+              "Regulatory compliance, licensing requirements, and jurisdictional restrictions are the responsibility of the client; we provide advisory support but cannot guarantee regulatory approval.",
+              "Blockchain performance, transaction costs, and security are influenced by third-party network conditions, protocols, and governance models, which are outside our direct control.",
+              "Ongoing monitoring, updates, and enhancements are available under separate contractual agreements.",
+              "We do not offer cryptocurrency trading, investment, or financial advisory services."
             ]
           }
         }
@@ -2968,32 +2960,32 @@
       "steps": [
         {
           "id": "discovery-planning",
-          "title": "Discovery & Planning",
-          "description": "We analyze your business goals, target audience, and requirements to create a strategic website plan.",
+          "title": "Requirement Analysis",
+          "description": "Collaborative workshops to understand your users, goals, functionality needs, and integration requirements.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-wireframing",
-          "title": "Design & Wireframing",
-          "description": "Our designers create intuitive wireframes and stunning visual designs that reflect your brand identity.",
+          "title": "Architecture & Design",
+          "description": "Creation of wireframes and system architecture, prioritising performance, accessibility, and scalability",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "frontend-development",
-          "title": "Frontend Development",
-          "description": "We build responsive, interactive user interfaces using modern technologies and best practices.",
+          "title": "Agile Development",
+          "description": "Iterative coding and delivery through sprints, with regular progress reviews and milestone tracking.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "backend-integration",
-          "title": "Backend Integration",
-          "description": "We develop robust backend systems and integrate necessary APIs for full functionality.",
+          "title": "Testing & Quality Assurance",
+          "description": "End-to-end testing including functional, compatibility, usability, and accessibility checks before launch.",
           "icon": "/assets/3dsetting.png"
         },
         {
           "id": "testing-launch",
-          "title": "Testing & Launch",
-          "description": "Comprehensive testing across devices and browsers, followed by deployment and ongoing support.",
+          "title": "Launch & Ongoing Support",
+          "description": "Smooth deployment, monitoring, and post-launch support to ensure stability, security, and long-term performance.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3004,32 +2996,32 @@
       "steps": [
         {
           "id": "concept-research",
-          "title": "Concept & Market Research",
-          "description": "We validate your app idea through market research and define core features for maximum user engagement.",
+          "title": "Requirement Analysis",
+          "description": "We engage with stakeholders to define your vision, user needs, integration points, and key success metrics.",
           "icon": "/assets/3dbulb.png"
         },
         {
           "id": "ui-ux-design",
-          "title": "UI/UX Design",
-          "description": "Our designers create intuitive, platform-specific interfaces that provide seamless user experiences.",
+          "title": "Architecture & Design",
+          "description": "Wireframes, UX flows, and scalable architecture are designed to ensure performance and maintainability from the outset.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "app-development",
-          "title": "App Development",
-          "description": "We build your app using native or cross-platform technologies, ensuring optimal performance.",
+          "title": "Agile Development",
+          "description": "Features are built in agile sprints with iterative testing, ensuring responsiveness to evolving requirements and fast value delivery.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-optimization",
-          "title": "Testing & Optimization",
-          "description": "Rigorous testing on multiple devices and platforms to ensure reliability and performance.",
+          "title": "Testing & Quality Assurance",
+          "description": "Manual and automated testing processes ensure reliability, security, and usability across devices and platforms.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "store-deployment",
-          "title": "App Store Deployment",
-          "description": "We handle app store submissions, approvals, and provide post-launch support and updates.",
+          "title": "Launch & Post Launch Support",
+          "description": "We deploy with care, monitor live usage, address issues proactively, and support new feature rollouts or scaling needs.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3041,31 +3033,31 @@
         {
           "id": "requirement-analysis",
           "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "description": "We engage with stakeholders to understand your current systems, pain points, business rules, and end-user needs.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Architecture & Design",
+          "description": "Technical architecture and UX/UI designs are created to balance functionality, usability, and future scalability.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Agile Development",
+          "description": "Features are delivered through iterative sprints, with regular demonstrations and the flexibility to pivot as requirements evolve.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
           "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "description": "All modules undergo rigorous testing to ensure security, performance, and stability before launch.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Launch & Support",
+          "description": "We provide deployment support, system documentation, and ongoing maintenance as required through dedicated service agreements.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3077,31 +3069,31 @@
         {
           "id": "requirement-analysis",
           "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "description": "We gather detailed functional and business requirements, define product goals, and identify user roles and monetisation models.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Architecture & Design",
+          "description": "Cloud-native architecture and UX/UI design are developed to support modular functionality and high-performance delivery.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Agile Development",
+          "description": "We build iteratively, adding features in sprints with regular client input and testing at each stage to ensure alignment and quality.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
           "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "description": "Robust quality control through unit testing, integration testing, security validation, and user acceptance before release.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Launch & Support",
+          "description": "We assist with deployment, onboarding, system monitoring, and offer post-launch updates, support, and roadmap planning.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3113,31 +3105,31 @@
         {
           "id": "requirement-analysis",
           "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "description": "We map your current infrastructure, define integration goals, and identify system dependencies and data flows.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Architecture & Design",
+          "description": "Integration frameworks, workflows, and security models are designed to ensure robust, scalable, and compliant system interoperability.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Agile Development",
+          "description": "Our teams implement integrations in sprints, with progress reviews and validations to ensure platform compatibility and optimal functionality.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
           "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "description": "We conduct thorough testing, covering unit, interface, data integrity, and user acceptance to verify reliability and performance.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Launch & Support",
+          "description": "Post-deployment, we provide monitoring, troubleshooting, and support services to ensure long-term operational continuity.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3149,31 +3141,31 @@
         {
           "id": "requirement-analysis",
           "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "description": "We define critical quality metrics, user scenarios, and risk factors to guide the testing plan.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Architecture & Design",
+          "description": "Our test design process aligns with your software architecture, user journeys, and integration layers.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Agile Development",
+          "description": "QA is embedded in every sprint. Tests evolve alongside features, ensuring continuous validation throughout the lifecycle.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
           "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "description": "A layered testing process, covering unit, integration, system, acceptance, and regression testing, ensures quality across the board.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Launch & Support",
+          "description": "We monitor post-launch performance, conduct regression tests during updates, and offer long-term QA support if required.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3328,32 +3320,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Initial Assessment",
+          "description": "We begin by evaluating your existing security posture, systems architecture, and compliance obligations.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Threat & Risk Analysis",
+          "description": "Our team identifies likely attack vectors, risk hotspots, and critical vulnerabilities through a combination of automated tools and expert analysis.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Audit Execution",
+          "description": "We conduct penetration testing, vulnerability scans, and security code reviews in line with the agreed scope of work.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Compliance Benchmarking",
+          "description": "Where applicable, we compare your security controls against relevant standards and provide a readiness report.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Reporting & Recommendations",
+          "description": "A detailed audit report is shared with practical, prioritised mitigation steps. Optional support is available for remediation efforts",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3364,32 +3356,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Discovery & Analysis",
+          "description": "We review your workflows, identify AI opportunities, and define measurable success criteria.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Solution Design",
+          "description": "We design AI-driven solutions aligned with your business strategy, operational needs, and compliance requirements.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Development & Integration",
+          "description": "We build and integrate AI applications into your existing infrastructure for a seamless fit.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Testing & Optimisation",
+          "description": "We validate model accuracy, performance, and security through rigorous testing, then refine for continuous improvement.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Long-Term Support",
+          "description": "We provide ongoing monitoring, maintenance, and updates to ensure your AI solutions remain reliable, secure, and effective over time.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3400,32 +3392,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Discovery & Analysis",
+          "description": "We review your current processes, identify automation opportunities, and define measurable success metrics.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Solution Design",
+          "description": "We develop automation workflows aligned with your strategic, operational, and compliance requirements.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Development & Integration",
+          "description": "We build and connect automation systems within your existing infrastructure for a smooth deployment.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Testing & Optimisation",
+          "description": "We validate performance, accuracy, and security through rigorous testing, then fine-tune for long-term results.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Long-Term Support",
+          "description": "Ongoing monitoring, maintenance, and updates are available under a separate contract to ensure your automation systems remain effective, secure, and reliable.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3436,32 +3428,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Discovery & Analysis",
+          "description": "We assess your communication workflows, customer interaction points, and automation opportunities.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Solution Design",
+          "description": "We design AI-powered conversational workflows tailored to your brand voice, operational needs, and compliance standards.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Development & Integration",
+          "description": "We build and integrate the chatbot or virtual assistant into your existing platforms for a seamless user experience.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Testing & Optimisation",
+          "description": "Rigorous testing ensures performance, accuracy, and reliability before deployment, followed by refinement for long-term results.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Long-Term Support",
+          "description": "Ongoing monitoring, updates, and performance tuning are available under a separate agreement to ensure your solution remains effective, secure, and aligned with business needs.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3472,32 +3464,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Discovery & Analysis",
+          "description": "We review your workflows and identify high-impact use cases for generative AI.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Solution Design",
+          "description": "We design AI tools aligned with your objectives, operational needs, and compliance requirements.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Development & Integration",
+          "description": "We build and deploy AI-powered applications that integrate with your existing systems.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Testing & Optimisation",
+          "description": "We validate accuracy, reliability, and output quality through rigorous testing, followed by continuous refinement.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Long-Term Support",
+          "description": "Ongoing monitoring, updates, and optimisation are available under a separate agreement to keep your AI tools effective and secure over time.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3508,32 +3500,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Discovery & Analysis",
+          "description": "We assess your data requirements, existing infrastructure, and opportunities for optimisation.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Solution Design",
+          "description": "We design a scalable, secure architecture tailored to your operational and compliance needs.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Development & Integration",
+          "description": "We build and integrate data pipelines, warehouses, and processing frameworks into your environment.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Testing & Optimisation",
+          "description": "We verify data accuracy, system reliability, and performance before optimising for efficiency.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Long-Term Support",
+          "description": "Ongoing maintenance, monitoring, and upgrades are available under a separate agreement to ensure your data infrastructure remains effective over time.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3544,32 +3536,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Discovery & Analysis",
+          "description": "We review your business goals, existing data assets, and analytics needs.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Solution Design",
+          "description": "We architect a scalable analytics framework aligned with your operational and compliance requirements.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Development & Integration",
+          "description": "We implement analytics platforms, data pipelines, and visualisation tools seamlessly within your environment.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Testing & Optimisation",
+          "description": "We validate data accuracy, performance, and security before optimising for long-term efficiency.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Long-Term Support",
+          "description": "Available under a separate agreement, we offer ongoing monitoring, updates, and enhancements to keep your analytics solutions effective and compliant.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3580,32 +3572,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Infrastructure Assessment",
+          "description": "Evaluate your current systems, requirements, and objectives to define a clear cloud strategy.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Architecture Design",
+          "description": "Create a secure, scalable, and cost-efficient architecture, selecting the most suitable cloud platforms and tools.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Cloud Deployment & Migration",
+          "description": "Implement new cloud environments or migrate existing systems with minimal operational disruption.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Optimisation & Security",
+          "description": "Fine-tune performance, apply security best practices, and configure monitoring for ongoing stability.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Maintenance & Support",
+          "description": "Available under a separate contract, we provide ongoing updates, scalability management, and infrastructure improvements.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3616,32 +3608,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Needs Assessment",
+          "description": "Evaluate current IT systems, risks, and operational requirements to determine the right support framework.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Support Plan Design",
+          "description": "Define service levels, escalation paths, and maintenance schedules tailored to your business objectives.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Implementation & Onboarding",
+          "description": "Deploy monitoring tools, configure systems for support access, and document technical baselines.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Proactive Maintenance",
+          "description": "Carry out regular updates, checks, and preventative actions to mitigate potential issues.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Ongoing Assistance",
+          "description": "Available under a service agreement, we provide continuous monitoring, troubleshooting, and advisory support.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3652,32 +3644,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Current State Assessment",
+          "description": "Analyse your existing workflows, deployment frequency, and infrastructure needs.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Architecture & Pipeline Design",
+          "description": "Create a secure, scalable, and automated DevOps framework suited to your business goals.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Implementation & Integration",
+          "description": "Configure CI/CD pipelines, infrastructure-as-code, and container orchestration tools.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Testing & Optimisation",
+          "description": "Integrate automated tests, monitor performance, and refine processes for efficiency.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Ongoing Support",
+          "description": "Available under a separate service agreement, we provide continuous monitoring, updates, and process enhancements.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3688,32 +3680,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Infrastructure & Risk Assessment",
+          "description": "Evaluate existing systems, data volumes, and potential vulnerabilities.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Solution Design",
+          "description": "Develop a secure, compliant, and cost-effective backup and recovery framework.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Deployment & Configuration",
+          "description": "Implement and configure automated backup systems and disaster recovery tools.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Testing & Validation",
+          "description": "Conduct routine recovery tests to verify system readiness.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Ongoing Support",
+          "description": "Available under a separate agreement, including monitoring, updates, and process optimisation.",
           "icon": "/assets/3drocket.png"
         }
       ]
@@ -3724,32 +3716,32 @@
       "steps": [
         {
           "id": "requirement-analysis",
-          "title": "Requirement Analysis",
-          "description": "We begin by understanding your business objectives, user needs, and technical requirements through collaborative discussions.",
+          "title": "Needs & Feasibility Assessment  ",
+          "description": "Evaluate your objectives, existing systems, and the potential role of blockchain.",
           "icon": "/assets/3dzoom.png"
         },
         {
           "id": "design-architecture",
-          "title": "Design & Architecture",
-          "description": "Our team crafts a robust system architecture and intuitive design that supports scalability and maintainability.",
+          "title": "Solution Architecture",
+          "description": "Design a secure, scalable, and compliant blockchain framework tailored to your needs.",
           "icon": "/assets/3dcomputer.png"
         },
         {
           "id": "development-implementation",
-          "title": "Development & Implementation",
-          "description": "Using agile methodologies, we deliver working solutions in iterative cycles with regular reviews and feedback.",
+          "title": "Development & Integration",
+          "description": "Build smart contracts, DApps, or tokenisation platforms, and integrate them into your infrastructure.",
           "icon": "/assets/3dflash.png"
         },
         {
           "id": "testing-qa",
-          "title": "Testing & Quality Assurance",
-          "description": "We rigorously test across all levels to ensure a reliable, secure, and high-performing solution.",
+          "title": "Testing & Security Review",
+          "description": "Perform functional, performance, and security testing to validate system reliability.",
           "icon": "/assets/3dLab.png"
         },
         {
           "id": "deployment-support",
-          "title": "Deployment & Support",
-          "description": "We deploy with confidence, monitor performance, and provide continuous support to keep your system running smoothly.",
+          "title": "Ongoing Support",
+          "description": "Optional support packages for monitoring, optimisation, and upgrades are available under separate contracts.",
           "icon": "/assets/3drocket.png"
         }
       ]
