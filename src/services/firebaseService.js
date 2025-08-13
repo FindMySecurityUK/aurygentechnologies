@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, addDoc, serverTimestamp } from 'firebase/firestore';
+import { isValidPhoneNumber } from 'react-phone-number-input';
 import { FIREBASE_CONFIG, COLLECTIONS } from '../constants/config';
 
 // Initialize Firebase
@@ -16,6 +17,8 @@ export const submitContactForm = async (formData) => {
     // Add timestamp and format data
     const contactData = {
       ...formData,
+      website: formData.website || '',
+      projectDetails: formData.projectDetails || '',
       submittedAt: serverTimestamp(),
       status: 'new',
       source: formData.source || 'website'
@@ -39,11 +42,18 @@ export const submitContactForm = async (formData) => {
  */
 export const validateFormData = (formData) => {
   const errors = [];
-  const requiredFields = ['services', 'budget', 'projectDetails', 'name', 'email', 'companyName', 'hearAbout'];
+  const requiredFields = ['services', 'budget', 'name', 'email', 'companyName', 'phone', 'hearAbout'];
   
   requiredFields.forEach(field => {
-    if (!formData[field] || formData[field].trim() === '') {
-      errors.push(`${field} is required`);
+    if (field === 'phone') {
+      // Special handling for phone field from react-phone-number-input
+      if (!formData[field] || formData[field] === '' || formData[field] === undefined) {
+        errors.push('Phone number is required');
+      }
+    } else {
+      if (!formData[field] || formData[field].trim() === '') {
+        errors.push(`${field.charAt(0).toUpperCase() + field.slice(1)} is required`);
+      }
     }
   });
   
@@ -51,6 +61,11 @@ export const validateFormData = (formData) => {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (formData.email && !emailRegex.test(formData.email)) {
     errors.push('Please enter a valid email address');
+  }
+  
+  // Phone number validation
+  if (formData.phone && !isValidPhoneNumber(formData.phone)) {
+    errors.push('Please enter a valid phone number');
   }
   
   return {
@@ -68,11 +83,12 @@ export const formatFormData = (formData) => {
   return {
     services: formData.services,
     budget: formData.budget,
-    projectDetails: formData.projectDetails,
+    projectDetails: formData.projectDetails || '',
     contactInfo: {
       name: formData.name,
       email: formData.email,
       companyName: formData.companyName,
+      phone: formData.phone,
       website: formData.website || ''
     },
     hearAbout: formData.hearAbout,
