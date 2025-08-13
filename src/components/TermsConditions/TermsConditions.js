@@ -235,7 +235,7 @@ const TermsConditions = () => {
           </section>
 
           <div className="last-updated">
-            <p>Last Updated: January 2024</p>
+            <p>Last Updated: 9 August 2025</p>
           </div>
         </div>
       </div>

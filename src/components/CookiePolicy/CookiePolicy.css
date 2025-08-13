@@ -27,7 +27,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  text-align: center;
+  text-align: left;
   position: relative;
   z-index: 2;
   opacity: 0;
@@ -41,21 +41,19 @@
 }
 
 .cookie-policy-title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: left;
 }
 
 .cookie-policy-subtitle {
-  font-size: 1.3rem;
-  opacity: 0.9;
+  font-size: 1.1rem;
+  opacity: 0.8;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 
 .cookie-policy-content {
@@ -69,53 +67,31 @@
 }
 
 .cookie-policy-section {
-  margin-bottom: 50px;
-  padding: 40px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
+  margin-bottom: 30px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  transition: none;
   position: relative;
-  overflow: hidden;
-}
-
-.cookie-policy-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-}
-
-.cookie-policy-section:hover::before {
-  transform: scaleX(1);
-}
-
-.cookie-policy-section:hover {
-  transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  overflow: visible;
 }
 
 .cookie-policy-section h2 {
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #764ba2;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: #ffffff;
   position: relative;
+  text-align: left;
 }
 
 .cookie-policy-section h3 {
-  font-size: 1.4rem;
-  font-weight: 600;
-  margin: 30px 0 15px 0;
-  color: #667eea;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 20px 0 10px 0;
+  color: #ffffff;
+  text-align: left;
 }
 
 .cookie-policy-section p {
@@ -123,6 +99,7 @@
   line-height: 1.8;
   opacity: 0.9;
   margin-bottom: 15px;
+  text-align: left;
 }
 
 .cookie-policy-section ul {
@@ -137,6 +114,7 @@
   margin-bottom: 12px;
   padding-left: 25px;
   position: relative;
+  text-align: left;
 }
 
 .cookie-policy-section li::before {
@@ -194,6 +172,7 @@
   background: rgba(255, 255, 255, 0.02);
   font-size: 1rem;
   line-height: 1.6;
+  text-align: left;
 }
 
 .table-header .table-cell {
