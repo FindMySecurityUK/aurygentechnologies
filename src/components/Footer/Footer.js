@@ -17,9 +17,11 @@ const Footer = () => {
           <div className="footer-contact-info">
             <p className="footer-details">
               London, United Kingdom<br/>
-              📧 info@aurygen.com<br/>
-              🌐 www.aurygen.com
+              📧 info@aurygen.com   🌐 www.aurygen.com
             </p>
+          </div>
+          <div className="footer-copyright">
+            <p>&copy; {currentYear} Aurygen Technologies Ltd. Company No. _______ All Rights Reserved. Registered Office: _______</p>
           </div>
         </div>
 
@@ -55,7 +57,7 @@ const Footer = () => {
           </div>
           
           <div className="copyright">
-            <p>&copy; {currentYear} Aurygen Technologies. All Rights Reserved.</p>
+            <p>Data Protection Registration No. _______</p>
           </div>
         </div>
 
@@ -65,7 +67,7 @@ const Footer = () => {
             <h3 className="trust-title">Trust & Compliance</h3>
             <div className="compliance-items">
               <p className="compliance-item">UK-Based Strategic Oversight | ICO Registered | GDPR Compliant</p>
-              <p className="compliance-item">Project Delivery Supported by Our Global Offshore Engineering Pipeline</p>
+              <p className="compliance-item">Project Delivery Powered by Our Global Offshore Engineering Network</p>
               <p className="compliance-item">Serving Clients Across the UK, US, Europe, and MENA</p>
             </div>
           </div>

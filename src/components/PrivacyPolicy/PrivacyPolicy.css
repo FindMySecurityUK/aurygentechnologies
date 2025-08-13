@@ -27,7 +27,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
-  text-align: center;
+  text-align: left;
   position: relative;
   z-index: 2;
   opacity: 0;
@@ -41,21 +41,19 @@
 }
 
 .privacy-title {
-  font-size: 3.5rem;
-  font-weight: 700;
-  margin-bottom: 20px;
-  background: linear-gradient(135deg, #ffffff 0%, #e0e0e0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: 0 4px 20px rgba(255, 255, 255, 0.3);
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: left;
 }
 
 .privacy-subtitle {
-  font-size: 1.3rem;
-  opacity: 0.9;
+  font-size: 1.1rem;
+  opacity: 0.8;
   font-weight: 300;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 
 .privacy-content {
@@ -69,46 +67,23 @@
 }
 
 .privacy-section {
-  margin-bottom: 50px;
-  padding: 40px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  transition: all 0.3s ease;
+  margin-bottom: 30px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  transition: none;
   position: relative;
-  overflow: hidden;
-}
-
-.privacy-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-}
-
-.privacy-section:hover::before {
-  transform: scaleX(1);
-}
-
-.privacy-section:hover {
-  transform: translateY(-5px);
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  overflow: visible;
 }
 
 .privacy-section h2 {
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #667eea;
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 25px;
+  color: #ffffff;
   position: relative;
+  text-align: left;
 }
 
 .privacy-section p {
@@ -116,6 +91,17 @@
   line-height: 1.8;
   opacity: 0.9;
   margin-bottom: 15px;
+  text-align: left;
+}
+
+.table-cell {
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.02);
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align: left;
 }
 
 .privacy-section ul {
@@ -130,6 +116,7 @@
   margin-bottom: 12px;
   padding-left: 25px;
   position: relative;
+  text-align: left;
 }
 
 .privacy-section li::before {
