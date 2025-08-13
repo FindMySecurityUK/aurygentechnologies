@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { submitContactForm, validateFormData } from '../../services/firebaseService';
 import { APP_CONSTANTS } from '../../constants/config';
+import PhoneInput from 'react-phone-number-input';
+import 'react-phone-number-input/style.css';
 import './ContactUs.css';
 
 const ContactUs = () => {
@@ -17,12 +19,14 @@ const ContactUs = () => {
     name: '',
     email: '',
     companyName: '',
+    phone: '',
     website: '',
     hearAbout: ''
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null); // 'success', 'error', or null
+  const [validationErrors, setValidationErrors] = useState([]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -32,16 +36,25 @@ const ContactUs = () => {
     }));
   };
 
+  const handlePhoneChange = (value) => {
+    setFormData(prev => ({
+      ...prev,
+      phone: value || ''
+    }));
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus(null);
+    setValidationErrors([]);
 
     try {
       // Validate form data
       const validation = validateFormData(formData);
       if (!validation.isValid) {
-        alert('Please fill in all required fields correctly.');
+        setValidationErrors(validation.errors);
+        setSubmitStatus('validation-error');
         setIsSubmitting(false);
         return;
       }
@@ -51,6 +64,7 @@ const ContactUs = () => {
       
       // Show success message
       setSubmitStatus('success');
+      setValidationErrors([]);
       
       // Reset form after successful submission
       setFormData({
@@ -60,6 +74,7 @@ const ContactUs = () => {
         name: '',
         email: '',
         companyName: '',
+        phone: '',
         website: '',
         hearAbout: ''
       });
@@ -67,6 +82,7 @@ const ContactUs = () => {
     } catch (error) {
       console.error('Error submitting form:', error);
       setSubmitStatus('error');
+      setValidationErrors([]);
     } finally {
       setIsSubmitting(false);
     }
@@ -129,7 +145,6 @@ const ContactUs = () => {
                   onChange={handleInputChange}
                   placeholder="Tell us about your project requirements, goals, and timeline..."
                   rows="4"
-                  required
                 ></textarea>
               </div>
             </div>
@@ -174,6 +189,20 @@ const ContactUs = () => {
                   />
                 </div>
                 <div className="form-group">
+                  <label htmlFor="phone">Phone Number</label>
+                  <PhoneInput
+                    placeholder="Enter phone number"
+                    value={formData.phone}
+                    onChange={handlePhoneChange}
+                    defaultCountry="US"
+                    international
+                    countryCallingCodeEditable={false}
+                    className="phone-input"
+                  />
+                </div>
+              </div>
+              <div className="form-row">
+                <div className="form-group">
                   <label htmlFor="website">Website</label>
                   <input 
                     type="url" 
@@ -209,6 +238,17 @@ const ContactUs = () => {
                 </select>
               </div>
             </div>
+
+            {submitStatus === 'validation-error' && validationErrors.length > 0 && (
+              <div className="error-message">
+                <div style={{ marginBottom: '10px', fontWeight: '600' }}>Please fix the following errors:</div>
+                <ul style={{ margin: 0, paddingLeft: '20px', textAlign: 'left' }}>
+                  {validationErrors.map((error, index) => (
+                    <li key={index} style={{ marginBottom: '5px' }}>{error}</li>
+                  ))}
+                </ul>
+              </div>
+            )}
 
             {submitStatus === 'success' && (
               <div className="success-message">
