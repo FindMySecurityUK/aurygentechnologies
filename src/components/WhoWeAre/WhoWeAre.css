@@ -37,8 +37,8 @@
   position: relative;
 }
 
-.section-title {
-  font-size: clamp(2.8rem, 5.5vw, 4.5rem);
+.who-we-are-section-title {
+  font-size: clamp(5rem, 8vw, 5rem);
   font-weight: 700;
   margin-bottom: 60px;
   background: linear-gradient(
@@ -64,12 +64,11 @@
   opacity: 0;
   transform: translateY(30px);
   transition: all 1s ease-out 0.3s;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: center;
 }
 
 /* Animation triggers */
-.who-we-are-container.animate .section-title {
+.who-we-are-container.animate .who-we-are-section-title {
   opacity: 1;
   transform: translateY(0);
 }
@@ -91,7 +90,7 @@
     padding: 0 30px;
   }
   
-  .section-title {
+  .who-we-are-section-title {
     margin-bottom: 40px;
   }
   
@@ -106,7 +105,7 @@
     padding: 0 20px;
   }
   
-  .section-title {
+  .who-we-are-section-title {
     margin-bottom: 30px;
   }
   
