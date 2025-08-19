@@ -17,42 +17,43 @@ const ClientTestimonials = () => {
 The speed and quality of execution highlight Aurygen’s exceptional technical expertise and agility. Their commitment to innovation and precision is evident throughout the project. Transforming bold ideas into robust digital products is what truly sets them apart.
 Aurygen continues to lead the way in bespoke software development.`,
       rating: 5
-    },
-    {
-      name: "Oliver Pemberton",
-      position: "Managing Director",
-      company: "CyberShield Systems",
-      testimonial: "The cybersecurity solution they implemented has been nothing short of exceptional. We've experienced zero security breaches since going live, and their ongoing support has been absolutely first-class. Highly recommended.",
-      rating: 5
-    },
-    {
-      name: "Charlotte Whitfield",
-      position: "Chief Technology Officer",
-      company: "MindTech Innovations",
-      testimonial: "Their AI integration work has transformed our entire business model. The machine learning algorithms they developed have increased our operational efficiency by 250%. Truly remarkable technical prowess.",
-      rating: 5
-    },
-    {
-      name: "James Thornbury",
-      position: "Operations Director",
-      company: "ConstructFlow Dynamics",
-      testimonial: "The bespoke software solution they crafted for us has streamlined our project management processes brilliantly. Their team understood our requirements perfectly and delivered beyond our expectations.",
-      rating: 5
-    },
-    {
-      name: "Sophie Richardson",
-      position: "Head of Digital Innovation",
-      company: "CloudSync Enterprises",
-      testimonial: "Working with Aurygen Technologies has been an absolute pleasure. Their cloud migration expertise saved us considerable time and resources whilst ensuring seamless business continuity throughout the transition.",
-      rating: 5
-    },
-    {
-      name: "Alexander Hartwell",
-      position: "Chief Executive Officer",
-      company: "DigitalForge Labs",
-      testimonial: "The mobile application they developed has exceeded all our expectations. Their agile approach and regular communication kept us informed throughout the entire development process. Superb work all round.",
-      rating: 5
     }
+    // commented hypothetical tesimonials
+    // {
+    //   name: "Oliver Pemberton",
+    //   position: "Managing Director",
+    //   company: "CyberShield Systems",
+    //   testimonial: "The cybersecurity solution they implemented has been nothing short of exceptional. We've experienced zero security breaches since going live, and their ongoing support has been absolutely first-class. Highly recommended.",
+    //   rating: 5
+    // },
+    // {
+    //   name: "Charlotte Whitfield",
+    //   position: "Chief Technology Officer",
+    //   company: "MindTech Innovations",
+    //   testimonial: "Their AI integration work has transformed our entire business model. The machine learning algorithms they developed have increased our operational efficiency by 250%. Truly remarkable technical prowess.",
+    //   rating: 5
+    // },
+    // {
+    //   name: "James Thornbury",
+    //   position: "Operations Director",
+    //   company: "ConstructFlow Dynamics",
+    //   testimonial: "The bespoke software solution they crafted for us has streamlined our project management processes brilliantly. Their team understood our requirements perfectly and delivered beyond our expectations.",
+    //   rating: 5
+    // },
+    // {
+    //   name: "Sophie Richardson",
+    //   position: "Head of Digital Innovation",
+    //   company: "CloudSync Enterprises",
+    //   testimonial: "Working with Aurygen Technologies has been an absolute pleasure. Their cloud migration expertise saved us considerable time and resources whilst ensuring seamless business continuity throughout the transition.",
+    //   rating: 5
+    // },
+    // {
+    //   name: "Alexander Hartwell",
+    //   position: "Chief Executive Officer",
+    //   company: "DigitalForge Labs",
+    //   testimonial: "The mobile application they developed has exceeded all our expectations. Their agile approach and regular communication kept us informed throughout the entire development process. Superb work all round.",
+    //   rating: 5
+    // }
   ];
 
   return (

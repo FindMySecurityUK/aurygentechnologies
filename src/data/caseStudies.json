@@ -13,48 +13,6 @@
       "overview": "FindMySecurity is a leading cybersecurity consultancy firm based in the UK, specializing in comprehensive security solutions for businesses. Founded by cybersecurity experts with extensive backgrounds in threat intelligence and penetration testing, the company delivers tailored security assessments, audits, and incident response services. Their team of certified security professionals serves clients across finance, healthcare, retail, and technology sectors, helping organizations strengthen their security posture and maintain compliance with industry standards.",
       "problemStatement": "The security industry operated through fragmented networks and outdated directory services, making it difficult for clients to find verified, qualified security professionals. Service seekers faced challenges in vetting providers, comparing credentials, and understanding pricing structures. Security professionals struggled with limited marketplace visibility and inconsistent client acquisition processes. The absence of a centralized, technology-driven platform created inefficiencies with significant barriers to trust and transparency.",
       "solution": "We developed a comprehensive digital ecosystem that transforms the security services marketplace through intelligent technology. Our solution features an advanced matching algorithm connecting clients with verified security professionals, a robust vetting system with background checks and credential validation, and real-time booking capabilities with secure payment processing. The platform includes analytics dashboards, real-time messaging, location-based services, and automated review systems to ensure transparency and accountability throughout the service delivery process."
-    },
-    {
-      "id": "CyberShield-Systems",
-      "title": "CyberShield Systems – Securing a Hybrid Cloud Retail System",
-      "description": "Implemented comprehensive cybersecurity solutions for a leading retail chain's hybrid cloud infrastructure, featuring advanced threat detection, zero-trust architecture, and real-time monitoring systems that reduced security incidents by 89% whilst ensuring seamless customer experience.",
-      "image": "/assets/CyberShield-Systems.png",
-      "link": "#cybersecurity-solutions",
-      "category": "Cybersecurity Solutions",
-      "technologies": ["Azure Security Center", "AWS GuardDuty", "SIEM", "Zero Trust Architecture", "Kubernetes", "Terraform", "Python"],
-      "duration": "8 months",
-      "client": "CyberShield Systems",
-      "overview": "CyberShield Systems is a pioneering retail technology company operating sophisticated hybrid cloud retail systems that serve millions of customers across multiple channels. Founded by entrepreneurs with extensive backgrounds in retail operations and cybersecurity, CyberShield has established itself as a leader in secure, scalable retail solutions. With operations spanning physical stores, e-commerce platforms, and mobile applications, CyberShield processes thousands of transactions daily whilst maintaining the highest standards of data protection and customer privacy.",
-      "problemStatement": "CyberShield's rapid expansion exposed significant vulnerabilities in their existing security infrastructure, with legacy systems struggling to protect against sophisticated cyber threats targeting retail environments. The company faced challenges from advanced persistent threats, ransomware attacks, and data breach attempts targeting customer payment data. Their fragmented security measures across different platforms created blind spots, and the hybrid cloud infrastructure required a comprehensive zero-trust approach that traditional security models couldn't provide.",
-      "solution": "We architected a comprehensive cybersecurity ecosystem that transforms CyberShield's security posture through advanced threat detection, zero-trust principles, and intelligent automation. Our solution features a centralized SIEM system, Azure Security Center and AWS GuardDuty for cloud-native threat detection, and advanced endpoint protection with network segmentation. The zero-trust architecture ensures continuous verification of users and devices, while automated incident response workflows and comprehensive compliance monitoring provide robust security coverage."
-    },
-    {
-      "id": "MindTech-ai-integration",
-      "title": "MindTech Innovations – AI Automation for Mental Health Platform",
-      "description": "Developed an innovative AI-powered mental health platform that revolutionises patient care through intelligent automation, predictive analytics, and personalised treatment recommendations, improving patient outcomes by 78% whilst reducing administrative burden on healthcare professionals.",
-      "image": "/assets/MindTech.png",
-      "link": "#ai-healthcare-solutions",
-      "category": "AI Healthcare Solutions",
-      "technologies": ["Python", "TensorFlow", "Natural Language Processing", "React", "Node.js", "PostgreSQL", "Docker", "AWS", "Machine Learning"],
-      "duration": "5 months",
-      "client": "MindTech Innovations",
-      "overview": "MindTech Innovations is a pioneering digital therapeutics company that transforms mental health care delivery through innovative technology. Founded by experienced psychiatrists, data scientists, and technology entrepreneurs, MindTech develops evidence-based digital mental health platforms providing real-time monitoring, personalised interventions, and comprehensive analytics for patients and healthcare providers. The company specialises in accessible, effective solutions that combine cognitive behavioural therapy principles with machine learning algorithms to deliver personalised mental health support.",
-      "problemStatement": "The mental healthcare industry faced significant challenges with overwhelming patient caseloads, limited access to specialized care, and inefficient manual processes hindering effective treatment delivery. Healthcare professionals struggled with time-consuming administrative tasks and inconsistent patient monitoring between sessions. Patients experienced long waiting times, limited continuous support, and lack of personalized treatment plans. The traditional one-size-fits-all approach often resulted in suboptimal outcomes, while the absence of data-driven insights prevented informed treatment decisions.",
-      "solution": "We developed a comprehensive AI-powered mental health ecosystem that revolutionizes patient care through intelligent automation and personalized treatment pathways. Our solution features advanced natural language processing algorithms, an intelligent chatbot for 24/7 patient support, automated risk assessment tools, and personalized treatment recommendation engines. The platform includes secure video conferencing for telehealth sessions, comprehensive patient dashboards, and automated progress tracking with real-time alerts for healthcare providers, ensuring HIPAA compliance and seamless integration with existing healthcare systems."
-    },
-    {
-      "id": "ConstructFlow-Dynamics",
-      "title": "ConstructFlow Dynamics – Custom CRM for Construction Project Teams",
-      "description": "Engineered a bespoke construction management platform that streamlines project workflows, enhances team collaboration, and optimises resource allocation, resulting in 45% improvement in project delivery times and 32% reduction in operational costs for construction teams.",
-      "image": "/assets/ConstructFlow.png",
-      "link": "#construction-software",
-      "category": "Bespoke Software Development",
-      "technologies": ["React", "Node.js", "MongoDB", "Express.js", "Socket.io", "AWS", "Docker", "REST API", "Material-UI"],
-      "duration": "10 months",
-      "client": "ConstructFlow Dynamics",
-      "overview": "ConstructFlow Dynamics is a premier construction management company that has revolutionized project delivery through innovative technology integration and exceptional craftsmanship. Founded by industry veterans with decades of experience in large-scale construction projects, ConstructFlow has established itself as a trusted partner for complex commercial and residential developments. The company's commitment to excellence, safety, and technological advancement has earned recognition from industry associations and satisfied clients alike.",
-      "problemStatement": "The construction industry traditionally relied on fragmented communication systems, paper-based documentation, and manual project tracking methods creating significant inefficiencies. ConstructFlow faced difficulties with project timeline management, resource allocation conflicts, and communication breakdowns between stakeholders including architects, subcontractors, suppliers, and clients. The absence of centralized project information led to costly delays, budget overruns, and quality control issues, while manual processes resulted in inaccurate reporting and limited project visibility.",
-      "solution": "We developed a comprehensive construction management platform that transforms how ConstructFlow manages projects, teams, and resources through intelligent automation and real-time collaboration tools. Our solution features a centralized project dashboard providing complete visibility into active projects, advanced scheduling algorithms for resource optimization, and real-time communication tools for instant messaging and file sharing. The platform includes automated progress reporting, budget tracking, mobile-responsive interfaces for field teams, and client portals for project transparency, ensuring seamless operation across all project phases."
     }
   ]
 }
