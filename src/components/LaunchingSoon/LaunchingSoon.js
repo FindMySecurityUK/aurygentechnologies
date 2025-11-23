@@ -7,8 +7,8 @@ const LaunchingSoon = () => {
       <div className="gradient-overlay" />
       <div className="launching-content">
         <img src="/assets/logo.png" alt="Aurygen Technologies" className="launching-logo" />
-        <h1 className="launching-title">Launching Soon</h1>
-        <p className="launching-subtitle">We’re crafting something exceptional for you.</p>
+        <h1 className="launching-title">The site will be accessible soon !</h1>
+        <p className="launching-subtitle">We are updating the website content to enhance the user experience with new features and services.</p>
         <div className="launching-divider">
           <span className="dot" />
           <span className="dot" />
